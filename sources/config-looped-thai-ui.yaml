@@ -1,0 +1,8 @@
+buildVariable: true
+familyName: Noto Looped Thai UI
+googleFonts: true
+includeSubsets:
+- from: Noto Sans
+  name: GF_Latin_Core
+sources:
+- NotoLoopedThaiUI.glyphs
