@@ -1,6 +1,6 @@
 {
 .appVersion = "1286";
-copyright = "Copyright 2016 Google Inc. All Rights Reserved.";
+copyright = "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/thai)";
 customParameters = (
 {
 name = description;
@@ -30,11 +30,11 @@ value = (
 },
 {
 name = licenseURL;
-value = "http://scripts.sil.org/OFL";
+value = "https://scripts.sil.org/OFL";
 },
 {
 name = versionString;
-value = "Version 2.000";
+value = "Version 2.001";
 },
 {
 name = "Has WWS Names";
@@ -54,7 +54,11 @@ value = (
 },
 {
 name = license;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.";
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 }
 );
 date = "2016-06-24 13:18:50 +0000";
@@ -421,7 +425,6 @@ showMeasurement = 1;
 position = "{413, -200}";
 },
 {
-position = "{0, 0}";
 },
 {
 angle = 90;
@@ -87486,5 +87489,5 @@ thaiVStem = 82;
 };
 };
 versionMajor = 2;
-versionMinor = 0;
+versionMinor = 1;
 }
