@@ -1,5 +1,8 @@
 {
-.appVersion = "1350";
+.appVersion = "3109";
+DisplayStrings = (
+"/maiTri-thai"
+);
 classes = (
 {
 code = "yoYing-thai thoThan-thai doChada-thai toPatak-thai";
@@ -65,19 +68,6 @@ name = "Enforce Compatibility Check";
 value = 0;
 },
 {
-name = Axes;
-value = (
-{
-Name = Weight;
-Tag = wght;
-},
-{
-Name = Width;
-Tag = wdth;
-}
-);
-},
-{
 name = fsType;
 value = (
 );
@@ -102,34 +92,6 @@ name = unicodeRanges;
 value = (
 24
 );
-},
-{
-name = license;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.";
-},
-{
-name = licenseURL;
-value = "http://scripts.sil.org/OFL";
-},
-{
-name = vendorID;
-value = GOOG;
-},
-{
-name = description;
-value = "Design by The Fontpad Ltd";
-},
-{
-name = trademark;
-value = "Noto is a trademark of Google LLC.";
-},
-{
-name = versionString;
-value = "Version 1.00";
-},
-{
-name = sampleText;
-value = "กขฃคฅฆง";
 },
 {
 name = "Family Alignment Zones";
@@ -386,6 +348,47 @@ name = codePageRanges;
 value = (
 874
 );
+},
+{
+name = license;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.";
+},
+{
+name = licenseURL;
+value = "http://scripts.sil.org/OFL";
+},
+{
+name = vendorID;
+value = GOOG;
+},
+{
+name = description;
+value = "Design by The Fontpad Ltd";
+},
+{
+name = trademark;
+value = "Noto is a trademark of Google LLC.";
+},
+{
+name = versionString;
+value = "Version 1.00";
+},
+{
+name = sampleText;
+value = "กขฃคฅฆง";
+},
+{
+name = Axes;
+value = (
+{
+Name = Weight;
+Tag = wght;
+},
+{
+Name = Width;
+Tag = wdth;
+}
+);
 }
 );
 date = "2020-12-18 18:02:45 +0000";
@@ -509,19 +512,19 @@ value = 24;
 },
 {
 name = superscriptXOffset;
-value = "0";
+value = 0;
 },
 {
 name = superscriptXSize;
-value = "846";
+value = 846;
 },
 {
 name = superscriptYOffset;
-value = "293";
+value = 293;
 },
 {
 name = superscriptYSize;
-value = "798";
+value = 798;
 },
 {
 name = winAscent;
@@ -648,19 +651,19 @@ value = 60;
 },
 {
 name = superscriptXOffset;
-value = "0";
+value = 0;
 },
 {
 name = superscriptXSize;
-value = "891";
+value = 891;
 },
 {
 name = superscriptYOffset;
-value = "269";
+value = 269;
 },
 {
 name = superscriptYSize;
-value = "874";
+value = 874;
 },
 {
 name = winAscent;
@@ -788,19 +791,19 @@ value = 80;
 },
 {
 name = superscriptXOffset;
-value = "0";
+value = 0;
 },
 {
 name = superscriptXSize;
-value = "942";
+value = 942;
 },
 {
 name = superscriptYOffset;
-value = "248";
+value = 248;
 },
 {
 name = superscriptYSize;
-value = "855";
+value = 855;
 },
 {
 name = winAscent;
@@ -928,19 +931,19 @@ value = 24;
 },
 {
 name = superscriptXOffset;
-value = "0";
+value = 0;
 },
 {
 name = superscriptXSize;
-value = "859";
+value = 859;
 },
 {
 name = superscriptYOffset;
-value = "294";
+value = 294;
 },
 {
 name = superscriptYSize;
-value = "796";
+value = 796;
 },
 {
 name = winAscent;
@@ -988,7 +991,7 @@ horizontalStems = (
 23
 );
 id = "31946225-6F4F-4A3A-A9E3-76FE8DE38A50";
-name = "ThinCondensed";
+name = ThinCondensed;
 verticalStems = (
 24
 );
@@ -1070,19 +1073,19 @@ value = 60;
 },
 {
 name = superscriptXOffset;
-value = "0";
+value = 0;
 },
 {
 name = superscriptXSize;
-value = "897";
+value = 897;
 },
 {
 name = superscriptYOffset;
-value = "270";
+value = 270;
 },
 {
 name = superscriptYSize;
-value = "836";
+value = 836;
 },
 {
 name = winAscent;
@@ -1213,19 +1216,19 @@ value = 80;
 },
 {
 name = superscriptXOffset;
-value = "0";
+value = 0;
 },
 {
 name = superscriptXSize;
-value = "914";
+value = 914;
 },
 {
 name = superscriptYOffset;
-value = "255";
+value = 255;
 },
 {
 name = superscriptYSize;
-value = "855";
+value = 855;
 },
 {
 name = winAscent;
@@ -36394,7 +36397,7 @@ type = Stem;
 }
 );
 layerId = "70706E88-838B-4B76-86B0-63E8F0988AD2";
-name = "Regular [110]";
+name = "[110]";
 paths = (
 {
 closed = 1;
@@ -36523,7 +36526,7 @@ position = "{551, 550}";
 );
 associatedMasterId = "90A34054-68E4-499D-AE50-276C7B026D8B";
 layerId = "4D20623A-30FD-4631-974F-059D4779BFFD";
-name = "Thin [110]";
+name = "[110]";
 paths = (
 {
 closed = 1;
@@ -36649,7 +36652,7 @@ position = "{642, 563}";
 );
 associatedMasterId = "EB3A5D6C-8260-43A6-9EF2-63971FC08D48";
 layerId = "9590F0B4-BF69-4001-BFC5-BCC417050A59";
-name = "Black [110]";
+name = "[110]";
 paths = (
 {
 closed = 1;
@@ -36778,7 +36781,7 @@ position = "{396, 548}";
 );
 associatedMasterId = "31946225-6F4F-4A3A-A9E3-76FE8DE38A50";
 layerId = "837F2423-E472-4865-9CAE-6507DDBFEBE0";
-name = "ThinCondensed [110]";
+name = "[110]";
 paths = (
 {
 closed = 1;
@@ -36904,7 +36907,7 @@ position = "{443, 551}";
 );
 associatedMasterId = "9F3C76A5-8ED6-4D1B-8CC9-A050DF474D58";
 layerId = "B8576343-4A47-4A6C-9A8D-629510144729";
-name = "RegularCondensed [110]";
+name = "[110]";
 paths = (
 {
 closed = 1;
@@ -37033,7 +37036,7 @@ position = "{516, 561}";
 );
 associatedMasterId = "C987F20E-C470-4905-85F8-C37EA20127D7";
 layerId = "3C977645-F34C-477A-AC8C-55C8831E5012";
-name = "BlackCondensed [110]";
+name = "[110]";
 paths = (
 {
 closed = 1;
@@ -92033,7 +92036,7 @@ unicode = 003F;
 },
 {
 glyphname = guillemetleft;
-lastChange = "2020-11-13 20:26:58 +0000";
+lastChange = "2022-07-05 16:52:04 +0000";
 layers = (
 {
 layerId = "90A34054-68E4-499D-AE50-276C7B026D8B";
@@ -92216,13 +92219,11 @@ nodes = (
 width = 560;
 }
 );
-leftKerningGroup = guillemotleft;
-rightKerningGroup = guillemotleft;
 unicode = 00AB;
 },
 {
 glyphname = guillemetright;
-lastChange = "2020-11-13 20:26:58 +0000";
+lastChange = "2022-07-05 16:52:32 +0000";
 layers = (
 {
 layerId = "90A34054-68E4-499D-AE50-276C7B026D8B";
@@ -92405,8 +92406,6 @@ nodes = (
 width = 560;
 }
 );
-leftKerningGroup = guillemotright;
-rightKerningGroup = guillemotright;
 unicode = 00BB;
 },
 {
@@ -93095,7 +93094,7 @@ unicode = 201D;
 },
 {
 glyphname = quotesingle;
-lastChange = "2020-11-13 20:26:58 +0000";
+lastChange = "2022-07-05 16:44:50 +0000";
 layers = (
 {
 layerId = "90A34054-68E4-499D-AE50-276C7B026D8B";
@@ -93188,14 +93187,12 @@ nodes = (
 width = 161;
 }
 );
-leftKerningGroup = quotedbl;
 note = quotesingle;
-rightKerningGroup = quotedbl;
 unicode = 0027;
 },
 {
 glyphname = quotedbl;
-lastChange = "2020-11-13 20:26:58 +0000";
+lastChange = "2022-07-05 16:50:21 +0000";
 layers = (
 {
 layerId = "90A34054-68E4-499D-AE50-276C7B026D8B";
@@ -93342,9 +93339,7 @@ nodes = (
 width = 293;
 }
 );
-leftKerningGroup = quotedbl;
 note = quotedbl;
-rightKerningGroup = quotedbl;
 unicode = 0022;
 },
 {
@@ -93622,7 +93617,7 @@ unicode = 2026;
 },
 {
 glyphname = guilsinglleft;
-lastChange = "2020-11-13 20:26:58 +0000";
+lastChange = "2022-07-05 16:50:51 +0000";
 layers = (
 {
 layerId = "90A34054-68E4-499D-AE50-276C7B026D8B";
@@ -93733,13 +93728,11 @@ nodes = (
 width = 321;
 }
 );
-leftKerningGroup = guillemotleft;
-rightKerningGroup = guillemotleft;
 unicode = 2039;
 },
 {
 glyphname = guilsinglright;
-lastChange = "2020-11-13 20:26:58 +0000";
+lastChange = "2022-07-05 16:50:55 +0000";
 layers = (
 {
 layerId = "90A34054-68E4-499D-AE50-276C7B026D8B";
@@ -93850,8 +93843,6 @@ nodes = (
 width = 321;
 }
 );
-leftKerningGroup = guillemotright;
-rightKerningGroup = guillemotright;
 unicode = 203A;
 },
 {
@@ -94965,7 +94956,7 @@ unicode = 005B;
 },
 {
 glyphname = bracketright;
-lastChange = "2020-11-13 20:26:58 +0000";
+lastChange = "2022-07-05 16:50:36 +0000";
 layers = (
 {
 layerId = "90A34054-68E4-499D-AE50-276C7B026D8B";
@@ -95082,7 +95073,6 @@ nodes = (
 width = 306;
 }
 );
-leftKerningGroup = parenright;
 note = bracketright;
 unicode = 005D;
 },
@@ -95597,10 +95587,6 @@ instances = (
 {
 customParameters = (
 {
-name = weightClass;
-value = 100;
-},
-{
 name = panose;
 value = (
 2,
@@ -95614,10 +95600,6 @@ value = (
 2,
 4
 );
-},
-{
-name = styleMapFamilyName;
-value = "Noto Looped Thai Thin";
 },
 {
 name = "Instance Preview";
@@ -95669,6 +95651,18 @@ value = (
 "oAng-thai",
 "hoNokhuk-thai"
 );
+},
+{
+name = "Replace Feature";
+value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \012	### move doubleMacron up if preceded by Thai marks above\012	pos @ThaiAboveMarks [doublemacroncomb doublemacroncomb.wide]' <0 190 0 0>;\012	### move Thai marks up if preceded by double macron\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiAboveMarks' <0 170 0 0>;\012	### move Thai marks up when double macron precedes the base\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiAboveMarks' <0 170 0 0>;\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiBelowMarks @ThaiAboveMarks' <0 170 0 0>;\012	} combinewithdoublemacron ;\012	\012lookup ContextualMarkPositions { ### Tonemarks are shifted slightly left when followed by ascending vowel signs;\012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos maiEk-thai' @ThaiAscendingVowels <-30 0 0 0>;\012	pos maiTho-thai' @ThaiAscendingVowels <-60 0 0 0>;\012	pos maiTri-thai' @ThaiAscendingVowels <-80 0 0 0>;\012	pos thanthakhat-thai' @ThaiAscendingVowels <-60 0 0 0>;\012		\012	### This is an alternative solution, but we prefer the above;\012	### pos maiTri-thai @ThaiAscendingVowels' <60 0 60 0>;\012	\012	} ContextualMarkPositions;\012	\012lookup workaroundShapingError {\012# for combinations that don't have precomposed glyphs, shaping engines normalise macronbelow at the end of the sequence, when they should be between bases and marks below. Here we manually move marks further down so they appear below macronbelow.\012	lookupflag UseMarkFilteringSet @ThaiBelowMarks;\012	pos @ThaiBelowMarks' macronbelowcomb <0 -130 0 0>; ### for Firefox and Chrome;\012	pos macronbelowcomb @ThaiBelowMarks' <0 -130 0 0>; ### for Safari;\012	} workaroundShapingError;\012	\012lookup ShiftSaraUe { ### SaraUe appears too far left on certain consonants, here we make adjustments;\012	pos @SpecialConsonants saraUe-thai' <15 0 0 0>;\012	pos [thoThong-thai roRua-thai] saraUe-thai' <30 0 0 0>;\012	} ShiftSaraUe;\012";
+},
+{
+name = "Replace Feature";
+value = "kern;\012# Automatic Code End\012\012lookup ThaiContexualKerning { ### On ascending bases with tall prebase vowel signs, maiTho and maiTri need extranarrow versions to avoid unsightly collisions; \012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos @ThaiAscendingVowels foFa-thai' [maiTho-thai.extranarrow maiTri-thai.extranarrow] <0 0 0 0>;\012	pos @ThaiAscendingVowels poPla-thai' [maiTho-thai.extranarrow maiTri-thai.extranarrow maiChattawa-thai] <0 0 0 0>;\012	} ThaiContexualKerning;\012	";
+},
+{
+name = styleMapFamilyName;
+value = "Noto Looped Thai Thin";
 },
 {
 name = preferredFamilyName;
@@ -95689,14 +95683,6 @@ value = "Noto Looped Thai Thin";
 {
 name = compatibleFullName;
 value = "Noto Looped Thai Thin";
-},
-{
-name = "Replace Feature";
-value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \012	### move doubleMacron up if preceded by Thai marks above\012	pos @ThaiAboveMarks [doublemacroncomb doublemacroncomb.wide]' <0 190 0 0>;\012	### move Thai marks up if preceded by double macron\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiAboveMarks' <0 170 0 0>;\012	### move Thai marks up when double macron precedes the base\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiAboveMarks' <0 170 0 0>;\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiBelowMarks @ThaiAboveMarks' <0 170 0 0>;\012	} combinewithdoublemacron ;\012	\012lookup ContextualMarkPositions { ### Tonemarks are shifted slightly left when followed by ascending vowel signs;\012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos maiEk-thai' @ThaiAscendingVowels <-30 0 0 0>;\012	pos maiTho-thai' @ThaiAscendingVowels <-60 0 0 0>;\012	pos maiTri-thai' @ThaiAscendingVowels <-80 0 0 0>;\012	pos thanthakhat-thai' @ThaiAscendingVowels <-60 0 0 0>;\012		\012	### This is an alternative solution, but we prefer the above;\012	### pos maiTri-thai @ThaiAscendingVowels' <60 0 60 0>;\012	\012	} ContextualMarkPositions;\012	\012lookup workaroundShapingError {\012# for combinations that don't have precomposed glyphs, shaping engines normalise macronbelow at the end of the sequence, when they should be between bases and marks below. Here we manually move marks further down so they appear below macronbelow.\012	lookupflag UseMarkFilteringSet @ThaiBelowMarks;\012	pos @ThaiBelowMarks' macronbelowcomb <0 -130 0 0>; ### for Firefox and Chrome;\012	pos macronbelowcomb @ThaiBelowMarks' <0 -130 0 0>; ### for Safari;\012	} workaroundShapingError;\012	\012lookup ShiftSaraUe { ### SaraUe appears too far left on certain consonants, here we make adjustments;\012	pos @SpecialConsonants saraUe-thai' <15 0 0 0>;\012	pos [thoThong-thai roRua-thai] saraUe-thai' <30 0 0 0>;\012	} ShiftSaraUe;\012";
-},
-{
-name = "Replace Feature";
-value = "kern;\012# Automatic Code End\012\012lookup ThaiContexualKerning { ### On ascending bases with tall prebase vowel signs, maiTho and maiTri need extranarrow versions to avoid unsightly collisions; \012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos @ThaiAscendingVowels foFa-thai' [maiTho-thai.extranarrow maiTri-thai.extranarrow] <0 0 0 0>;\012	pos @ThaiAscendingVowels poPla-thai' [maiTho-thai.extranarrow maiTri-thai.extranarrow maiChattawa-thai] <0 0 0 0>;\012	} ThaiContexualKerning;\012	";
 }
 );
 interpolationWeight = 26;
@@ -95708,10 +95694,6 @@ weightClass = Thin;
 },
 {
 customParameters = (
-{
-name = weightClass;
-value = 200;
-},
 {
 name = panose;
 value = (
@@ -95726,10 +95708,6 @@ value = (
 2,
 4
 );
-},
-{
-name = styleMapFamilyName;
-value = "Noto Looped Thai ExtLight";
 },
 {
 name = "Instance Preview";
@@ -95781,6 +95759,18 @@ value = (
 "oAng-thai",
 "hoNokhuk-thai"
 );
+},
+{
+name = "Replace Feature";
+value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \012	### move doubleMacron up if preceded by Thai marks above\012	pos @ThaiAboveMarks [doublemacroncomb doublemacroncomb.wide]' <0 210 0 0>;\012	### move Thai marks up if preceded by double macron\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiAboveMarks' <0 172 0 0>;\012	### move Thai marks up when double macron precedes the base\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiAboveMarks' <0 172 0 0>;\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiBelowMarks @ThaiAboveMarks' <0 172 0 0>;\012	} combinewithdoublemacron ;\012	\012lookup ContextualMarkPositions { ### Tonemarks are shifted slightly left when followed by ascending vowel signs;\012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos maiEk-thai' @ThaiAscendingVowels <-30 0 0 0>;\012	pos maiTho-thai' @ThaiAscendingVowels <-60 0 0 0>;\012	pos maiTri-thai' @ThaiAscendingVowels <-80 0 0 0>;\012	pos thanthakhat-thai' @ThaiAscendingVowels <-60 0 0 0>;\012		\012	### This is an alternative solution, but we prefer the above;\012	### pos maiTri-thai @ThaiAscendingVowels' <60 0 60 0>;\012	\012	} ContextualMarkPositions;\012	\012lookup workaroundShapingError {\012# for combinations that don't have precomposed glyphs, shaping engines normalise macronbelow at the end of the sequence, when they should be between bases and marks below. Here we manually move marks further down so they appear below macronbelow.\012	lookupflag UseMarkFilteringSet @ThaiBelowMarks;\012	pos @ThaiBelowMarks' macronbelowcomb <0 -155 0 0>; ### for Firefox and Chrome;\012	pos macronbelowcomb @ThaiBelowMarks' <0 -155 0 0>; ### for Safari;\012	} workaroundShapingError;\012	\012lookup ShiftSaraUe { ### SaraUe appears too far left on certain consonants, here we make adjustments;\012	pos @SpecialConsonants saraUe-thai' <15 0 0 0>;\012	pos [thoThong-thai roRua-thai] saraUe-thai' <30 0 0 0>;\012	} ShiftSaraUe;";
+},
+{
+name = "Replace Feature";
+value = "kern;\012# Automatic Code End\012\012lookup ThaiContexualKerning { ### On ascending bases with tall prebase vowel signs, maiTho and maiTri need extranarrow versions to avoid unsightly collisions; \012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos @ThaiAscendingVowels foFa-thai' [maiTho-thai.extranarrow maiTri-thai.extranarrow] <0 0 0 0>;\012	pos @ThaiAscendingVowels poPla-thai' [maiTho-thai.extranarrow maiTri-thai.extranarrow maiChattawa-thai] <0 0 0 0>;\012	} ThaiContexualKerning;";
+},
+{
+name = styleMapFamilyName;
+value = "Noto Looped Thai ExtLight";
 },
 {
 name = preferredFamilyName;
@@ -95801,14 +95791,6 @@ value = "Noto Looped Thai ExtraLight";
 {
 name = compatibleFullName;
 value = "Noto Looped Thai ExtraLight";
-},
-{
-name = "Replace Feature";
-value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \012	### move doubleMacron up if preceded by Thai marks above\012	pos @ThaiAboveMarks [doublemacroncomb doublemacroncomb.wide]' <0 210 0 0>;\012	### move Thai marks up if preceded by double macron\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiAboveMarks' <0 172 0 0>;\012	### move Thai marks up when double macron precedes the base\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiAboveMarks' <0 172 0 0>;\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiBelowMarks @ThaiAboveMarks' <0 172 0 0>;\012	} combinewithdoublemacron ;\012	\012lookup ContextualMarkPositions { ### Tonemarks are shifted slightly left when followed by ascending vowel signs;\012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos maiEk-thai' @ThaiAscendingVowels <-30 0 0 0>;\012	pos maiTho-thai' @ThaiAscendingVowels <-60 0 0 0>;\012	pos maiTri-thai' @ThaiAscendingVowels <-80 0 0 0>;\012	pos thanthakhat-thai' @ThaiAscendingVowels <-60 0 0 0>;\012		\012	### This is an alternative solution, but we prefer the above;\012	### pos maiTri-thai @ThaiAscendingVowels' <60 0 60 0>;\012	\012	} ContextualMarkPositions;\012	\012lookup workaroundShapingError {\012# for combinations that don't have precomposed glyphs, shaping engines normalise macronbelow at the end of the sequence, when they should be between bases and marks below. Here we manually move marks further down so they appear below macronbelow.\012	lookupflag UseMarkFilteringSet @ThaiBelowMarks;\012	pos @ThaiBelowMarks' macronbelowcomb <0 -155 0 0>; ### for Firefox and Chrome;\012	pos macronbelowcomb @ThaiBelowMarks' <0 -155 0 0>; ### for Safari;\012	} workaroundShapingError;\012	\012lookup ShiftSaraUe { ### SaraUe appears too far left on certain consonants, here we make adjustments;\012	pos @SpecialConsonants saraUe-thai' <15 0 0 0>;\012	pos [thoThong-thai roRua-thai] saraUe-thai' <30 0 0 0>;\012	} ShiftSaraUe;";
-},
-{
-name = "Replace Feature";
-value = "kern;\012# Automatic Code End\012\012lookup ThaiContexualKerning { ### On ascending bases with tall prebase vowel signs, maiTho and maiTri need extranarrow versions to avoid unsightly collisions; \012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos @ThaiAscendingVowels foFa-thai' [maiTho-thai.extranarrow maiTri-thai.extranarrow] <0 0 0 0>;\012	pos @ThaiAscendingVowels poPla-thai' [maiTho-thai.extranarrow maiTri-thai.extranarrow maiChattawa-thai] <0 0 0 0>;\012	} ThaiContexualKerning;";
 }
 );
 interpolationWeight = 39;
@@ -95821,10 +95803,6 @@ weightClass = ExtraLight;
 },
 {
 customParameters = (
-{
-name = weightClass;
-value = 300;
-},
 {
 name = panose;
 value = (
@@ -95839,10 +95817,6 @@ value = (
 2,
 4
 );
-},
-{
-name = styleMapFamilyName;
-value = "Noto Looped Thai Light";
 },
 {
 name = "Instance Preview";
@@ -95896,6 +95870,18 @@ value = (
 );
 },
 {
+name = "Replace Feature";
+value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \012	### move doubleMacron up if preceded by Thai marks above\012	pos @ThaiAboveMarks [doublemacroncomb doublemacroncomb.wide]' <0 230 0 0>;\012	### move Thai marks up if preceded by double macron\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiAboveMarks' <0 174 0 0>;\012	### move Thai marks up when double macron precedes the base\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiAboveMarks' <0 174 0 0>;\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiBelowMarks @ThaiAboveMarks' <0 174 0 0>;\012	} combinewithdoublemacron ;\012	\012lookup ContextualMarkPositions { ### Tonemarks are shifted slightly left when followed by ascending vowel signs;\012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos maiEk-thai' @ThaiAscendingVowels <-30 0 0 0>;\012	pos maiTho-thai' @ThaiAscendingVowels <-60 0 0 0>;\012	pos maiTri-thai' @ThaiAscendingVowels <-80 0 0 0>;\012	pos thanthakhat-thai' @ThaiAscendingVowels <-60 0 0 0>;\012		\012	### This is an alternative solution, but we prefer the above;\012	### pos maiTri-thai @ThaiAscendingVowels' <60 0 60 0>;\012	\012	} ContextualMarkPositions;\012	\012lookup workaroundShapingError {\012# for combinations that don't have precomposed glyphs, shaping engines normalise macronbelow at the end of the sequence, when they should be between bases and marks below. Here we manually move marks further down so they appear below macronbelow.\012	lookupflag UseMarkFilteringSet @ThaiBelowMarks;\012	pos @ThaiBelowMarks' macronbelowcomb <0 -175 0 0>; ### for Firefox and Chrome;\012	pos macronbelowcomb @ThaiBelowMarks' <0 -175 0 0>; ### for Safari;\012	} workaroundShapingError;\012	\012lookup ShiftSaraUe { ### SaraUe appears too far left on certain consonants, here we make adjustments;\012	pos @SpecialConsonants saraUe-thai' <15 0 0 0>;\012	pos [thoThong-thai roRua-thai] saraUe-thai' <30 0 0 0>;\012	} ShiftSaraUe;";
+},
+{
+name = "Replace Feature";
+value = "kern;\012# Automatic Code End\012\012lookup ThaiContexualKerning { ### On ascending bases with tall prebase vowel signs, maiTho and maiTri need extranarrow versions to avoid unsightly collisions; \012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos @ThaiAscendingVowels foFa-thai' [maiTho-thai.extranarrow maiTri-thai.extranarrow] <0 0 0 0>;\012	pos @ThaiAscendingVowels poPla-thai' [maiTho-thai.extranarrow maiTri-thai.extranarrow maiChattawa-thai] <0 0 0 0>;\012	} ThaiContexualKerning;";
+},
+{
+name = styleMapFamilyName;
+value = "Noto Looped Thai Light";
+},
+{
 name = preferredFamilyName;
 value = "Noto Looped Thai";
 },
@@ -95914,14 +95900,6 @@ value = "Noto Looped Thai Light";
 {
 name = compatibleFullName;
 value = "Noto Looped Thai Light";
-},
-{
-name = "Replace Feature";
-value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \012	### move doubleMacron up if preceded by Thai marks above\012	pos @ThaiAboveMarks [doublemacroncomb doublemacroncomb.wide]' <0 230 0 0>;\012	### move Thai marks up if preceded by double macron\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiAboveMarks' <0 174 0 0>;\012	### move Thai marks up when double macron precedes the base\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiAboveMarks' <0 174 0 0>;\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiBelowMarks @ThaiAboveMarks' <0 174 0 0>;\012	} combinewithdoublemacron ;\012	\012lookup ContextualMarkPositions { ### Tonemarks are shifted slightly left when followed by ascending vowel signs;\012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos maiEk-thai' @ThaiAscendingVowels <-30 0 0 0>;\012	pos maiTho-thai' @ThaiAscendingVowels <-60 0 0 0>;\012	pos maiTri-thai' @ThaiAscendingVowels <-80 0 0 0>;\012	pos thanthakhat-thai' @ThaiAscendingVowels <-60 0 0 0>;\012		\012	### This is an alternative solution, but we prefer the above;\012	### pos maiTri-thai @ThaiAscendingVowels' <60 0 60 0>;\012	\012	} ContextualMarkPositions;\012	\012lookup workaroundShapingError {\012# for combinations that don't have precomposed glyphs, shaping engines normalise macronbelow at the end of the sequence, when they should be between bases and marks below. Here we manually move marks further down so they appear below macronbelow.\012	lookupflag UseMarkFilteringSet @ThaiBelowMarks;\012	pos @ThaiBelowMarks' macronbelowcomb <0 -175 0 0>; ### for Firefox and Chrome;\012	pos macronbelowcomb @ThaiBelowMarks' <0 -175 0 0>; ### for Safari;\012	} workaroundShapingError;\012	\012lookup ShiftSaraUe { ### SaraUe appears too far left on certain consonants, here we make adjustments;\012	pos @SpecialConsonants saraUe-thai' <15 0 0 0>;\012	pos [thoThong-thai roRua-thai] saraUe-thai' <30 0 0 0>;\012	} ShiftSaraUe;";
-},
-{
-name = "Replace Feature";
-value = "kern;\012# Automatic Code End\012\012lookup ThaiContexualKerning { ### On ascending bases with tall prebase vowel signs, maiTho and maiTri need extranarrow versions to avoid unsightly collisions; \012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos @ThaiAscendingVowels foFa-thai' [maiTho-thai.extranarrow maiTri-thai.extranarrow] <0 0 0 0>;\012	pos @ThaiAscendingVowels poPla-thai' [maiTho-thai.extranarrow maiTri-thai.extranarrow maiChattawa-thai] <0 0 0 0>;\012	} ThaiContexualKerning;";
 }
 );
 interpolationWeight = 58;
@@ -95934,10 +95912,6 @@ weightClass = Light;
 },
 {
 customParameters = (
-{
-name = weightClass;
-value = 400;
-},
 {
 name = panose;
 value = (
@@ -96038,10 +96012,6 @@ name = Regular;
 {
 customParameters = (
 {
-name = weightClass;
-value = 500;
-},
-{
 name = panose;
 value = (
 2,
@@ -96055,10 +96025,6 @@ value = (
 2,
 4
 );
-},
-{
-name = styleMapFamilyName;
-value = "Noto Looped Thai Medium";
 },
 {
 name = "Instance Preview";
@@ -96110,6 +96076,14 @@ value = (
 "oAng-thai",
 "hoNokhuk-thai"
 );
+},
+{
+name = "Replace Feature";
+value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \012	### move doubleMacron up if preceded by Thai marks above\012	pos @ThaiAboveMarks [doublemacroncomb doublemacroncomb.wide]' <0 260 0 0>;\012	### move Thai marks up if preceded by double macron\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiAboveMarks' <0 180 0 0>;\012	### move Thai marks up when double macron precedes the base\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiAboveMarks' <0 180 0 0>;\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiBelowMarks @ThaiAboveMarks' <0 180 0 0>;\012	} combinewithdoublemacron ;\012	\012lookup ContextualMarkPositions { ### Tonemarks are shifted slightly left when followed by ascending vowel signs;\012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos maiEk-thai' @ThaiAscendingVowels <-30 0 0 0>;\012	pos maiTho-thai' @ThaiAscendingVowels <-60 0 0 0>;\012	pos maiTri-thai' @ThaiAscendingVowels <-80 0 0 0>;\012	pos thanthakhat-thai' @ThaiAscendingVowels <-60 0 0 0>;\012		\012	### This is an alternative solution, but we prefer the above;\012	### pos maiTri-thai @ThaiAscendingVowels' <60 0 60 0>;\012	\012	} ContextualMarkPositions;\012	\012lookup workaroundShapingError {\012# for combinations that don't have precomposed glyphs, shaping engines normalise macronbelow at the end of the sequence, when they should be between bases and marks below. Here we manually move marks further down so they appear below macronbelow.\012	lookupflag UseMarkFilteringSet @ThaiBelowMarks;\012	pos @ThaiBelowMarks' macronbelowcomb <0 -206 0 0>; ### for Firefox and Chrome;\012	pos macronbelowcomb @ThaiBelowMarks' <0 -206 0 0>; ### for Safari;\012	} workaroundShapingError;\012	\012lookup ShiftSaraUe { ### SaraUe appears too far left on certain consonants, here we make adjustments;\012	pos @SpecialConsonants saraUe-thai' <15 0 0 0>;\012	pos [thoThong-thai roRua-thai] saraUe-thai' <30 0 0 0>;\012	} ShiftSaraUe;";
+},
+{
+name = styleMapFamilyName;
+value = "Noto Looped Thai Medium";
 },
 {
 name = preferredFamilyName;
@@ -96130,10 +96104,6 @@ value = "Noto Looped Thai Medium";
 {
 name = compatibleFullName;
 value = "Noto Looped Thai Medium";
-},
-{
-name = "Replace Feature";
-value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \012	### move doubleMacron up if preceded by Thai marks above\012	pos @ThaiAboveMarks [doublemacroncomb doublemacroncomb.wide]' <0 260 0 0>;\012	### move Thai marks up if preceded by double macron\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiAboveMarks' <0 180 0 0>;\012	### move Thai marks up when double macron precedes the base\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiAboveMarks' <0 180 0 0>;\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiBelowMarks @ThaiAboveMarks' <0 180 0 0>;\012	} combinewithdoublemacron ;\012	\012lookup ContextualMarkPositions { ### Tonemarks are shifted slightly left when followed by ascending vowel signs;\012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos maiEk-thai' @ThaiAscendingVowels <-30 0 0 0>;\012	pos maiTho-thai' @ThaiAscendingVowels <-60 0 0 0>;\012	pos maiTri-thai' @ThaiAscendingVowels <-80 0 0 0>;\012	pos thanthakhat-thai' @ThaiAscendingVowels <-60 0 0 0>;\012		\012	### This is an alternative solution, but we prefer the above;\012	### pos maiTri-thai @ThaiAscendingVowels' <60 0 60 0>;\012	\012	} ContextualMarkPositions;\012	\012lookup workaroundShapingError {\012# for combinations that don't have precomposed glyphs, shaping engines normalise macronbelow at the end of the sequence, when they should be between bases and marks below. Here we manually move marks further down so they appear below macronbelow.\012	lookupflag UseMarkFilteringSet @ThaiBelowMarks;\012	pos @ThaiBelowMarks' macronbelowcomb <0 -206 0 0>; ### for Firefox and Chrome;\012	pos macronbelowcomb @ThaiBelowMarks' <0 -206 0 0>; ### for Safari;\012	} workaroundShapingError;\012	\012lookup ShiftSaraUe { ### SaraUe appears too far left on certain consonants, here we make adjustments;\012	pos @SpecialConsonants saraUe-thai' <15 0 0 0>;\012	pos [thoThong-thai roRua-thai] saraUe-thai' <30 0 0 0>;\012	} ShiftSaraUe;";
 }
 );
 interpolationWeight = 108;
@@ -96146,10 +96116,6 @@ weightClass = Medium;
 },
 {
 customParameters = (
-{
-name = weightClass;
-value = 600;
-},
 {
 name = panose;
 value = (
@@ -96164,10 +96130,6 @@ value = (
 2,
 4
 );
-},
-{
-name = styleMapFamilyName;
-value = "Noto Looped Thai SemiBold";
 },
 {
 name = "Instance Preview";
@@ -96221,6 +96183,14 @@ value = (
 );
 },
 {
+name = "Replace Feature";
+value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \012	### move doubleMacron up if preceded by Thai marks above\012	pos @ThaiAboveMarks [doublemacroncomb doublemacroncomb.wide]' <0 270 0 0>;\012	### move Thai marks up if preceded by double macron\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiAboveMarks' <0 185 0 0>;\012	### move Thai marks up when double macron precedes the base\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiAboveMarks' <0 185 0 0>;\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiBelowMarks @ThaiAboveMarks' <0 185 0 0>;\012	} combinewithdoublemacron ;\012	\012lookup ContextualMarkPositions { ### Tonemarks are shifted slightly left when followed by ascending vowel signs;\012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos maiEk-thai' @ThaiAscendingVowels <-30 0 0 0>;\012	pos maiTho-thai' @ThaiAscendingVowels <-60 0 0 0>;\012	pos maiTri-thai' @ThaiAscendingVowels <-80 0 0 0>;\012	pos thanthakhat-thai' @ThaiAscendingVowels <-60 0 0 0>;\012		\012	### This is an alternative solution, but we prefer the above;\012	### pos maiTri-thai @ThaiAscendingVowels' <60 0 60 0>;\012	\012	} ContextualMarkPositions;\012	\012lookup workaroundShapingError {\012# for combinations that don't have precomposed glyphs, shaping engines normalise macronbelow at the end of the sequence, when they should be between bases and marks below. Here we manually move marks further down so they appear below macronbelow.\012	lookupflag UseMarkFilteringSet @ThaiBelowMarks;\012	pos @ThaiBelowMarks' macronbelowcomb <0 -212 0 0>; ### for Firefox and Chrome;\012	pos macronbelowcomb @ThaiBelowMarks' <0 -212 0 0>; ### for Safari;\012	} workaroundShapingError;\012	\012lookup ShiftSaraUe { ### SaraUe appears too far left on certain consonants, here we make adjustments;\012	pos @SpecialConsonants saraUe-thai' <15 0 0 0>;\012	pos [thoThong-thai roRua-thai] saraUe-thai' <30 0 0 0>;\012	} ShiftSaraUe;";
+},
+{
+name = styleMapFamilyName;
+value = "Noto Looped Thai SemiBold";
+},
+{
 name = preferredFamilyName;
 value = "Noto Looped Thai";
 },
@@ -96239,10 +96209,6 @@ value = "Noto Looped Thai SemiBold";
 {
 name = compatibleFullName;
 value = "Noto Looped Thai SemiBold";
-},
-{
-name = "Replace Feature";
-value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \012	### move doubleMacron up if preceded by Thai marks above\012	pos @ThaiAboveMarks [doublemacroncomb doublemacroncomb.wide]' <0 270 0 0>;\012	### move Thai marks up if preceded by double macron\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiAboveMarks' <0 185 0 0>;\012	### move Thai marks up when double macron precedes the base\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiAboveMarks' <0 185 0 0>;\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiBelowMarks @ThaiAboveMarks' <0 185 0 0>;\012	} combinewithdoublemacron ;\012	\012lookup ContextualMarkPositions { ### Tonemarks are shifted slightly left when followed by ascending vowel signs;\012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos maiEk-thai' @ThaiAscendingVowels <-30 0 0 0>;\012	pos maiTho-thai' @ThaiAscendingVowels <-60 0 0 0>;\012	pos maiTri-thai' @ThaiAscendingVowels <-80 0 0 0>;\012	pos thanthakhat-thai' @ThaiAscendingVowels <-60 0 0 0>;\012		\012	### This is an alternative solution, but we prefer the above;\012	### pos maiTri-thai @ThaiAscendingVowels' <60 0 60 0>;\012	\012	} ContextualMarkPositions;\012	\012lookup workaroundShapingError {\012# for combinations that don't have precomposed glyphs, shaping engines normalise macronbelow at the end of the sequence, when they should be between bases and marks below. Here we manually move marks further down so they appear below macronbelow.\012	lookupflag UseMarkFilteringSet @ThaiBelowMarks;\012	pos @ThaiBelowMarks' macronbelowcomb <0 -212 0 0>; ### for Firefox and Chrome;\012	pos macronbelowcomb @ThaiBelowMarks' <0 -212 0 0>; ### for Safari;\012	} workaroundShapingError;\012	\012lookup ShiftSaraUe { ### SaraUe appears too far left on certain consonants, here we make adjustments;\012	pos @SpecialConsonants saraUe-thai' <15 0 0 0>;\012	pos [thoThong-thai roRua-thai] saraUe-thai' <30 0 0 0>;\012	} ShiftSaraUe;";
 }
 );
 interpolationWeight = 128;
@@ -96255,10 +96221,6 @@ weightClass = SemiBold;
 },
 {
 customParameters = (
-{
-name = weightClass;
-value = 700;
-},
 {
 name = panose;
 value = (
@@ -96326,6 +96288,10 @@ value = (
 );
 },
 {
+name = "Replace Feature";
+value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \012	### move doubleMacron up if preceded by Thai marks above\012	pos @ThaiAboveMarks [doublemacroncomb doublemacroncomb.wide]' <0 280 0 0>;\012	### move Thai marks up if preceded by double macron\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiAboveMarks' <0 190 0 0>;\012	### move Thai marks up when double macron precedes the base\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiAboveMarks' <0 190 0 0>;\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiBelowMarks @ThaiAboveMarks' <0 190 0 0>;\012	} combinewithdoublemacron ;\012	\012lookup ContextualMarkPositions { ### Tonemarks are shifted slightly left when followed by ascending vowel signs;\012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos maiEk-thai' @ThaiAscendingVowels <-30 0 0 0>;\012	pos maiTho-thai' @ThaiAscendingVowels <-60 0 0 0>;\012	pos maiTri-thai' @ThaiAscendingVowels <-80 0 0 0>;\012	pos thanthakhat-thai' @ThaiAscendingVowels <-60 0 0 0>;\012		\012	### This is an alternative solution, but we prefer the above;\012	### pos maiTri-thai @ThaiAscendingVowels' <60 0 60 0>;\012	\012	} ContextualMarkPositions;\012	\012lookup workaroundShapingError {\012# for combinations that don't have precomposed glyphs, shaping engines normalise macronbelow at the end of the sequence, when they should be between bases and marks below. Here we manually move marks further down so they appear below macronbelow.\012	lookupflag UseMarkFilteringSet @ThaiBelowMarks;\012	pos @ThaiBelowMarks' macronbelowcomb <0 -218 0 0>; ### for Firefox and Chrome;\012	pos macronbelowcomb @ThaiBelowMarks' <0 -218 0 0>; ### for Safari;\012	} workaroundShapingError;\012	\012lookup ShiftSaraUe { ### SaraUe appears too far left on certain consonants, here we make adjustments;\012	pos @SpecialConsonants saraUe-thai' <15 0 0 0>;\012	pos [thoThong-thai roRua-thai] saraUe-thai' <30 0 0 0>;\012	} ShiftSaraUe;";
+},
+{
 name = preferredFamilyName;
 value = "Noto Looped Thai";
 },
@@ -96348,10 +96314,6 @@ value = "Noto Looped Thai Bold";
 {
 name = styleMapFamilyName;
 value = "Noto Looped Thai Bold";
-},
-{
-name = "Replace Feature";
-value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \012	### move doubleMacron up if preceded by Thai marks above\012	pos @ThaiAboveMarks [doublemacroncomb doublemacroncomb.wide]' <0 280 0 0>;\012	### move Thai marks up if preceded by double macron\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiAboveMarks' <0 190 0 0>;\012	### move Thai marks up when double macron precedes the base\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiAboveMarks' <0 190 0 0>;\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiBelowMarks @ThaiAboveMarks' <0 190 0 0>;\012	} combinewithdoublemacron ;\012	\012lookup ContextualMarkPositions { ### Tonemarks are shifted slightly left when followed by ascending vowel signs;\012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos maiEk-thai' @ThaiAscendingVowels <-30 0 0 0>;\012	pos maiTho-thai' @ThaiAscendingVowels <-60 0 0 0>;\012	pos maiTri-thai' @ThaiAscendingVowels <-80 0 0 0>;\012	pos thanthakhat-thai' @ThaiAscendingVowels <-60 0 0 0>;\012		\012	### This is an alternative solution, but we prefer the above;\012	### pos maiTri-thai @ThaiAscendingVowels' <60 0 60 0>;\012	\012	} ContextualMarkPositions;\012	\012lookup workaroundShapingError {\012# for combinations that don't have precomposed glyphs, shaping engines normalise macronbelow at the end of the sequence, when they should be between bases and marks below. Here we manually move marks further down so they appear below macronbelow.\012	lookupflag UseMarkFilteringSet @ThaiBelowMarks;\012	pos @ThaiBelowMarks' macronbelowcomb <0 -218 0 0>; ### for Firefox and Chrome;\012	pos macronbelowcomb @ThaiBelowMarks' <0 -218 0 0>; ### for Safari;\012	} workaroundShapingError;\012	\012lookup ShiftSaraUe { ### SaraUe appears too far left on certain consonants, here we make adjustments;\012	pos @SpecialConsonants saraUe-thai' <15 0 0 0>;\012	pos [thoThong-thai roRua-thai] saraUe-thai' <30 0 0 0>;\012	} ShiftSaraUe;";
 }
 );
 interpolationWeight = 151;
@@ -96367,10 +96329,6 @@ weightClass = Bold;
 {
 customParameters = (
 {
-name = weightClass;
-value = 800;
-},
-{
 name = panose;
 value = (
 2,
@@ -96384,10 +96342,6 @@ value = (
 2,
 4
 );
-},
-{
-name = styleMapFamilyName;
-value = "Noto Looped Thai ExtraBold";
 },
 {
 name = "Instance Preview";
@@ -96441,6 +96395,14 @@ value = (
 );
 },
 {
+name = "Replace Feature";
+value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \012	### move doubleMacron up if preceded by Thai marks above\012	pos @ThaiAboveMarks [doublemacroncomb doublemacroncomb.wide]' <0 290 0 0>;\012	### move Thai marks up if preceded by double macron\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiAboveMarks' <0 195 0 0>;\012	### move Thai marks up when double macron precedes the base\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiAboveMarks' <0 195 0 0>;\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiBelowMarks @ThaiAboveMarks' <0 195 0 0>;\012	} combinewithdoublemacron ;\012	\012lookup ContextualMarkPositions { ### Tonemarks are shifted slightly left when followed by ascending vowel signs;\012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos maiEk-thai' @ThaiAscendingVowels <-30 0 0 0>;\012	pos maiTho-thai' @ThaiAscendingVowels <-60 0 0 0>;\012	pos maiTri-thai' @ThaiAscendingVowels <-80 0 0 0>;\012	pos thanthakhat-thai' @ThaiAscendingVowels <-60 0 0 0>;\012		\012	### This is an alternative solution, but we prefer the above;\012	### pos maiTri-thai @ThaiAscendingVowels' <60 0 60 0>;\012	\012	} ContextualMarkPositions;\012	\012lookup workaroundShapingError {\012# for combinations that don't have precomposed glyphs, shaping engines normalise macronbelow at the end of the sequence, when they should be between bases and marks below. Here we manually move marks further down so they appear below macronbelow.\012	lookupflag UseMarkFilteringSet @ThaiBelowMarks;\012	pos @ThaiBelowMarks' macronbelowcomb <0 -224 0 0>; ### for Firefox and Chrome;\012	pos macronbelowcomb @ThaiBelowMarks' <0 -224 0 0>; ### for Safari;\012	} workaroundShapingError;\012	\012lookup ShiftSaraUe { ### SaraUe appears too far left on certain consonants, here we make adjustments;\012	pos @SpecialConsonants saraUe-thai' <15 0 0 0>;\012	pos [thoThong-thai roRua-thai] saraUe-thai' <30 0 0 0>;\012	} ShiftSaraUe;";
+},
+{
+name = styleMapFamilyName;
+value = "Noto Looped Thai ExtraBold";
+},
+{
 name = preferredFamilyName;
 value = "Noto Looped Thai";
 },
@@ -96459,10 +96421,6 @@ value = "Noto Looped Thai ExtraBold";
 {
 name = compatibleFullName;
 value = "Noto Looped Thai ExtraBold";
-},
-{
-name = "Replace Feature";
-value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \012	### move doubleMacron up if preceded by Thai marks above\012	pos @ThaiAboveMarks [doublemacroncomb doublemacroncomb.wide]' <0 290 0 0>;\012	### move Thai marks up if preceded by double macron\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiAboveMarks' <0 195 0 0>;\012	### move Thai marks up when double macron precedes the base\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiAboveMarks' <0 195 0 0>;\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiBelowMarks @ThaiAboveMarks' <0 195 0 0>;\012	} combinewithdoublemacron ;\012	\012lookup ContextualMarkPositions { ### Tonemarks are shifted slightly left when followed by ascending vowel signs;\012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos maiEk-thai' @ThaiAscendingVowels <-30 0 0 0>;\012	pos maiTho-thai' @ThaiAscendingVowels <-60 0 0 0>;\012	pos maiTri-thai' @ThaiAscendingVowels <-80 0 0 0>;\012	pos thanthakhat-thai' @ThaiAscendingVowels <-60 0 0 0>;\012		\012	### This is an alternative solution, but we prefer the above;\012	### pos maiTri-thai @ThaiAscendingVowels' <60 0 60 0>;\012	\012	} ContextualMarkPositions;\012	\012lookup workaroundShapingError {\012# for combinations that don't have precomposed glyphs, shaping engines normalise macronbelow at the end of the sequence, when they should be between bases and marks below. Here we manually move marks further down so they appear below macronbelow.\012	lookupflag UseMarkFilteringSet @ThaiBelowMarks;\012	pos @ThaiBelowMarks' macronbelowcomb <0 -224 0 0>; ### for Firefox and Chrome;\012	pos macronbelowcomb @ThaiBelowMarks' <0 -224 0 0>; ### for Safari;\012	} workaroundShapingError;\012	\012lookup ShiftSaraUe { ### SaraUe appears too far left on certain consonants, here we make adjustments;\012	pos @SpecialConsonants saraUe-thai' <15 0 0 0>;\012	pos [thoThong-thai roRua-thai] saraUe-thai' <30 0 0 0>;\012	} ShiftSaraUe;";
 }
 );
 interpolationWeight = 169;
@@ -96475,10 +96433,6 @@ weightClass = ExtraBold;
 },
 {
 customParameters = (
-{
-name = weightClass;
-value = 900;
-},
 {
 name = panose;
 value = (
@@ -96493,10 +96447,6 @@ value = (
 2,
 4
 );
-},
-{
-name = styleMapFamilyName;
-value = "Noto Looped Thai Black";
 },
 {
 name = "_Replace Feature";
@@ -96554,6 +96504,14 @@ value = (
 );
 },
 {
+name = "Replace Feature";
+value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \012	### move doubleMacron up if preceded by Thai marks above\012	pos @ThaiAboveMarks [doublemacroncomb doublemacroncomb.wide]' <0 300 0 0>;\012	### move Thai marks up if preceded by double macron\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiAboveMarks' <0 200 0 0>;\012	### move Thai marks up when double macron precedes the base\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiAboveMarks' <0 200 0 0>;\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiBelowMarks @ThaiAboveMarks' <0 200 0 0>;\012	} combinewithdoublemacron ;\012	\012lookup ContextualMarkPositions { ### Tonemarks are shifted slightly left when followed by ascending vowel signs;\012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos maiEk-thai' @ThaiAscendingVowels <-30 0 0 0>;\012	pos maiTho-thai' @ThaiAscendingVowels <-60 0 0 0>;\012	pos maiTri-thai' @ThaiAscendingVowels <-80 0 0 0>;\012	pos thanthakhat-thai' @ThaiAscendingVowels <-60 0 0 0>;\012		\012	### This is an alternative solution, but we prefer the above;\012	### pos maiTri-thai @ThaiAscendingVowels' <60 0 60 0>;\012	\012	} ContextualMarkPositions;\012	\012lookup workaroundShapingError {\012# for combinations that don't have precomposed glyphs, shaping engines normalise macronbelow at the end of the sequence, when they should be between bases and marks below. Here we manually move marks further down so they appear below macronbelow.\012	lookupflag UseMarkFilteringSet @ThaiBelowMarks;\012	pos @ThaiBelowMarks' macronbelowcomb <0 -230 0 0>; ### for Firefox and Chrome;\012	pos macronbelowcomb @ThaiBelowMarks' <0 -230 0 0>; ### for Safari;\012	} workaroundShapingError;\012	\012lookup ShiftSaraUe { ### SaraUe appears too far left on certain consonants, here we make adjustments;\012	pos @SpecialConsonants saraUe-thai' <15 0 0 0>;\012	pos [thoThong-thai roRua-thai] saraUe-thai' <30 0 0 0>;\012	} ShiftSaraUe;";
+},
+{
+name = styleMapFamilyName;
+value = "Noto Looped Thai Black";
+},
+{
 name = preferredFamilyName;
 value = "Noto Looped Thai";
 },
@@ -96572,10 +96530,6 @@ value = "Noto Looped Thai Black";
 {
 name = compatibleFullName;
 value = "Noto Looped Thai Black";
-},
-{
-name = "Replace Feature";
-value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \012	### move doubleMacron up if preceded by Thai marks above\012	pos @ThaiAboveMarks [doublemacroncomb doublemacroncomb.wide]' <0 300 0 0>;\012	### move Thai marks up if preceded by double macron\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiAboveMarks' <0 200 0 0>;\012	### move Thai marks up when double macron precedes the base\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiAboveMarks' <0 200 0 0>;\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiBelowMarks @ThaiAboveMarks' <0 200 0 0>;\012	} combinewithdoublemacron ;\012	\012lookup ContextualMarkPositions { ### Tonemarks are shifted slightly left when followed by ascending vowel signs;\012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos maiEk-thai' @ThaiAscendingVowels <-30 0 0 0>;\012	pos maiTho-thai' @ThaiAscendingVowels <-60 0 0 0>;\012	pos maiTri-thai' @ThaiAscendingVowels <-80 0 0 0>;\012	pos thanthakhat-thai' @ThaiAscendingVowels <-60 0 0 0>;\012		\012	### This is an alternative solution, but we prefer the above;\012	### pos maiTri-thai @ThaiAscendingVowels' <60 0 60 0>;\012	\012	} ContextualMarkPositions;\012	\012lookup workaroundShapingError {\012# for combinations that don't have precomposed glyphs, shaping engines normalise macronbelow at the end of the sequence, when they should be between bases and marks below. Here we manually move marks further down so they appear below macronbelow.\012	lookupflag UseMarkFilteringSet @ThaiBelowMarks;\012	pos @ThaiBelowMarks' macronbelowcomb <0 -230 0 0>; ### for Firefox and Chrome;\012	pos macronbelowcomb @ThaiBelowMarks' <0 -230 0 0>; ### for Safari;\012	} workaroundShapingError;\012	\012lookup ShiftSaraUe { ### SaraUe appears too far left on certain consonants, here we make adjustments;\012	pos @SpecialConsonants saraUe-thai' <15 0 0 0>;\012	pos [thoThong-thai roRua-thai] saraUe-thai' <30 0 0 0>;\012	} ShiftSaraUe;";
 }
 );
 interpolationWeight = 190;
@@ -96587,10 +96541,6 @@ weightClass = Black;
 },
 {
 customParameters = (
-{
-name = weightClass;
-value = 100;
-},
 {
 name = panose;
 value = (
@@ -96605,10 +96555,6 @@ value = (
 2,
 4
 );
-},
-{
-name = styleMapFamilyName;
-value = "Noto Looped Thai SmCd Thin";
 },
 {
 name = "Instance Preview";
@@ -96660,6 +96606,18 @@ value = (
 "oAng-thai",
 "hoNokhuk-thai"
 );
+},
+{
+name = "Replace Feature";
+value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \012	### move doubleMacron up if preceded by Thai marks above\012	pos @ThaiAboveMarks [doublemacroncomb doublemacroncomb.wide]' <0 190 0 0>;\012	### move Thai marks up if preceded by double macron\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiAboveMarks' <0 170 0 0>;\012	### move Thai marks up when double macron precedes the base\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiAboveMarks' <0 170 0 0>;\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiBelowMarks @ThaiAboveMarks' <0 170 0 0>;\012	} combinewithdoublemacron ;\012	\012lookup ContextualMarkPositions { ### Tonemarks are shifted slightly left when followed by ascending vowel signs;\012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos maiEk-thai' @ThaiAscendingVowels <-30 0 0 0>;\012	pos maiTho-thai' @ThaiAscendingVowels <-60 0 0 0>;\012	pos maiTri-thai' @ThaiAscendingVowels <-80 0 0 0>;\012	pos thanthakhat-thai' @ThaiAscendingVowels <-60 0 0 0>;\012		\012	### This is an alternative solution, but we prefer the above;\012	### pos maiTri-thai @ThaiAscendingVowels' <60 0 60 0>;\012	\012	} ContextualMarkPositions;\012	\012lookup workaroundShapingError {\012# for combinations that don't have precomposed glyphs, shaping engines normalise macronbelow at the end of the sequence, when they should be between bases and marks below. Here we manually move marks further down so they appear below macronbelow.\012	lookupflag UseMarkFilteringSet @ThaiBelowMarks;\012	pos @ThaiBelowMarks' macronbelowcomb <0 -130 0 0>; ### for Firefox and Chrome;\012	pos macronbelowcomb @ThaiBelowMarks' <0 -130 0 0>; ### for Safari;\012	} workaroundShapingError;\012	\012lookup ShiftSaraUe { ### SaraUe appears too far left on certain consonants, here we make adjustments;\012	pos @SpecialConsonants saraUe-thai' <15 0 0 0>;\012	pos [thoThong-thai roRua-thai] saraUe-thai' <30 0 0 0>;\012	} ShiftSaraUe;\012";
+},
+{
+name = "Replace Feature";
+value = "kern;\012# Automatic Code End\012\012lookup ThaiContexualKerning { ### On ascending bases with tall prebase vowel signs, maiTho and maiTri need extranarrow versions to avoid unsightly collisions; \012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos @ThaiAscendingVowels foFa-thai' [maiTho-thai.extranarrow maiTri-thai.extranarrow] <0 0 0 0>;\012	pos @ThaiAscendingVowels poPla-thai' [maiTho-thai.extranarrow maiTri-thai.extranarrow maiChattawa-thai] <0 0 0 0>;\012	} ThaiContexualKerning;";
+},
+{
+name = styleMapFamilyName;
+value = "Noto Looped Thai SmCd Thin";
 },
 {
 name = preferredFamilyName;
@@ -96680,14 +96638,6 @@ value = "Noto Looped Thai SemiCondensed Thin";
 {
 name = compatibleFullName;
 value = "Noto Looped Thai SemiCondensed Thin";
-},
-{
-name = "Replace Feature";
-value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \012	### move doubleMacron up if preceded by Thai marks above\012	pos @ThaiAboveMarks [doublemacroncomb doublemacroncomb.wide]' <0 190 0 0>;\012	### move Thai marks up if preceded by double macron\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiAboveMarks' <0 170 0 0>;\012	### move Thai marks up when double macron precedes the base\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiAboveMarks' <0 170 0 0>;\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiBelowMarks @ThaiAboveMarks' <0 170 0 0>;\012	} combinewithdoublemacron ;\012	\012lookup ContextualMarkPositions { ### Tonemarks are shifted slightly left when followed by ascending vowel signs;\012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos maiEk-thai' @ThaiAscendingVowels <-30 0 0 0>;\012	pos maiTho-thai' @ThaiAscendingVowels <-60 0 0 0>;\012	pos maiTri-thai' @ThaiAscendingVowels <-80 0 0 0>;\012	pos thanthakhat-thai' @ThaiAscendingVowels <-60 0 0 0>;\012		\012	### This is an alternative solution, but we prefer the above;\012	### pos maiTri-thai @ThaiAscendingVowels' <60 0 60 0>;\012	\012	} ContextualMarkPositions;\012	\012lookup workaroundShapingError {\012# for combinations that don't have precomposed glyphs, shaping engines normalise macronbelow at the end of the sequence, when they should be between bases and marks below. Here we manually move marks further down so they appear below macronbelow.\012	lookupflag UseMarkFilteringSet @ThaiBelowMarks;\012	pos @ThaiBelowMarks' macronbelowcomb <0 -130 0 0>; ### for Firefox and Chrome;\012	pos macronbelowcomb @ThaiBelowMarks' <0 -130 0 0>; ### for Safari;\012	} workaroundShapingError;\012	\012lookup ShiftSaraUe { ### SaraUe appears too far left on certain consonants, here we make adjustments;\012	pos @SpecialConsonants saraUe-thai' <15 0 0 0>;\012	pos [thoThong-thai roRua-thai] saraUe-thai' <30 0 0 0>;\012	} ShiftSaraUe;\012";
-},
-{
-name = "Replace Feature";
-value = "kern;\012# Automatic Code End\012\012lookup ThaiContexualKerning { ### On ascending bases with tall prebase vowel signs, maiTho and maiTri need extranarrow versions to avoid unsightly collisions; \012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos @ThaiAscendingVowels foFa-thai' [maiTho-thai.extranarrow maiTri-thai.extranarrow] <0 0 0 0>;\012	pos @ThaiAscendingVowels poPla-thai' [maiTho-thai.extranarrow maiTri-thai.extranarrow maiChattawa-thai] <0 0 0 0>;\012	} ThaiContexualKerning;";
 }
 );
 interpolationWeight = 26;
@@ -96703,10 +96653,6 @@ widthClass = SemiCondensed;
 {
 customParameters = (
 {
-name = weightClass;
-value = 200;
-},
-{
 name = panose;
 value = (
 2,
@@ -96720,10 +96666,6 @@ value = (
 2,
 4
 );
-},
-{
-name = styleMapFamilyName;
-value = "Noto Looped Thai SmCd ExLt";
 },
 {
 name = "Instance Preview";
@@ -96775,6 +96717,18 @@ value = (
 "oAng-thai",
 "hoNokhuk-thai"
 );
+},
+{
+name = "Replace Feature";
+value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \012	### move doubleMacron up if preceded by Thai marks above\012	pos @ThaiAboveMarks [doublemacroncomb doublemacroncomb.wide]' <0 210 0 0>;\012	### move Thai marks up if preceded by double macron\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiAboveMarks' <0 172 0 0>;\012	### move Thai marks up when double macron precedes the base\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiAboveMarks' <0 172 0 0>;\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiBelowMarks @ThaiAboveMarks' <0 172 0 0>;\012	} combinewithdoublemacron ;\012	\012lookup ContextualMarkPositions { ### Tonemarks are shifted slightly left when followed by ascending vowel signs;\012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos maiEk-thai' @ThaiAscendingVowels <-30 0 0 0>;\012	pos maiTho-thai' @ThaiAscendingVowels <-60 0 0 0>;\012	pos maiTri-thai' @ThaiAscendingVowels <-80 0 0 0>;\012	pos thanthakhat-thai' @ThaiAscendingVowels <-60 0 0 0>;\012		\012	### This is an alternative solution, but we prefer the above;\012	### pos maiTri-thai @ThaiAscendingVowels' <60 0 60 0>;\012	\012	} ContextualMarkPositions;\012	\012lookup workaroundShapingError {\012# for combinations that don't have precomposed glyphs, shaping engines normalise macronbelow at the end of the sequence, when they should be between bases and marks below. Here we manually move marks further down so they appear below macronbelow.\012	lookupflag UseMarkFilteringSet @ThaiBelowMarks;\012	pos @ThaiBelowMarks' macronbelowcomb <0 -155 0 0>; ### for Firefox and Chrome;\012	pos macronbelowcomb @ThaiBelowMarks' <0 -155 0 0>; ### for Safari;\012	} workaroundShapingError;\012	\012lookup ShiftSaraUe { ### SaraUe appears too far left on certain consonants, here we make adjustments;\012	pos @SpecialConsonants saraUe-thai' <15 0 0 0>;\012	pos [thoThong-thai roRua-thai] saraUe-thai' <30 0 0 0>;\012	} ShiftSaraUe;";
+},
+{
+name = "Replace Feature";
+value = "kern;\012# Automatic Code End\012\012lookup ThaiContexualKerning { ### On ascending bases with tall prebase vowel signs, maiTho and maiTri need extranarrow versions to avoid unsightly collisions; \012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos @ThaiAscendingVowels foFa-thai' [maiTho-thai.extranarrow maiTri-thai.extranarrow] <0 0 0 0>;\012	pos @ThaiAscendingVowels poPla-thai' [maiTho-thai.extranarrow maiTri-thai.extranarrow maiChattawa-thai] <0 0 0 0>;\012	} ThaiContexualKerning;";
+},
+{
+name = styleMapFamilyName;
+value = "Noto Looped Thai SmCd ExLt";
 },
 {
 name = preferredFamilyName;
@@ -96795,14 +96749,6 @@ value = "Noto Looped Thai SemiCondensed ExtraLight";
 {
 name = compatibleFullName;
 value = "Noto Looped Thai SemiCondensed ExtraLight";
-},
-{
-name = "Replace Feature";
-value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \012	### move doubleMacron up if preceded by Thai marks above\012	pos @ThaiAboveMarks [doublemacroncomb doublemacroncomb.wide]' <0 210 0 0>;\012	### move Thai marks up if preceded by double macron\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiAboveMarks' <0 172 0 0>;\012	### move Thai marks up when double macron precedes the base\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiAboveMarks' <0 172 0 0>;\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiBelowMarks @ThaiAboveMarks' <0 172 0 0>;\012	} combinewithdoublemacron ;\012	\012lookup ContextualMarkPositions { ### Tonemarks are shifted slightly left when followed by ascending vowel signs;\012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos maiEk-thai' @ThaiAscendingVowels <-30 0 0 0>;\012	pos maiTho-thai' @ThaiAscendingVowels <-60 0 0 0>;\012	pos maiTri-thai' @ThaiAscendingVowels <-80 0 0 0>;\012	pos thanthakhat-thai' @ThaiAscendingVowels <-60 0 0 0>;\012		\012	### This is an alternative solution, but we prefer the above;\012	### pos maiTri-thai @ThaiAscendingVowels' <60 0 60 0>;\012	\012	} ContextualMarkPositions;\012	\012lookup workaroundShapingError {\012# for combinations that don't have precomposed glyphs, shaping engines normalise macronbelow at the end of the sequence, when they should be between bases and marks below. Here we manually move marks further down so they appear below macronbelow.\012	lookupflag UseMarkFilteringSet @ThaiBelowMarks;\012	pos @ThaiBelowMarks' macronbelowcomb <0 -155 0 0>; ### for Firefox and Chrome;\012	pos macronbelowcomb @ThaiBelowMarks' <0 -155 0 0>; ### for Safari;\012	} workaroundShapingError;\012	\012lookup ShiftSaraUe { ### SaraUe appears too far left on certain consonants, here we make adjustments;\012	pos @SpecialConsonants saraUe-thai' <15 0 0 0>;\012	pos [thoThong-thai roRua-thai] saraUe-thai' <30 0 0 0>;\012	} ShiftSaraUe;";
-},
-{
-name = "Replace Feature";
-value = "kern;\012# Automatic Code End\012\012lookup ThaiContexualKerning { ### On ascending bases with tall prebase vowel signs, maiTho and maiTri need extranarrow versions to avoid unsightly collisions; \012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos @ThaiAscendingVowels foFa-thai' [maiTho-thai.extranarrow maiTri-thai.extranarrow] <0 0 0 0>;\012	pos @ThaiAscendingVowels poPla-thai' [maiTho-thai.extranarrow maiTri-thai.extranarrow maiChattawa-thai] <0 0 0 0>;\012	} ThaiContexualKerning;";
 }
 );
 interpolationWeight = 39;
@@ -96820,10 +96766,6 @@ widthClass = SemiCondensed;
 {
 customParameters = (
 {
-name = weightClass;
-value = 300;
-},
-{
 name = panose;
 value = (
 2,
@@ -96837,10 +96779,6 @@ value = (
 2,
 4
 );
-},
-{
-name = styleMapFamilyName;
-value = "Noto Looped Thai SmCd Lt";
 },
 {
 name = "Instance Preview";
@@ -96892,6 +96830,18 @@ value = (
 "oAng-thai",
 "hoNokhuk-thai"
 );
+},
+{
+name = "Replace Feature";
+value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \012	### move doubleMacron up if preceded by Thai marks above\012	pos @ThaiAboveMarks [doublemacroncomb doublemacroncomb.wide]' <0 230 0 0>;\012	### move Thai marks up if preceded by double macron\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiAboveMarks' <0 174 0 0>;\012	### move Thai marks up when double macron precedes the base\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiAboveMarks' <0 174 0 0>;\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiBelowMarks @ThaiAboveMarks' <0 174 0 0>;\012	} combinewithdoublemacron ;\012	\012lookup ContextualMarkPositions { ### Tonemarks are shifted slightly left when followed by ascending vowel signs;\012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos maiEk-thai' @ThaiAscendingVowels <-30 0 0 0>;\012	pos maiTho-thai' @ThaiAscendingVowels <-60 0 0 0>;\012	pos maiTri-thai' @ThaiAscendingVowels <-80 0 0 0>;\012	pos thanthakhat-thai' @ThaiAscendingVowels <-60 0 0 0>;\012		\012	### This is an alternative solution, but we prefer the above;\012	### pos maiTri-thai @ThaiAscendingVowels' <60 0 60 0>;\012	\012	} ContextualMarkPositions;\012	\012lookup workaroundShapingError {\012# for combinations that don't have precomposed glyphs, shaping engines normalise macronbelow at the end of the sequence, when they should be between bases and marks below. Here we manually move marks further down so they appear below macronbelow.\012	lookupflag UseMarkFilteringSet @ThaiBelowMarks;\012	pos @ThaiBelowMarks' macronbelowcomb <0 -175 0 0>; ### for Firefox and Chrome;\012	pos macronbelowcomb @ThaiBelowMarks' <0 -175 0 0>; ### for Safari;\012	} workaroundShapingError;\012	\012lookup ShiftSaraUe { ### SaraUe appears too far left on certain consonants, here we make adjustments;\012	pos @SpecialConsonants saraUe-thai' <15 0 0 0>;\012	pos [thoThong-thai roRua-thai] saraUe-thai' <30 0 0 0>;\012	} ShiftSaraUe;";
+},
+{
+name = "Replace Feature";
+value = "kern;\012# Automatic Code End\012\012lookup ThaiContexualKerning { ### On ascending bases with tall prebase vowel signs, maiTho and maiTri need extranarrow versions to avoid unsightly collisions; \012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos @ThaiAscendingVowels foFa-thai' [maiTho-thai.extranarrow maiTri-thai.extranarrow] <0 0 0 0>;\012	pos @ThaiAscendingVowels poPla-thai' [maiTho-thai.extranarrow maiTri-thai.extranarrow maiChattawa-thai] <0 0 0 0>;\012	} ThaiContexualKerning;";
+},
+{
+name = styleMapFamilyName;
+value = "Noto Looped Thai SmCd Lt";
 },
 {
 name = preferredFamilyName;
@@ -96912,14 +96862,6 @@ value = "Noto Looped Thai SemiCondensed Light";
 {
 name = compatibleFullName;
 value = "Noto Looped Thai SemiCondensed Light";
-},
-{
-name = "Replace Feature";
-value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \012	### move doubleMacron up if preceded by Thai marks above\012	pos @ThaiAboveMarks [doublemacroncomb doublemacroncomb.wide]' <0 230 0 0>;\012	### move Thai marks up if preceded by double macron\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiAboveMarks' <0 174 0 0>;\012	### move Thai marks up when double macron precedes the base\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiAboveMarks' <0 174 0 0>;\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiBelowMarks @ThaiAboveMarks' <0 174 0 0>;\012	} combinewithdoublemacron ;\012	\012lookup ContextualMarkPositions { ### Tonemarks are shifted slightly left when followed by ascending vowel signs;\012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos maiEk-thai' @ThaiAscendingVowels <-30 0 0 0>;\012	pos maiTho-thai' @ThaiAscendingVowels <-60 0 0 0>;\012	pos maiTri-thai' @ThaiAscendingVowels <-80 0 0 0>;\012	pos thanthakhat-thai' @ThaiAscendingVowels <-60 0 0 0>;\012		\012	### This is an alternative solution, but we prefer the above;\012	### pos maiTri-thai @ThaiAscendingVowels' <60 0 60 0>;\012	\012	} ContextualMarkPositions;\012	\012lookup workaroundShapingError {\012# for combinations that don't have precomposed glyphs, shaping engines normalise macronbelow at the end of the sequence, when they should be between bases and marks below. Here we manually move marks further down so they appear below macronbelow.\012	lookupflag UseMarkFilteringSet @ThaiBelowMarks;\012	pos @ThaiBelowMarks' macronbelowcomb <0 -175 0 0>; ### for Firefox and Chrome;\012	pos macronbelowcomb @ThaiBelowMarks' <0 -175 0 0>; ### for Safari;\012	} workaroundShapingError;\012	\012lookup ShiftSaraUe { ### SaraUe appears too far left on certain consonants, here we make adjustments;\012	pos @SpecialConsonants saraUe-thai' <15 0 0 0>;\012	pos [thoThong-thai roRua-thai] saraUe-thai' <30 0 0 0>;\012	} ShiftSaraUe;";
-},
-{
-name = "Replace Feature";
-value = "kern;\012# Automatic Code End\012\012lookup ThaiContexualKerning { ### On ascending bases with tall prebase vowel signs, maiTho and maiTri need extranarrow versions to avoid unsightly collisions; \012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos @ThaiAscendingVowels foFa-thai' [maiTho-thai.extranarrow maiTri-thai.extranarrow] <0 0 0 0>;\012	pos @ThaiAscendingVowels poPla-thai' [maiTho-thai.extranarrow maiTri-thai.extranarrow maiChattawa-thai] <0 0 0 0>;\012	} ThaiContexualKerning;";
 }
 );
 interpolationWeight = 58;
@@ -96937,10 +96879,6 @@ widthClass = SemiCondensed;
 {
 customParameters = (
 {
-name = weightClass;
-value = 400;
-},
-{
 name = panose;
 value = (
 2,
@@ -96954,10 +96892,6 @@ value = (
 2,
 4
 );
-},
-{
-name = styleMapFamilyName;
-value = "Noto Looped Thai SemiCond";
 },
 {
 name = "Instance Preview";
@@ -97009,6 +96943,10 @@ value = (
 "oAng-thai",
 "hoNokhuk-thai"
 );
+},
+{
+name = styleMapFamilyName;
+value = "Noto Looped Thai SemiCond";
 },
 {
 name = preferredFamilyName;
@@ -97043,10 +96981,6 @@ widthClass = SemiCondensed;
 {
 customParameters = (
 {
-name = weightClass;
-value = 500;
-},
-{
 name = panose;
 value = (
 2,
@@ -97060,10 +96994,6 @@ value = (
 2,
 4
 );
-},
-{
-name = styleMapFamilyName;
-value = "Noto Looped Thai SmCd Med";
 },
 {
 name = "Instance Preview";
@@ -97115,6 +97045,14 @@ value = (
 "oAng-thai",
 "hoNokhuk-thai"
 );
+},
+{
+name = "Replace Feature";
+value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \012	### move doubleMacron up if preceded by Thai marks above\012	pos @ThaiAboveMarks [doublemacroncomb doublemacroncomb.wide]' <0 260 0 0>;\012	### move Thai marks up if preceded by double macron\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiAboveMarks' <0 180 0 0>;\012	### move Thai marks up when double macron precedes the base\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiAboveMarks' <0 180 0 0>;\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiBelowMarks @ThaiAboveMarks' <0 180 0 0>;\012	} combinewithdoublemacron ;\012	\012lookup ContextualMarkPositions { ### Tonemarks are shifted slightly left when followed by ascending vowel signs;\012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos maiEk-thai' @ThaiAscendingVowels <-30 0 0 0>;\012	pos maiTho-thai' @ThaiAscendingVowels <-60 0 0 0>;\012	pos maiTri-thai' @ThaiAscendingVowels <-80 0 0 0>;\012	pos thanthakhat-thai' @ThaiAscendingVowels <-60 0 0 0>;\012		\012	### This is an alternative solution, but we prefer the above;\012	### pos maiTri-thai @ThaiAscendingVowels' <60 0 60 0>;\012	\012	} ContextualMarkPositions;\012	\012lookup workaroundShapingError {\012# for combinations that don't have precomposed glyphs, shaping engines normalise macronbelow at the end of the sequence, when they should be between bases and marks below. Here we manually move marks further down so they appear below macronbelow.\012	lookupflag UseMarkFilteringSet @ThaiBelowMarks;\012	pos @ThaiBelowMarks' macronbelowcomb <0 -206 0 0>; ### for Firefox and Chrome;\012	pos macronbelowcomb @ThaiBelowMarks' <0 -206 0 0>; ### for Safari;\012	} workaroundShapingError;\012	\012lookup ShiftSaraUe { ### SaraUe appears too far left on certain consonants, here we make adjustments;\012	pos @SpecialConsonants saraUe-thai' <15 0 0 0>;\012	pos [thoThong-thai roRua-thai] saraUe-thai' <30 0 0 0>;\012	} ShiftSaraUe;";
+},
+{
+name = styleMapFamilyName;
+value = "Noto Looped Thai SmCd Med";
 },
 {
 name = preferredFamilyName;
@@ -97135,10 +97073,6 @@ value = "Noto Looped Thai SemiCondensed Medium";
 {
 name = compatibleFullName;
 value = "Noto Looped Thai SemiCondensed Medium";
-},
-{
-name = "Replace Feature";
-value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \012	### move doubleMacron up if preceded by Thai marks above\012	pos @ThaiAboveMarks [doublemacroncomb doublemacroncomb.wide]' <0 260 0 0>;\012	### move Thai marks up if preceded by double macron\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiAboveMarks' <0 180 0 0>;\012	### move Thai marks up when double macron precedes the base\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiAboveMarks' <0 180 0 0>;\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiBelowMarks @ThaiAboveMarks' <0 180 0 0>;\012	} combinewithdoublemacron ;\012	\012lookup ContextualMarkPositions { ### Tonemarks are shifted slightly left when followed by ascending vowel signs;\012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos maiEk-thai' @ThaiAscendingVowels <-30 0 0 0>;\012	pos maiTho-thai' @ThaiAscendingVowels <-60 0 0 0>;\012	pos maiTri-thai' @ThaiAscendingVowels <-80 0 0 0>;\012	pos thanthakhat-thai' @ThaiAscendingVowels <-60 0 0 0>;\012		\012	### This is an alternative solution, but we prefer the above;\012	### pos maiTri-thai @ThaiAscendingVowels' <60 0 60 0>;\012	\012	} ContextualMarkPositions;\012	\012lookup workaroundShapingError {\012# for combinations that don't have precomposed glyphs, shaping engines normalise macronbelow at the end of the sequence, when they should be between bases and marks below. Here we manually move marks further down so they appear below macronbelow.\012	lookupflag UseMarkFilteringSet @ThaiBelowMarks;\012	pos @ThaiBelowMarks' macronbelowcomb <0 -206 0 0>; ### for Firefox and Chrome;\012	pos macronbelowcomb @ThaiBelowMarks' <0 -206 0 0>; ### for Safari;\012	} workaroundShapingError;\012	\012lookup ShiftSaraUe { ### SaraUe appears too far left on certain consonants, here we make adjustments;\012	pos @SpecialConsonants saraUe-thai' <15 0 0 0>;\012	pos [thoThong-thai roRua-thai] saraUe-thai' <30 0 0 0>;\012	} ShiftSaraUe;";
 }
 );
 interpolationWeight = 108;
@@ -97156,10 +97090,6 @@ widthClass = SemiCondensed;
 {
 customParameters = (
 {
-name = weightClass;
-value = 600;
-},
-{
 name = panose;
 value = (
 2,
@@ -97173,10 +97103,6 @@ value = (
 2,
 4
 );
-},
-{
-name = styleMapFamilyName;
-value = "Noto Looped Thai SmCd SmBd";
 },
 {
 name = "Instance Preview";
@@ -97228,6 +97154,14 @@ value = (
 "oAng-thai",
 "hoNokhuk-thai"
 );
+},
+{
+name = "Replace Feature";
+value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \012	### move doubleMacron up if preceded by Thai marks above\012	pos @ThaiAboveMarks [doublemacroncomb doublemacroncomb.wide]' <0 270 0 0>;\012	### move Thai marks up if preceded by double macron\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiAboveMarks' <0 185 0 0>;\012	### move Thai marks up when double macron precedes the base\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiAboveMarks' <0 185 0 0>;\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiBelowMarks @ThaiAboveMarks' <0 185 0 0>;\012	} combinewithdoublemacron ;\012	\012lookup ContextualMarkPositions { ### Tonemarks are shifted slightly left when followed by ascending vowel signs;\012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos maiEk-thai' @ThaiAscendingVowels <-30 0 0 0>;\012	pos maiTho-thai' @ThaiAscendingVowels <-60 0 0 0>;\012	pos maiTri-thai' @ThaiAscendingVowels <-80 0 0 0>;\012	pos thanthakhat-thai' @ThaiAscendingVowels <-60 0 0 0>;\012		\012	### This is an alternative solution, but we prefer the above;\012	### pos maiTri-thai @ThaiAscendingVowels' <60 0 60 0>;\012	\012	} ContextualMarkPositions;\012	\012lookup workaroundShapingError {\012# for combinations that don't have precomposed glyphs, shaping engines normalise macronbelow at the end of the sequence, when they should be between bases and marks below. Here we manually move marks further down so they appear below macronbelow.\012	lookupflag UseMarkFilteringSet @ThaiBelowMarks;\012	pos @ThaiBelowMarks' macronbelowcomb <0 -212 0 0>; ### for Firefox and Chrome;\012	pos macronbelowcomb @ThaiBelowMarks' <0 -212 0 0>; ### for Safari;\012	} workaroundShapingError;\012	\012lookup ShiftSaraUe { ### SaraUe appears too far left on certain consonants, here we make adjustments;\012	pos @SpecialConsonants saraUe-thai' <15 0 0 0>;\012	pos [thoThong-thai roRua-thai] saraUe-thai' <30 0 0 0>;\012	} ShiftSaraUe;";
+},
+{
+name = styleMapFamilyName;
+value = "Noto Looped Thai SmCd SmBd";
 },
 {
 name = preferredFamilyName;
@@ -97248,10 +97182,6 @@ value = "Noto Looped Thai SemiCondensed SemiBold";
 {
 name = compatibleFullName;
 value = "Noto Looped Thai SemiCondensed SemiBold";
-},
-{
-name = "Replace Feature";
-value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \012	### move doubleMacron up if preceded by Thai marks above\012	pos @ThaiAboveMarks [doublemacroncomb doublemacroncomb.wide]' <0 270 0 0>;\012	### move Thai marks up if preceded by double macron\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiAboveMarks' <0 185 0 0>;\012	### move Thai marks up when double macron precedes the base\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiAboveMarks' <0 185 0 0>;\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiBelowMarks @ThaiAboveMarks' <0 185 0 0>;\012	} combinewithdoublemacron ;\012	\012lookup ContextualMarkPositions { ### Tonemarks are shifted slightly left when followed by ascending vowel signs;\012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos maiEk-thai' @ThaiAscendingVowels <-30 0 0 0>;\012	pos maiTho-thai' @ThaiAscendingVowels <-60 0 0 0>;\012	pos maiTri-thai' @ThaiAscendingVowels <-80 0 0 0>;\012	pos thanthakhat-thai' @ThaiAscendingVowels <-60 0 0 0>;\012		\012	### This is an alternative solution, but we prefer the above;\012	### pos maiTri-thai @ThaiAscendingVowels' <60 0 60 0>;\012	\012	} ContextualMarkPositions;\012	\012lookup workaroundShapingError {\012# for combinations that don't have precomposed glyphs, shaping engines normalise macronbelow at the end of the sequence, when they should be between bases and marks below. Here we manually move marks further down so they appear below macronbelow.\012	lookupflag UseMarkFilteringSet @ThaiBelowMarks;\012	pos @ThaiBelowMarks' macronbelowcomb <0 -212 0 0>; ### for Firefox and Chrome;\012	pos macronbelowcomb @ThaiBelowMarks' <0 -212 0 0>; ### for Safari;\012	} workaroundShapingError;\012	\012lookup ShiftSaraUe { ### SaraUe appears too far left on certain consonants, here we make adjustments;\012	pos @SpecialConsonants saraUe-thai' <15 0 0 0>;\012	pos [thoThong-thai roRua-thai] saraUe-thai' <30 0 0 0>;\012	} ShiftSaraUe;";
 }
 );
 interpolationWeight = 128;
@@ -97269,10 +97199,6 @@ widthClass = SemiCondensed;
 {
 customParameters = (
 {
-name = weightClass;
-value = 700;
-},
-{
 name = panose;
 value = (
 2,
@@ -97286,10 +97212,6 @@ value = (
 2,
 4
 );
-},
-{
-name = styleMapFamilyName;
-value = "Noto Looped Thai SmCd Bold";
 },
 {
 name = "Instance Preview";
@@ -97341,6 +97263,14 @@ value = (
 "oAng-thai",
 "hoNokhuk-thai"
 );
+},
+{
+name = "Replace Feature";
+value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \012	### move doubleMacron up if preceded by Thai marks above\012	pos @ThaiAboveMarks [doublemacroncomb doublemacroncomb.wide]' <0 280 0 0>;\012	### move Thai marks up if preceded by double macron\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiAboveMarks' <0 190 0 0>;\012	### move Thai marks up when double macron precedes the base\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiAboveMarks' <0 190 0 0>;\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiBelowMarks @ThaiAboveMarks' <0 190 0 0>;\012	} combinewithdoublemacron ;\012	\012lookup ContextualMarkPositions { ### Tonemarks are shifted slightly left when followed by ascending vowel signs;\012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos maiEk-thai' @ThaiAscendingVowels <-30 0 0 0>;\012	pos maiTho-thai' @ThaiAscendingVowels <-60 0 0 0>;\012	pos maiTri-thai' @ThaiAscendingVowels <-80 0 0 0>;\012	pos thanthakhat-thai' @ThaiAscendingVowels <-60 0 0 0>;\012		\012	### This is an alternative solution, but we prefer the above;\012	### pos maiTri-thai @ThaiAscendingVowels' <60 0 60 0>;\012	\012	} ContextualMarkPositions;\012	\012lookup workaroundShapingError {\012# for combinations that don't have precomposed glyphs, shaping engines normalise macronbelow at the end of the sequence, when they should be between bases and marks below. Here we manually move marks further down so they appear below macronbelow.\012	lookupflag UseMarkFilteringSet @ThaiBelowMarks;\012	pos @ThaiBelowMarks' macronbelowcomb <0 -218 0 0>; ### for Firefox and Chrome;\012	pos macronbelowcomb @ThaiBelowMarks' <0 -218 0 0>; ### for Safari;\012	} workaroundShapingError;\012	\012lookup ShiftSaraUe { ### SaraUe appears too far left on certain consonants, here we make adjustments;\012	pos @SpecialConsonants saraUe-thai' <15 0 0 0>;\012	pos [thoThong-thai roRua-thai] saraUe-thai' <30 0 0 0>;\012	} ShiftSaraUe;";
+},
+{
+name = styleMapFamilyName;
+value = "Noto Looped Thai SmCd Bold";
 },
 {
 name = preferredFamilyName;
@@ -97361,10 +97291,6 @@ value = "Noto Looped Thai SemiCondensed Bold";
 {
 name = compatibleFullName;
 value = "Noto Looped Thai SemiCondensed Bold";
-},
-{
-name = "Replace Feature";
-value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \012	### move doubleMacron up if preceded by Thai marks above\012	pos @ThaiAboveMarks [doublemacroncomb doublemacroncomb.wide]' <0 280 0 0>;\012	### move Thai marks up if preceded by double macron\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiAboveMarks' <0 190 0 0>;\012	### move Thai marks up when double macron precedes the base\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiAboveMarks' <0 190 0 0>;\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiBelowMarks @ThaiAboveMarks' <0 190 0 0>;\012	} combinewithdoublemacron ;\012	\012lookup ContextualMarkPositions { ### Tonemarks are shifted slightly left when followed by ascending vowel signs;\012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos maiEk-thai' @ThaiAscendingVowels <-30 0 0 0>;\012	pos maiTho-thai' @ThaiAscendingVowels <-60 0 0 0>;\012	pos maiTri-thai' @ThaiAscendingVowels <-80 0 0 0>;\012	pos thanthakhat-thai' @ThaiAscendingVowels <-60 0 0 0>;\012		\012	### This is an alternative solution, but we prefer the above;\012	### pos maiTri-thai @ThaiAscendingVowels' <60 0 60 0>;\012	\012	} ContextualMarkPositions;\012	\012lookup workaroundShapingError {\012# for combinations that don't have precomposed glyphs, shaping engines normalise macronbelow at the end of the sequence, when they should be between bases and marks below. Here we manually move marks further down so they appear below macronbelow.\012	lookupflag UseMarkFilteringSet @ThaiBelowMarks;\012	pos @ThaiBelowMarks' macronbelowcomb <0 -218 0 0>; ### for Firefox and Chrome;\012	pos macronbelowcomb @ThaiBelowMarks' <0 -218 0 0>; ### for Safari;\012	} workaroundShapingError;\012	\012lookup ShiftSaraUe { ### SaraUe appears too far left on certain consonants, here we make adjustments;\012	pos @SpecialConsonants saraUe-thai' <15 0 0 0>;\012	pos [thoThong-thai roRua-thai] saraUe-thai' <30 0 0 0>;\012	} ShiftSaraUe;";
 }
 );
 interpolationWeight = 151;
@@ -97384,10 +97310,6 @@ widthClass = SemiCondensed;
 {
 customParameters = (
 {
-name = weightClass;
-value = 800;
-},
-{
 name = panose;
 value = (
 2,
@@ -97401,10 +97323,6 @@ value = (
 2,
 4
 );
-},
-{
-name = styleMapFamilyName;
-value = "Noto Looped Thai SmCd ExBd";
 },
 {
 name = "Instance Preview";
@@ -97458,6 +97376,14 @@ value = (
 );
 },
 {
+name = "Replace Feature";
+value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \012	### move doubleMacron up if preceded by Thai marks above\012	pos @ThaiAboveMarks [doublemacroncomb doublemacroncomb.wide]' <0 290 0 0>;\012	### move Thai marks up if preceded by double macron\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiAboveMarks' <0 195 0 0>;\012	### move Thai marks up when double macron precedes the base\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiAboveMarks' <0 195 0 0>;\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiBelowMarks @ThaiAboveMarks' <0 195 0 0>;\012	} combinewithdoublemacron ;\012	\012lookup ContextualMarkPositions { ### Tonemarks are shifted slightly left when followed by ascending vowel signs;\012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos maiEk-thai' @ThaiAscendingVowels <-30 0 0 0>;\012	pos maiTho-thai' @ThaiAscendingVowels <-60 0 0 0>;\012	pos maiTri-thai' @ThaiAscendingVowels <-80 0 0 0>;\012	pos thanthakhat-thai' @ThaiAscendingVowels <-60 0 0 0>;\012		\012	### This is an alternative solution, but we prefer the above;\012	### pos maiTri-thai @ThaiAscendingVowels' <60 0 60 0>;\012	\012	} ContextualMarkPositions;\012	\012lookup workaroundShapingError {\012# for combinations that don't have precomposed glyphs, shaping engines normalise macronbelow at the end of the sequence, when they should be between bases and marks below. Here we manually move marks further down so they appear below macronbelow.\012	lookupflag UseMarkFilteringSet @ThaiBelowMarks;\012	pos @ThaiBelowMarks' macronbelowcomb <0 -224 0 0>; ### for Firefox and Chrome;\012	pos macronbelowcomb @ThaiBelowMarks' <0 -224 0 0>; ### for Safari;\012	} workaroundShapingError;\012	\012lookup ShiftSaraUe { ### SaraUe appears too far left on certain consonants, here we make adjustments;\012	pos @SpecialConsonants saraUe-thai' <15 0 0 0>;\012	pos [thoThong-thai roRua-thai] saraUe-thai' <30 0 0 0>;\012	} ShiftSaraUe;";
+},
+{
+name = styleMapFamilyName;
+value = "Noto Looped Thai SmCd ExBd";
+},
+{
 name = preferredFamilyName;
 value = "Noto Looped Thai";
 },
@@ -97476,10 +97402,6 @@ value = "Noto Looped Thai SemiCondensed ExtraBold";
 {
 name = compatibleFullName;
 value = "Noto Looped Thai SemiCondensed ExtraBold";
-},
-{
-name = "Replace Feature";
-value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \012	### move doubleMacron up if preceded by Thai marks above\012	pos @ThaiAboveMarks [doublemacroncomb doublemacroncomb.wide]' <0 290 0 0>;\012	### move Thai marks up if preceded by double macron\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiAboveMarks' <0 195 0 0>;\012	### move Thai marks up when double macron precedes the base\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiAboveMarks' <0 195 0 0>;\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiBelowMarks @ThaiAboveMarks' <0 195 0 0>;\012	} combinewithdoublemacron ;\012	\012lookup ContextualMarkPositions { ### Tonemarks are shifted slightly left when followed by ascending vowel signs;\012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos maiEk-thai' @ThaiAscendingVowels <-30 0 0 0>;\012	pos maiTho-thai' @ThaiAscendingVowels <-60 0 0 0>;\012	pos maiTri-thai' @ThaiAscendingVowels <-80 0 0 0>;\012	pos thanthakhat-thai' @ThaiAscendingVowels <-60 0 0 0>;\012		\012	### This is an alternative solution, but we prefer the above;\012	### pos maiTri-thai @ThaiAscendingVowels' <60 0 60 0>;\012	\012	} ContextualMarkPositions;\012	\012lookup workaroundShapingError {\012# for combinations that don't have precomposed glyphs, shaping engines normalise macronbelow at the end of the sequence, when they should be between bases and marks below. Here we manually move marks further down so they appear below macronbelow.\012	lookupflag UseMarkFilteringSet @ThaiBelowMarks;\012	pos @ThaiBelowMarks' macronbelowcomb <0 -224 0 0>; ### for Firefox and Chrome;\012	pos macronbelowcomb @ThaiBelowMarks' <0 -224 0 0>; ### for Safari;\012	} workaroundShapingError;\012	\012lookup ShiftSaraUe { ### SaraUe appears too far left on certain consonants, here we make adjustments;\012	pos @SpecialConsonants saraUe-thai' <15 0 0 0>;\012	pos [thoThong-thai roRua-thai] saraUe-thai' <30 0 0 0>;\012	} ShiftSaraUe;";
 }
 );
 interpolationWeight = 169;
@@ -97496,10 +97418,6 @@ widthClass = SemiCondensed;
 },
 {
 customParameters = (
-{
-name = weightClass;
-value = 900;
-},
 {
 name = panose;
 value = (
@@ -97567,6 +97485,10 @@ value = (
 );
 },
 {
+name = "Replace Feature";
+value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \012	### move doubleMacron up if preceded by Thai marks above\012	pos @ThaiAboveMarks [doublemacroncomb doublemacroncomb.wide]' <0 300 0 0>;\012	### move Thai marks up if preceded by double macron\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiAboveMarks' <0 200 0 0>;\012	### move Thai marks up when double macron precedes the base\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiAboveMarks' <0 200 0 0>;\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiBelowMarks @ThaiAboveMarks' <0 200 0 0>;\012	} combinewithdoublemacron ;\012	\012lookup ContextualMarkPositions { ### Tonemarks are shifted slightly left when followed by ascending vowel signs;\012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos maiEk-thai' @ThaiAscendingVowels <-30 0 0 0>;\012	pos maiTho-thai' @ThaiAscendingVowels <-60 0 0 0>;\012	pos maiTri-thai' @ThaiAscendingVowels <-80 0 0 0>;\012	pos thanthakhat-thai' @ThaiAscendingVowels <-60 0 0 0>;\012		\012	### This is an alternative solution, but we prefer the above;\012	### pos maiTri-thai @ThaiAscendingVowels' <60 0 60 0>;\012	\012	} ContextualMarkPositions;\012	\012lookup workaroundShapingError {\012# for combinations that don't have precomposed glyphs, shaping engines normalise macronbelow at the end of the sequence, when they should be between bases and marks below. Here we manually move marks further down so they appear below macronbelow.\012	lookupflag UseMarkFilteringSet @ThaiBelowMarks;\012	pos @ThaiBelowMarks' macronbelowcomb <0 -230 0 0>; ### for Firefox and Chrome;\012	pos macronbelowcomb @ThaiBelowMarks' <0 -230 0 0>; ### for Safari;\012	} workaroundShapingError;\012	\012lookup ShiftSaraUe { ### SaraUe appears too far left on certain consonants, here we make adjustments;\012	pos @SpecialConsonants saraUe-thai' <15 0 0 0>;\012	pos [thoThong-thai roRua-thai] saraUe-thai' <30 0 0 0>;\012	} ShiftSaraUe;";
+},
+{
 name = preferredFamilyName;
 value = "Noto Looped Thai";
 },
@@ -97589,10 +97511,6 @@ value = "Noto Looped Thai SmCd Blk";
 {
 name = compatibleFullName;
 value = "Noto Looped Thai SemiCondensed Black";
-},
-{
-name = "Replace Feature";
-value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \012	### move doubleMacron up if preceded by Thai marks above\012	pos @ThaiAboveMarks [doublemacroncomb doublemacroncomb.wide]' <0 300 0 0>;\012	### move Thai marks up if preceded by double macron\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiAboveMarks' <0 200 0 0>;\012	### move Thai marks up when double macron precedes the base\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiAboveMarks' <0 200 0 0>;\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiBelowMarks @ThaiAboveMarks' <0 200 0 0>;\012	} combinewithdoublemacron ;\012	\012lookup ContextualMarkPositions { ### Tonemarks are shifted slightly left when followed by ascending vowel signs;\012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos maiEk-thai' @ThaiAscendingVowels <-30 0 0 0>;\012	pos maiTho-thai' @ThaiAscendingVowels <-60 0 0 0>;\012	pos maiTri-thai' @ThaiAscendingVowels <-80 0 0 0>;\012	pos thanthakhat-thai' @ThaiAscendingVowels <-60 0 0 0>;\012		\012	### This is an alternative solution, but we prefer the above;\012	### pos maiTri-thai @ThaiAscendingVowels' <60 0 60 0>;\012	\012	} ContextualMarkPositions;\012	\012lookup workaroundShapingError {\012# for combinations that don't have precomposed glyphs, shaping engines normalise macronbelow at the end of the sequence, when they should be between bases and marks below. Here we manually move marks further down so they appear below macronbelow.\012	lookupflag UseMarkFilteringSet @ThaiBelowMarks;\012	pos @ThaiBelowMarks' macronbelowcomb <0 -230 0 0>; ### for Firefox and Chrome;\012	pos macronbelowcomb @ThaiBelowMarks' <0 -230 0 0>; ### for Safari;\012	} workaroundShapingError;\012	\012lookup ShiftSaraUe { ### SaraUe appears too far left on certain consonants, here we make adjustments;\012	pos @SpecialConsonants saraUe-thai' <15 0 0 0>;\012	pos [thoThong-thai roRua-thai] saraUe-thai' <30 0 0 0>;\012	} ShiftSaraUe;";
 }
 );
 interpolationWeight = 190;
@@ -97608,10 +97526,6 @@ widthClass = SemiCondensed;
 {
 customParameters = (
 {
-name = weightClass;
-value = 100;
-},
-{
 name = panose;
 value = (
 2,
@@ -97625,10 +97539,6 @@ value = (
 2,
 4
 );
-},
-{
-name = styleMapFamilyName;
-value = "Noto Looped Thai Cond Thin";
 },
 {
 name = "Instance Preview";
@@ -97680,6 +97590,18 @@ value = (
 "oAng-thai",
 "hoNokhuk-thai"
 );
+},
+{
+name = "Replace Feature";
+value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \012	### move doubleMacron up if preceded by Thai marks above\012	pos @ThaiAboveMarks [doublemacroncomb doublemacroncomb.wide]' <0 190 0 0>;\012	### move Thai marks up if preceded by double macron\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiAboveMarks' <0 170 0 0>;\012	### move Thai marks up when double macron precedes the base\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiAboveMarks' <0 170 0 0>;\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiBelowMarks @ThaiAboveMarks' <0 170 0 0>;\012	} combinewithdoublemacron ;\012	\012lookup ContextualMarkPositions { ### Tonemarks are shifted slightly left when followed by ascending vowel signs;\012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos maiEk-thai' @ThaiAscendingVowels <-30 0 0 0>;\012	pos maiTho-thai' @ThaiAscendingVowels <-60 0 0 0>;\012	pos maiTri-thai' @ThaiAscendingVowels <-80 0 0 0>;\012	pos thanthakhat-thai' @ThaiAscendingVowels <-60 0 0 0>;\012		\012	### This is an alternative solution, but we prefer the above;\012	### pos maiTri-thai @ThaiAscendingVowels' <60 0 60 0>;\012	\012	} ContextualMarkPositions;\012	\012lookup workaroundShapingError {\012# for combinations that don't have precomposed glyphs, shaping engines normalise macronbelow at the end of the sequence, when they should be between bases and marks below. Here we manually move marks further down so they appear below macronbelow.\012	lookupflag UseMarkFilteringSet @ThaiBelowMarks;\012	pos @ThaiBelowMarks' macronbelowcomb <0 -130 0 0>; ### for Firefox and Chrome;\012	pos macronbelowcomb @ThaiBelowMarks' <0 -130 0 0>; ### for Safari;\012	} workaroundShapingError;\012	\012lookup ShiftSaraUe { ### SaraUe appears too far left on certain consonants, here we make adjustments;\012	pos @SpecialConsonants saraUe-thai' <15 0 0 0>;\012	pos [thoThong-thai roRua-thai] saraUe-thai' <30 0 0 0>;\012	} ShiftSaraUe;";
+},
+{
+name = "Replace Feature";
+value = "kern;\012# Automatic Code End\012\012lookup ThaiContexualKerning { ### On ascending bases with tall prebase vowel signs, maiTho and maiTri need extranarrow versions to avoid unsightly collisions; \012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos @ThaiAscendingVowels foFa-thai' [maiTho-thai.extranarrow maiTri-thai.extranarrow] <0 0 0 0>;\012	pos @ThaiAscendingVowels poPla-thai' [maiTho-thai.extranarrow maiTri-thai.extranarrow maiChattawa-thai] <0 0 0 0>;\012	} ThaiContexualKerning;";
+},
+{
+name = styleMapFamilyName;
+value = "Noto Looped Thai Cond Thin";
 },
 {
 name = preferredFamilyName;
@@ -97700,14 +97622,6 @@ value = "Noto Looped Thai Condensed Thin";
 {
 name = compatibleFullName;
 value = "Noto Looped Thai Condensed Thin";
-},
-{
-name = "Replace Feature";
-value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \012	### move doubleMacron up if preceded by Thai marks above\012	pos @ThaiAboveMarks [doublemacroncomb doublemacroncomb.wide]' <0 190 0 0>;\012	### move Thai marks up if preceded by double macron\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiAboveMarks' <0 170 0 0>;\012	### move Thai marks up when double macron precedes the base\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiAboveMarks' <0 170 0 0>;\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiBelowMarks @ThaiAboveMarks' <0 170 0 0>;\012	} combinewithdoublemacron ;\012	\012lookup ContextualMarkPositions { ### Tonemarks are shifted slightly left when followed by ascending vowel signs;\012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos maiEk-thai' @ThaiAscendingVowels <-30 0 0 0>;\012	pos maiTho-thai' @ThaiAscendingVowels <-60 0 0 0>;\012	pos maiTri-thai' @ThaiAscendingVowels <-80 0 0 0>;\012	pos thanthakhat-thai' @ThaiAscendingVowels <-60 0 0 0>;\012		\012	### This is an alternative solution, but we prefer the above;\012	### pos maiTri-thai @ThaiAscendingVowels' <60 0 60 0>;\012	\012	} ContextualMarkPositions;\012	\012lookup workaroundShapingError {\012# for combinations that don't have precomposed glyphs, shaping engines normalise macronbelow at the end of the sequence, when they should be between bases and marks below. Here we manually move marks further down so they appear below macronbelow.\012	lookupflag UseMarkFilteringSet @ThaiBelowMarks;\012	pos @ThaiBelowMarks' macronbelowcomb <0 -130 0 0>; ### for Firefox and Chrome;\012	pos macronbelowcomb @ThaiBelowMarks' <0 -130 0 0>; ### for Safari;\012	} workaroundShapingError;\012	\012lookup ShiftSaraUe { ### SaraUe appears too far left on certain consonants, here we make adjustments;\012	pos @SpecialConsonants saraUe-thai' <15 0 0 0>;\012	pos [thoThong-thai roRua-thai] saraUe-thai' <30 0 0 0>;\012	} ShiftSaraUe;";
-},
-{
-name = "Replace Feature";
-value = "kern;\012# Automatic Code End\012\012lookup ThaiContexualKerning { ### On ascending bases with tall prebase vowel signs, maiTho and maiTri need extranarrow versions to avoid unsightly collisions; \012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos @ThaiAscendingVowels foFa-thai' [maiTho-thai.extranarrow maiTri-thai.extranarrow] <0 0 0 0>;\012	pos @ThaiAscendingVowels poPla-thai' [maiTho-thai.extranarrow maiTri-thai.extranarrow maiChattawa-thai] <0 0 0 0>;\012	} ThaiContexualKerning;";
 }
 );
 interpolationWeight = 26;
@@ -97723,10 +97637,6 @@ widthClass = Condensed;
 {
 customParameters = (
 {
-name = weightClass;
-value = 200;
-},
-{
 name = panose;
 value = (
 2,
@@ -97740,10 +97650,6 @@ value = (
 2,
 4
 );
-},
-{
-name = styleMapFamilyName;
-value = "Noto Looped Thai Cond ExLt";
 },
 {
 name = "Instance Preview";
@@ -97795,6 +97701,18 @@ value = (
 "oAng-thai",
 "hoNokhuk-thai"
 );
+},
+{
+name = "Replace Feature";
+value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \012	### move doubleMacron up if preceded by Thai marks above\012	pos @ThaiAboveMarks [doublemacroncomb doublemacroncomb.wide]' <0 210 0 0>;\012	### move Thai marks up if preceded by double macron\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiAboveMarks' <0 172 0 0>;\012	### move Thai marks up when double macron precedes the base\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiAboveMarks' <0 172 0 0>;\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiBelowMarks @ThaiAboveMarks' <0 172 0 0>;\012	} combinewithdoublemacron ;\012	\012lookup ContextualMarkPositions { ### Tonemarks are shifted slightly left when followed by ascending vowel signs;\012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos maiEk-thai' @ThaiAscendingVowels <-30 0 0 0>;\012	pos maiTho-thai' @ThaiAscendingVowels <-60 0 0 0>;\012	pos maiTri-thai' @ThaiAscendingVowels <-80 0 0 0>;\012	pos thanthakhat-thai' @ThaiAscendingVowels <-60 0 0 0>;\012		\012	### This is an alternative solution, but we prefer the above;\012	### pos maiTri-thai @ThaiAscendingVowels' <60 0 60 0>;\012	\012	} ContextualMarkPositions;\012	\012lookup workaroundShapingError {\012# for combinations that don't have precomposed glyphs, shaping engines normalise macronbelow at the end of the sequence, when they should be between bases and marks below. Here we manually move marks further down so they appear below macronbelow.\012	lookupflag UseMarkFilteringSet @ThaiBelowMarks;\012	pos @ThaiBelowMarks' macronbelowcomb <0 -155 0 0>; ### for Firefox and Chrome;\012	pos macronbelowcomb @ThaiBelowMarks' <0 -155 0 0>; ### for Safari;\012	} workaroundShapingError;\012	\012lookup ShiftSaraUe { ### SaraUe appears too far left on certain consonants, here we make adjustments;\012	pos @SpecialConsonants saraUe-thai' <15 0 0 0>;\012	pos [thoThong-thai roRua-thai] saraUe-thai' <30 0 0 0>;\012	} ShiftSaraUe;\012";
+},
+{
+name = "Replace Feature";
+value = "kern;\012# Automatic Code End\012\012lookup ThaiContexualKerning { ### On ascending bases with tall prebase vowel signs, maiTho and maiTri need extranarrow versions to avoid unsightly collisions; \012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos @ThaiAscendingVowels foFa-thai' [maiTho-thai.extranarrow maiTri-thai.extranarrow] <0 0 0 0>;\012	pos @ThaiAscendingVowels poPla-thai' [maiTho-thai.extranarrow maiTri-thai.extranarrow maiChattawa-thai] <0 0 0 0>;\012	} ThaiContexualKerning;";
+},
+{
+name = styleMapFamilyName;
+value = "Noto Looped Thai Cond ExLt";
 },
 {
 name = preferredFamilyName;
@@ -97815,14 +97733,6 @@ value = "Noto Looped Thai Condensed ExtraLight";
 {
 name = compatibleFullName;
 value = "Noto Looped Thai Condensed ExtraLight";
-},
-{
-name = "Replace Feature";
-value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \012	### move doubleMacron up if preceded by Thai marks above\012	pos @ThaiAboveMarks [doublemacroncomb doublemacroncomb.wide]' <0 210 0 0>;\012	### move Thai marks up if preceded by double macron\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiAboveMarks' <0 172 0 0>;\012	### move Thai marks up when double macron precedes the base\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiAboveMarks' <0 172 0 0>;\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiBelowMarks @ThaiAboveMarks' <0 172 0 0>;\012	} combinewithdoublemacron ;\012	\012lookup ContextualMarkPositions { ### Tonemarks are shifted slightly left when followed by ascending vowel signs;\012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos maiEk-thai' @ThaiAscendingVowels <-30 0 0 0>;\012	pos maiTho-thai' @ThaiAscendingVowels <-60 0 0 0>;\012	pos maiTri-thai' @ThaiAscendingVowels <-80 0 0 0>;\012	pos thanthakhat-thai' @ThaiAscendingVowels <-60 0 0 0>;\012		\012	### This is an alternative solution, but we prefer the above;\012	### pos maiTri-thai @ThaiAscendingVowels' <60 0 60 0>;\012	\012	} ContextualMarkPositions;\012	\012lookup workaroundShapingError {\012# for combinations that don't have precomposed glyphs, shaping engines normalise macronbelow at the end of the sequence, when they should be between bases and marks below. Here we manually move marks further down so they appear below macronbelow.\012	lookupflag UseMarkFilteringSet @ThaiBelowMarks;\012	pos @ThaiBelowMarks' macronbelowcomb <0 -155 0 0>; ### for Firefox and Chrome;\012	pos macronbelowcomb @ThaiBelowMarks' <0 -155 0 0>; ### for Safari;\012	} workaroundShapingError;\012	\012lookup ShiftSaraUe { ### SaraUe appears too far left on certain consonants, here we make adjustments;\012	pos @SpecialConsonants saraUe-thai' <15 0 0 0>;\012	pos [thoThong-thai roRua-thai] saraUe-thai' <30 0 0 0>;\012	} ShiftSaraUe;\012";
-},
-{
-name = "Replace Feature";
-value = "kern;\012# Automatic Code End\012\012lookup ThaiContexualKerning { ### On ascending bases with tall prebase vowel signs, maiTho and maiTri need extranarrow versions to avoid unsightly collisions; \012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos @ThaiAscendingVowels foFa-thai' [maiTho-thai.extranarrow maiTri-thai.extranarrow] <0 0 0 0>;\012	pos @ThaiAscendingVowels poPla-thai' [maiTho-thai.extranarrow maiTri-thai.extranarrow maiChattawa-thai] <0 0 0 0>;\012	} ThaiContexualKerning;";
 }
 );
 interpolationWeight = 39;
@@ -97840,10 +97750,6 @@ widthClass = Condensed;
 {
 customParameters = (
 {
-name = weightClass;
-value = 300;
-},
-{
 name = panose;
 value = (
 2,
@@ -97857,10 +97763,6 @@ value = (
 2,
 4
 );
-},
-{
-name = styleMapFamilyName;
-value = "Noto Looped Thai Cond Lt";
 },
 {
 name = "Instance Preview";
@@ -97912,6 +97814,18 @@ value = (
 "oAng-thai",
 "hoNokhuk-thai"
 );
+},
+{
+name = "Replace Feature";
+value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \012	### move doubleMacron up if preceded by Thai marks above\012	pos @ThaiAboveMarks [doublemacroncomb doublemacroncomb.wide]' <0 230 0 0>;\012	### move Thai marks up if preceded by double macron\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiAboveMarks' <0 174 0 0>;\012	### move Thai marks up when double macron precedes the base\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiAboveMarks' <0 174 0 0>;\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiBelowMarks @ThaiAboveMarks' <0 174 0 0>;\012	} combinewithdoublemacron ;\012	\012lookup ContextualMarkPositions { ### Tonemarks are shifted slightly left when followed by ascending vowel signs;\012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos maiEk-thai' @ThaiAscendingVowels <-30 0 0 0>;\012	pos maiTho-thai' @ThaiAscendingVowels <-60 0 0 0>;\012	pos maiTri-thai' @ThaiAscendingVowels <-80 0 0 0>;\012	pos thanthakhat-thai' @ThaiAscendingVowels <-60 0 0 0>;\012		\012	### This is an alternative solution, but we prefer the above;\012	### pos maiTri-thai @ThaiAscendingVowels' <60 0 60 0>;\012	\012	} ContextualMarkPositions;\012	\012lookup workaroundShapingError {\012# for combinations that don't have precomposed glyphs, shaping engines normalise macronbelow at the end of the sequence, when they should be between bases and marks below. Here we manually move marks further down so they appear below macronbelow.\012	lookupflag UseMarkFilteringSet @ThaiBelowMarks;\012	pos @ThaiBelowMarks' macronbelowcomb <0 -175 0 0>; ### for Firefox and Chrome;\012	pos macronbelowcomb @ThaiBelowMarks' <0 -175 0 0>; ### for Safari;\012	} workaroundShapingError;\012	\012lookup ShiftSaraUe { ### SaraUe appears too far left on certain consonants, here we make adjustments;\012	pos @SpecialConsonants saraUe-thai' <15 0 0 0>;\012	pos [thoThong-thai roRua-thai] saraUe-thai' <30 0 0 0>;\012	} ShiftSaraUe;";
+},
+{
+name = "Replace Feature";
+value = "kern;\012# Automatic Code End\012\012lookup ThaiContexualKerning { ### On ascending bases with tall prebase vowel signs, maiTho and maiTri need extranarrow versions to avoid unsightly collisions; \012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos @ThaiAscendingVowels foFa-thai' [maiTho-thai.extranarrow maiTri-thai.extranarrow] <0 0 0 0>;\012	pos @ThaiAscendingVowels poPla-thai' [maiTho-thai.extranarrow maiTri-thai.extranarrow maiChattawa-thai] <0 0 0 0>;\012	} ThaiContexualKerning;";
+},
+{
+name = styleMapFamilyName;
+value = "Noto Looped Thai Cond Lt";
 },
 {
 name = preferredFamilyName;
@@ -97932,14 +97846,6 @@ value = "Noto Looped Thai Condensed Light";
 {
 name = compatibleFullName;
 value = "Noto Looped Thai Condensed Light";
-},
-{
-name = "Replace Feature";
-value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \012	### move doubleMacron up if preceded by Thai marks above\012	pos @ThaiAboveMarks [doublemacroncomb doublemacroncomb.wide]' <0 230 0 0>;\012	### move Thai marks up if preceded by double macron\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiAboveMarks' <0 174 0 0>;\012	### move Thai marks up when double macron precedes the base\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiAboveMarks' <0 174 0 0>;\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiBelowMarks @ThaiAboveMarks' <0 174 0 0>;\012	} combinewithdoublemacron ;\012	\012lookup ContextualMarkPositions { ### Tonemarks are shifted slightly left when followed by ascending vowel signs;\012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos maiEk-thai' @ThaiAscendingVowels <-30 0 0 0>;\012	pos maiTho-thai' @ThaiAscendingVowels <-60 0 0 0>;\012	pos maiTri-thai' @ThaiAscendingVowels <-80 0 0 0>;\012	pos thanthakhat-thai' @ThaiAscendingVowels <-60 0 0 0>;\012		\012	### This is an alternative solution, but we prefer the above;\012	### pos maiTri-thai @ThaiAscendingVowels' <60 0 60 0>;\012	\012	} ContextualMarkPositions;\012	\012lookup workaroundShapingError {\012# for combinations that don't have precomposed glyphs, shaping engines normalise macronbelow at the end of the sequence, when they should be between bases and marks below. Here we manually move marks further down so they appear below macronbelow.\012	lookupflag UseMarkFilteringSet @ThaiBelowMarks;\012	pos @ThaiBelowMarks' macronbelowcomb <0 -175 0 0>; ### for Firefox and Chrome;\012	pos macronbelowcomb @ThaiBelowMarks' <0 -175 0 0>; ### for Safari;\012	} workaroundShapingError;\012	\012lookup ShiftSaraUe { ### SaraUe appears too far left on certain consonants, here we make adjustments;\012	pos @SpecialConsonants saraUe-thai' <15 0 0 0>;\012	pos [thoThong-thai roRua-thai] saraUe-thai' <30 0 0 0>;\012	} ShiftSaraUe;";
-},
-{
-name = "Replace Feature";
-value = "kern;\012# Automatic Code End\012\012lookup ThaiContexualKerning { ### On ascending bases with tall prebase vowel signs, maiTho and maiTri need extranarrow versions to avoid unsightly collisions; \012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos @ThaiAscendingVowels foFa-thai' [maiTho-thai.extranarrow maiTri-thai.extranarrow] <0 0 0 0>;\012	pos @ThaiAscendingVowels poPla-thai' [maiTho-thai.extranarrow maiTri-thai.extranarrow maiChattawa-thai] <0 0 0 0>;\012	} ThaiContexualKerning;";
 }
 );
 interpolationWeight = 58;
@@ -97957,10 +97863,6 @@ widthClass = Condensed;
 {
 customParameters = (
 {
-name = weightClass;
-value = 400;
-},
-{
 name = panose;
 value = (
 2,
@@ -97974,10 +97876,6 @@ value = (
 2,
 4
 );
-},
-{
-name = styleMapFamilyName;
-value = "Noto Looped Thai Condensed";
 },
 {
 name = "Instance Preview";
@@ -98029,6 +97927,10 @@ value = (
 "oAng-thai",
 "hoNokhuk-thai"
 );
+},
+{
+name = styleMapFamilyName;
+value = "Noto Looped Thai Condensed";
 },
 {
 name = preferredFamilyName;
@@ -98063,10 +97965,6 @@ widthClass = Condensed;
 {
 customParameters = (
 {
-name = weightClass;
-value = 500;
-},
-{
 name = panose;
 value = (
 2,
@@ -98080,10 +97978,6 @@ value = (
 2,
 4
 );
-},
-{
-name = styleMapFamilyName;
-value = "Noto Looped Thai Cond Med";
 },
 {
 name = "Instance Preview";
@@ -98135,6 +98029,14 @@ value = (
 "oAng-thai",
 "hoNokhuk-thai"
 );
+},
+{
+name = "Replace Feature";
+value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \012	### move doubleMacron up if preceded by Thai marks above\012	pos @ThaiAboveMarks [doublemacroncomb doublemacroncomb.wide]' <0 260 0 0>;\012	### move Thai marks up if preceded by double macron\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiAboveMarks' <0 180 0 0>;\012	### move Thai marks up when double macron precedes the base\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiAboveMarks' <0 180 0 0>;\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiBelowMarks @ThaiAboveMarks' <0 180 0 0>;\012	} combinewithdoublemacron ;\012	\012lookup ContextualMarkPositions { ### Tonemarks are shifted slightly left when followed by ascending vowel signs;\012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos maiEk-thai' @ThaiAscendingVowels <-30 0 0 0>;\012	pos maiTho-thai' @ThaiAscendingVowels <-60 0 0 0>;\012	pos maiTri-thai' @ThaiAscendingVowels <-80 0 0 0>;\012	pos thanthakhat-thai' @ThaiAscendingVowels <-60 0 0 0>;\012		\012	### This is an alternative solution, but we prefer the above;\012	### pos maiTri-thai @ThaiAscendingVowels' <60 0 60 0>;\012	\012	} ContextualMarkPositions;\012	\012lookup workaroundShapingError {\012# for combinations that don't have precomposed glyphs, shaping engines normalise macronbelow at the end of the sequence, when they should be between bases and marks below. Here we manually move marks further down so they appear below macronbelow.\012	lookupflag UseMarkFilteringSet @ThaiBelowMarks;\012	pos @ThaiBelowMarks' macronbelowcomb <0 -206 0 0>; ### for Firefox and Chrome;\012	pos macronbelowcomb @ThaiBelowMarks' <0 -206 0 0>; ### for Safari;\012	} workaroundShapingError;\012	\012lookup ShiftSaraUe { ### SaraUe appears too far left on certain consonants, here we make adjustments;\012	pos @SpecialConsonants saraUe-thai' <15 0 0 0>;\012	pos [thoThong-thai roRua-thai] saraUe-thai' <30 0 0 0>;\012	} ShiftSaraUe;";
+},
+{
+name = styleMapFamilyName;
+value = "Noto Looped Thai Cond Med";
 },
 {
 name = preferredFamilyName;
@@ -98155,10 +98057,6 @@ value = "Noto Looped Thai Condensed Medium";
 {
 name = compatibleFullName;
 value = "Noto Looped Thai Condensed Medium";
-},
-{
-name = "Replace Feature";
-value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \012	### move doubleMacron up if preceded by Thai marks above\012	pos @ThaiAboveMarks [doublemacroncomb doublemacroncomb.wide]' <0 260 0 0>;\012	### move Thai marks up if preceded by double macron\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiAboveMarks' <0 180 0 0>;\012	### move Thai marks up when double macron precedes the base\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiAboveMarks' <0 180 0 0>;\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiBelowMarks @ThaiAboveMarks' <0 180 0 0>;\012	} combinewithdoublemacron ;\012	\012lookup ContextualMarkPositions { ### Tonemarks are shifted slightly left when followed by ascending vowel signs;\012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos maiEk-thai' @ThaiAscendingVowels <-30 0 0 0>;\012	pos maiTho-thai' @ThaiAscendingVowels <-60 0 0 0>;\012	pos maiTri-thai' @ThaiAscendingVowels <-80 0 0 0>;\012	pos thanthakhat-thai' @ThaiAscendingVowels <-60 0 0 0>;\012		\012	### This is an alternative solution, but we prefer the above;\012	### pos maiTri-thai @ThaiAscendingVowels' <60 0 60 0>;\012	\012	} ContextualMarkPositions;\012	\012lookup workaroundShapingError {\012# for combinations that don't have precomposed glyphs, shaping engines normalise macronbelow at the end of the sequence, when they should be between bases and marks below. Here we manually move marks further down so they appear below macronbelow.\012	lookupflag UseMarkFilteringSet @ThaiBelowMarks;\012	pos @ThaiBelowMarks' macronbelowcomb <0 -206 0 0>; ### for Firefox and Chrome;\012	pos macronbelowcomb @ThaiBelowMarks' <0 -206 0 0>; ### for Safari;\012	} workaroundShapingError;\012	\012lookup ShiftSaraUe { ### SaraUe appears too far left on certain consonants, here we make adjustments;\012	pos @SpecialConsonants saraUe-thai' <15 0 0 0>;\012	pos [thoThong-thai roRua-thai] saraUe-thai' <30 0 0 0>;\012	} ShiftSaraUe;";
 }
 );
 interpolationWeight = 108;
@@ -98176,10 +98074,6 @@ widthClass = Condensed;
 {
 customParameters = (
 {
-name = weightClass;
-value = 600;
-},
-{
 name = panose;
 value = (
 2,
@@ -98193,10 +98087,6 @@ value = (
 2,
 4
 );
-},
-{
-name = styleMapFamilyName;
-value = "Noto Looped Thai Cond SmBd";
 },
 {
 name = "Instance Preview";
@@ -98248,6 +98138,14 @@ value = (
 "oAng-thai",
 "hoNokhuk-thai"
 );
+},
+{
+name = "Replace Feature";
+value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \012	### move doubleMacron up if preceded by Thai marks above\012	pos @ThaiAboveMarks [doublemacroncomb doublemacroncomb.wide]' <0 270 0 0>;\012	### move Thai marks up if preceded by double macron\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiAboveMarks' <0 185 0 0>;\012	### move Thai marks up when double macron precedes the base\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiAboveMarks' <0 185 0 0>;\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiBelowMarks @ThaiAboveMarks' <0 185 0 0>;\012	} combinewithdoublemacron ;\012	\012lookup ContextualMarkPositions { ### Tonemarks are shifted slightly left when followed by ascending vowel signs;\012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos maiEk-thai' @ThaiAscendingVowels <-30 0 0 0>;\012	pos maiTho-thai' @ThaiAscendingVowels <-60 0 0 0>;\012	pos maiTri-thai' @ThaiAscendingVowels <-80 0 0 0>;\012	pos thanthakhat-thai' @ThaiAscendingVowels <-60 0 0 0>;\012		\012	### This is an alternative solution, but we prefer the above;\012	### pos maiTri-thai @ThaiAscendingVowels' <60 0 60 0>;\012	\012	} ContextualMarkPositions;\012	\012lookup workaroundShapingError {\012# for combinations that don't have precomposed glyphs, shaping engines normalise macronbelow at the end of the sequence, when they should be between bases and marks below. Here we manually move marks further down so they appear below macronbelow.\012	lookupflag UseMarkFilteringSet @ThaiBelowMarks;\012	pos @ThaiBelowMarks' macronbelowcomb <0 -212 0 0>; ### for Firefox and Chrome;\012	pos macronbelowcomb @ThaiBelowMarks' <0 -212 0 0>; ### for Safari;\012	} workaroundShapingError;\012	\012lookup ShiftSaraUe { ### SaraUe appears too far left on certain consonants, here we make adjustments;\012	pos @SpecialConsonants saraUe-thai' <15 0 0 0>;\012	pos [thoThong-thai roRua-thai] saraUe-thai' <30 0 0 0>;\012	} ShiftSaraUe;";
+},
+{
+name = styleMapFamilyName;
+value = "Noto Looped Thai Cond SmBd";
 },
 {
 name = preferredFamilyName;
@@ -98268,10 +98166,6 @@ value = "Noto Looped Thai Condensed SemiBold";
 {
 name = compatibleFullName;
 value = "Noto Looped Thai Condensed SemiBold";
-},
-{
-name = "Replace Feature";
-value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \012	### move doubleMacron up if preceded by Thai marks above\012	pos @ThaiAboveMarks [doublemacroncomb doublemacroncomb.wide]' <0 270 0 0>;\012	### move Thai marks up if preceded by double macron\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiAboveMarks' <0 185 0 0>;\012	### move Thai marks up when double macron precedes the base\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiAboveMarks' <0 185 0 0>;\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiBelowMarks @ThaiAboveMarks' <0 185 0 0>;\012	} combinewithdoublemacron ;\012	\012lookup ContextualMarkPositions { ### Tonemarks are shifted slightly left when followed by ascending vowel signs;\012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos maiEk-thai' @ThaiAscendingVowels <-30 0 0 0>;\012	pos maiTho-thai' @ThaiAscendingVowels <-60 0 0 0>;\012	pos maiTri-thai' @ThaiAscendingVowels <-80 0 0 0>;\012	pos thanthakhat-thai' @ThaiAscendingVowels <-60 0 0 0>;\012		\012	### This is an alternative solution, but we prefer the above;\012	### pos maiTri-thai @ThaiAscendingVowels' <60 0 60 0>;\012	\012	} ContextualMarkPositions;\012	\012lookup workaroundShapingError {\012# for combinations that don't have precomposed glyphs, shaping engines normalise macronbelow at the end of the sequence, when they should be between bases and marks below. Here we manually move marks further down so they appear below macronbelow.\012	lookupflag UseMarkFilteringSet @ThaiBelowMarks;\012	pos @ThaiBelowMarks' macronbelowcomb <0 -212 0 0>; ### for Firefox and Chrome;\012	pos macronbelowcomb @ThaiBelowMarks' <0 -212 0 0>; ### for Safari;\012	} workaroundShapingError;\012	\012lookup ShiftSaraUe { ### SaraUe appears too far left on certain consonants, here we make adjustments;\012	pos @SpecialConsonants saraUe-thai' <15 0 0 0>;\012	pos [thoThong-thai roRua-thai] saraUe-thai' <30 0 0 0>;\012	} ShiftSaraUe;";
 }
 );
 interpolationWeight = 128;
@@ -98289,10 +98183,6 @@ widthClass = Condensed;
 {
 customParameters = (
 {
-name = weightClass;
-value = 700;
-},
-{
 name = panose;
 value = (
 2,
@@ -98306,10 +98196,6 @@ value = (
 2,
 4
 );
-},
-{
-name = styleMapFamilyName;
-value = "Noto Looped Thai Cond Bold";
 },
 {
 name = "Instance Preview";
@@ -98361,6 +98247,14 @@ value = (
 "oAng-thai",
 "hoNokhuk-thai"
 );
+},
+{
+name = "Replace Feature";
+value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \012	### move doubleMacron up if preceded by Thai marks above\012	pos @ThaiAboveMarks [doublemacroncomb doublemacroncomb.wide]' <0 280 0 0>;\012	### move Thai marks up if preceded by double macron\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiAboveMarks' <0 190 0 0>;\012	### move Thai marks up when double macron precedes the base\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiAboveMarks' <0 190 0 0>;\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiBelowMarks @ThaiAboveMarks' <0 190 0 0>;\012	} combinewithdoublemacron ;\012	\012lookup ContextualMarkPositions { ### Tonemarks are shifted slightly left when followed by ascending vowel signs;\012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos maiEk-thai' @ThaiAscendingVowels <-30 0 0 0>;\012	pos maiTho-thai' @ThaiAscendingVowels <-60 0 0 0>;\012	pos maiTri-thai' @ThaiAscendingVowels <-80 0 0 0>;\012	pos thanthakhat-thai' @ThaiAscendingVowels <-60 0 0 0>;\012		\012	### This is an alternative solution, but we prefer the above;\012	### pos maiTri-thai @ThaiAscendingVowels' <60 0 60 0>;\012	\012	} ContextualMarkPositions;\012	\012lookup workaroundShapingError {\012# for combinations that don't have precomposed glyphs, shaping engines normalise macronbelow at the end of the sequence, when they should be between bases and marks below. Here we manually move marks further down so they appear below macronbelow.\012	lookupflag UseMarkFilteringSet @ThaiBelowMarks;\012	pos @ThaiBelowMarks' macronbelowcomb <0 -218 0 0>; ### for Firefox and Chrome;\012	pos macronbelowcomb @ThaiBelowMarks' <0 -218 0 0>; ### for Safari;\012	} workaroundShapingError;\012	\012lookup ShiftSaraUe { ### SaraUe appears too far left on certain consonants, here we make adjustments;\012	pos @SpecialConsonants saraUe-thai' <15 0 0 0>;\012	pos [thoThong-thai roRua-thai] saraUe-thai' <30 0 0 0>;\012	} ShiftSaraUe;";
+},
+{
+name = styleMapFamilyName;
+value = "Noto Looped Thai Cond Bold";
 },
 {
 name = preferredFamilyName;
@@ -98381,10 +98275,6 @@ value = "Noto Looped Thai Condensed Bold";
 {
 name = compatibleFullName;
 value = "Noto Looped Thai Condensed Bold";
-},
-{
-name = "Replace Feature";
-value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \012	### move doubleMacron up if preceded by Thai marks above\012	pos @ThaiAboveMarks [doublemacroncomb doublemacroncomb.wide]' <0 280 0 0>;\012	### move Thai marks up if preceded by double macron\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiAboveMarks' <0 190 0 0>;\012	### move Thai marks up when double macron precedes the base\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiAboveMarks' <0 190 0 0>;\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiBelowMarks @ThaiAboveMarks' <0 190 0 0>;\012	} combinewithdoublemacron ;\012	\012lookup ContextualMarkPositions { ### Tonemarks are shifted slightly left when followed by ascending vowel signs;\012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos maiEk-thai' @ThaiAscendingVowels <-30 0 0 0>;\012	pos maiTho-thai' @ThaiAscendingVowels <-60 0 0 0>;\012	pos maiTri-thai' @ThaiAscendingVowels <-80 0 0 0>;\012	pos thanthakhat-thai' @ThaiAscendingVowels <-60 0 0 0>;\012		\012	### This is an alternative solution, but we prefer the above;\012	### pos maiTri-thai @ThaiAscendingVowels' <60 0 60 0>;\012	\012	} ContextualMarkPositions;\012	\012lookup workaroundShapingError {\012# for combinations that don't have precomposed glyphs, shaping engines normalise macronbelow at the end of the sequence, when they should be between bases and marks below. Here we manually move marks further down so they appear below macronbelow.\012	lookupflag UseMarkFilteringSet @ThaiBelowMarks;\012	pos @ThaiBelowMarks' macronbelowcomb <0 -218 0 0>; ### for Firefox and Chrome;\012	pos macronbelowcomb @ThaiBelowMarks' <0 -218 0 0>; ### for Safari;\012	} workaroundShapingError;\012	\012lookup ShiftSaraUe { ### SaraUe appears too far left on certain consonants, here we make adjustments;\012	pos @SpecialConsonants saraUe-thai' <15 0 0 0>;\012	pos [thoThong-thai roRua-thai] saraUe-thai' <30 0 0 0>;\012	} ShiftSaraUe;";
 }
 );
 interpolationWeight = 151;
@@ -98404,10 +98294,6 @@ widthClass = Condensed;
 {
 customParameters = (
 {
-name = weightClass;
-value = 800;
-},
-{
 name = panose;
 value = (
 2,
@@ -98421,10 +98307,6 @@ value = (
 2,
 4
 );
-},
-{
-name = styleMapFamilyName;
-value = "Noto Looped Thai Cond ExBd";
 },
 {
 name = "Instance Preview";
@@ -98476,6 +98358,14 @@ value = (
 "oAng-thai",
 "hoNokhuk-thai"
 );
+},
+{
+name = "Replace Feature";
+value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \012	### move doubleMacron up if preceded by Thai marks above\012	pos @ThaiAboveMarks [doublemacroncomb doublemacroncomb.wide]' <0 290 0 0>;\012	### move Thai marks up if preceded by double macron\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiAboveMarks' <0 195 0 0>;\012	### move Thai marks up when double macron precedes the base\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiAboveMarks' <0 195 0 0>;\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiBelowMarks @ThaiAboveMarks' <0 195 0 0>;\012	} combinewithdoublemacron ;\012	\012lookup ContextualMarkPositions { ### Tonemarks are shifted slightly left when followed by ascending vowel signs;\012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos maiEk-thai' @ThaiAscendingVowels <-30 0 0 0>;\012	pos maiTho-thai' @ThaiAscendingVowels <-60 0 0 0>;\012	pos maiTri-thai' @ThaiAscendingVowels <-80 0 0 0>;\012	pos thanthakhat-thai' @ThaiAscendingVowels <-60 0 0 0>;\012		\012	### This is an alternative solution, but we prefer the above;\012	### pos maiTri-thai @ThaiAscendingVowels' <60 0 60 0>;\012	\012	} ContextualMarkPositions;\012	\012lookup workaroundShapingError {\012# for combinations that don't have precomposed glyphs, shaping engines normalise macronbelow at the end of the sequence, when they should be between bases and marks below. Here we manually move marks further down so they appear below macronbelow.\012	lookupflag UseMarkFilteringSet @ThaiBelowMarks;\012	pos @ThaiBelowMarks' macronbelowcomb <0 -224 0 0>; ### for Firefox and Chrome;\012	pos macronbelowcomb @ThaiBelowMarks' <0 -224 0 0>; ### for Safari;\012	} workaroundShapingError;\012	\012lookup ShiftSaraUe { ### SaraUe appears too far left on certain consonants, here we make adjustments;\012	pos @SpecialConsonants saraUe-thai' <15 0 0 0>;\012	pos [thoThong-thai roRua-thai] saraUe-thai' <30 0 0 0>;\012	} ShiftSaraUe;";
+},
+{
+name = styleMapFamilyName;
+value = "Noto Looped Thai Cond ExBd";
 },
 {
 name = preferredFamilyName;
@@ -98496,10 +98386,6 @@ value = "Noto Looped Thai Condensed ExtraBold";
 {
 name = compatibleFullName;
 value = "Noto Looped Thai Condensed ExtraBold";
-},
-{
-name = "Replace Feature";
-value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \012	### move doubleMacron up if preceded by Thai marks above\012	pos @ThaiAboveMarks [doublemacroncomb doublemacroncomb.wide]' <0 290 0 0>;\012	### move Thai marks up if preceded by double macron\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiAboveMarks' <0 195 0 0>;\012	### move Thai marks up when double macron precedes the base\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiAboveMarks' <0 195 0 0>;\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiBelowMarks @ThaiAboveMarks' <0 195 0 0>;\012	} combinewithdoublemacron ;\012	\012lookup ContextualMarkPositions { ### Tonemarks are shifted slightly left when followed by ascending vowel signs;\012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos maiEk-thai' @ThaiAscendingVowels <-30 0 0 0>;\012	pos maiTho-thai' @ThaiAscendingVowels <-60 0 0 0>;\012	pos maiTri-thai' @ThaiAscendingVowels <-80 0 0 0>;\012	pos thanthakhat-thai' @ThaiAscendingVowels <-60 0 0 0>;\012		\012	### This is an alternative solution, but we prefer the above;\012	### pos maiTri-thai @ThaiAscendingVowels' <60 0 60 0>;\012	\012	} ContextualMarkPositions;\012	\012lookup workaroundShapingError {\012# for combinations that don't have precomposed glyphs, shaping engines normalise macronbelow at the end of the sequence, when they should be between bases and marks below. Here we manually move marks further down so they appear below macronbelow.\012	lookupflag UseMarkFilteringSet @ThaiBelowMarks;\012	pos @ThaiBelowMarks' macronbelowcomb <0 -224 0 0>; ### for Firefox and Chrome;\012	pos macronbelowcomb @ThaiBelowMarks' <0 -224 0 0>; ### for Safari;\012	} workaroundShapingError;\012	\012lookup ShiftSaraUe { ### SaraUe appears too far left on certain consonants, here we make adjustments;\012	pos @SpecialConsonants saraUe-thai' <15 0 0 0>;\012	pos [thoThong-thai roRua-thai] saraUe-thai' <30 0 0 0>;\012	} ShiftSaraUe;";
 }
 );
 interpolationWeight = 169;
@@ -98517,10 +98403,6 @@ widthClass = Condensed;
 {
 customParameters = (
 {
-name = weightClass;
-value = 900;
-},
-{
 name = panose;
 value = (
 2,
@@ -98534,10 +98416,6 @@ value = (
 2,
 4
 );
-},
-{
-name = styleMapFamilyName;
-value = "Noto Looped Thai Cond Blk";
 },
 {
 name = "Instance Preview";
@@ -98589,6 +98467,14 @@ value = (
 "oAng-thai",
 "hoNokhuk-thai"
 );
+},
+{
+name = "Replace Feature";
+value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \012	### move doubleMacron up if preceded by Thai marks above\012	pos @ThaiAboveMarks [doublemacroncomb doublemacroncomb.wide]' <0 300 0 0>;\012	### move Thai marks up if preceded by double macron\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiAboveMarks' <0 200 0 0>;\012	### move Thai marks up when double macron precedes the base\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiAboveMarks' <0 200 0 0>;\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiBelowMarks @ThaiAboveMarks' <0 200 0 0>;\012	} combinewithdoublemacron ;\012	\012lookup ContextualMarkPositions { ### Tonemarks are shifted slightly left when followed by ascending vowel signs;\012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos maiEk-thai' @ThaiAscendingVowels <-30 0 0 0>;\012	pos maiTho-thai' @ThaiAscendingVowels <-60 0 0 0>;\012	pos maiTri-thai' @ThaiAscendingVowels <-80 0 0 0>;\012	pos thanthakhat-thai' @ThaiAscendingVowels <-60 0 0 0>;\012		\012	### This is an alternative solution, but we prefer the above;\012	### pos maiTri-thai @ThaiAscendingVowels' <60 0 60 0>;\012	\012	} ContextualMarkPositions;\012	\012lookup workaroundShapingError {\012# for combinations that don't have precomposed glyphs, shaping engines normalise macronbelow at the end of the sequence, when they should be between bases and marks below. Here we manually move marks further down so they appear below macronbelow.\012	lookupflag UseMarkFilteringSet @ThaiBelowMarks;\012	pos @ThaiBelowMarks' macronbelowcomb <0 -230 0 0>; ### for Firefox and Chrome;\012	pos macronbelowcomb @ThaiBelowMarks' <0 -230 0 0>; ### for Safari;\012	} workaroundShapingError;\012	\012lookup ShiftSaraUe { ### SaraUe appears too far left on certain consonants, here we make adjustments;\012	pos @SpecialConsonants saraUe-thai' <15 0 0 0>;\012	pos [thoThong-thai roRua-thai] saraUe-thai' <30 0 0 0>;\012	} ShiftSaraUe;";
+},
+{
+name = styleMapFamilyName;
+value = "Noto Looped Thai Cond Blk";
 },
 {
 name = preferredFamilyName;
@@ -98609,10 +98495,6 @@ value = "Noto Looped Thai Condensed Black";
 {
 name = compatibleFullName;
 value = "Noto Looped Thai Condensed Black";
-},
-{
-name = "Replace Feature";
-value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \012	### move doubleMacron up if preceded by Thai marks above\012	pos @ThaiAboveMarks [doublemacroncomb doublemacroncomb.wide]' <0 300 0 0>;\012	### move Thai marks up if preceded by double macron\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiAboveMarks' <0 200 0 0>;\012	### move Thai marks up when double macron precedes the base\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiAboveMarks' <0 200 0 0>;\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiBelowMarks @ThaiAboveMarks' <0 200 0 0>;\012	} combinewithdoublemacron ;\012	\012lookup ContextualMarkPositions { ### Tonemarks are shifted slightly left when followed by ascending vowel signs;\012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos maiEk-thai' @ThaiAscendingVowels <-30 0 0 0>;\012	pos maiTho-thai' @ThaiAscendingVowels <-60 0 0 0>;\012	pos maiTri-thai' @ThaiAscendingVowels <-80 0 0 0>;\012	pos thanthakhat-thai' @ThaiAscendingVowels <-60 0 0 0>;\012		\012	### This is an alternative solution, but we prefer the above;\012	### pos maiTri-thai @ThaiAscendingVowels' <60 0 60 0>;\012	\012	} ContextualMarkPositions;\012	\012lookup workaroundShapingError {\012# for combinations that don't have precomposed glyphs, shaping engines normalise macronbelow at the end of the sequence, when they should be between bases and marks below. Here we manually move marks further down so they appear below macronbelow.\012	lookupflag UseMarkFilteringSet @ThaiBelowMarks;\012	pos @ThaiBelowMarks' macronbelowcomb <0 -230 0 0>; ### for Firefox and Chrome;\012	pos macronbelowcomb @ThaiBelowMarks' <0 -230 0 0>; ### for Safari;\012	} workaroundShapingError;\012	\012lookup ShiftSaraUe { ### SaraUe appears too far left on certain consonants, here we make adjustments;\012	pos @SpecialConsonants saraUe-thai' <15 0 0 0>;\012	pos [thoThong-thai roRua-thai] saraUe-thai' <30 0 0 0>;\012	} ShiftSaraUe;";
 }
 );
 interpolationWeight = 190;
@@ -98628,10 +98510,6 @@ widthClass = Condensed;
 {
 customParameters = (
 {
-name = weightClass;
-value = 100;
-},
-{
 name = panose;
 value = (
 2,
@@ -98645,10 +98523,6 @@ value = (
 2,
 4
 );
-},
-{
-name = styleMapFamilyName;
-value = "Noto Looped Thai ExCd Thin";
 },
 {
 name = "Instance Preview";
@@ -98700,6 +98574,18 @@ value = (
 "oAng-thai",
 "hoNokhuk-thai"
 );
+},
+{
+name = "Replace Feature";
+value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \012	### move doubleMacron up if preceded by Thai marks above\012	pos @ThaiAboveMarks [doublemacroncomb doublemacroncomb.wide]' <0 190 0 0>;\012	### move Thai marks up if preceded by double macron\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiAboveMarks' <0 170 0 0>;\012	### move Thai marks up when double macron precedes the base\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiAboveMarks' <0 170 0 0>;\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiBelowMarks @ThaiAboveMarks' <0 170 0 0>;\012	} combinewithdoublemacron ;\012	\012lookup ContextualMarkPositions { ### Tonemarks are shifted slightly left when followed by ascending vowel signs;\012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos maiEk-thai' @ThaiAscendingVowels <-30 0 0 0>;\012	pos maiTho-thai' @ThaiAscendingVowels <-60 0 0 0>;\012	pos maiTri-thai' @ThaiAscendingVowels <-80 0 0 0>;\012	pos thanthakhat-thai' @ThaiAscendingVowels <-60 0 0 0>;\012		\012	### This is an alternative solution, but we prefer the above;\012	### pos maiTri-thai @ThaiAscendingVowels' <60 0 60 0>;\012	\012	} ContextualMarkPositions;\012	\012lookup workaroundShapingError {\012# for combinations that don't have precomposed glyphs, shaping engines normalise macronbelow at the end of the sequence, when they should be between bases and marks below. Here we manually move marks further down so they appear below macronbelow.\012	lookupflag UseMarkFilteringSet @ThaiBelowMarks;\012	pos @ThaiBelowMarks' macronbelowcomb <0 -130 0 0>; ### for Firefox and Chrome;\012	pos macronbelowcomb @ThaiBelowMarks' <0 -130 0 0>; ### for Safari;\012	} workaroundShapingError;\012	\012lookup ShiftSaraUe { ### SaraUe appears too far left on certain consonants, here we make adjustments;\012	pos @SpecialConsonants saraUe-thai' <15 0 0 0>;\012	pos [thoThong-thai roRua-thai] saraUe-thai' <30 0 0 0>;\012	} ShiftSaraUe;";
+},
+{
+name = "Replace Feature";
+value = "kern;\012# Automatic Code End\012\012lookup ThaiContexualKerning { ### On ascending bases with tall prebase vowel signs, maiTho and maiTri need extranarrow versions to avoid unsightly collisions; \012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos @ThaiAscendingVowels foFa-thai' [maiTho-thai.extranarrow maiTri-thai.extranarrow] <0 0 0 0>;\012	pos @ThaiAscendingVowels poPla-thai' [maiTho-thai.extranarrow maiTri-thai.extranarrow maiChattawa-thai] <0 0 0 0>;\012	} ThaiContexualKerning;";
+},
+{
+name = styleMapFamilyName;
+value = "Noto Looped Thai ExCd Thin";
 },
 {
 name = preferredFamilyName;
@@ -98720,14 +98606,6 @@ value = "Noto Looped Thai ExtraCondensed Thin";
 {
 name = compatibleFullName;
 value = "Noto Looped Thai ExtraCondensed Thin";
-},
-{
-name = "Replace Feature";
-value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \012	### move doubleMacron up if preceded by Thai marks above\012	pos @ThaiAboveMarks [doublemacroncomb doublemacroncomb.wide]' <0 190 0 0>;\012	### move Thai marks up if preceded by double macron\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiAboveMarks' <0 170 0 0>;\012	### move Thai marks up when double macron precedes the base\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiAboveMarks' <0 170 0 0>;\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiBelowMarks @ThaiAboveMarks' <0 170 0 0>;\012	} combinewithdoublemacron ;\012	\012lookup ContextualMarkPositions { ### Tonemarks are shifted slightly left when followed by ascending vowel signs;\012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos maiEk-thai' @ThaiAscendingVowels <-30 0 0 0>;\012	pos maiTho-thai' @ThaiAscendingVowels <-60 0 0 0>;\012	pos maiTri-thai' @ThaiAscendingVowels <-80 0 0 0>;\012	pos thanthakhat-thai' @ThaiAscendingVowels <-60 0 0 0>;\012		\012	### This is an alternative solution, but we prefer the above;\012	### pos maiTri-thai @ThaiAscendingVowels' <60 0 60 0>;\012	\012	} ContextualMarkPositions;\012	\012lookup workaroundShapingError {\012# for combinations that don't have precomposed glyphs, shaping engines normalise macronbelow at the end of the sequence, when they should be between bases and marks below. Here we manually move marks further down so they appear below macronbelow.\012	lookupflag UseMarkFilteringSet @ThaiBelowMarks;\012	pos @ThaiBelowMarks' macronbelowcomb <0 -130 0 0>; ### for Firefox and Chrome;\012	pos macronbelowcomb @ThaiBelowMarks' <0 -130 0 0>; ### for Safari;\012	} workaroundShapingError;\012	\012lookup ShiftSaraUe { ### SaraUe appears too far left on certain consonants, here we make adjustments;\012	pos @SpecialConsonants saraUe-thai' <15 0 0 0>;\012	pos [thoThong-thai roRua-thai] saraUe-thai' <30 0 0 0>;\012	} ShiftSaraUe;";
-},
-{
-name = "Replace Feature";
-value = "kern;\012# Automatic Code End\012\012lookup ThaiContexualKerning { ### On ascending bases with tall prebase vowel signs, maiTho and maiTri need extranarrow versions to avoid unsightly collisions; \012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos @ThaiAscendingVowels foFa-thai' [maiTho-thai.extranarrow maiTri-thai.extranarrow] <0 0 0 0>;\012	pos @ThaiAscendingVowels poPla-thai' [maiTho-thai.extranarrow maiTri-thai.extranarrow maiChattawa-thai] <0 0 0 0>;\012	} ThaiContexualKerning;";
 }
 );
 interpolationWeight = 26;
@@ -98742,10 +98620,6 @@ widthClass = "Extra Condensed";
 {
 customParameters = (
 {
-name = weightClass;
-value = 200;
-},
-{
 name = panose;
 value = (
 2,
@@ -98759,10 +98633,6 @@ value = (
 2,
 4
 );
-},
-{
-name = styleMapFamilyName;
-value = "Noto Looped Thai ExCd ExLt";
 },
 {
 name = "Instance Preview";
@@ -98816,6 +98686,18 @@ value = (
 );
 },
 {
+name = "Replace Feature";
+value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \012	### move doubleMacron up if preceded by Thai marks above\012	pos @ThaiAboveMarks [doublemacroncomb doublemacroncomb.wide]' <0 210 0 0>;\012	### move Thai marks up if preceded by double macron\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiAboveMarks' <0 172 0 0>;\012	### move Thai marks up when double macron precedes the base\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiAboveMarks' <0 172 0 0>;\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiBelowMarks @ThaiAboveMarks' <0 172 0 0>;\012	} combinewithdoublemacron ;\012	\012lookup ContextualMarkPositions { ### Tonemarks are shifted slightly left when followed by ascending vowel signs;\012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos maiEk-thai' @ThaiAscendingVowels <-30 0 0 0>;\012	pos maiTho-thai' @ThaiAscendingVowels <-60 0 0 0>;\012	pos maiTri-thai' @ThaiAscendingVowels <-80 0 0 0>;\012	pos thanthakhat-thai' @ThaiAscendingVowels <-60 0 0 0>;\012		\012	### This is an alternative solution, but we prefer the above;\012	### pos maiTri-thai @ThaiAscendingVowels' <60 0 60 0>;\012	\012	} ContextualMarkPositions;\012	\012lookup workaroundShapingError {\012# for combinations that don't have precomposed glyphs, shaping engines normalise macronbelow at the end of the sequence, when they should be between bases and marks below. Here we manually move marks further down so they appear below macronbelow.\012	lookupflag UseMarkFilteringSet @ThaiBelowMarks;\012	pos @ThaiBelowMarks' macronbelowcomb <0 -155 0 0>; ### for Firefox and Chrome;\012	pos macronbelowcomb @ThaiBelowMarks' <0 -155 0 0>; ### for Safari;\012	} workaroundShapingError;\012	\012lookup ShiftSaraUe { ### SaraUe appears too far left on certain consonants, here we make adjustments;\012	pos @SpecialConsonants saraUe-thai' <15 0 0 0>;\012	pos [thoThong-thai roRua-thai] saraUe-thai' <30 0 0 0>;\012	} ShiftSaraUe;";
+},
+{
+name = "Replace Feature";
+value = "kern;\012# Automatic Code End\012\012lookup ThaiContexualKerning { ### On ascending bases with tall prebase vowel signs, maiTho and maiTri need extranarrow versions to avoid unsightly collisions; \012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos @ThaiAscendingVowels foFa-thai' [maiTho-thai.extranarrow maiTri-thai.extranarrow] <0 0 0 0>;\012	pos @ThaiAscendingVowels poPla-thai' [maiTho-thai.extranarrow maiTri-thai.extranarrow maiChattawa-thai] <0 0 0 0>;\012	} ThaiContexualKerning;";
+},
+{
+name = styleMapFamilyName;
+value = "Noto Looped Thai ExCd ExLt";
+},
+{
 name = preferredFamilyName;
 value = "Noto Looped Thai";
 },
@@ -98834,14 +98716,6 @@ value = "Noto Looped Thai ExtraCondensed ExtraLight";
 {
 name = compatibleFullName;
 value = "Noto Looped Thai ExtraCondensed ExtraLight";
-},
-{
-name = "Replace Feature";
-value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \012	### move doubleMacron up if preceded by Thai marks above\012	pos @ThaiAboveMarks [doublemacroncomb doublemacroncomb.wide]' <0 210 0 0>;\012	### move Thai marks up if preceded by double macron\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiAboveMarks' <0 172 0 0>;\012	### move Thai marks up when double macron precedes the base\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiAboveMarks' <0 172 0 0>;\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiBelowMarks @ThaiAboveMarks' <0 172 0 0>;\012	} combinewithdoublemacron ;\012	\012lookup ContextualMarkPositions { ### Tonemarks are shifted slightly left when followed by ascending vowel signs;\012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos maiEk-thai' @ThaiAscendingVowels <-30 0 0 0>;\012	pos maiTho-thai' @ThaiAscendingVowels <-60 0 0 0>;\012	pos maiTri-thai' @ThaiAscendingVowels <-80 0 0 0>;\012	pos thanthakhat-thai' @ThaiAscendingVowels <-60 0 0 0>;\012		\012	### This is an alternative solution, but we prefer the above;\012	### pos maiTri-thai @ThaiAscendingVowels' <60 0 60 0>;\012	\012	} ContextualMarkPositions;\012	\012lookup workaroundShapingError {\012# for combinations that don't have precomposed glyphs, shaping engines normalise macronbelow at the end of the sequence, when they should be between bases and marks below. Here we manually move marks further down so they appear below macronbelow.\012	lookupflag UseMarkFilteringSet @ThaiBelowMarks;\012	pos @ThaiBelowMarks' macronbelowcomb <0 -155 0 0>; ### for Firefox and Chrome;\012	pos macronbelowcomb @ThaiBelowMarks' <0 -155 0 0>; ### for Safari;\012	} workaroundShapingError;\012	\012lookup ShiftSaraUe { ### SaraUe appears too far left on certain consonants, here we make adjustments;\012	pos @SpecialConsonants saraUe-thai' <15 0 0 0>;\012	pos [thoThong-thai roRua-thai] saraUe-thai' <30 0 0 0>;\012	} ShiftSaraUe;";
-},
-{
-name = "Replace Feature";
-value = "kern;\012# Automatic Code End\012\012lookup ThaiContexualKerning { ### On ascending bases with tall prebase vowel signs, maiTho and maiTri need extranarrow versions to avoid unsightly collisions; \012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos @ThaiAscendingVowels foFa-thai' [maiTho-thai.extranarrow maiTri-thai.extranarrow] <0 0 0 0>;\012	pos @ThaiAscendingVowels poPla-thai' [maiTho-thai.extranarrow maiTri-thai.extranarrow maiChattawa-thai] <0 0 0 0>;\012	} ThaiContexualKerning;";
 }
 );
 interpolationWeight = 39;
@@ -98872,14 +98746,6 @@ value = (
 );
 },
 {
-name = styleMapFamilyName;
-value = "Noto Looped Thai ExCd Lt";
-},
-{
-name = weightClass;
-value = 300;
-},
-{
 name = "Instance Preview";
 value = (
 "koKai-thai",
@@ -98931,6 +98797,18 @@ value = (
 );
 },
 {
+name = "Replace Feature";
+value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \012	### move doubleMacron up if preceded by Thai marks above\012	pos @ThaiAboveMarks [doublemacroncomb doublemacroncomb.wide]' <0 230 0 0>;\012	### move Thai marks up if preceded by double macron\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiAboveMarks' <0 174 0 0>;\012	### move Thai marks up when double macron precedes the base\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiAboveMarks' <0 174 0 0>;\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiBelowMarks @ThaiAboveMarks' <0 174 0 0>;\012	} combinewithdoublemacron ;\012	\012lookup ContextualMarkPositions { ### Tonemarks are shifted slightly left when followed by ascending vowel signs;\012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos maiEk-thai' @ThaiAscendingVowels <-30 0 0 0>;\012	pos maiTho-thai' @ThaiAscendingVowels <-60 0 0 0>;\012	pos maiTri-thai' @ThaiAscendingVowels <-80 0 0 0>;\012	pos thanthakhat-thai' @ThaiAscendingVowels <-60 0 0 0>;\012		\012	### This is an alternative solution, but we prefer the above;\012	### pos maiTri-thai @ThaiAscendingVowels' <60 0 60 0>;\012	\012	} ContextualMarkPositions;\012	\012lookup workaroundShapingError {\012# for combinations that don't have precomposed glyphs, shaping engines normalise macronbelow at the end of the sequence, when they should be between bases and marks below. Here we manually move marks further down so they appear below macronbelow.\012	lookupflag UseMarkFilteringSet @ThaiBelowMarks;\012	pos @ThaiBelowMarks' macronbelowcomb <0 -175 0 0>; ### for Firefox and Chrome;\012	pos macronbelowcomb @ThaiBelowMarks' <0 -175 0 0>; ### for Safari;\012	} workaroundShapingError;\012	\012lookup ShiftSaraUe { ### SaraUe appears too far left on certain consonants, here we make adjustments;\012	pos @SpecialConsonants saraUe-thai' <15 0 0 0>;\012	pos [thoThong-thai roRua-thai] saraUe-thai' <30 0 0 0>;\012	} ShiftSaraUe;";
+},
+{
+name = "Replace Feature";
+value = "kern;\012# Automatic Code End\012\012lookup ThaiContexualKerning { ### On ascending bases with tall prebase vowel signs, maiTho and maiTri need extranarrow versions to avoid unsightly collisions; \012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos @ThaiAscendingVowels foFa-thai' [maiTho-thai.extranarrow maiTri-thai.extranarrow] <0 0 0 0>;\012	pos @ThaiAscendingVowels poPla-thai' [maiTho-thai.extranarrow maiTri-thai.extranarrow maiChattawa-thai] <0 0 0 0>;\012	} ThaiContexualKerning;";
+},
+{
+name = styleMapFamilyName;
+value = "Noto Looped Thai ExCd Lt";
+},
+{
 name = preferredFamilyName;
 value = "Noto Looped Thai";
 },
@@ -98949,14 +98827,6 @@ value = "Noto Looped Thai ExtraCondensed Light";
 {
 name = compatibleFullName;
 value = "Noto Looped Thai ExtraCondensed Light";
-},
-{
-name = "Replace Feature";
-value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \012	### move doubleMacron up if preceded by Thai marks above\012	pos @ThaiAboveMarks [doublemacroncomb doublemacroncomb.wide]' <0 230 0 0>;\012	### move Thai marks up if preceded by double macron\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiAboveMarks' <0 174 0 0>;\012	### move Thai marks up when double macron precedes the base\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiAboveMarks' <0 174 0 0>;\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiBelowMarks @ThaiAboveMarks' <0 174 0 0>;\012	} combinewithdoublemacron ;\012	\012lookup ContextualMarkPositions { ### Tonemarks are shifted slightly left when followed by ascending vowel signs;\012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos maiEk-thai' @ThaiAscendingVowels <-30 0 0 0>;\012	pos maiTho-thai' @ThaiAscendingVowels <-60 0 0 0>;\012	pos maiTri-thai' @ThaiAscendingVowels <-80 0 0 0>;\012	pos thanthakhat-thai' @ThaiAscendingVowels <-60 0 0 0>;\012		\012	### This is an alternative solution, but we prefer the above;\012	### pos maiTri-thai @ThaiAscendingVowels' <60 0 60 0>;\012	\012	} ContextualMarkPositions;\012	\012lookup workaroundShapingError {\012# for combinations that don't have precomposed glyphs, shaping engines normalise macronbelow at the end of the sequence, when they should be between bases and marks below. Here we manually move marks further down so they appear below macronbelow.\012	lookupflag UseMarkFilteringSet @ThaiBelowMarks;\012	pos @ThaiBelowMarks' macronbelowcomb <0 -175 0 0>; ### for Firefox and Chrome;\012	pos macronbelowcomb @ThaiBelowMarks' <0 -175 0 0>; ### for Safari;\012	} workaroundShapingError;\012	\012lookup ShiftSaraUe { ### SaraUe appears too far left on certain consonants, here we make adjustments;\012	pos @SpecialConsonants saraUe-thai' <15 0 0 0>;\012	pos [thoThong-thai roRua-thai] saraUe-thai' <30 0 0 0>;\012	} ShiftSaraUe;";
-},
-{
-name = "Replace Feature";
-value = "kern;\012# Automatic Code End\012\012lookup ThaiContexualKerning { ### On ascending bases with tall prebase vowel signs, maiTho and maiTri need extranarrow versions to avoid unsightly collisions; \012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos @ThaiAscendingVowels foFa-thai' [maiTho-thai.extranarrow maiTri-thai.extranarrow] <0 0 0 0>;\012	pos @ThaiAscendingVowels poPla-thai' [maiTho-thai.extranarrow maiTri-thai.extranarrow maiChattawa-thai] <0 0 0 0>;\012	} ThaiContexualKerning;";
 }
 );
 interpolationWeight = 58;
@@ -98971,14 +98841,6 @@ widthClass = "Extra Condensed";
 },
 {
 customParameters = (
-{
-name = weightClass;
-value = 400;
-},
-{
-name = styleMapFamilyName;
-value = "Noto Looped Thai ExtraCond";
-},
 {
 name = panose;
 value = (
@@ -99044,6 +98906,10 @@ value = (
 "oAng-thai",
 "hoNokhuk-thai"
 );
+},
+{
+name = styleMapFamilyName;
+value = "Noto Looped Thai ExtraCond";
 },
 {
 name = preferredFamilyName;
@@ -99077,14 +98943,6 @@ widthClass = "Extra Condensed";
 {
 customParameters = (
 {
-name = weightClass;
-value = 500;
-},
-{
-name = styleMapFamilyName;
-value = "Noto Looped Thai ExCd Med";
-},
-{
 name = panose;
 value = (
 2,
@@ -99151,6 +99009,14 @@ value = (
 );
 },
 {
+name = "Replace Feature";
+value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \012	### move doubleMacron up if preceded by Thai marks above\012	pos @ThaiAboveMarks [doublemacroncomb doublemacroncomb.wide]' <0 260 0 0>;\012	### move Thai marks up if preceded by double macron\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiAboveMarks' <0 180 0 0>;\012	### move Thai marks up when double macron precedes the base\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiAboveMarks' <0 180 0 0>;\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiBelowMarks @ThaiAboveMarks' <0 180 0 0>;\012	} combinewithdoublemacron ;\012	\012lookup ContextualMarkPositions { ### Tonemarks are shifted slightly left when followed by ascending vowel signs;\012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos maiEk-thai' @ThaiAscendingVowels <-30 0 0 0>;\012	pos maiTho-thai' @ThaiAscendingVowels <-60 0 0 0>;\012	pos maiTri-thai' @ThaiAscendingVowels <-80 0 0 0>;\012	pos thanthakhat-thai' @ThaiAscendingVowels <-60 0 0 0>;\012		\012	### This is an alternative solution, but we prefer the above;\012	### pos maiTri-thai @ThaiAscendingVowels' <60 0 60 0>;\012	\012	} ContextualMarkPositions;\012	\012lookup workaroundShapingError {\012# for combinations that don't have precomposed glyphs, shaping engines normalise macronbelow at the end of the sequence, when they should be between bases and marks below. Here we manually move marks further down so they appear below macronbelow.\012	lookupflag UseMarkFilteringSet @ThaiBelowMarks;\012	pos @ThaiBelowMarks' macronbelowcomb <0 -206 0 0>; ### for Firefox and Chrome;\012	pos macronbelowcomb @ThaiBelowMarks' <0 -206 0 0>; ### for Safari;\012	} workaroundShapingError;\012	\012lookup ShiftSaraUe { ### SaraUe appears too far left on certain consonants, here we make adjustments;\012	pos @SpecialConsonants saraUe-thai' <15 0 0 0>;\012	pos [thoThong-thai roRua-thai] saraUe-thai' <30 0 0 0>;\012	} ShiftSaraUe;";
+},
+{
+name = styleMapFamilyName;
+value = "Noto Looped Thai ExCd Med";
+},
+{
 name = preferredFamilyName;
 value = "Noto Looped Thai";
 },
@@ -99169,10 +99035,6 @@ value = "Noto Looped Thai ExtraCondensed Medium";
 {
 name = compatibleFullName;
 value = "Noto Looped Thai ExtraCondensed Medium";
-},
-{
-name = "Replace Feature";
-value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \012	### move doubleMacron up if preceded by Thai marks above\012	pos @ThaiAboveMarks [doublemacroncomb doublemacroncomb.wide]' <0 260 0 0>;\012	### move Thai marks up if preceded by double macron\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiAboveMarks' <0 180 0 0>;\012	### move Thai marks up when double macron precedes the base\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiAboveMarks' <0 180 0 0>;\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiBelowMarks @ThaiAboveMarks' <0 180 0 0>;\012	} combinewithdoublemacron ;\012	\012lookup ContextualMarkPositions { ### Tonemarks are shifted slightly left when followed by ascending vowel signs;\012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos maiEk-thai' @ThaiAscendingVowels <-30 0 0 0>;\012	pos maiTho-thai' @ThaiAscendingVowels <-60 0 0 0>;\012	pos maiTri-thai' @ThaiAscendingVowels <-80 0 0 0>;\012	pos thanthakhat-thai' @ThaiAscendingVowels <-60 0 0 0>;\012		\012	### This is an alternative solution, but we prefer the above;\012	### pos maiTri-thai @ThaiAscendingVowels' <60 0 60 0>;\012	\012	} ContextualMarkPositions;\012	\012lookup workaroundShapingError {\012# for combinations that don't have precomposed glyphs, shaping engines normalise macronbelow at the end of the sequence, when they should be between bases and marks below. Here we manually move marks further down so they appear below macronbelow.\012	lookupflag UseMarkFilteringSet @ThaiBelowMarks;\012	pos @ThaiBelowMarks' macronbelowcomb <0 -206 0 0>; ### for Firefox and Chrome;\012	pos macronbelowcomb @ThaiBelowMarks' <0 -206 0 0>; ### for Safari;\012	} workaroundShapingError;\012	\012lookup ShiftSaraUe { ### SaraUe appears too far left on certain consonants, here we make adjustments;\012	pos @SpecialConsonants saraUe-thai' <15 0 0 0>;\012	pos [thoThong-thai roRua-thai] saraUe-thai' <30 0 0 0>;\012	} ShiftSaraUe;";
 }
 );
 interpolationWeight = 108;
@@ -99187,10 +99049,6 @@ widthClass = "Extra Condensed";
 },
 {
 customParameters = (
-{
-name = weightClass;
-value = 600;
-},
 {
 name = panose;
 value = (
@@ -99258,6 +99116,14 @@ value = (
 );
 },
 {
+name = "Replace Feature";
+value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \012	### move doubleMacron up if preceded by Thai marks above\012	pos @ThaiAboveMarks [doublemacroncomb doublemacroncomb.wide]' <0 270 0 0>;\012	### move Thai marks up if preceded by double macron\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiAboveMarks' <0 185 0 0>;\012	### move Thai marks up when double macron precedes the base\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiAboveMarks' <0 185 0 0>;\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiBelowMarks @ThaiAboveMarks' <0 185 0 0>;\012	} combinewithdoublemacron ;\012	\012lookup ContextualMarkPositions { ### Tonemarks are shifted slightly left when followed by ascending vowel signs;\012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos maiEk-thai' @ThaiAscendingVowels <-30 0 0 0>;\012	pos maiTho-thai' @ThaiAscendingVowels <-60 0 0 0>;\012	pos maiTri-thai' @ThaiAscendingVowels <-80 0 0 0>;\012	pos thanthakhat-thai' @ThaiAscendingVowels <-60 0 0 0>;\012		\012	### This is an alternative solution, but we prefer the above;\012	### pos maiTri-thai @ThaiAscendingVowels' <60 0 60 0>;\012	\012	} ContextualMarkPositions;\012	\012lookup workaroundShapingError {\012# for combinations that don't have precomposed glyphs, shaping engines normalise macronbelow at the end of the sequence, when they should be between bases and marks below. Here we manually move marks further down so they appear below macronbelow.\012	lookupflag UseMarkFilteringSet @ThaiBelowMarks;\012	pos @ThaiBelowMarks' macronbelowcomb <0 -212 0 0>; ### for Firefox and Chrome;\012	pos macronbelowcomb @ThaiBelowMarks' <0 -212 0 0>; ### for Safari;\012	} workaroundShapingError;\012	\012lookup ShiftSaraUe { ### SaraUe appears too far left on certain consonants, here we make adjustments;\012	pos @SpecialConsonants saraUe-thai' <15 0 0 0>;\012	pos [thoThong-thai roRua-thai] saraUe-thai' <30 0 0 0>;\012	} ShiftSaraUe;";
+},
+{
+name = "Replace Feature";
+value = "kern;\012# Automatic Code End\012\012lookup ThaiContexualKerning { ### On ascending bases with tall prebase vowel signs, maiTho and maiTri need extranarrow versions to avoid unsightly collisions; \012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos @ThaiAscendingVowels foFa-thai' [maiTho-thai.extranarrow maiTri-thai.extranarrow] <40 0 40 0>;\012	pos @ThaiAscendingVowels poPla-thai' [maiTho-thai.extranarrow maiTri-thai.extranarrow maiChattawa-thai] <40 0 40 0>;\012	} ThaiContexualKerning;";
+},
+{
 name = preferredFamilyName;
 value = "Noto Looped Thai";
 },
@@ -99280,14 +99146,6 @@ value = "Noto Looped Thai ExtraCondensed SemiBold";
 {
 name = styleMapFamilyName;
 value = "Noto Looped Thai ExCd SmBd";
-},
-{
-name = "Replace Feature";
-value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \012	### move doubleMacron up if preceded by Thai marks above\012	pos @ThaiAboveMarks [doublemacroncomb doublemacroncomb.wide]' <0 270 0 0>;\012	### move Thai marks up if preceded by double macron\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiAboveMarks' <0 185 0 0>;\012	### move Thai marks up when double macron precedes the base\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiAboveMarks' <0 185 0 0>;\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiBelowMarks @ThaiAboveMarks' <0 185 0 0>;\012	} combinewithdoublemacron ;\012	\012lookup ContextualMarkPositions { ### Tonemarks are shifted slightly left when followed by ascending vowel signs;\012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos maiEk-thai' @ThaiAscendingVowels <-30 0 0 0>;\012	pos maiTho-thai' @ThaiAscendingVowels <-60 0 0 0>;\012	pos maiTri-thai' @ThaiAscendingVowels <-80 0 0 0>;\012	pos thanthakhat-thai' @ThaiAscendingVowels <-60 0 0 0>;\012		\012	### This is an alternative solution, but we prefer the above;\012	### pos maiTri-thai @ThaiAscendingVowels' <60 0 60 0>;\012	\012	} ContextualMarkPositions;\012	\012lookup workaroundShapingError {\012# for combinations that don't have precomposed glyphs, shaping engines normalise macronbelow at the end of the sequence, when they should be between bases and marks below. Here we manually move marks further down so they appear below macronbelow.\012	lookupflag UseMarkFilteringSet @ThaiBelowMarks;\012	pos @ThaiBelowMarks' macronbelowcomb <0 -212 0 0>; ### for Firefox and Chrome;\012	pos macronbelowcomb @ThaiBelowMarks' <0 -212 0 0>; ### for Safari;\012	} workaroundShapingError;\012	\012lookup ShiftSaraUe { ### SaraUe appears too far left on certain consonants, here we make adjustments;\012	pos @SpecialConsonants saraUe-thai' <15 0 0 0>;\012	pos [thoThong-thai roRua-thai] saraUe-thai' <30 0 0 0>;\012	} ShiftSaraUe;";
-},
-{
-name = "Replace Feature";
-value = "kern;\012# Automatic Code End\012\012lookup ThaiContexualKerning { ### On ascending bases with tall prebase vowel signs, maiTho and maiTri need extranarrow versions to avoid unsightly collisions; \012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos @ThaiAscendingVowels foFa-thai' [maiTho-thai.extranarrow maiTri-thai.extranarrow] <40 0 40 0>;\012	pos @ThaiAscendingVowels poPla-thai' [maiTho-thai.extranarrow maiTri-thai.extranarrow maiChattawa-thai] <40 0 40 0>;\012	} ThaiContexualKerning;";
 }
 );
 interpolationWeight = 128;
@@ -99302,14 +99160,6 @@ widthClass = "Extra Condensed";
 },
 {
 customParameters = (
-{
-name = weightClass;
-value = 700;
-},
-{
-name = styleMapFamilyName;
-value = "Noto Looped Thai ExCd Bold";
-},
 {
 name = panose;
 value = (
@@ -99377,6 +99227,18 @@ value = (
 );
 },
 {
+name = "Replace Feature";
+value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \012	### move doubleMacron up if preceded by Thai marks above\012	pos @ThaiAboveMarks [doublemacroncomb doublemacroncomb.wide]' <0 280 0 0>;\012	### move Thai marks up if preceded by double macron\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiAboveMarks' <0 190 0 0>;\012	### move Thai marks up when double macron precedes the base\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiAboveMarks' <0 190 0 0>;\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiBelowMarks @ThaiAboveMarks' <0 190 0 0>;\012	} combinewithdoublemacron ;\012	\012lookup ContextualMarkPositions { ### Tonemarks are shifted slightly left when followed by ascending vowel signs;\012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos maiEk-thai' @ThaiAscendingVowels <-30 0 0 0>;\012	pos maiTho-thai' @ThaiAscendingVowels <-60 0 0 0>;\012	pos maiTri-thai' @ThaiAscendingVowels <-80 0 0 0>;\012	pos thanthakhat-thai' @ThaiAscendingVowels <-60 0 0 0>;\012		\012	### This is an alternative solution, but we prefer the above;\012	### pos maiTri-thai @ThaiAscendingVowels' <60 0 60 0>;\012	\012	} ContextualMarkPositions;\012	\012lookup workaroundShapingError {\012# for combinations that don't have precomposed glyphs, shaping engines normalise macronbelow at the end of the sequence, when they should be between bases and marks below. Here we manually move marks further down so they appear below macronbelow.\012	lookupflag UseMarkFilteringSet @ThaiBelowMarks;\012	pos @ThaiBelowMarks' macronbelowcomb <0 -218 0 0>; ### for Firefox and Chrome;\012	pos macronbelowcomb @ThaiBelowMarks' <0 -218 0 0>; ### for Safari;\012	} workaroundShapingError;\012	\012lookup ShiftSaraUe { ### SaraUe appears too far left on certain consonants, here we make adjustments;\012	pos @SpecialConsonants saraUe-thai' <15 0 0 0>;\012	pos [thoThong-thai roRua-thai] saraUe-thai' <30 0 0 0>;\012	} ShiftSaraUe;";
+},
+{
+name = "Replace Feature";
+value = "kern;\012# Automatic Code End\012\012lookup ThaiContexualKerning { ### On ascending bases with tall prebase vowel signs, maiTho and maiTri need extranarrow versions to avoid unsightly collisions; \012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos @ThaiAscendingVowels foFa-thai' [maiTho-thai.extranarrow maiTri-thai.extranarrow] <40 0 40 0>;\012	pos @ThaiAscendingVowels poPla-thai' [maiTho-thai.extranarrow maiTri-thai.extranarrow maiChattawa-thai] <40 0 40 0>;\012	} ThaiContexualKerning;";
+},
+{
+name = styleMapFamilyName;
+value = "Noto Looped Thai ExCd Bold";
+},
+{
 name = preferredFamilyName;
 value = "Noto Looped Thai";
 },
@@ -99395,14 +99257,6 @@ value = "Noto Looped Thai ExtraCondensed Bold";
 {
 name = compatibleFullName;
 value = "Noto Looped Thai ExtraCondensed Bold";
-},
-{
-name = "Replace Feature";
-value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \012	### move doubleMacron up if preceded by Thai marks above\012	pos @ThaiAboveMarks [doublemacroncomb doublemacroncomb.wide]' <0 280 0 0>;\012	### move Thai marks up if preceded by double macron\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiAboveMarks' <0 190 0 0>;\012	### move Thai marks up when double macron precedes the base\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiAboveMarks' <0 190 0 0>;\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiBelowMarks @ThaiAboveMarks' <0 190 0 0>;\012	} combinewithdoublemacron ;\012	\012lookup ContextualMarkPositions { ### Tonemarks are shifted slightly left when followed by ascending vowel signs;\012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos maiEk-thai' @ThaiAscendingVowels <-30 0 0 0>;\012	pos maiTho-thai' @ThaiAscendingVowels <-60 0 0 0>;\012	pos maiTri-thai' @ThaiAscendingVowels <-80 0 0 0>;\012	pos thanthakhat-thai' @ThaiAscendingVowels <-60 0 0 0>;\012		\012	### This is an alternative solution, but we prefer the above;\012	### pos maiTri-thai @ThaiAscendingVowels' <60 0 60 0>;\012	\012	} ContextualMarkPositions;\012	\012lookup workaroundShapingError {\012# for combinations that don't have precomposed glyphs, shaping engines normalise macronbelow at the end of the sequence, when they should be between bases and marks below. Here we manually move marks further down so they appear below macronbelow.\012	lookupflag UseMarkFilteringSet @ThaiBelowMarks;\012	pos @ThaiBelowMarks' macronbelowcomb <0 -218 0 0>; ### for Firefox and Chrome;\012	pos macronbelowcomb @ThaiBelowMarks' <0 -218 0 0>; ### for Safari;\012	} workaroundShapingError;\012	\012lookup ShiftSaraUe { ### SaraUe appears too far left on certain consonants, here we make adjustments;\012	pos @SpecialConsonants saraUe-thai' <15 0 0 0>;\012	pos [thoThong-thai roRua-thai] saraUe-thai' <30 0 0 0>;\012	} ShiftSaraUe;";
-},
-{
-name = "Replace Feature";
-value = "kern;\012# Automatic Code End\012\012lookup ThaiContexualKerning { ### On ascending bases with tall prebase vowel signs, maiTho and maiTri need extranarrow versions to avoid unsightly collisions; \012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos @ThaiAscendingVowels foFa-thai' [maiTho-thai.extranarrow maiTri-thai.extranarrow] <40 0 40 0>;\012	pos @ThaiAscendingVowels poPla-thai' [maiTho-thai.extranarrow maiTri-thai.extranarrow maiChattawa-thai] <40 0 40 0>;\012	} ThaiContexualKerning;";
 }
 );
 interpolationWeight = 151;
@@ -99419,14 +99273,6 @@ widthClass = "Extra Condensed";
 },
 {
 customParameters = (
-{
-name = weightClass;
-value = 800;
-},
-{
-name = styleMapFamilyName;
-value = "Noto Looped Thai ExCd ExBd";
-},
 {
 name = panose;
 value = (
@@ -99494,6 +99340,18 @@ value = (
 );
 },
 {
+name = "Replace Feature";
+value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \012	### move doubleMacron up if preceded by Thai marks above\012	pos @ThaiAboveMarks [doublemacroncomb doublemacroncomb.wide]' <0 290 0 0>;\012	### move Thai marks up if preceded by double macron\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiAboveMarks' <0 195 0 0>;\012	### move Thai marks up when double macron precedes the base\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiAboveMarks' <0 195 0 0>;\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiBelowMarks @ThaiAboveMarks' <0 195 0 0>;\012	} combinewithdoublemacron ;\012	\012lookup ContextualMarkPositions { ### Tonemarks are shifted slightly left when followed by ascending vowel signs;\012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos maiEk-thai' @ThaiAscendingVowels <-30 0 0 0>;\012	pos maiTho-thai' @ThaiAscendingVowels <-60 0 0 0>;\012	pos maiTri-thai' @ThaiAscendingVowels <-80 0 0 0>;\012	pos thanthakhat-thai' @ThaiAscendingVowels <-60 0 0 0>;\012		\012	### This is an alternative solution, but we prefer the above;\012	### pos maiTri-thai @ThaiAscendingVowels' <60 0 60 0>;\012	\012	} ContextualMarkPositions;\012	\012lookup workaroundShapingError {\012# for combinations that don't have precomposed glyphs, shaping engines normalise macronbelow at the end of the sequence, when they should be between bases and marks below. Here we manually move marks further down so they appear below macronbelow.\012	lookupflag UseMarkFilteringSet @ThaiBelowMarks;\012	pos @ThaiBelowMarks' macronbelowcomb <0 -224 0 0>; ### for Firefox and Chrome;\012	pos macronbelowcomb @ThaiBelowMarks' <0 -224 0 0>; ### for Safari;\012	} workaroundShapingError;\012	\012lookup ShiftSaraUe { ### SaraUe appears too far left on certain consonants, here we make adjustments;\012	pos @SpecialConsonants saraUe-thai' <15 0 0 0>;\012	pos [thoThong-thai roRua-thai] saraUe-thai' <30 0 0 0>;\012	} ShiftSaraUe;";
+},
+{
+name = "Replace Feature";
+value = "kern;\012# Automatic Code End\012\012lookup ThaiContexualKerning { ### On ascending bases with tall prebase vowel signs, maiTho and maiTri need extranarrow versions to avoid unsightly collisions; \012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos @ThaiAscendingVowels foFa-thai' [maiTho-thai.extranarrow maiTri-thai.extranarrow] <40 0 40 0>;\012	pos @ThaiAscendingVowels poPla-thai' [maiTho-thai.extranarrow maiTri-thai.extranarrow maiChattawa-thai] <40 0 40 0>;\012	} ThaiContexualKerning;";
+},
+{
+name = styleMapFamilyName;
+value = "Noto Looped Thai ExCd ExBd";
+},
+{
 name = preferredFamilyName;
 value = "Noto Looped Thai";
 },
@@ -99512,14 +99370,6 @@ value = "Noto Looped Thai ExtraCondensed ExtraBold";
 {
 name = compatibleFullName;
 value = "Noto Looped Thai ExtraCondensed ExtraBold";
-},
-{
-name = "Replace Feature";
-value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \012	### move doubleMacron up if preceded by Thai marks above\012	pos @ThaiAboveMarks [doublemacroncomb doublemacroncomb.wide]' <0 290 0 0>;\012	### move Thai marks up if preceded by double macron\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiAboveMarks' <0 195 0 0>;\012	### move Thai marks up when double macron precedes the base\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiAboveMarks' <0 195 0 0>;\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiBelowMarks @ThaiAboveMarks' <0 195 0 0>;\012	} combinewithdoublemacron ;\012	\012lookup ContextualMarkPositions { ### Tonemarks are shifted slightly left when followed by ascending vowel signs;\012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos maiEk-thai' @ThaiAscendingVowels <-30 0 0 0>;\012	pos maiTho-thai' @ThaiAscendingVowels <-60 0 0 0>;\012	pos maiTri-thai' @ThaiAscendingVowels <-80 0 0 0>;\012	pos thanthakhat-thai' @ThaiAscendingVowels <-60 0 0 0>;\012		\012	### This is an alternative solution, but we prefer the above;\012	### pos maiTri-thai @ThaiAscendingVowels' <60 0 60 0>;\012	\012	} ContextualMarkPositions;\012	\012lookup workaroundShapingError {\012# for combinations that don't have precomposed glyphs, shaping engines normalise macronbelow at the end of the sequence, when they should be between bases and marks below. Here we manually move marks further down so they appear below macronbelow.\012	lookupflag UseMarkFilteringSet @ThaiBelowMarks;\012	pos @ThaiBelowMarks' macronbelowcomb <0 -224 0 0>; ### for Firefox and Chrome;\012	pos macronbelowcomb @ThaiBelowMarks' <0 -224 0 0>; ### for Safari;\012	} workaroundShapingError;\012	\012lookup ShiftSaraUe { ### SaraUe appears too far left on certain consonants, here we make adjustments;\012	pos @SpecialConsonants saraUe-thai' <15 0 0 0>;\012	pos [thoThong-thai roRua-thai] saraUe-thai' <30 0 0 0>;\012	} ShiftSaraUe;";
-},
-{
-name = "Replace Feature";
-value = "kern;\012# Automatic Code End\012\012lookup ThaiContexualKerning { ### On ascending bases with tall prebase vowel signs, maiTho and maiTri need extranarrow versions to avoid unsightly collisions; \012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos @ThaiAscendingVowels foFa-thai' [maiTho-thai.extranarrow maiTri-thai.extranarrow] <40 0 40 0>;\012	pos @ThaiAscendingVowels poPla-thai' [maiTho-thai.extranarrow maiTri-thai.extranarrow maiChattawa-thai] <40 0 40 0>;\012	} ThaiContexualKerning;";
 }
 );
 interpolationWeight = 169;
@@ -99535,10 +99385,6 @@ widthClass = "Extra Condensed";
 {
 customParameters = (
 {
-name = weightClass;
-value = 900;
-},
-{
 name = panose;
 value = (
 2,
@@ -99552,10 +99398,6 @@ value = (
 2,
 4
 );
-},
-{
-name = styleMapFamilyName;
-value = "Noto Looped Thai ExCd Blk";
 },
 {
 name = "Instance Preview";
@@ -99609,6 +99451,18 @@ value = (
 );
 },
 {
+name = "Replace Feature";
+value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \012	### move doubleMacron up if preceded by Thai marks above\012	pos @ThaiAboveMarks [doublemacroncomb doublemacroncomb.wide]' <0 300 0 0>;\012	### move Thai marks up if preceded by double macron\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiAboveMarks' <0 200 0 0>;\012	### move Thai marks up when double macron precedes the base\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiAboveMarks' <0 200 0 0>;\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiBelowMarks @ThaiAboveMarks' <0 200 0 0>;\012	} combinewithdoublemacron ;\012	\012lookup ContextualMarkPositions { ### Tonemarks are shifted slightly left when followed by ascending vowel signs;\012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos maiEk-thai' @ThaiAscendingVowels <-30 0 0 0>;\012	pos maiTho-thai' @ThaiAscendingVowels <-60 0 0 0>;\012	pos maiTri-thai' @ThaiAscendingVowels <-80 0 0 0>;\012	pos thanthakhat-thai' @ThaiAscendingVowels <-60 0 0 0>;\012		\012	### This is an alternative solution, but we prefer the above;\012	### pos maiTri-thai @ThaiAscendingVowels' <60 0 60 0>;\012	\012	} ContextualMarkPositions;\012	\012lookup workaroundShapingError {\012# for combinations that don't have precomposed glyphs, shaping engines normalise macronbelow at the end of the sequence, when they should be between bases and marks below. Here we manually move marks further down so they appear below macronbelow.\012	lookupflag UseMarkFilteringSet @ThaiBelowMarks;\012	pos @ThaiBelowMarks' macronbelowcomb <0 -230 0 0>; ### for Firefox and Chrome;\012	pos macronbelowcomb @ThaiBelowMarks' <0 -230 0 0>; ### for Safari;\012	} workaroundShapingError;\012	\012lookup ShiftSaraUe { ### SaraUe appears too far left on certain consonants, here we make adjustments;\012	pos @SpecialConsonants saraUe-thai' <15 0 0 0>;\012	pos [thoThong-thai roRua-thai] saraUe-thai' <30 0 0 0>;\012	} ShiftSaraUe;";
+},
+{
+name = "Replace Feature";
+value = "kern;\012# Automatic Code End\012\012lookup ThaiContexualKerning { ### On ascending bases with tall prebase vowel signs, maiTho and maiTri need extranarrow versions to avoid unsightly collisions; \012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos @ThaiAscendingVowels foFa-thai' [maiTho-thai.extranarrow maiTri-thai.extranarrow] <40 0 40 0>;\012	pos @ThaiAscendingVowels poPla-thai' [maiTho-thai.extranarrow maiTri-thai.extranarrow maiChattawa-thai] <40 0 40 0>;\012	} ThaiContexualKerning;";
+},
+{
+name = styleMapFamilyName;
+value = "Noto Looped Thai ExCd Blk";
+},
+{
 name = preferredFamilyName;
 value = "Noto Looped Thai";
 },
@@ -99627,14 +99481,6 @@ value = "Noto Looped Thai ExtraCondensed Black";
 {
 name = compatibleFullName;
 value = "Noto Looped Thai ExtraCondensed Black";
-},
-{
-name = "Replace Feature";
-value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \012	### move doubleMacron up if preceded by Thai marks above\012	pos @ThaiAboveMarks [doublemacroncomb doublemacroncomb.wide]' <0 300 0 0>;\012	### move Thai marks up if preceded by double macron\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiAboveMarks' <0 200 0 0>;\012	### move Thai marks up when double macron precedes the base\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiAboveMarks' <0 200 0 0>;\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiBelowMarks @ThaiAboveMarks' <0 200 0 0>;\012	} combinewithdoublemacron ;\012	\012lookup ContextualMarkPositions { ### Tonemarks are shifted slightly left when followed by ascending vowel signs;\012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos maiEk-thai' @ThaiAscendingVowels <-30 0 0 0>;\012	pos maiTho-thai' @ThaiAscendingVowels <-60 0 0 0>;\012	pos maiTri-thai' @ThaiAscendingVowels <-80 0 0 0>;\012	pos thanthakhat-thai' @ThaiAscendingVowels <-60 0 0 0>;\012		\012	### This is an alternative solution, but we prefer the above;\012	### pos maiTri-thai @ThaiAscendingVowels' <60 0 60 0>;\012	\012	} ContextualMarkPositions;\012	\012lookup workaroundShapingError {\012# for combinations that don't have precomposed glyphs, shaping engines normalise macronbelow at the end of the sequence, when they should be between bases and marks below. Here we manually move marks further down so they appear below macronbelow.\012	lookupflag UseMarkFilteringSet @ThaiBelowMarks;\012	pos @ThaiBelowMarks' macronbelowcomb <0 -230 0 0>; ### for Firefox and Chrome;\012	pos macronbelowcomb @ThaiBelowMarks' <0 -230 0 0>; ### for Safari;\012	} workaroundShapingError;\012	\012lookup ShiftSaraUe { ### SaraUe appears too far left on certain consonants, here we make adjustments;\012	pos @SpecialConsonants saraUe-thai' <15 0 0 0>;\012	pos [thoThong-thai roRua-thai] saraUe-thai' <30 0 0 0>;\012	} ShiftSaraUe;";
-},
-{
-name = "Replace Feature";
-value = "kern;\012# Automatic Code End\012\012lookup ThaiContexualKerning { ### On ascending bases with tall prebase vowel signs, maiTho and maiTri need extranarrow versions to avoid unsightly collisions; \012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos @ThaiAscendingVowels foFa-thai' [maiTho-thai.extranarrow maiTri-thai.extranarrow] <40 0 40 0>;\012	pos @ThaiAscendingVowels poPla-thai' [maiTho-thai.extranarrow maiTri-thai.extranarrow maiChattawa-thai] <40 0 40 0>;\012	} ThaiContexualKerning;";
 }
 );
 interpolationWeight = 190;
@@ -99675,17 +99521,13 @@ kerning = {
 "saraAiMaimuan-thai" = 40;
 "saraO-thai" = 40;
 };
-"@MMK_L_quotedbl" = {
-"saraAiMaimalai-thai" = 5;
-"saraAiMaimuan-thai" = 20;
-"saraO-thai" = 20;
-};
 "@MMK_L_saraE-thai" = {
 "@MMK_R_boBaimai-thai" = -25;
 "@MMK_R_choChan-thai" = -25;
-"@MMK_R_quotedbl" = -55;
 apostrophemod = -35;
 "ngoNgu-thai" = -35;
+quotedbl = -55;
+quotesingle = -55;
 "roRua-thai" = -20;
 "thoNangmontho-thai" = -15;
 "woWaen-thai" = -30;
@@ -99723,6 +99565,16 @@ slash = -30;
 };
 "oAng-thai" = {
 "@MMK_R_saraAa-thai" = -12;
+};
+quotedbl = {
+"saraAiMaimalai-thai" = 5;
+"saraAiMaimuan-thai" = 20;
+"saraO-thai" = 20;
+};
+quotesingle = {
+"saraAiMaimalai-thai" = 5;
+"saraAiMaimuan-thai" = 20;
+"saraO-thai" = 20;
 };
 "seven-thai" = {
 "@MMK_R_period.right" = -10;
@@ -99774,17 +99626,13 @@ slash = {
 "saraAiMaimuan-thai" = 40;
 "saraO-thai" = 40;
 };
-"@MMK_L_quotedbl" = {
-"saraAiMaimalai-thai" = 5;
-"saraAiMaimuan-thai" = 20;
-"saraO-thai" = 20;
-};
 "@MMK_L_saraE-thai" = {
 "@MMK_R_boBaimai-thai" = -8;
 "@MMK_R_choChan-thai" = -20;
-"@MMK_R_quotedbl" = -60;
 apostrophemod = -30;
 "ngoNgu-thai" = -25;
+quotedbl = -60;
+quotesingle = -60;
 "roRua-thai" = -5;
 "thoNangmontho-thai" = -15;
 "woWaen-thai" = -5;
@@ -99822,6 +99670,16 @@ slash = -60;
 };
 "oAng-thai" = {
 "@MMK_R_saraAa-thai" = -10;
+};
+quotedbl = {
+"saraAiMaimalai-thai" = 5;
+"saraAiMaimuan-thai" = 20;
+"saraO-thai" = 20;
+};
+quotesingle = {
+"saraAiMaimalai-thai" = 5;
+"saraAiMaimuan-thai" = 20;
+"saraO-thai" = 20;
 };
 "seven-thai" = {
 "@MMK_R_period.right" = -20;
@@ -99873,17 +99731,13 @@ slash = {
 "saraAiMaimuan-thai" = 40;
 "saraO-thai" = 40;
 };
-"@MMK_L_quotedbl" = {
-"saraAiMaimalai-thai" = 5;
-"saraAiMaimuan-thai" = 20;
-"saraO-thai" = 20;
-};
 "@MMK_L_saraE-thai" = {
 "@MMK_R_boBaimai-thai" = -10;
 "@MMK_R_choChan-thai" = 0;
-"@MMK_R_quotedbl" = -60;
 apostrophemod = -16;
 "ngoNgu-thai" = -15;
+quotedbl = -60;
+quotesingle = -60;
 "roRua-thai" = -10;
 "thoNangmontho-thai" = -10;
 "woWaen-thai" = -10;
@@ -99924,6 +99778,16 @@ slash = -70;
 };
 "phoPhung-thai" = {
 "@MMK_R_period.right" = -12;
+};
+quotedbl = {
+"saraAiMaimalai-thai" = 5;
+"saraAiMaimuan-thai" = 20;
+"saraO-thai" = 20;
+};
+quotesingle = {
+"saraAiMaimalai-thai" = 5;
+"saraAiMaimuan-thai" = 20;
+"saraO-thai" = 20;
 };
 "seven-thai" = {
 "@MMK_R_period.right" = -30;
@@ -99975,17 +99839,13 @@ slash = {
 "saraAiMaimuan-thai" = 40;
 "saraO-thai" = 40;
 };
-"@MMK_L_quotedbl" = {
-"saraAiMaimalai-thai" = 5;
-"saraAiMaimuan-thai" = 20;
-"saraO-thai" = 20;
-};
 "@MMK_L_saraE-thai" = {
 "@MMK_R_boBaimai-thai" = -15;
 "@MMK_R_choChan-thai" = -15;
-"@MMK_R_quotedbl" = -55;
 apostrophemod = -25;
 "ngoNgu-thai" = -25;
+quotedbl = -55;
+quotesingle = -55;
 "roRua-thai" = -12;
 "thoNangmontho-thai" = -10;
 "woWaen-thai" = -20;
@@ -100023,6 +99883,16 @@ slash = -30;
 };
 "oAng-thai" = {
 "@MMK_R_saraAa-thai" = -12;
+};
+quotedbl = {
+"saraAiMaimalai-thai" = 5;
+"saraAiMaimuan-thai" = 20;
+"saraO-thai" = 20;
+};
+quotesingle = {
+"saraAiMaimalai-thai" = 5;
+"saraAiMaimuan-thai" = 20;
+"saraO-thai" = 20;
 };
 "seven-thai" = {
 "@MMK_R_period.right" = -10;
@@ -100074,17 +99944,13 @@ slash = {
 "saraAiMaimuan-thai" = 40;
 "saraO-thai" = 40;
 };
-"@MMK_L_quotedbl" = {
-"saraAiMaimalai-thai" = 5;
-"saraAiMaimuan-thai" = 20;
-"saraO-thai" = 20;
-};
 "@MMK_L_saraE-thai" = {
 "@MMK_R_boBaimai-thai" = -12;
 "@MMK_R_choChan-thai" = -15;
-"@MMK_R_quotedbl" = -65;
 apostrophemod = -20;
 "ngoNgu-thai" = -15;
+quotedbl = -65;
+quotesingle = -65;
 "thoNangmontho-thai" = -10;
 };
 "@MMK_L_soSeua-thai" = {
@@ -100120,6 +99986,16 @@ slash = -60;
 };
 "oAng-thai" = {
 "@MMK_R_saraAa-thai" = -12;
+};
+quotedbl = {
+"saraAiMaimalai-thai" = 5;
+"saraAiMaimuan-thai" = 20;
+"saraO-thai" = 20;
+};
+quotesingle = {
+"saraAiMaimalai-thai" = 5;
+"saraAiMaimuan-thai" = 20;
+"saraO-thai" = 20;
 };
 "seven-thai" = {
 "@MMK_R_period.right" = -20;
@@ -100171,15 +100047,11 @@ slash = {
 "saraAiMaimuan-thai" = 40;
 "saraO-thai" = 40;
 };
-"@MMK_L_quotedbl" = {
-"saraAiMaimalai-thai" = 5;
-"saraAiMaimuan-thai" = 20;
-"saraO-thai" = 20;
-};
 "@MMK_L_saraE-thai" = {
 "@MMK_R_boBaimai-thai" = -8;
 "@MMK_R_choChan-thai" = 0;
-"@MMK_R_quotedbl" = -60;
+quotedbl = -60;
+quotesingle = -60;
 "roRua-thai" = -5;
 "woWaen-thai" = -5;
 };
@@ -100219,6 +100091,16 @@ slash = -70;
 };
 "phoPhung-thai" = {
 "@MMK_R_period.right" = -12;
+};
+quotedbl = {
+"saraAiMaimalai-thai" = 5;
+"saraAiMaimuan-thai" = 20;
+"saraO-thai" = 20;
+};
+quotesingle = {
+"saraAiMaimalai-thai" = 5;
+"saraAiMaimuan-thai" = 20;
+"saraO-thai" = 20;
 };
 "seven-thai" = {
 "@MMK_R_period.right" = -30;
