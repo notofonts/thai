@@ -1,7 +1,7 @@
 {
-.appVersion = "3109";
+.appVersion = "3072";
 DisplayStrings = (
-"/maiTri-thai"
+"/nbspace"
 );
 classes = (
 {
@@ -61,7 +61,7 @@ code = "ngoNgu-thai ngoNgu-thai_macronbelowcomb choChang-thai soSo-thai soSo-tha
 name = SpecialConsonants;
 }
 );
-copyright = "Copyright 2020 Google LLC. All rights reserved";
+copyright = "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/thai)";
 customParameters = (
 {
 name = "Enforce Compatibility Check";
@@ -351,11 +351,11 @@ value = (
 },
 {
 name = license;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.";
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
 },
 {
 name = licenseURL;
-value = "http://scripts.sil.org/OFL";
+value = "https://scripts.sil.org/OFL";
 },
 {
 name = vendorID;
@@ -371,7 +371,7 @@ value = "Noto is a trademark of Google LLC.";
 },
 {
 name = versionString;
-value = "Version 1.00";
+value = "Version 1.001";
 },
 {
 name = sampleText;
@@ -496,7 +496,7 @@ value = "Thai_Numerals:0.85, 0.6, 0.75, 0.25; 8; (0,510); (-80); (616);";
 },
 {
 name = underlineThickness;
-value = 24;
+value = 70;
 },
 {
 name = underlinePosition;
@@ -775,7 +775,7 @@ value = "Thai_Numerals:0.85, 0.6, 0.75, 0.25; 15; (0,523); (-102); (612);";
 },
 {
 name = underlineThickness;
-value = 130;
+value = 70;
 },
 {
 name = underlinePosition;
@@ -915,7 +915,7 @@ value = "Thai_Numerals:0.85, 0.6, 0.75, 0.25; 8; (0,508); (-80); (614);";
 },
 {
 name = underlineThickness;
-value = 24;
+value = 70;
 },
 {
 name = underlinePosition;
@@ -991,7 +991,6 @@ horizontalStems = (
 23
 );
 id = "31946225-6F4F-4A3A-A9E3-76FE8DE38A50";
-name = ThinCondensed;
 verticalStems = (
 24
 );
@@ -1133,7 +1132,6 @@ horizontalStems = (
 70
 );
 id = "9F3C76A5-8ED6-4D1B-8CC9-A050DF474D58";
-name = RegularCondensed;
 verticalStems = (
 76
 );
@@ -1200,7 +1198,7 @@ value = "Thai_Numerals:0.85, 0.6, 0.75, 0.25; 15; (0,521); (-102); (610);";
 },
 {
 name = underlineThickness;
-value = 130;
+value = 70;
 },
 {
 name = underlinePosition;
@@ -1276,7 +1274,6 @@ horizontalStems = (
 139
 );
 id = "C987F20E-C470-4905-85F8-C37EA20127D7";
-name = BlackCondensed;
 verticalStems = (
 156
 );
@@ -1535,7 +1532,7 @@ unicode = 0020;
 },
 {
 glyphname = nbspace;
-lastChange = "2020-11-13 20:26:58 +0000";
+lastChange = "2022-08-22 08:49:02 +0000";
 layers = (
 {
 layerId = "59720D05-F04C-4F19-83A4-486FF5963186";
@@ -1543,25 +1540,26 @@ width = 260;
 },
 {
 layerId = "EB3A5D6C-8260-43A6-9EF2-63971FC08D48";
-width = 260;
+width = 240;
 },
 {
 layerId = "C987F20E-C470-4905-85F8-C37EA20127D7";
-width = 260;
+width = 185;
 },
 {
 layerId = "90A34054-68E4-499D-AE50-276C7B026D8B";
-width = 600;
+width = 272;
 },
 {
 layerId = "31946225-6F4F-4A3A-A9E3-76FE8DE38A50";
-width = 600;
+width = 200;
 },
 {
 layerId = "9F3C76A5-8ED6-4D1B-8CC9-A050DF474D58";
-width = 260;
+width = 190;
 }
 );
+widthMetricsKey = "=space";
 unicode = 00A0;
 },
 {
@@ -15764,7 +15762,7 @@ subCategory = Spacing;
 },
 {
 glyphname = "thoThan-thai";
-lastChange = "2020-12-16 18:54:39 +0000";
+lastChange = "2022-08-22 08:48:11 +0000";
 layers = (
 {
 anchors = (
@@ -16442,7 +16440,7 @@ subCategory = Spacing;
 },
 {
 glyphname = "thoThan-thai.less";
-lastChange = "2020-12-16 18:54:39 +0000";
+lastChange = "2022-08-22 08:48:11 +0000";
 layers = (
 {
 anchors = (
@@ -95979,6 +95977,10 @@ value = (
 );
 },
 {
+name = styleMapFamilyName;
+value = "Noto Looped Thai Regular";
+},
+{
 name = preferredFamilyName;
 value = "Noto Looped Thai";
 },
@@ -95996,10 +95998,6 @@ value = "Noto Looped Thai Regular";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai Regular";
-},
-{
-name = styleMapFamilyName;
 value = "Noto Looped Thai Regular";
 }
 );
@@ -96292,6 +96290,10 @@ name = "Replace Feature";
 value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \012	### move doubleMacron up if preceded by Thai marks above\012	pos @ThaiAboveMarks [doublemacroncomb doublemacroncomb.wide]' <0 280 0 0>;\012	### move Thai marks up if preceded by double macron\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiAboveMarks' <0 190 0 0>;\012	### move Thai marks up when double macron precedes the base\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiAboveMarks' <0 190 0 0>;\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiBelowMarks @ThaiAboveMarks' <0 190 0 0>;\012	} combinewithdoublemacron ;\012	\012lookup ContextualMarkPositions { ### Tonemarks are shifted slightly left when followed by ascending vowel signs;\012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos maiEk-thai' @ThaiAscendingVowels <-30 0 0 0>;\012	pos maiTho-thai' @ThaiAscendingVowels <-60 0 0 0>;\012	pos maiTri-thai' @ThaiAscendingVowels <-80 0 0 0>;\012	pos thanthakhat-thai' @ThaiAscendingVowels <-60 0 0 0>;\012		\012	### This is an alternative solution, but we prefer the above;\012	### pos maiTri-thai @ThaiAscendingVowels' <60 0 60 0>;\012	\012	} ContextualMarkPositions;\012	\012lookup workaroundShapingError {\012# for combinations that don't have precomposed glyphs, shaping engines normalise macronbelow at the end of the sequence, when they should be between bases and marks below. Here we manually move marks further down so they appear below macronbelow.\012	lookupflag UseMarkFilteringSet @ThaiBelowMarks;\012	pos @ThaiBelowMarks' macronbelowcomb <0 -218 0 0>; ### for Firefox and Chrome;\012	pos macronbelowcomb @ThaiBelowMarks' <0 -218 0 0>; ### for Safari;\012	} workaroundShapingError;\012	\012lookup ShiftSaraUe { ### SaraUe appears too far left on certain consonants, here we make adjustments;\012	pos @SpecialConsonants saraUe-thai' <15 0 0 0>;\012	pos [thoThong-thai roRua-thai] saraUe-thai' <30 0 0 0>;\012	} ShiftSaraUe;";
 },
 {
+name = styleMapFamilyName;
+value = "Noto Looped Thai Bold";
+},
+{
 name = preferredFamilyName;
 value = "Noto Looped Thai";
 },
@@ -96309,10 +96311,6 @@ value = "Noto Looped Thai Bold";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai Bold";
-},
-{
-name = styleMapFamilyName;
 value = "Noto Looped Thai Bold";
 }
 );
@@ -96408,7 +96406,7 @@ value = "Noto Looped Thai";
 },
 {
 name = preferredSubfamilyName;
-value = Extrabold;
+value = ExtraBold;
 },
 {
 name = postscriptFontName;
@@ -97489,6 +97487,10 @@ name = "Replace Feature";
 value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \012	### move doubleMacron up if preceded by Thai marks above\012	pos @ThaiAboveMarks [doublemacroncomb doublemacroncomb.wide]' <0 300 0 0>;\012	### move Thai marks up if preceded by double macron\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiAboveMarks' <0 200 0 0>;\012	### move Thai marks up when double macron precedes the base\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiAboveMarks' <0 200 0 0>;\012	pos [doublemacroncomb doublemacroncomb.wide] @ThaiBases @ThaiBelowMarks @ThaiAboveMarks' <0 200 0 0>;\012	} combinewithdoublemacron ;\012	\012lookup ContextualMarkPositions { ### Tonemarks are shifted slightly left when followed by ascending vowel signs;\012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos maiEk-thai' @ThaiAscendingVowels <-30 0 0 0>;\012	pos maiTho-thai' @ThaiAscendingVowels <-60 0 0 0>;\012	pos maiTri-thai' @ThaiAscendingVowels <-80 0 0 0>;\012	pos thanthakhat-thai' @ThaiAscendingVowels <-60 0 0 0>;\012		\012	### This is an alternative solution, but we prefer the above;\012	### pos maiTri-thai @ThaiAscendingVowels' <60 0 60 0>;\012	\012	} ContextualMarkPositions;\012	\012lookup workaroundShapingError {\012# for combinations that don't have precomposed glyphs, shaping engines normalise macronbelow at the end of the sequence, when they should be between bases and marks below. Here we manually move marks further down so they appear below macronbelow.\012	lookupflag UseMarkFilteringSet @ThaiBelowMarks;\012	pos @ThaiBelowMarks' macronbelowcomb <0 -230 0 0>; ### for Firefox and Chrome;\012	pos macronbelowcomb @ThaiBelowMarks' <0 -230 0 0>; ### for Safari;\012	} workaroundShapingError;\012	\012lookup ShiftSaraUe { ### SaraUe appears too far left on certain consonants, here we make adjustments;\012	pos @SpecialConsonants saraUe-thai' <15 0 0 0>;\012	pos [thoThong-thai roRua-thai] saraUe-thai' <30 0 0 0>;\012	} ShiftSaraUe;";
 },
 {
+name = styleMapFamilyName;
+value = "Noto Looped Thai SmCd Blk";
+},
+{
 name = preferredFamilyName;
 value = "Noto Looped Thai";
 },
@@ -97503,10 +97505,6 @@ value = "NotoLoopedThai-SemiCondensedBlack";
 {
 name = postscriptFullName;
 value = "Noto Looped Thai SemiCondensed Black";
-},
-{
-name = styleMapFamilyName;
-value = "Noto Looped Thai SmCd Blk";
 },
 {
 name = compatibleFullName;
@@ -99124,6 +99122,10 @@ name = "Replace Feature";
 value = "kern;\012# Automatic Code End\012\012lookup ThaiContexualKerning { ### On ascending bases with tall prebase vowel signs, maiTho and maiTri need extranarrow versions to avoid unsightly collisions; \012	lookupflag UseMarkFilteringSet @ThaiAboveMarks;\012	pos @ThaiAscendingVowels foFa-thai' [maiTho-thai.extranarrow maiTri-thai.extranarrow] <40 0 40 0>;\012	pos @ThaiAscendingVowels poPla-thai' [maiTho-thai.extranarrow maiTri-thai.extranarrow maiChattawa-thai] <40 0 40 0>;\012	} ThaiContexualKerning;";
 },
 {
+name = styleMapFamilyName;
+value = "Noto Looped Thai ExCd SmBd";
+},
+{
 name = preferredFamilyName;
 value = "Noto Looped Thai";
 },
@@ -99142,10 +99144,6 @@ value = "Noto Looped Thai ExtraCondensed SemiBold";
 {
 name = compatibleFullName;
 value = "Noto Looped Thai ExtraCondensed SemiBold";
-},
-{
-name = styleMapFamilyName;
-value = "Noto Looped Thai ExCd SmBd";
 }
 );
 interpolationWeight = 128;
@@ -100158,5 +100156,5 @@ thaiVStem = "186";
 };
 };
 versionMajor = 1;
-versionMinor = 0;
+versionMinor = 1;
 }
