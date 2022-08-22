@@ -18,16 +18,16 @@ Fontbakery version: 0.8.9
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni0E29
-	* uni0E4B
 	* uni0E45
-	* uni0E44
-	* uni0E3F
-	* uni0E35
-	* uni0E2A
 	* uni0E42
-	* uni0E26.short
-	* uni0E4B.small and 8 more.
+	* uni0E2A
+	* nikhahit_maiChattawathai
+	* uni0E5A
+	* uni0E3F
+	* nikhahit_maiChattawathai.narrow
+	* uni0E4B
+	* uni0E29
+	* uni0E44 and 8 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
@@ -148,16 +148,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni0E29
-	* uni0E4B
 	* uni0E45
-	* uni0E44
-	* uni0E3F
-	* uni0E2A
 	* uni0E42
-	* uni0E26.short
-	* uni0E4B.small
-	* nikhahit_maiChattawathai.narrow and 7 more.
+	* uni0E2A
+	* nikhahit_maiChattawathai
+	* uni0E5A
+	* uni0E3F
+	* nikhahit_maiChattawathai.narrow
+	* uni0E4B
+	* uni0E29
+	* uni0E44 and 7 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
@@ -1237,16 +1237,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni0E29
-	* uni0E4B
 	* uni0E45
-	* uni0E44
-	* uni0E3F
-	* uni0E2A
 	* uni0E42
-	* uni0E26.short
-	* uni0E4B.small
-	* nikhahit_maiChattawathai.narrow and 7 more.
+	* uni0E2A
+	* nikhahit_maiChattawathai
+	* uni0E5A
+	* uni0E3F
+	* nikhahit_maiChattawathai.narrow
+	* uni0E4B
+	* uni0E29
+	* uni0E44 and 7 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
@@ -2486,14 +2486,14 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni0E29
 	* uni0E45
-	* uni0E44
-	* uni0E3F
 	* uni0E42
-	* uni0E26.short
-	* uni0E24
-	* uni0E24.short and uni0E26
+	* uni0E3F
+	* uni0E29
+	* uni0E44
+	* uni0E24.short
+	* uni0E26
+	* uni0E26.short and uni0E24
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -2564,12 +2564,12 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
 	* uni0E45
-	* uni0E44
-	* uni0E3F
 	* uni0E42
-	* uni0E26.short
-	* uni0E24
-	* uni0E24.short and uni0E26
+	* uni0E3F
+	* uni0E44
+	* uni0E24.short
+	* uni0E26
+	* uni0E26.short and uni0E24
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -2632,16 +2632,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni0E29
-	* uni0E4B
 	* uni0E45
-	* uni0E44
-	* uni0E3F
 	* uni0E42
-	* uni0E26.short
-	* uni0E4B.small
+	* nikhahit_maiChattawathai
+	* uni0E5A
+	* uni0E3F
 	* nikhahit_maiChattawathai.narrow
-	* uni0E5A and 5 more.
+	* uni0E4B
+	* uni0E29
+	* uni0E44
+	* uni0E4B.small and 5 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
