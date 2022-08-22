@@ -1,0 +1,10 @@
+{
+	"tests": [
+		{
+			"expectation": "uni0E23=0+510|uni0E37=0@-625,0+0|uni0E48.small=0@-215,-1+0|uni0E2D=3+584|uni0E07=4+523|uni0E19=5+645|uni0E31=5@-449,0+0|uni0E49.small=5@-399,9+0",
+			"input": "รื่องนั้",
+			"note": "Issue #21",
+			"only": "NotoLoopedThai-Regular.ttf"
+		}
+	]
+}
