@@ -394,7 +394,7 @@ Tag = wdth;
 date = "2020-12-18 18:02:45 +0000";
 designer = "Sasikarn Vongin, Ben Mitchell";
 designerURL = "http://www.fontpad.co.uk";
-familyName = "Noto Looped Thai";
+familyName = "Noto Sans Thai Looped";
 featurePrefixes = (
 {
 automatic = 1;
@@ -95660,11 +95660,11 @@ value = "kern;\012# Automatic Code End\012\012lookup ThaiContexualKerning { ### 
 },
 {
 name = styleMapFamilyName;
-value = "Noto Looped Thai Thin";
+value = "Noto Sans Thai Looped Thin";
 },
 {
 name = preferredFamilyName;
-value = "Noto Looped Thai";
+value = "Noto Sans Thai Looped";
 },
 {
 name = preferredSubfamilyName;
@@ -95672,15 +95672,15 @@ value = Thin;
 },
 {
 name = postscriptFontName;
-value = "NotoLoopedThai-Thin";
+value = "NotoSansThaiLooped-Thin";
 },
 {
 name = postscriptFullName;
-value = "Noto Looped Thai Thin";
+value = "Noto Sans Thai Looped Thin";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai Thin";
+value = "Noto Sans Thai Looped Thin";
 }
 );
 interpolationWeight = 26;
@@ -95768,11 +95768,11 @@ value = "kern;\012# Automatic Code End\012\012lookup ThaiContexualKerning { ### 
 },
 {
 name = styleMapFamilyName;
-value = "Noto Looped Thai ExtLight";
+value = "Noto Sans Thai Looped ExtLight";
 },
 {
 name = preferredFamilyName;
-value = "Noto Looped Thai";
+value = "Noto Sans Thai Looped";
 },
 {
 name = preferredSubfamilyName;
@@ -95780,15 +95780,15 @@ value = ExtraLight;
 },
 {
 name = postscriptFontName;
-value = "NotoLoopedThai-ExtraLight";
+value = "NotoSansThaiLooped-ExtraLight";
 },
 {
 name = postscriptFullName;
-value = "Noto Looped Thai ExtraLight";
+value = "Noto Sans Thai Looped ExtraLight";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai ExtraLight";
+value = "Noto Sans Thai Looped ExtraLight";
 }
 );
 interpolationWeight = 39;
@@ -95877,11 +95877,11 @@ value = "kern;\012# Automatic Code End\012\012lookup ThaiContexualKerning { ### 
 },
 {
 name = styleMapFamilyName;
-value = "Noto Looped Thai Light";
+value = "Noto Sans Thai Looped Light";
 },
 {
 name = preferredFamilyName;
-value = "Noto Looped Thai";
+value = "Noto Sans Thai Looped";
 },
 {
 name = preferredSubfamilyName;
@@ -95889,15 +95889,15 @@ value = Light;
 },
 {
 name = postscriptFontName;
-value = "NotoLoopedThai-Light";
+value = "NotoSansThaiLooped-Light";
 },
 {
 name = postscriptFullName;
-value = "Noto Looped Thai Light";
+value = "Noto Sans Thai Looped Light";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai Light";
+value = "Noto Sans Thai Looped Light";
 }
 );
 interpolationWeight = 58;
@@ -95978,11 +95978,11 @@ value = (
 },
 {
 name = styleMapFamilyName;
-value = "Noto Looped Thai Regular";
+value = "Noto Sans Thai Looped Regular";
 },
 {
 name = preferredFamilyName;
-value = "Noto Looped Thai";
+value = "Noto Sans Thai Looped";
 },
 {
 name = preferredSubfamilyName;
@@ -95990,15 +95990,15 @@ value = Regular;
 },
 {
 name = postscriptFontName;
-value = "NotoLoopedThai-Regular";
+value = "NotoSansThaiLooped-Regular";
 },
 {
 name = postscriptFullName;
-value = "Noto Looped Thai Regular";
+value = "Noto Sans Thai Looped Regular";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai Regular";
+value = "Noto Sans Thai Looped Regular";
 }
 );
 interpolationWeight = 90;
@@ -96081,11 +96081,11 @@ value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \
 },
 {
 name = styleMapFamilyName;
-value = "Noto Looped Thai Medium";
+value = "Noto Sans Thai Looped Medium";
 },
 {
 name = preferredFamilyName;
-value = "Noto Looped Thai";
+value = "Noto Sans Thai Looped";
 },
 {
 name = preferredSubfamilyName;
@@ -96093,15 +96093,15 @@ value = Medium;
 },
 {
 name = postscriptFontName;
-value = "NotoLoopedThai-Medium";
+value = "NotoSansThaiLooped-Medium";
 },
 {
 name = postscriptFullName;
-value = "Noto Looped Thai Medium";
+value = "Noto Sans Thai Looped Medium";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai Medium";
+value = "Noto Sans Thai Looped Medium";
 }
 );
 interpolationWeight = 108;
@@ -96186,11 +96186,11 @@ value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \
 },
 {
 name = styleMapFamilyName;
-value = "Noto Looped Thai SemiBold";
+value = "Noto Sans Thai Looped SemiBold";
 },
 {
 name = preferredFamilyName;
-value = "Noto Looped Thai";
+value = "Noto Sans Thai Looped";
 },
 {
 name = preferredSubfamilyName;
@@ -96198,15 +96198,15 @@ value = SemiBold;
 },
 {
 name = postscriptFontName;
-value = "NotoLoopedThai-SemiBold";
+value = "NotoSansThaiLooped-SemiBold";
 },
 {
 name = postscriptFullName;
-value = "Noto Looped Thai SemiBold";
+value = "Noto Sans Thai Looped SemiBold";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai SemiBold";
+value = "Noto Sans Thai Looped SemiBold";
 }
 );
 interpolationWeight = 128;
@@ -96291,11 +96291,11 @@ value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \
 },
 {
 name = styleMapFamilyName;
-value = "Noto Looped Thai Bold";
+value = "Noto Sans Thai Looped Bold";
 },
 {
 name = preferredFamilyName;
-value = "Noto Looped Thai";
+value = "Noto Sans Thai Looped";
 },
 {
 name = preferredSubfamilyName;
@@ -96303,15 +96303,15 @@ value = Bold;
 },
 {
 name = postscriptFontName;
-value = "NotoLoopedThai-Bold";
+value = "NotoSansThaiLooped-Bold";
 },
 {
 name = postscriptFullName;
-value = "Noto Looped Thai Bold";
+value = "Noto Sans Thai Looped Bold";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai Bold";
+value = "Noto Sans Thai Looped Bold";
 }
 );
 interpolationWeight = 151;
@@ -96398,11 +96398,11 @@ value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \
 },
 {
 name = styleMapFamilyName;
-value = "Noto Looped Thai ExtraBold";
+value = "Noto Sans Thai Looped ExtraBold";
 },
 {
 name = preferredFamilyName;
-value = "Noto Looped Thai";
+value = "Noto Sans Thai Looped";
 },
 {
 name = preferredSubfamilyName;
@@ -96410,15 +96410,15 @@ value = ExtraBold;
 },
 {
 name = postscriptFontName;
-value = "NotoLoopedThai-ExtraBold";
+value = "NotoSansThaiLooped-ExtraBold";
 },
 {
 name = postscriptFullName;
-value = "Noto Looped Thai ExtraBold";
+value = "Noto Sans Thai Looped ExtraBold";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai ExtraBold";
+value = "Noto Sans Thai Looped ExtraBold";
 }
 );
 interpolationWeight = 169;
@@ -96507,11 +96507,11 @@ value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \
 },
 {
 name = styleMapFamilyName;
-value = "Noto Looped Thai Black";
+value = "Noto Sans Thai Looped Black";
 },
 {
 name = preferredFamilyName;
-value = "Noto Looped Thai";
+value = "Noto Sans Thai Looped";
 },
 {
 name = preferredSubfamilyName;
@@ -96519,15 +96519,15 @@ value = Black;
 },
 {
 name = postscriptFontName;
-value = "NotoLoopedThai-Black";
+value = "NotoSansThaiLooped-Black";
 },
 {
 name = postscriptFullName;
-value = "Noto Looped Thai Black";
+value = "Noto Sans Thai Looped Black";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai Black";
+value = "Noto Sans Thai Looped Black";
 }
 );
 interpolationWeight = 190;
@@ -96615,11 +96615,11 @@ value = "kern;\012# Automatic Code End\012\012lookup ThaiContexualKerning { ### 
 },
 {
 name = styleMapFamilyName;
-value = "Noto Looped Thai SmCd Thin";
+value = "Noto Sans Thai Looped SmCd Thin";
 },
 {
 name = preferredFamilyName;
-value = "Noto Looped Thai";
+value = "Noto Sans Thai Looped";
 },
 {
 name = preferredSubfamilyName;
@@ -96627,15 +96627,15 @@ value = "SemiCondensed Thin";
 },
 {
 name = postscriptFontName;
-value = "NotoLoopedThai-SemiCondensedThin";
+value = "NotoSansThaiLooped-SemiCondensedThin";
 },
 {
 name = postscriptFullName;
-value = "Noto Looped Thai SemiCondensed Thin";
+value = "Noto Sans Thai Looped SemiCondensed Thin";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai SemiCondensed Thin";
+value = "Noto Sans Thai Looped SemiCondensed Thin";
 }
 );
 interpolationWeight = 26;
@@ -96726,11 +96726,11 @@ value = "kern;\012# Automatic Code End\012\012lookup ThaiContexualKerning { ### 
 },
 {
 name = styleMapFamilyName;
-value = "Noto Looped Thai SmCd ExLt";
+value = "Noto Sans Thai Looped SmCd ExLt";
 },
 {
 name = preferredFamilyName;
-value = "Noto Looped Thai";
+value = "Noto Sans Thai Looped";
 },
 {
 name = preferredSubfamilyName;
@@ -96738,15 +96738,15 @@ value = "SemiCondensed ExtraLight";
 },
 {
 name = postscriptFontName;
-value = "NotoLoopedThai-SemiCondensedExtraLight";
+value = "NotoSansThaiLooped-SemiCondensedExtraLight";
 },
 {
 name = postscriptFullName;
-value = "Noto Looped Thai SemiCondensed ExtraLight";
+value = "Noto Sans Thai Looped SemiCondensed ExtraLight";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai SemiCondensed ExtraLight";
+value = "Noto Sans Thai Looped SemiCondensed ExtraLight";
 }
 );
 interpolationWeight = 39;
@@ -96839,11 +96839,11 @@ value = "kern;\012# Automatic Code End\012\012lookup ThaiContexualKerning { ### 
 },
 {
 name = styleMapFamilyName;
-value = "Noto Looped Thai SmCd Lt";
+value = "Noto Sans Thai Looped SmCd Lt";
 },
 {
 name = preferredFamilyName;
-value = "Noto Looped Thai";
+value = "Noto Sans Thai Looped";
 },
 {
 name = preferredSubfamilyName;
@@ -96851,15 +96851,15 @@ value = "SemiCondensed Light";
 },
 {
 name = postscriptFontName;
-value = "NotoLoopedThai-SemiCondensedLight";
+value = "NotoSansThaiLooped-SemiCondensedLight";
 },
 {
 name = postscriptFullName;
-value = "Noto Looped Thai SemiCondensed Light";
+value = "Noto Sans Thai Looped SemiCondensed Light";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai SemiCondensed Light";
+value = "Noto Sans Thai Looped SemiCondensed Light";
 }
 );
 interpolationWeight = 58;
@@ -96944,11 +96944,11 @@ value = (
 },
 {
 name = styleMapFamilyName;
-value = "Noto Looped Thai SemiCond";
+value = "Noto Sans Thai Looped SemiCond";
 },
 {
 name = preferredFamilyName;
-value = "Noto Looped Thai";
+value = "Noto Sans Thai Looped";
 },
 {
 name = preferredSubfamilyName;
@@ -96956,15 +96956,15 @@ value = SemiCondensed;
 },
 {
 name = postscriptFontName;
-value = "NotoLoopedThai-SemiCondensed";
+value = "NotoSansThaiLooped-SemiCondensed";
 },
 {
 name = postscriptFullName;
-value = "Noto Looped Thai SemiCondensed";
+value = "Noto Sans Thai Looped SemiCondensed";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai SemiCondensed";
+value = "Noto Sans Thai Looped SemiCondensed";
 }
 );
 interpolationWeight = 90;
@@ -97050,11 +97050,11 @@ value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \
 },
 {
 name = styleMapFamilyName;
-value = "Noto Looped Thai SmCd Med";
+value = "Noto Sans Thai Looped SmCd Med";
 },
 {
 name = preferredFamilyName;
-value = "Noto Looped Thai";
+value = "Noto Sans Thai Looped";
 },
 {
 name = preferredSubfamilyName;
@@ -97062,15 +97062,15 @@ value = "SemiCondensed Medium";
 },
 {
 name = postscriptFontName;
-value = "NotoLoopedThai-SemiCondensedMedium";
+value = "NotoSansThaiLooped-SemiCondensedMedium";
 },
 {
 name = postscriptFullName;
-value = "Noto Looped Thai SemiCondensed Medium";
+value = "Noto Sans Thai Looped SemiCondensed Medium";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai SemiCondensed Medium";
+value = "Noto Sans Thai Looped SemiCondensed Medium";
 }
 );
 interpolationWeight = 108;
@@ -97159,11 +97159,11 @@ value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \
 },
 {
 name = styleMapFamilyName;
-value = "Noto Looped Thai SmCd SmBd";
+value = "Noto Sans Thai Looped SmCd SmBd";
 },
 {
 name = preferredFamilyName;
-value = "Noto Looped Thai";
+value = "Noto Sans Thai Looped";
 },
 {
 name = preferredSubfamilyName;
@@ -97171,15 +97171,15 @@ value = "SemiCondensed SemiBold";
 },
 {
 name = postscriptFontName;
-value = "NotoLoopedThai-SemiCondensedSemiBold";
+value = "NotoSansThaiLooped-SemiCondensedSemiBold";
 },
 {
 name = postscriptFullName;
-value = "Noto Looped Thai SemiCondensed SemiBold";
+value = "Noto Sans Thai Looped SemiCondensed SemiBold";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai SemiCondensed SemiBold";
+value = "Noto Sans Thai Looped SemiCondensed SemiBold";
 }
 );
 interpolationWeight = 128;
@@ -97268,11 +97268,11 @@ value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \
 },
 {
 name = styleMapFamilyName;
-value = "Noto Looped Thai SmCd Bold";
+value = "Noto Sans Thai Looped SmCd Bold";
 },
 {
 name = preferredFamilyName;
-value = "Noto Looped Thai";
+value = "Noto Sans Thai Looped";
 },
 {
 name = preferredSubfamilyName;
@@ -97280,15 +97280,15 @@ value = "SemiCondensed Bold";
 },
 {
 name = postscriptFontName;
-value = "NotoLoopedThai-SemiCondensedBold";
+value = "NotoSansThaiLooped-SemiCondensedBold";
 },
 {
 name = postscriptFullName;
-value = "Noto Looped Thai SemiCondensed Bold";
+value = "Noto Sans Thai Looped SemiCondensed Bold";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai SemiCondensed Bold";
+value = "Noto Sans Thai Looped SemiCondensed Bold";
 }
 );
 interpolationWeight = 151;
@@ -97379,11 +97379,11 @@ value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \
 },
 {
 name = styleMapFamilyName;
-value = "Noto Looped Thai SmCd ExBd";
+value = "Noto Sans Thai Looped SmCd ExBd";
 },
 {
 name = preferredFamilyName;
-value = "Noto Looped Thai";
+value = "Noto Sans Thai Looped";
 },
 {
 name = preferredSubfamilyName;
@@ -97391,15 +97391,15 @@ value = "SemiCondensed ExtraBold";
 },
 {
 name = postscriptFontName;
-value = "NotoLoopedThai-SemiCondensedExtraBold";
+value = "NotoSansThaiLooped-SemiCondensedExtraBold";
 },
 {
 name = postscriptFullName;
-value = "Noto Looped Thai SemiCondensed ExtraBold";
+value = "Noto Sans Thai Looped SemiCondensed ExtraBold";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai SemiCondensed ExtraBold";
+value = "Noto Sans Thai Looped SemiCondensed ExtraBold";
 }
 );
 interpolationWeight = 169;
@@ -97488,11 +97488,11 @@ value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \
 },
 {
 name = styleMapFamilyName;
-value = "Noto Looped Thai SmCd Blk";
+value = "Noto Sans Thai Looped SmCd Blk";
 },
 {
 name = preferredFamilyName;
-value = "Noto Looped Thai";
+value = "Noto Sans Thai Looped";
 },
 {
 name = preferredSubfamilyName;
@@ -97500,15 +97500,15 @@ value = "SemiCondensed Black";
 },
 {
 name = postscriptFontName;
-value = "NotoLoopedThai-SemiCondensedBlack";
+value = "NotoSansThaiLooped-SemiCondensedBlack";
 },
 {
 name = postscriptFullName;
-value = "Noto Looped Thai SemiCondensed Black";
+value = "Noto Sans Thai Looped SemiCondensed Black";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai SemiCondensed Black";
+value = "Noto Sans Thai Looped SemiCondensed Black";
 }
 );
 interpolationWeight = 190;
@@ -97599,11 +97599,11 @@ value = "kern;\012# Automatic Code End\012\012lookup ThaiContexualKerning { ### 
 },
 {
 name = styleMapFamilyName;
-value = "Noto Looped Thai Cond Thin";
+value = "Noto Sans Thai Looped Cond Thin";
 },
 {
 name = preferredFamilyName;
-value = "Noto Looped Thai";
+value = "Noto Sans Thai Looped";
 },
 {
 name = preferredSubfamilyName;
@@ -97611,15 +97611,15 @@ value = "Condensed Thin";
 },
 {
 name = postscriptFontName;
-value = "NotoLoopedThai-CondensedThin";
+value = "NotoSansThaiLooped-CondensedThin";
 },
 {
 name = postscriptFullName;
-value = "Noto Looped Thai Condensed Thin";
+value = "Noto Sans Thai Looped Condensed Thin";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai Condensed Thin";
+value = "Noto Sans Thai Looped Condensed Thin";
 }
 );
 interpolationWeight = 26;
@@ -97710,11 +97710,11 @@ value = "kern;\012# Automatic Code End\012\012lookup ThaiContexualKerning { ### 
 },
 {
 name = styleMapFamilyName;
-value = "Noto Looped Thai Cond ExLt";
+value = "Noto Sans Thai Looped Cond ExLt";
 },
 {
 name = preferredFamilyName;
-value = "Noto Looped Thai";
+value = "Noto Sans Thai Looped";
 },
 {
 name = preferredSubfamilyName;
@@ -97722,15 +97722,15 @@ value = "Condensed ExtraLight";
 },
 {
 name = postscriptFontName;
-value = "NotoLoopedThai-CondensedExtraLight";
+value = "NotoSansThaiLooped-CondensedExtraLight";
 },
 {
 name = postscriptFullName;
-value = "Noto Looped Thai Condensed ExtraLight";
+value = "Noto Sans Thai Looped Condensed ExtraLight";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai Condensed ExtraLight";
+value = "Noto Sans Thai Looped Condensed ExtraLight";
 }
 );
 interpolationWeight = 39;
@@ -97823,11 +97823,11 @@ value = "kern;\012# Automatic Code End\012\012lookup ThaiContexualKerning { ### 
 },
 {
 name = styleMapFamilyName;
-value = "Noto Looped Thai Cond Lt";
+value = "Noto Sans Thai Looped Cond Lt";
 },
 {
 name = preferredFamilyName;
-value = "Noto Looped Thai";
+value = "Noto Sans Thai Looped";
 },
 {
 name = preferredSubfamilyName;
@@ -97835,15 +97835,15 @@ value = "Condensed Light";
 },
 {
 name = postscriptFontName;
-value = "NotoLoopedThai-CondensedLight";
+value = "NotoSansThaiLooped-CondensedLight";
 },
 {
 name = postscriptFullName;
-value = "Noto Looped Thai Condensed Light";
+value = "Noto Sans Thai Looped Condensed Light";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai Condensed Light";
+value = "Noto Sans Thai Looped Condensed Light";
 }
 );
 interpolationWeight = 58;
@@ -97928,11 +97928,11 @@ value = (
 },
 {
 name = styleMapFamilyName;
-value = "Noto Looped Thai Condensed";
+value = "Noto Sans Thai Looped Condensed";
 },
 {
 name = preferredFamilyName;
-value = "Noto Looped Thai";
+value = "Noto Sans Thai Looped";
 },
 {
 name = preferredSubfamilyName;
@@ -97940,15 +97940,15 @@ value = Condensed;
 },
 {
 name = postscriptFontName;
-value = "NotoLoopedThai-Condensed";
+value = "NotoSansThaiLooped-Condensed";
 },
 {
 name = postscriptFullName;
-value = "Noto Looped Thai Condensed";
+value = "Noto Sans Thai Looped Condensed";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai Condensed";
+value = "Noto Sans Thai Looped Condensed";
 }
 );
 interpolationWeight = 90;
@@ -98034,11 +98034,11 @@ value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \
 },
 {
 name = styleMapFamilyName;
-value = "Noto Looped Thai Cond Med";
+value = "Noto Sans Thai Looped Cond Med";
 },
 {
 name = preferredFamilyName;
-value = "Noto Looped Thai";
+value = "Noto Sans Thai Looped";
 },
 {
 name = preferredSubfamilyName;
@@ -98046,15 +98046,15 @@ value = "Condensed Medium";
 },
 {
 name = postscriptFontName;
-value = "NotoLoopedThai-CondensedMedium";
+value = "NotoSansThaiLooped-CondensedMedium";
 },
 {
 name = postscriptFullName;
-value = "Noto Looped Thai Condensed Medium";
+value = "Noto Sans Thai Looped Condensed Medium";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai Condensed Medium";
+value = "Noto Sans Thai Looped Condensed Medium";
 }
 );
 interpolationWeight = 108;
@@ -98143,11 +98143,11 @@ value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \
 },
 {
 name = styleMapFamilyName;
-value = "Noto Looped Thai Cond SmBd";
+value = "Noto Sans Thai Looped Cond SmBd";
 },
 {
 name = preferredFamilyName;
-value = "Noto Looped Thai";
+value = "Noto Sans Thai Looped";
 },
 {
 name = preferredSubfamilyName;
@@ -98155,15 +98155,15 @@ value = "Condensed SemiBold";
 },
 {
 name = postscriptFontName;
-value = "NotoLoopedThai-CondensedSemiBold";
+value = "NotoSansThaiLooped-CondensedSemiBold";
 },
 {
 name = postscriptFullName;
-value = "Noto Looped Thai Condensed SemiBold";
+value = "Noto Sans Thai Looped Condensed SemiBold";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai Condensed SemiBold";
+value = "Noto Sans Thai Looped Condensed SemiBold";
 }
 );
 interpolationWeight = 128;
@@ -98252,11 +98252,11 @@ value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \
 },
 {
 name = styleMapFamilyName;
-value = "Noto Looped Thai Cond Bold";
+value = "Noto Sans Thai Looped Cond Bold";
 },
 {
 name = preferredFamilyName;
-value = "Noto Looped Thai";
+value = "Noto Sans Thai Looped";
 },
 {
 name = preferredSubfamilyName;
@@ -98264,15 +98264,15 @@ value = "Condensed Bold";
 },
 {
 name = postscriptFontName;
-value = "NotoLoopedThai-CondensedBold";
+value = "NotoSansThaiLooped-CondensedBold";
 },
 {
 name = postscriptFullName;
-value = "Noto Looped Thai Condensed Bold";
+value = "Noto Sans Thai Looped Condensed Bold";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai Condensed Bold";
+value = "Noto Sans Thai Looped Condensed Bold";
 }
 );
 interpolationWeight = 151;
@@ -98363,11 +98363,11 @@ value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \
 },
 {
 name = styleMapFamilyName;
-value = "Noto Looped Thai Cond ExBd";
+value = "Noto Sans Thai Looped Cond ExBd";
 },
 {
 name = preferredFamilyName;
-value = "Noto Looped Thai";
+value = "Noto Sans Thai Looped";
 },
 {
 name = preferredSubfamilyName;
@@ -98375,15 +98375,15 @@ value = "Condensed ExtraBold";
 },
 {
 name = postscriptFontName;
-value = "NotoLoopedThai-CondensedExtraBold";
+value = "NotoSansThaiLooped-CondensedExtraBold";
 },
 {
 name = postscriptFullName;
-value = "Noto Looped Thai Condensed ExtraBold";
+value = "Noto Sans Thai Looped Condensed ExtraBold";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai Condensed ExtraBold";
+value = "Noto Sans Thai Looped Condensed ExtraBold";
 }
 );
 interpolationWeight = 169;
@@ -98472,11 +98472,11 @@ value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \
 },
 {
 name = styleMapFamilyName;
-value = "Noto Looped Thai Cond Blk";
+value = "Noto Sans Thai Looped Cond Blk";
 },
 {
 name = preferredFamilyName;
-value = "Noto Looped Thai";
+value = "Noto Sans Thai Looped";
 },
 {
 name = preferredSubfamilyName;
@@ -98484,15 +98484,15 @@ value = "Condensed Black";
 },
 {
 name = postscriptFontName;
-value = "NotoLoopedThai-CondensedBlack";
+value = "NotoSansThaiLooped-CondensedBlack";
 },
 {
 name = postscriptFullName;
-value = "Noto Looped Thai Condensed Black";
+value = "Noto Sans Thai Looped Condensed Black";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai Condensed Black";
+value = "Noto Sans Thai Looped Condensed Black";
 }
 );
 interpolationWeight = 190;
@@ -98583,11 +98583,11 @@ value = "kern;\012# Automatic Code End\012\012lookup ThaiContexualKerning { ### 
 },
 {
 name = styleMapFamilyName;
-value = "Noto Looped Thai ExCd Thin";
+value = "Noto Sans Thai Looped ExCd Thin";
 },
 {
 name = preferredFamilyName;
-value = "Noto Looped Thai";
+value = "Noto Sans Thai Looped";
 },
 {
 name = preferredSubfamilyName;
@@ -98595,15 +98595,15 @@ value = "ExtraCondensed Thin";
 },
 {
 name = postscriptFontName;
-value = "NotoLoopedThai-ExtraCondensedThin";
+value = "NotoSansThaiLooped-ExtraCondensedThin";
 },
 {
 name = postscriptFullName;
-value = "Noto Looped Thai ExtraCondensed Thin";
+value = "Noto Sans Thai Looped ExtraCondensed Thin";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai ExtraCondensed Thin";
+value = "Noto Sans Thai Looped ExtraCondensed Thin";
 }
 );
 interpolationWeight = 26;
@@ -98693,11 +98693,11 @@ value = "kern;\012# Automatic Code End\012\012lookup ThaiContexualKerning { ### 
 },
 {
 name = styleMapFamilyName;
-value = "Noto Looped Thai ExCd ExLt";
+value = "Noto Sans Thai Looped ExCd ExLt";
 },
 {
 name = preferredFamilyName;
-value = "Noto Looped Thai";
+value = "Noto Sans Thai Looped";
 },
 {
 name = preferredSubfamilyName;
@@ -98705,15 +98705,15 @@ value = "ExtraCondensed ExtraLight";
 },
 {
 name = postscriptFontName;
-value = "NotoLoopedThai-ExtraCondensedExtraLight";
+value = "NotoSansThaiLooped-ExtraCondensedExtraLight";
 },
 {
 name = postscriptFullName;
-value = "Noto Looped Thai ExtraCondensed ExtraLight";
+value = "Noto Sans Thai Looped ExtraCondensed ExtraLight";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai ExtraCondensed ExtraLight";
+value = "Noto Sans Thai Looped ExtraCondensed ExtraLight";
 }
 );
 interpolationWeight = 39;
@@ -98804,11 +98804,11 @@ value = "kern;\012# Automatic Code End\012\012lookup ThaiContexualKerning { ### 
 },
 {
 name = styleMapFamilyName;
-value = "Noto Looped Thai ExCd Lt";
+value = "Noto Sans Thai Looped ExCd Lt";
 },
 {
 name = preferredFamilyName;
-value = "Noto Looped Thai";
+value = "Noto Sans Thai Looped";
 },
 {
 name = preferredSubfamilyName;
@@ -98816,15 +98816,15 @@ value = "ExtraCondensed Light";
 },
 {
 name = postscriptFontName;
-value = "NotoLoopedThai-ExtraCondensedLight";
+value = "NotoSansThaiLooped-ExtraCondensedLight";
 },
 {
 name = postscriptFullName;
-value = "Noto Looped Thai ExtraCondensed Light";
+value = "Noto Sans Thai Looped ExtraCondensed Light";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai ExtraCondensed Light";
+value = "Noto Sans Thai Looped ExtraCondensed Light";
 }
 );
 interpolationWeight = 58;
@@ -98907,11 +98907,11 @@ value = (
 },
 {
 name = styleMapFamilyName;
-value = "Noto Looped Thai ExtraCond";
+value = "Noto Sans Thai Looped ExtraCond";
 },
 {
 name = preferredFamilyName;
-value = "Noto Looped Thai";
+value = "Noto Sans Thai Looped";
 },
 {
 name = preferredSubfamilyName;
@@ -98919,15 +98919,15 @@ value = ExtraCondensed;
 },
 {
 name = postscriptFontName;
-value = "NotoLoopedThai-ExtraCondensed";
+value = "NotoSansThaiLooped-ExtraCondensed";
 },
 {
 name = postscriptFullName;
-value = "Noto Looped Thai ExtraCondensed";
+value = "Noto Sans Thai Looped ExtraCondensed";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai ExtraCondensed";
+value = "Noto Sans Thai Looped ExtraCondensed";
 }
 );
 interpolationWeight = 90;
@@ -99012,11 +99012,11 @@ value = "mkmk;\012# Automatic Code End\012\012lookup combinewithdoublemacron { \
 },
 {
 name = styleMapFamilyName;
-value = "Noto Looped Thai ExCd Med";
+value = "Noto Sans Thai Looped ExCd Med";
 },
 {
 name = preferredFamilyName;
-value = "Noto Looped Thai";
+value = "Noto Sans Thai Looped";
 },
 {
 name = preferredSubfamilyName;
@@ -99024,15 +99024,15 @@ value = "ExtraCondensed Medium";
 },
 {
 name = postscriptFontName;
-value = "NotoLoopedThai-ExtraCondensedMedium";
+value = "NotoSansThaiLooped-ExtraCondensedMedium";
 },
 {
 name = postscriptFullName;
-value = "Noto Looped Thai ExtraCondensed Medium";
+value = "Noto Sans Thai Looped ExtraCondensed Medium";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai ExtraCondensed Medium";
+value = "Noto Sans Thai Looped ExtraCondensed Medium";
 }
 );
 interpolationWeight = 108;
@@ -99123,11 +99123,11 @@ value = "kern;\012# Automatic Code End\012\012lookup ThaiContexualKerning { ### 
 },
 {
 name = styleMapFamilyName;
-value = "Noto Looped Thai ExCd SmBd";
+value = "Noto Sans Thai Looped ExCd SmBd";
 },
 {
 name = preferredFamilyName;
-value = "Noto Looped Thai";
+value = "Noto Sans Thai Looped";
 },
 {
 name = preferredSubfamilyName;
@@ -99135,15 +99135,15 @@ value = "ExtraCondensed SemiBold";
 },
 {
 name = postscriptFontName;
-value = "NotoLoopedThai-ExtraCondensedSemiBold";
+value = "NotoSansThaiLooped-ExtraCondensedSemiBold";
 },
 {
 name = postscriptFullName;
-value = "Noto Looped Thai ExtraCondensed SemiBold";
+value = "Noto Sans Thai Looped ExtraCondensed SemiBold";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai ExtraCondensed SemiBold";
+value = "Noto Sans Thai Looped ExtraCondensed SemiBold";
 }
 );
 interpolationWeight = 128;
@@ -99234,11 +99234,11 @@ value = "kern;\012# Automatic Code End\012\012lookup ThaiContexualKerning { ### 
 },
 {
 name = styleMapFamilyName;
-value = "Noto Looped Thai ExCd Bold";
+value = "Noto Sans Thai Looped ExCd Bold";
 },
 {
 name = preferredFamilyName;
-value = "Noto Looped Thai";
+value = "Noto Sans Thai Looped";
 },
 {
 name = preferredSubfamilyName;
@@ -99246,15 +99246,15 @@ value = "ExtraCondensed Bold";
 },
 {
 name = postscriptFontName;
-value = "NotoLoopedThai-ExtraCondensedBold";
+value = "NotoSansThaiLooped-ExtraCondensedBold";
 },
 {
 name = postscriptFullName;
-value = "Noto Looped Thai ExtraCondensed Bold";
+value = "Noto Sans Thai Looped ExtraCondensed Bold";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai ExtraCondensed Bold";
+value = "Noto Sans Thai Looped ExtraCondensed Bold";
 }
 );
 interpolationWeight = 151;
@@ -99347,11 +99347,11 @@ value = "kern;\012# Automatic Code End\012\012lookup ThaiContexualKerning { ### 
 },
 {
 name = styleMapFamilyName;
-value = "Noto Looped Thai ExCd ExBd";
+value = "Noto Sans Thai Looped ExCd ExBd";
 },
 {
 name = preferredFamilyName;
-value = "Noto Looped Thai";
+value = "Noto Sans Thai Looped";
 },
 {
 name = preferredSubfamilyName;
@@ -99359,15 +99359,15 @@ value = "ExtraCondensed ExtraBold";
 },
 {
 name = postscriptFontName;
-value = "NotoLoopedThai-ExtraCondensedExtraBold";
+value = "NotoSansThaiLooped-ExtraCondensedExtraBold";
 },
 {
 name = postscriptFullName;
-value = "Noto Looped Thai ExtraCondensed ExtraBold";
+value = "Noto Sans Thai Looped ExtraCondensed ExtraBold";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai ExtraCondensed ExtraBold";
+value = "Noto Sans Thai Looped ExtraCondensed ExtraBold";
 }
 );
 interpolationWeight = 169;
@@ -99458,11 +99458,11 @@ value = "kern;\012# Automatic Code End\012\012lookup ThaiContexualKerning { ### 
 },
 {
 name = styleMapFamilyName;
-value = "Noto Looped Thai ExCd Blk";
+value = "Noto Sans Thai Looped ExCd Blk";
 },
 {
 name = preferredFamilyName;
-value = "Noto Looped Thai";
+value = "Noto Sans Thai Looped";
 },
 {
 name = preferredSubfamilyName;
@@ -99470,15 +99470,15 @@ value = "ExtraCondensed Black";
 },
 {
 name = postscriptFontName;
-value = "NotoLoopedThai-ExtraCondensedBlack";
+value = "NotoSansThaiLooped-ExtraCondensedBlack";
 },
 {
 name = postscriptFullName;
-value = "Noto Looped Thai ExtraCondensed Black";
+value = "Noto Sans Thai Looped ExtraCondensed Black";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai ExtraCondensed Black";
+value = "Noto Sans Thai Looped ExtraCondensed Black";
 }
 );
 interpolationWeight = 190;

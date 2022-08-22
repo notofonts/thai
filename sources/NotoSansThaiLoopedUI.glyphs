@@ -330,7 +330,7 @@ value = (
 date = "2020-12-18 15:38:35 +0000";
 designer = "Sasikarn Vongin, Ben Mitchell";
 designerURL = "http://www.fontpad.co.uk";
-familyName = "Noto Looped Thai UI";
+familyName = "Noto Sans Thai Looped UI";
 featurePrefixes = (
 {
 automatic = 1;
@@ -75772,7 +75772,7 @@ value = (
 },
 {
 name = styleMapFamilyName;
-value = "Noto Looped Thai UI Thin";
+value = "Noto Sans Thai Looped UI Thin";
 },
 {
 name = "Instance Preview";
@@ -75827,7 +75827,7 @@ value = (
 },
 {
 name = preferredFamilyName;
-value = "Noto Looped Thai UI";
+value = "Noto Sans Thai Looped UI";
 },
 {
 name = preferredSubfamilyName;
@@ -75835,15 +75835,15 @@ value = Thin;
 },
 {
 name = postscriptFontName;
-value = "NotoLoopedThaiUI-Thin";
+value = "NotoSansThaiLoopedUI-Thin";
 },
 {
 name = postscriptFullName;
-value = "Noto Looped Thai UI Thin";
+value = "Noto Sans Thai Looped UI Thin";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai UI Thin";
+value = "Noto Sans Thai Looped UI Thin";
 },
 {
 name = "Replace Feature";
@@ -75884,7 +75884,7 @@ value = (
 },
 {
 name = styleMapFamilyName;
-value = "Noto Looped Thai UI ExtLight";
+value = "Noto Sans Thai Looped UI ExtLight";
 },
 {
 name = "Instance Preview";
@@ -75939,7 +75939,7 @@ value = (
 },
 {
 name = preferredFamilyName;
-value = "Noto Looped Thai UI";
+value = "Noto Sans Thai Looped UI";
 },
 {
 name = preferredSubfamilyName;
@@ -75947,15 +75947,15 @@ value = ExtraLight;
 },
 {
 name = postscriptFontName;
-value = "NotoLoopedThaiUI-ExtraLight";
+value = "NotoSansThaiLoopedUI-ExtraLight";
 },
 {
 name = postscriptFullName;
-value = "Noto Looped Thai UI ExtraLight";
+value = "Noto Sans Thai Looped UI ExtraLight";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai UI ExtraLight";
+value = "Noto Sans Thai Looped UI ExtraLight";
 },
 {
 name = "Replace Feature";
@@ -75997,7 +75997,7 @@ value = (
 },
 {
 name = styleMapFamilyName;
-value = "Noto Looped Thai UI Light";
+value = "Noto Sans Thai Looped UI Light";
 },
 {
 name = "Instance Preview";
@@ -76052,7 +76052,7 @@ value = (
 },
 {
 name = preferredFamilyName;
-value = "Noto Looped Thai UI";
+value = "Noto Sans Thai Looped UI";
 },
 {
 name = preferredSubfamilyName;
@@ -76060,15 +76060,15 @@ value = Light;
 },
 {
 name = postscriptFontName;
-value = "NotoLoopedThaiUI-Light";
+value = "NotoSansThaiLoopedUI-Light";
 },
 {
 name = postscriptFullName;
-value = "Noto Looped Thai UILight";
+value = "Noto Sans Thai Looped UILight";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai UI Light";
+value = "Noto Sans Thai Looped UI Light";
 },
 {
 name = "Replace Feature";
@@ -76161,7 +76161,7 @@ value = (
 },
 {
 name = preferredFamilyName;
-value = "Noto Looped Thai UI";
+value = "Noto Sans Thai Looped UI";
 },
 {
 name = preferredSubfamilyName;
@@ -76169,19 +76169,19 @@ value = Regular;
 },
 {
 name = postscriptFontName;
-value = "NotoLoopedThaiUI-Regular";
+value = "NotoSansThaiLoopedUI-Regular";
 },
 {
 name = postscriptFullName;
-value = "Noto Looped Thai UI Regular";
+value = "Noto Sans Thai Looped UI Regular";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai UI Regular";
+value = "Noto Sans Thai Looped UI Regular";
 },
 {
 name = styleMapFamilyName;
-value = "Noto Looped Thai UI Regular";
+value = "Noto Sans Thai Looped UI Regular";
 }
 );
 interpolationWeight = 90;
@@ -76213,7 +76213,7 @@ value = (
 },
 {
 name = styleMapFamilyName;
-value = "Noto Looped Thai UI Medium";
+value = "Noto Sans Thai Looped UI Medium";
 },
 {
 name = "Instance Preview";
@@ -76268,7 +76268,7 @@ value = (
 },
 {
 name = preferredFamilyName;
-value = "Noto Looped Thai UI";
+value = "Noto Sans Thai Looped UI";
 },
 {
 name = preferredSubfamilyName;
@@ -76276,15 +76276,15 @@ value = Medium;
 },
 {
 name = postscriptFontName;
-value = "NotoLoopedThaiUI-Medium";
+value = "NotoSansThaiLoopedUI-Medium";
 },
 {
 name = postscriptFullName;
-value = "Noto Looped Thai UI Medium";
+value = "Noto Sans Thai Looped UI Medium";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai UI Medium";
+value = "Noto Sans Thai Looped UI Medium";
 },
 {
 name = "Replace Feature";
@@ -76322,7 +76322,7 @@ value = (
 },
 {
 name = styleMapFamilyName;
-value = "Noto Looped Thai UI SemiBold";
+value = "Noto Sans Thai Looped UI SemiBold";
 },
 {
 name = "Instance Preview";
@@ -76377,7 +76377,7 @@ value = (
 },
 {
 name = preferredFamilyName;
-value = "Noto Looped Thai UI";
+value = "Noto Sans Thai Looped UI";
 },
 {
 name = preferredSubfamilyName;
@@ -76385,15 +76385,15 @@ value = SemiBold;
 },
 {
 name = postscriptFontName;
-value = "NotoLoopedThaiUI-SemiBold";
+value = "NotoSansThaiLoopedUI-SemiBold";
 },
 {
 name = postscriptFullName;
-value = "Noto Looped Thai UI SemiBold";
+value = "Noto Sans Thai Looped UI SemiBold";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai UI SemiBold";
+value = "Noto Sans Thai Looped UI SemiBold";
 },
 {
 name = "Replace Feature";
@@ -76482,7 +76482,7 @@ value = (
 },
 {
 name = preferredFamilyName;
-value = "Noto Looped Thai UI";
+value = "Noto Sans Thai Looped UI";
 },
 {
 name = preferredSubfamilyName;
@@ -76490,19 +76490,19 @@ value = Bold;
 },
 {
 name = postscriptFontName;
-value = "NotoLoopedThaiUI-Bold";
+value = "NotoSansThaiLoopedUI-Bold";
 },
 {
 name = postscriptFullName;
-value = "Noto Looped Thai UI Bold";
+value = "Noto Sans Thai Looped UI Bold";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai UI Bold";
+value = "Noto Sans Thai Looped UI Bold";
 },
 {
 name = styleMapFamilyName;
-value = "Noto Looped Thai UI Bold";
+value = "Noto Sans Thai Looped UI Bold";
 },
 {
 name = "Replace Feature";
@@ -76542,7 +76542,7 @@ value = (
 },
 {
 name = styleMapFamilyName;
-value = "Noto Looped Thai UI ExtraBold";
+value = "Noto Sans Thai Looped UI ExtraBold";
 },
 {
 name = "Instance Preview";
@@ -76597,7 +76597,7 @@ value = (
 },
 {
 name = preferredFamilyName;
-value = "Noto Looped Thai UI";
+value = "Noto Sans Thai Looped UI";
 },
 {
 name = preferredSubfamilyName;
@@ -76605,15 +76605,15 @@ value = Extrabold;
 },
 {
 name = postscriptFontName;
-value = "NotoLoopedThaiUI-ExtraBold";
+value = "NotoSansThaiLoopedUI-ExtraBold";
 },
 {
 name = postscriptFullName;
-value = "Noto Looped Thai UI ExtraBold";
+value = "Noto Sans Thai Looped UI ExtraBold";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai UI ExtraBold";
+value = "Noto Sans Thai Looped UI ExtraBold";
 },
 {
 name = "Replace Feature";
@@ -76651,7 +76651,7 @@ value = (
 },
 {
 name = styleMapFamilyName;
-value = "Noto Looped Thai UI Black";
+value = "Noto Sans Thai Looped UI Black";
 },
 {
 name = "Instance Preview";
@@ -76706,7 +76706,7 @@ value = (
 },
 {
 name = preferredFamilyName;
-value = "Noto Looped Thai UI";
+value = "Noto Sans Thai Looped UI";
 },
 {
 name = preferredSubfamilyName;
@@ -76714,15 +76714,15 @@ value = Black;
 },
 {
 name = postscriptFontName;
-value = "NotoLoopedThaiUI-Black";
+value = "NotoSansThaiLoopedUI-Black";
 },
 {
 name = postscriptFullName;
-value = "Noto Looped Thai UI Black";
+value = "Noto Sans Thai Looped UI Black";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai UI Black";
+value = "Noto Sans Thai Looped UI Black";
 },
 {
 name = "Replace Feature";
@@ -76759,7 +76759,7 @@ value = (
 },
 {
 name = styleMapFamilyName;
-value = "Noto Looped Thai UI SmCd Thin";
+value = "Noto Sans Thai Looped UI SmCd Thin";
 },
 {
 name = "Instance Preview";
@@ -76814,7 +76814,7 @@ value = (
 },
 {
 name = preferredFamilyName;
-value = "Noto Looped Thai UI";
+value = "Noto Sans Thai Looped UI";
 },
 {
 name = preferredSubfamilyName;
@@ -76822,15 +76822,15 @@ value = "SemiCondensed Thin";
 },
 {
 name = postscriptFontName;
-value = "NotoLoopedThaiUI-SemiCondensedThin";
+value = "NotoSansThaiLoopedUI-SemiCondensedThin";
 },
 {
 name = postscriptFullName;
-value = "Noto Looped Thai UI SemiCondensed Thin";
+value = "Noto Sans Thai Looped UI SemiCondensed Thin";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai UI SemiCondensed Thin";
+value = "Noto Sans Thai Looped UI SemiCondensed Thin";
 },
 {
 name = "Replace Feature";
@@ -76874,7 +76874,7 @@ value = (
 },
 {
 name = styleMapFamilyName;
-value = "Noto Looped Thai UI SmCd ExLt";
+value = "Noto Sans Thai Looped UI SmCd ExLt";
 },
 {
 name = "Instance Preview";
@@ -76929,7 +76929,7 @@ value = (
 },
 {
 name = preferredFamilyName;
-value = "Noto Looped Thai UI";
+value = "Noto Sans Thai Looped UI";
 },
 {
 name = preferredSubfamilyName;
@@ -76937,15 +76937,15 @@ value = "SemiCondensed ExtraLight";
 },
 {
 name = postscriptFontName;
-value = "NotoLoopedThaiUI-SemiCondensedExtraLight";
+value = "NotoSansThaiLoopedUI-SemiCondensedExtraLight";
 },
 {
 name = postscriptFullName;
-value = "Noto Looped Thai UI SemiCondensed ExtraLight";
+value = "Noto Sans Thai Looped UI SemiCondensed ExtraLight";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai UI SemiCondensed ExtraLight";
+value = "Noto Sans Thai Looped UI SemiCondensed ExtraLight";
 },
 {
 name = "Replace Feature";
@@ -76991,7 +76991,7 @@ value = (
 },
 {
 name = styleMapFamilyName;
-value = "Noto Looped Thai UI SmCd Lt";
+value = "Noto Sans Thai Looped UI SmCd Lt";
 },
 {
 name = "Instance Preview";
@@ -77046,7 +77046,7 @@ value = (
 },
 {
 name = preferredFamilyName;
-value = "Noto Looped Thai UI";
+value = "Noto Sans Thai Looped UI";
 },
 {
 name = preferredSubfamilyName;
@@ -77054,15 +77054,15 @@ value = "SemiCondensed Light";
 },
 {
 name = postscriptFontName;
-value = "NotoLoopedThaiUI-SemiCondensedLight";
+value = "NotoSansThaiLoopedUI-SemiCondensedLight";
 },
 {
 name = postscriptFullName;
-value = "Noto Looped Thai UI SemiCondensed Light";
+value = "Noto Sans Thai Looped UI SemiCondensed Light";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai UI SemiCondensed Light";
+value = "Noto Sans Thai Looped UI SemiCondensed Light";
 },
 {
 name = "Replace Feature";
@@ -77108,7 +77108,7 @@ value = (
 },
 {
 name = styleMapFamilyName;
-value = "Noto Looped Thai UI SemiCond";
+value = "Noto Sans Thai Looped UI SemiCond";
 },
 {
 name = "Instance Preview";
@@ -77163,7 +77163,7 @@ value = (
 },
 {
 name = preferredFamilyName;
-value = "Noto Looped Thai UI";
+value = "Noto Sans Thai Looped UI";
 },
 {
 name = preferredSubfamilyName;
@@ -77171,15 +77171,15 @@ value = SemiCondensed;
 },
 {
 name = postscriptFontName;
-value = "NotoLoopedThaiUI-SemiCondensed";
+value = "NotoSansThaiLoopedUI-SemiCondensed";
 },
 {
 name = postscriptFullName;
-value = "Noto Looped Thai UI SemiCondensed";
+value = "Noto Sans Thai Looped UI SemiCondensed";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai UI SemiCondensed";
+value = "Noto Sans Thai Looped UI SemiCondensed";
 }
 );
 interpolationWeight = 90;
@@ -77214,7 +77214,7 @@ value = (
 },
 {
 name = styleMapFamilyName;
-value = "Noto Looped Thai UI SmCd Med";
+value = "Noto Sans Thai Looped UI SmCd Med";
 },
 {
 name = "Instance Preview";
@@ -77269,7 +77269,7 @@ value = (
 },
 {
 name = preferredFamilyName;
-value = "Noto Looped Thai UI";
+value = "Noto Sans Thai Looped UI";
 },
 {
 name = preferredSubfamilyName;
@@ -77277,15 +77277,15 @@ value = "SemiCondensed Medium";
 },
 {
 name = postscriptFontName;
-value = "NotoLoopedThaiUI-SemiCondensedMedium";
+value = "NotoSansThaiLoopedUI-SemiCondensedMedium";
 },
 {
 name = postscriptFullName;
-value = "Noto Looped Thai UI SemiCondensed Medium";
+value = "Noto Sans Thai Looped UI SemiCondensed Medium";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai UI SemiCondensed Medium";
+value = "Noto Sans Thai Looped UI SemiCondensed Medium";
 },
 {
 name = "Replace Feature";
@@ -77327,7 +77327,7 @@ value = (
 },
 {
 name = styleMapFamilyName;
-value = "Noto Looped Thai UI SmCd SmBd";
+value = "Noto Sans Thai Looped UI SmCd SmBd";
 },
 {
 name = "Instance Preview";
@@ -77382,7 +77382,7 @@ value = (
 },
 {
 name = preferredFamilyName;
-value = "Noto Looped Thai UI";
+value = "Noto Sans Thai Looped UI";
 },
 {
 name = preferredSubfamilyName;
@@ -77390,15 +77390,15 @@ value = "SemiCondensed SemiBold";
 },
 {
 name = postscriptFontName;
-value = "NotoLoopedThaiUI-SemiCondensedSemiBold";
+value = "NotoSansThaiLoopedUI-SemiCondensedSemiBold";
 },
 {
 name = postscriptFullName;
-value = "Noto Looped Thai UI SemiCondensed SemiBold";
+value = "Noto Sans Thai Looped UI SemiCondensed SemiBold";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai UI SemiCondensed SemiBold";
+value = "Noto Sans Thai Looped UI SemiCondensed SemiBold";
 },
 {
 name = "Replace Feature";
@@ -77440,7 +77440,7 @@ value = (
 },
 {
 name = styleMapFamilyName;
-value = "Noto Looped Thai UI SmCd Bold";
+value = "Noto Sans Thai Looped UI SmCd Bold";
 },
 {
 name = "Instance Preview";
@@ -77495,7 +77495,7 @@ value = (
 },
 {
 name = preferredFamilyName;
-value = "Noto Looped Thai UI";
+value = "Noto Sans Thai Looped UI";
 },
 {
 name = preferredSubfamilyName;
@@ -77503,15 +77503,15 @@ value = "SemiCondensed Bold";
 },
 {
 name = postscriptFontName;
-value = "NotoLoopedThaiUI-SemiCondensedBold";
+value = "NotoSansThaiLoopedUI-SemiCondensedBold";
 },
 {
 name = postscriptFullName;
-value = "Noto Looped Thai UI SemiCondensed Bold";
+value = "Noto Sans Thai Looped UI SemiCondensed Bold";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai UI SemiCondensed Bold";
+value = "Noto Sans Thai Looped UI SemiCondensed Bold";
 },
 {
 name = "Replace Feature";
@@ -77555,7 +77555,7 @@ value = (
 },
 {
 name = styleMapFamilyName;
-value = "Noto Looped Thai UI SmCd ExBd";
+value = "Noto Sans Thai Looped UI SmCd ExBd";
 },
 {
 name = "Instance Preview";
@@ -77610,7 +77610,7 @@ value = (
 },
 {
 name = preferredFamilyName;
-value = "Noto Looped Thai UI";
+value = "Noto Sans Thai Looped UI";
 },
 {
 name = preferredSubfamilyName;
@@ -77618,15 +77618,15 @@ value = "SemiCondensed ExtraBold";
 },
 {
 name = postscriptFontName;
-value = "NotoLoopedThaiUI-SemiCondensedExtraBold";
+value = "NotoSansThaiLoopedUI-SemiCondensedExtraBold";
 },
 {
 name = postscriptFullName;
-value = "Noto Looped Thai UI SemiCondensed ExtraBold";
+value = "Noto Sans Thai Looped UI SemiCondensed ExtraBold";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai UI SemiCondensed ExtraBold";
+value = "Noto Sans Thai Looped UI SemiCondensed ExtraBold";
 },
 {
 name = "Replace Feature";
@@ -77719,7 +77719,7 @@ value = (
 },
 {
 name = preferredFamilyName;
-value = "Noto Looped Thai UI";
+value = "Noto Sans Thai Looped UI";
 },
 {
 name = preferredSubfamilyName;
@@ -77727,19 +77727,19 @@ value = "SemiCondensed Black";
 },
 {
 name = postscriptFontName;
-value = "NotoLoopedThaiUI-SemiCondensedBlack";
+value = "NotoSansThaiLoopedUI-SemiCondensedBlack";
 },
 {
 name = postscriptFullName;
-value = "Noto Looped Thai UI SemiCondensed Black";
+value = "Noto Sans Thai Looped UI SemiCondensed Black";
 },
 {
 name = styleMapFamilyName;
-value = "Noto Looped Thai UI SmCd Blk";
+value = "Noto Sans Thai Looped UI SmCd Blk";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai UI SemiCondensed Black";
+value = "Noto Sans Thai Looped UI SemiCondensed Black";
 },
 {
 name = "Replace Feature";
@@ -77779,7 +77779,7 @@ value = (
 },
 {
 name = styleMapFamilyName;
-value = "Noto Looped Thai UI Cond Thin";
+value = "Noto Sans Thai Looped UI Cond Thin";
 },
 {
 name = "Instance Preview";
@@ -77834,7 +77834,7 @@ value = (
 },
 {
 name = preferredFamilyName;
-value = "Noto Looped Thai UI";
+value = "Noto Sans Thai Looped UI";
 },
 {
 name = preferredSubfamilyName;
@@ -77842,15 +77842,15 @@ value = "Condensed Thin";
 },
 {
 name = postscriptFontName;
-value = "NotoLoopedThaiUI-CondensedThin";
+value = "NotoSansThaiLoopedUI-CondensedThin";
 },
 {
 name = postscriptFullName;
-value = "Noto Looped Thai UI Condensed Thin";
+value = "Noto Sans Thai Looped UI Condensed Thin";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai UI Condensed Thin";
+value = "Noto Sans Thai Looped UI Condensed Thin";
 },
 {
 name = "Replace Feature";
@@ -77894,7 +77894,7 @@ value = (
 },
 {
 name = styleMapFamilyName;
-value = "Noto Looped Thai UI Cond ExLt";
+value = "Noto Sans Thai Looped UI Cond ExLt";
 },
 {
 name = "Instance Preview";
@@ -77949,7 +77949,7 @@ value = (
 },
 {
 name = preferredFamilyName;
-value = "Noto Looped Thai UI";
+value = "Noto Sans Thai Looped UI";
 },
 {
 name = preferredSubfamilyName;
@@ -77957,15 +77957,15 @@ value = "Condensed ExtraLight";
 },
 {
 name = postscriptFontName;
-value = "NotoLoopedThaiUI-CondensedExtraLight";
+value = "NotoSansThaiLoopedUI-CondensedExtraLight";
 },
 {
 name = postscriptFullName;
-value = "Noto Looped Thai UI Condensed ExtraLight";
+value = "Noto Sans Thai Looped UI Condensed ExtraLight";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai UI Condensed ExtraLight";
+value = "Noto Sans Thai Looped UI Condensed ExtraLight";
 },
 {
 name = "Replace Feature";
@@ -78011,7 +78011,7 @@ value = (
 },
 {
 name = styleMapFamilyName;
-value = "Noto Looped Thai UI Cond Lt";
+value = "Noto Sans Thai Looped UI Cond Lt";
 },
 {
 name = "Instance Preview";
@@ -78066,7 +78066,7 @@ value = (
 },
 {
 name = preferredFamilyName;
-value = "Noto Looped Thai UI";
+value = "Noto Sans Thai Looped UI";
 },
 {
 name = preferredSubfamilyName;
@@ -78074,15 +78074,15 @@ value = "Condensed Light";
 },
 {
 name = postscriptFontName;
-value = "NotoLoopedThaiUI-CondensedLight";
+value = "NotoSansThaiLoopedUI-CondensedLight";
 },
 {
 name = postscriptFullName;
-value = "Noto Looped Thai UI Condensed Light";
+value = "Noto Sans Thai Looped UI Condensed Light";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai UI Condensed Light";
+value = "Noto Sans Thai Looped UI Condensed Light";
 },
 {
 name = "Replace Feature";
@@ -78128,7 +78128,7 @@ value = (
 },
 {
 name = styleMapFamilyName;
-value = "Noto Looped Thai UI Condensed";
+value = "Noto Sans Thai Looped UI Condensed";
 },
 {
 name = "Instance Preview";
@@ -78183,7 +78183,7 @@ value = (
 },
 {
 name = preferredFamilyName;
-value = "Noto Looped Thai UI";
+value = "Noto Sans Thai Looped UI";
 },
 {
 name = preferredSubfamilyName;
@@ -78191,15 +78191,15 @@ value = Condensed;
 },
 {
 name = postscriptFontName;
-value = "NotoLoopedThaiUI-Condensed";
+value = "NotoSansThaiLoopedUI-Condensed";
 },
 {
 name = postscriptFullName;
-value = "Noto Looped Thai UI Condensed";
+value = "Noto Sans Thai Looped UI Condensed";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai UI Condensed";
+value = "Noto Sans Thai Looped UI Condensed";
 }
 );
 interpolationWeight = 90;
@@ -78234,7 +78234,7 @@ value = (
 },
 {
 name = styleMapFamilyName;
-value = "Noto Looped Thai UI Cond Med";
+value = "Noto Sans Thai Looped UI Cond Med";
 },
 {
 name = "Instance Preview";
@@ -78289,7 +78289,7 @@ value = (
 },
 {
 name = preferredFamilyName;
-value = "Noto Looped Thai UI";
+value = "Noto Sans Thai Looped UI";
 },
 {
 name = preferredSubfamilyName;
@@ -78297,15 +78297,15 @@ value = "Condensed Medium";
 },
 {
 name = postscriptFontName;
-value = "NotoLoopedThaiUI-CondensedMedium";
+value = "NotoSansThaiLoopedUI-CondensedMedium";
 },
 {
 name = postscriptFullName;
-value = "Noto Looped Thai UI Condensed Medium";
+value = "Noto Sans Thai Looped UI Condensed Medium";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai UI Condensed Medium";
+value = "Noto Sans Thai Looped UI Condensed Medium";
 },
 {
 name = "Replace Feature";
@@ -78347,7 +78347,7 @@ value = (
 },
 {
 name = styleMapFamilyName;
-value = "Noto Looped Thai UI Cond SmBd";
+value = "Noto Sans Thai Looped UI Cond SmBd";
 },
 {
 name = "Instance Preview";
@@ -78402,7 +78402,7 @@ value = (
 },
 {
 name = preferredFamilyName;
-value = "Noto Looped Thai UI";
+value = "Noto Sans Thai Looped UI";
 },
 {
 name = preferredSubfamilyName;
@@ -78410,15 +78410,15 @@ value = "Condensed SemiBold";
 },
 {
 name = postscriptFontName;
-value = "NotoLoopedThaiUI-CondensedSemiBold";
+value = "NotoSansThaiLoopedUI-CondensedSemiBold";
 },
 {
 name = postscriptFullName;
-value = "Noto Looped Thai UI Condensed SemiBold";
+value = "Noto Sans Thai Looped UI Condensed SemiBold";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai UI Condensed SemiBold";
+value = "Noto Sans Thai Looped UI Condensed SemiBold";
 },
 {
 name = "Replace Feature";
@@ -78460,7 +78460,7 @@ value = (
 },
 {
 name = styleMapFamilyName;
-value = "Noto Looped Thai UI Cond Bold";
+value = "Noto Sans Thai Looped UI Cond Bold";
 },
 {
 name = "Instance Preview";
@@ -78515,7 +78515,7 @@ value = (
 },
 {
 name = preferredFamilyName;
-value = "Noto Looped Thai UI";
+value = "Noto Sans Thai Looped UI";
 },
 {
 name = preferredSubfamilyName;
@@ -78523,15 +78523,15 @@ value = "Condensed Bold";
 },
 {
 name = postscriptFontName;
-value = "NotoLoopedThaiUI-CondensedBold";
+value = "NotoSansThaiLoopedUI-CondensedBold";
 },
 {
 name = postscriptFullName;
-value = "Noto Looped Thai UI Condensed Bold";
+value = "Noto Sans Thai Looped UI Condensed Bold";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai UI Condensed Bold";
+value = "Noto Sans Thai Looped UI Condensed Bold";
 },
 {
 name = "Replace Feature";
@@ -78575,7 +78575,7 @@ value = (
 },
 {
 name = styleMapFamilyName;
-value = "Noto Looped Thai UI Cond ExBd";
+value = "Noto Sans Thai Looped UI Cond ExBd";
 },
 {
 name = "Instance Preview";
@@ -78630,7 +78630,7 @@ value = (
 },
 {
 name = preferredFamilyName;
-value = "Noto Looped Thai UI";
+value = "Noto Sans Thai Looped UI";
 },
 {
 name = preferredSubfamilyName;
@@ -78638,15 +78638,15 @@ value = "Condensed ExtraBold";
 },
 {
 name = postscriptFontName;
-value = "NotoLoopedThaiUI-CondensedExtraBold";
+value = "NotoSansThaiLoopedUI-CondensedExtraBold";
 },
 {
 name = postscriptFullName;
-value = "Noto Looped Thai UI Condensed ExtraBold";
+value = "Noto Sans Thai Looped UI Condensed ExtraBold";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai UI Condensed ExtraBold";
+value = "Noto Sans Thai Looped UI Condensed ExtraBold";
 },
 {
 name = "Replace Feature";
@@ -78688,7 +78688,7 @@ value = (
 },
 {
 name = styleMapFamilyName;
-value = "Noto Looped Thai UI Cond Blk";
+value = "Noto Sans Thai Looped UI Cond Blk";
 },
 {
 name = "Instance Preview";
@@ -78743,7 +78743,7 @@ value = (
 },
 {
 name = preferredFamilyName;
-value = "Noto Looped Thai UI";
+value = "Noto Sans Thai Looped UI";
 },
 {
 name = preferredSubfamilyName;
@@ -78751,15 +78751,15 @@ value = "Condensed Black";
 },
 {
 name = postscriptFontName;
-value = "NotoLoopedThaiUI-CondensedBlack";
+value = "NotoSansThaiLoopedUI-CondensedBlack";
 },
 {
 name = postscriptFullName;
-value = "Noto Looped Thai UI Condensed Black";
+value = "Noto Sans Thai Looped UI Condensed Black";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai UI Condensed Black";
+value = "Noto Sans Thai Looped UI Condensed Black";
 },
 {
 name = "Replace Feature";
@@ -78799,7 +78799,7 @@ value = (
 },
 {
 name = styleMapFamilyName;
-value = "Noto Looped Thai UI ExCd Thin";
+value = "Noto Sans Thai Looped UI ExCd Thin";
 },
 {
 name = "Instance Preview";
@@ -78854,7 +78854,7 @@ value = (
 },
 {
 name = preferredFamilyName;
-value = "Noto Looped Thai UI";
+value = "Noto Sans Thai Looped UI";
 },
 {
 name = preferredSubfamilyName;
@@ -78862,15 +78862,15 @@ value = "ExtraCondensed Thin";
 },
 {
 name = postscriptFontName;
-value = "NotoLoopedThaiUI-ExtraCondensedThin";
+value = "NotoSansThaiLoopedUI-ExtraCondensedThin";
 },
 {
 name = postscriptFullName;
-value = "Noto Looped Thai UI ExtraCondensed Thin";
+value = "Noto Sans Thai Looped UI ExtraCondensed Thin";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai UI ExtraCondensed Thin";
+value = "Noto Sans Thai Looped UI ExtraCondensed Thin";
 },
 {
 name = "Replace Feature";
@@ -78913,7 +78913,7 @@ value = (
 },
 {
 name = styleMapFamilyName;
-value = "Noto Looped Thai UI ExCd ExLt";
+value = "Noto Sans Thai Looped UI ExCd ExLt";
 },
 {
 name = "Instance Preview";
@@ -78968,7 +78968,7 @@ value = (
 },
 {
 name = preferredFamilyName;
-value = "Noto Looped Thai UI";
+value = "Noto Sans Thai Looped UI";
 },
 {
 name = preferredSubfamilyName;
@@ -78976,15 +78976,15 @@ value = "ExtraCondensed ExtraLight";
 },
 {
 name = postscriptFontName;
-value = "NotoLoopedThaiUI-ExtraCondensedExtraLight";
+value = "NotoSansThaiLoopedUI-ExtraCondensedExtraLight";
 },
 {
 name = postscriptFullName;
-value = "Noto Looped Thai UI ExtraCondensed ExtraLight";
+value = "Noto Sans Thai Looped UI ExtraCondensed ExtraLight";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai UI ExtraCondensed ExtraLight";
+value = "Noto Sans Thai Looped UI ExtraCondensed ExtraLight";
 },
 {
 name = "Replace Feature";
@@ -79024,7 +79024,7 @@ value = (
 },
 {
 name = styleMapFamilyName;
-value = "Noto Looped Thai UI ExCd Lt";
+value = "Noto Sans Thai Looped UI ExCd Lt";
 },
 {
 name = weightClass;
@@ -79083,7 +79083,7 @@ value = (
 },
 {
 name = preferredFamilyName;
-value = "Noto Looped Thai UI";
+value = "Noto Sans Thai Looped UI";
 },
 {
 name = preferredSubfamilyName;
@@ -79091,15 +79091,15 @@ value = "ExtraCondensed Light";
 },
 {
 name = postscriptFontName;
-value = "NotoLoopedThaiUI-ExtraCondensedLight";
+value = "NotoSansThaiLoopedUI-ExtraCondensedLight";
 },
 {
 name = postscriptFullName;
-value = "Noto Looped Thai UI ExtraCondensed Light";
+value = "Noto Sans Thai Looped UI ExtraCondensed Light";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai UI ExtraCondensed Light";
+value = "Noto Sans Thai Looped UI ExtraCondensed Light";
 },
 {
 name = "Replace Feature";
@@ -79128,7 +79128,7 @@ value = 400;
 },
 {
 name = styleMapFamilyName;
-value = "Noto Looped Thai UI ExtraCond";
+value = "Noto Sans Thai Looped UI ExtraCond";
 },
 {
 name = panose;
@@ -79198,7 +79198,7 @@ value = (
 },
 {
 name = preferredFamilyName;
-value = "Noto Looped Thai UI";
+value = "Noto Sans Thai Looped UI";
 },
 {
 name = preferredSubfamilyName;
@@ -79206,15 +79206,15 @@ value = ExtraCondensed;
 },
 {
 name = postscriptFontName;
-value = "NotoLoopedThaiUI-ExtraCondensed";
+value = "NotoSansThaiLoopedUI-ExtraCondensed";
 },
 {
 name = postscriptFullName;
-value = "Noto Looped Thai UI ExtraCondensed";
+value = "Noto Sans Thai Looped UI ExtraCondensed";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai UI ExtraCondensed";
+value = "Noto Sans Thai Looped UI ExtraCondensed";
 }
 );
 interpolationWeight = 90;
@@ -79233,7 +79233,7 @@ value = 500;
 },
 {
 name = styleMapFamilyName;
-value = "Noto Looped Thai UI ExCd Med";
+value = "Noto Sans Thai Looped UI ExCd Med";
 },
 {
 name = panose;
@@ -79303,7 +79303,7 @@ value = (
 },
 {
 name = preferredFamilyName;
-value = "Noto Looped Thai UI";
+value = "Noto Sans Thai Looped UI";
 },
 {
 name = preferredSubfamilyName;
@@ -79311,15 +79311,15 @@ value = "ExtraCondensed Medium";
 },
 {
 name = postscriptFontName;
-value = "NotoLoopedThaiUI-ExtraCondensedMedium";
+value = "NotoSansThaiLoopedUI-ExtraCondensedMedium";
 },
 {
 name = postscriptFullName;
-value = "Noto Looped Thai UI ExtraCondensed Medium";
+value = "Noto Sans Thai Looped UI ExtraCondensed Medium";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai UI ExtraCondensed Medium";
+value = "Noto Sans Thai Looped UI ExtraCondensed Medium";
 },
 {
 name = "Replace Feature";
@@ -79410,7 +79410,7 @@ value = (
 },
 {
 name = preferredFamilyName;
-value = "Noto Looped Thai UI";
+value = "Noto Sans Thai Looped UI";
 },
 {
 name = preferredSubfamilyName;
@@ -79418,19 +79418,19 @@ value = "ExtraCondensed SemiBold";
 },
 {
 name = postscriptFontName;
-value = "NotoLoopedThaiUI-ExtraCondensedSemiBold";
+value = "NotoSansThaiLoopedUI-ExtraCondensedSemiBold";
 },
 {
 name = postscriptFullName;
-value = "Noto Looped Thai UI ExtraCondensed SemiBold";
+value = "Noto Sans Thai Looped UI ExtraCondensed SemiBold";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai UI ExtraCondensed SemiBold";
+value = "Noto Sans Thai Looped UI ExtraCondensed SemiBold";
 },
 {
 name = styleMapFamilyName;
-value = "Noto Looped Thai UI ExCd SmBd";
+value = "Noto Sans Thai Looped UI ExCd SmBd";
 },
 {
 name = "Replace Feature";
@@ -79459,7 +79459,7 @@ value = 700;
 },
 {
 name = styleMapFamilyName;
-value = "Noto Looped Thai UI ExCd Bold";
+value = "Noto Sans Thai Looped UI ExCd Bold";
 },
 {
 name = panose;
@@ -79529,7 +79529,7 @@ value = (
 },
 {
 name = preferredFamilyName;
-value = "Noto Looped Thai UI";
+value = "Noto Sans Thai Looped UI";
 },
 {
 name = preferredSubfamilyName;
@@ -79537,15 +79537,15 @@ value = "ExtraCondensed Bold";
 },
 {
 name = postscriptFontName;
-value = "NotoLoopedThaiUI-ExtraCondensedBold";
+value = "NotoSansThaiLoopedUI-ExtraCondensedBold";
 },
 {
 name = postscriptFullName;
-value = "Noto Looped Thai UI ExtraCondensed Bold";
+value = "Noto Sans Thai Looped UI ExtraCondensed Bold";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai UI ExtraCondensed Bold";
+value = "Noto Sans Thai Looped UI ExtraCondensed Bold";
 },
 {
 name = "Replace Feature";
@@ -79576,7 +79576,7 @@ value = 800;
 },
 {
 name = styleMapFamilyName;
-value = "Noto Looped Thai UI ExCd ExBd";
+value = "Noto Sans Thai Looped UI ExCd ExBd";
 },
 {
 name = panose;
@@ -79646,7 +79646,7 @@ value = (
 },
 {
 name = preferredFamilyName;
-value = "Noto Looped Thai UI";
+value = "Noto Sans Thai Looped UI";
 },
 {
 name = preferredSubfamilyName;
@@ -79654,15 +79654,15 @@ value = "ExtraCondensed ExtraBold";
 },
 {
 name = postscriptFontName;
-value = "NotoLoopedThaiUI-ExtraCondensedExtraBold";
+value = "NotoSansThaiLoopedUI-ExtraCondensedExtraBold";
 },
 {
 name = postscriptFullName;
-value = "Noto Looped Thai UI ExtraCondensed ExtraBold";
+value = "Noto Sans Thai Looped UI ExtraCondensed ExtraBold";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai UI ExtraCondensed ExtraBold";
+value = "Noto Sans Thai Looped UI ExtraCondensed ExtraBold";
 },
 {
 name = "Replace Feature";
@@ -79706,7 +79706,7 @@ value = (
 },
 {
 name = styleMapFamilyName;
-value = "Noto Looped Thai UI ExCd Blk";
+value = "Noto Sans Thai Looped UI ExCd Blk";
 },
 {
 name = "Instance Preview";
@@ -79761,7 +79761,7 @@ value = (
 },
 {
 name = preferredFamilyName;
-value = "Noto Looped Thai UI";
+value = "Noto Sans Thai Looped UI";
 },
 {
 name = preferredSubfamilyName;
@@ -79769,15 +79769,15 @@ value = "ExtraCondensed Black";
 },
 {
 name = postscriptFontName;
-value = "NotoLoopedThaiUI-ExtraCondensedBlack";
+value = "NotoSansThaiLoopedUI-ExtraCondensedBlack";
 },
 {
 name = postscriptFullName;
-value = "Noto Looped Thai UI ExtraCondensed Black";
+value = "Noto Sans Thai Looped UI ExtraCondensed Black";
 },
 {
 name = compatibleFullName;
-value = "Noto Looped Thai UI ExtraCondensed Black";
+value = "Noto Sans Thai Looped UI ExtraCondensed Black";
 },
 {
 name = "Replace Feature";
