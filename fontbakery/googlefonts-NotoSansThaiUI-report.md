@@ -10,10 +10,44 @@ Fontbakery version: 0.8.9
 
 
 * 🔥 **FAIL** PANOSE proportion is not the same across this family. In order to fix this, please make sure that the panose.bProportion value is the same in the OS/2 table of all of this family font files. [code: inconsistency]
-</div></details><br></div></details><details><summary><b>[12] NotoSansThaiUI-Black.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[12] NotoSansThaiUI-Black.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
+* 🔥 **FAIL** Missing required codepoints:
+
+	- 0x0030 (DIGIT ZERO)
+
+
+	- 0x0031 (DIGIT ONE)
+
+
+	- 0x0032 (DIGIT TWO)
+
+
+	- 0x0033 (DIGIT THREE)
+
+
+	- 0x0034 (DIGIT FOUR)
+
+
+	- 0x0035 (DIGIT FIVE)
+
+
+	- 0x0036 (DIGIT SIX)
+
+
+	- 0x0037 (DIGIT SEVEN)
+
+
+	- 0x0038 (DIGIT EIGHT)
+
+
+	- 0x0039 (DIGIT NINE)
+ 
+
+	- And 318 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
@@ -28,6 +62,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Black.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Bold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Condensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Light.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Medium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Regular.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Thin.ttf', 'fonts/NotoSansThaiUI/googlefonts/variable-ttf/NotoSansThaiUI[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check font can render its own name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/render_own_name">com.google.fonts/check/render_own_name</a>)</summary><div>
+
+
+* 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI Black [code: render-own-name]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -58,10 +96,6 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
@@ -70,85 +104,108 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
 
-	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
+	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
 
-	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3 
-
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- And Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B), uni030C (U+030C) and 4 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-	* ampersand (U+0026): X=391.5,Y=-2.0 (should be at baseline 0?)
+	* uni02BC (U+02BC): X=237.0,Y=713.0 (should be at cap-height 714?)
 
-	* three (U+0033): X=129.0,Y=0.5 (should be at baseline 0?)
+	* uni02BC (U+02BC): X=65.0,Y=713.0 (should be at cap-height 714?)
 
-	* six (U+0036): X=510.0,Y=716.0 (should be at cap-height 714?)
+	* uni0E0E (U+0E0E): X=126.0,Y=1.0 (should be at baseline 0?)
 
-	* C (U+0043): X=490.5,Y=-0.5 (should be at baseline 0?)
+	* uni0E0F (U+0E0F): X=126.0,Y=1.0 (should be at baseline 0?)
 
-	* C (U+0043): X=506.0,Y=712.0 (should be at cap-height 714?)
+	* uni0E1D (U+0E1D): X=449.0,Y=715.0 (should be at cap-height 714?)
 
-	* G (U+0047): X=545.5,Y=2.0 (should be at baseline 0?)
+	* uni0E1D (U+0E1D): X=624.0,Y=715.0 (should be at cap-height 714?)
 
-	* a (U+0061): X=282.0,Y=-1.5 (should be at baseline 0?)
+	* uni0E23 (U+0E23): X=143.5,Y=-1.0 (should be at baseline 0?)
 
-	* f (U+0066): X=143.0,Y=716.0 (should be at cap-height 714?)
+	* uni0E27 (U+0E27): X=117.0,Y=-1.0 (should be at baseline 0?)
 
-	* g (U+0067): X=577.0,Y=-1.0 (should be at baseline 0?)
+	* uni0E49 (U+0E49): X=-322.0,Y=715.0 (should be at cap-height 714?)
 
-	* g (U+0067): X=386.0,Y=1.0 (should be at baseline 0?) 
+	* uni0E4A (U+0E4A): X=-225.0,Y=713.0 (should be at cap-height 714?) 
 
-	* And 80 more.
+	* And 5 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
-* ⚠ **WARN** The following glyphs have jaggy segments:
+* ⚠ **WARN** The following glyphs have segments which seem very short:
 
-	* V (U+0056): B<<339.5,236.0>-<346.0,204.0>-<347.0,184.0>>/B<<347.0,184.0>-<349.0,204.0>-<354.5,235.5>> = 8.57299836361137
+	* uni0E03 (U+0E03) contains a short segment B<<131.5,366.5>-<123.0,365.0>-<115.0,365.0>>
 
-	* W (U+0057): B<<308.0,211.5>-<313.0,185.0>-<315.0,167.0>>/B<<315.0,167.0>-<319.0,197.0>-<325.5,236.0>> = 13.934835114501363
+	* uni0E03 (U+0E03) contains a short segment B<<184.0,472.0>-<190.0,472.0>-<198.0,474.0>>
 
-	* W (U+0057): B<<527.0,442.0>-<523.0,468.0>-<521.0,486.0>>/B<<521.0,486.0>-<519.0,468.0>-<514.5,442.0>> = 12.680383491819825
+	* uni0E04 (U+0E04) contains a short segment L<<244.0,228.0>--<248.0,227.0>>
 
-	* W (U+0057): B<<714.0,235.0>-<721.0,196.0>-<724.0,167.0>>/B<<724.0,167.0>-<727.0,192.0>-<734.0,229.0>> = 12.748914526401432
+	* uni0E05 (U+0E05) contains a short segment L<<244.0,228.0>--<248.0,227.0>>
 
-	* Wacute (U+1E82): B<<308.0,211.5>-<313.0,185.0>-<315.0,167.0>>/B<<315.0,167.0>-<319.0,197.0>-<325.5,236.0>> = 13.934835114501363
+	* uni0E05 (U+0E05) contains a short segment L<<375.0,149.0>--<358.0,149.0>>
 
-	* Wacute (U+1E82): B<<527.0,442.0>-<523.0,468.0>-<521.0,486.0>>/B<<521.0,486.0>-<519.0,468.0>-<514.5,442.0>> = 12.680383491819825
+	* uni0E06 (U+0E06) contains a short segment B<<155.0,369.0>-<146.0,368.0>-<137.5,366.5>>
 
-	* Wacute (U+1E82): B<<714.0,235.0>-<721.0,196.0>-<724.0,167.0>>/B<<724.0,167.0>-<727.0,192.0>-<734.0,229.0>> = 12.748914526401432
+	* uni0E06 (U+0E06) contains a short segment B<<137.5,366.5>-<129.0,365.0>-<121.0,365.0>>
 
-	* Wcircumflex (U+0174): B<<308.0,211.5>-<313.0,185.0>-<315.0,167.0>>/B<<315.0,167.0>-<319.0,197.0>-<325.5,236.0>> = 13.934835114501363
+	* uni0E06 (U+0E06) contains a short segment B<<191.0,472.0>-<197.0,472.0>-<205.0,474.0>>
 
-	* Wcircumflex (U+0174): B<<527.0,442.0>-<523.0,468.0>-<521.0,486.0>>/B<<521.0,486.0>-<519.0,468.0>-<514.5,442.0>> = 12.680383491819825
+	* uni0E06 (U+0E06) contains a short segment B<<205.0,474.0>-<213.0,476.0>-<220.0,483.0>>
 
-	* Wcircumflex (U+0174): B<<714.0,235.0>-<721.0,196.0>-<724.0,167.0>>/B<<724.0,167.0>-<727.0,192.0>-<734.0,229.0>> = 12.748914526401432 
+	* uni0E07 (U+0E07) contains a short segment L<<293.0,152.0>--<296.0,152.0>> 
 
-	* And 6 more.
+	* And 76 more.
 
-Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[11] NotoSansThaiUI-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
+</div></details><br></div></details><details><summary><b>[11] NotoSansThaiUI-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
+* 🔥 **FAIL** Missing required codepoints:
+
+	- 0x0030 (DIGIT ZERO)
+
+
+	- 0x0031 (DIGIT ONE)
+
+
+	- 0x0032 (DIGIT TWO)
+
+
+	- 0x0033 (DIGIT THREE)
+
+
+	- 0x0034 (DIGIT FOUR)
+
+
+	- 0x0035 (DIGIT FIVE)
+
+
+	- 0x0036 (DIGIT SIX)
+
+
+	- 0x0037 (DIGIT SEVEN)
+
+
+	- 0x0038 (DIGIT EIGHT)
+
+
+	- 0x0039 (DIGIT NINE)
+ 
+
+	- And 318 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
@@ -163,6 +220,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Black.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Bold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Condensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Light.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Medium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Regular.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Thin.ttf', 'fonts/NotoSansThaiUI/googlefonts/variable-ttf/NotoSansThaiUI[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check font can render its own name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/render_own_name">com.google.fonts/check/render_own_name</a>)</summary><div>
+
+
+* 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI [code: render-own-name]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -186,10 +247,6 @@ But instead we have got:
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
@@ -198,89 +255,104 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
 
-	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
+	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
 
-	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3 
-
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- And Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B), uni030C (U+030C) and 4 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-	* numbersign (U+0023): X=236.0,Y=713.0 (should be at cap-height 714?)
+	* uni0E23 (U+0E23): X=138.0,Y=-0.5 (should be at baseline 0?)
 
-	* numbersign (U+0023): X=343.0,Y=713.0 (should be at cap-height 714?)
+	* uni0E27 (U+0E27): X=120.0,Y=-1.5 (should be at baseline 0?)
 
-	* numbersign (U+0023): X=440.0,Y=713.0 (should be at cap-height 714?)
+	* uni0E47 (U+0E47): X=-372.0,Y=715.0 (should be at cap-height 714?)
 
-	* numbersign (U+0023): X=545.0,Y=713.0 (should be at cap-height 714?)
+	* uni0E47 (U+0E47): X=-293.0,Y=716.0 (should be at cap-height 714?)
 
-	* six (U+0036): X=489.0,Y=715.0 (should be at cap-height 714?)
+	* uni0E47 (U+0E47): X=-273.0,Y=716.0 (should be at cap-height 714?)
 
-	* C (U+0043): X=482.0,Y=-1.0 (should be at baseline 0?)
+	* uni0E4E (U+0E4E): X=-203.0,Y=713.0 (should be at cap-height 714?)
 
-	* G (U+0047): X=527.5,Y=1.0 (should be at baseline 0?)
+	* uni0E4E (U+0E4E): X=-21.0,Y=716.0 (should be at cap-height 714?) 
 
-	* G (U+0047): X=543.0,Y=712.0 (should be at cap-height 714?)
-
-	* c (U+0063): X=394.5,Y=-0.5 (should be at baseline 0?)
-
-	* e (U+0065): X=432.5,Y=-0.5 (should be at baseline 0?) 
-
-	* And 54 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
+	* And uni0E4E (U+0E4E): X=-85.5,Y=713.5 (should be at cap-height 714?) [code: found-misalignments]
+</div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
-* ⚠ **WARN** The following glyphs have jaggy segments:
+* ⚠ **WARN** The following glyphs have segments which seem very short:
 
-	* W (U+0057): B<<266.0,196.0>-<272.0,161.0>-<275.0,137.0>>/B<<275.0,137.0>-<278.0,162.0>-<284.0,196.5>> = 13.967789761532726
+	* uni0E04 (U+0E04) contains a short segment L<<218.0,227.0>--<221.0,226.0>>
 
-	* W (U+0057): B<<489.0,505.5>-<485.0,529.0>-<483.0,542.0>>/B<<483.0,542.0>-<482.0,529.0>-<477.5,505.5>> = 13.144867617550734
+	* uni0E05 (U+0E05) contains a short segment L<<217.0,227.0>--<220.0,226.0>>
 
-	* W (U+0057): B<<683.0,196.0>-<689.0,161.0>-<692.0,137.0>>/B<<692.0,137.0>-<695.0,162.0>-<701.0,196.5>> = 13.967789761532726
+	* uni0E06 (U+0E06) contains a short segment B<<179.0,469.0>-<187.0,469.0>-<197.0,471.5>>
 
-	* Wacute (U+1E82): B<<266.0,196.0>-<272.0,161.0>-<275.0,137.0>>/B<<275.0,137.0>-<278.0,162.0>-<284.0,196.5>> = 13.967789761532726
+	* uni0E07 (U+0E07) contains a short segment L<<277.0,121.0>--<283.0,121.0>>
 
-	* Wacute (U+1E82): B<<489.0,505.5>-<485.0,529.0>-<483.0,542.0>>/B<<483.0,542.0>-<482.0,529.0>-<477.5,505.5>> = 13.144867617550734
+	* uni0E08 (U+0E08) contains a short segment L<<250.0,114.0>--<257.0,114.0>>
 
-	* Wacute (U+1E82): B<<683.0,196.0>-<689.0,161.0>-<692.0,137.0>>/B<<692.0,137.0>-<695.0,162.0>-<701.0,196.5>> = 13.967789761532726
+	* uni0E09 (U+0E09) contains a short segment L<<423.0,77.0>--<415.0,77.0>>
 
-	* Wcircumflex (U+0174): B<<266.0,196.0>-<272.0,161.0>-<275.0,137.0>>/B<<275.0,137.0>-<278.0,162.0>-<284.0,196.5>> = 13.967789761532726
+	* uni0E0A (U+0E0A) contains a short segment L<<319.0,408.0>--<325.0,408.0>>
 
-	* Wcircumflex (U+0174): B<<489.0,505.5>-<485.0,529.0>-<483.0,542.0>>/B<<483.0,542.0>-<482.0,529.0>-<477.5,505.5>> = 13.144867617550734
+	* uni0E0B (U+0E0B) contains a short segment B<<175.0,469.0>-<183.0,469.0>-<193.0,471.5>>
 
-	* Wcircumflex (U+0174): B<<683.0,196.0>-<689.0,161.0>-<692.0,137.0>>/B<<692.0,137.0>-<695.0,162.0>-<701.0,196.5>> = 13.967789761532726
+	* uni0E0B (U+0E0B) contains a short segment L<<330.0,408.0>--<334.0,408.0>>
 
-	* Wdieresis (U+1E84): B<<266.0,196.0>-<272.0,161.0>-<275.0,137.0>>/B<<275.0,137.0>-<278.0,162.0>-<284.0,196.5>> = 13.967789761532726 
+	* uni0E0C (U+0E0C) contains a short segment L<<55.0,333.0>--<55.0,357.0>> 
 
-	* And 5 more.
+	* And 51 more.
 
-Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[12] NotoSansThaiUI-Condensed.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
+</div></details><br></div></details><details><summary><b>[13] NotoSansThaiUI-Condensed.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Style name used in "fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Condensed.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* 🔥 **FAIL** Missing required codepoints:
+
+	- 0x0030 (DIGIT ZERO)
+
+
+	- 0x0031 (DIGIT ONE)
+
+
+	- 0x0032 (DIGIT TWO)
+
+
+	- 0x0033 (DIGIT THREE)
+
+
+	- 0x0034 (DIGIT FOUR)
+
+
+	- 0x0035 (DIGIT FIVE)
+
+
+	- 0x0036 (DIGIT SIX)
+
+
+	- 0x0037 (DIGIT SEVEN)
+
+
+	- 0x0038 (DIGIT EIGHT)
+
+
+	- 0x0039 (DIGIT NINE)
+ 
+
+	- And 318 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
@@ -295,6 +367,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Black.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Bold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Condensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Light.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Medium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Regular.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Thin.ttf', 'fonts/NotoSansThaiUI/googlefonts/variable-ttf/NotoSansThaiUI[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check font can render its own name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/render_own_name">com.google.fonts/check/render_own_name</a>)</summary><div>
+
+
+* 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI Condensed [code: render-own-name]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -325,10 +401,6 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
@@ -337,61 +409,112 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
 
-	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
+	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
 
-	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3 
-
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- And Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B), uni030C (U+030C) and 4 more.
+* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
+	* tildecomb (U+0303): X=-291.0,Y=715.0 (should be at cap-height 714?)
 
+	* uni0E0D (U+0E0D): X=462.0,Y=1.0 (should be at baseline 0?)
 
-* ⚠ **WARN** The following glyphs have jaggy segments:
+	* uni0E18 (U+0E18): X=138.0,Y=1.0 (should be at baseline 0?)
 
-	* W (U+0057): B<<206.0,179.5>-<214.0,134.0>-<217.0,100.0>>/B<<217.0,100.0>-<223.0,142.0>-<231.5,188.5>> = 13.172553423326871
+	* uni0E23 (U+0E23): X=110.5,Y=1.0 (should be at baseline 0?)
 
-	* W (U+0057): B<<401.5,521.5>-<395.0,559.0>-<390.0,599.0>>/B<<390.0,599.0>-<387.0,573.0>-<381.0,534.5>> = 13.70696100407981
+	* uni0E27 (U+0E27): X=100.5,Y=-2.0 (should be at baseline 0?)
 
-	* W (U+0057): B<<550.0,191.0>-<558.0,147.0>-<564.0,100.0>>/B<<564.0,100.0>-<569.0,145.0>-<577.0,190.5>> = 13.615196703799155
+	* uni0E36 (U+0E36): X=-115.5,Y=715.0 (should be at cap-height 714?)
 
-	* Wacute (U+1E82): B<<206.0,179.5>-<214.0,134.0>-<217.0,100.0>>/B<<217.0,100.0>-<223.0,142.0>-<231.5,188.5>> = 13.172553423326871
+	* uni0E36 (U+0E36): X=-165.5,Y=715.5 (should be at cap-height 714?)
 
-	* Wacute (U+1E82): B<<401.5,521.5>-<395.0,559.0>-<390.0,599.0>>/B<<390.0,599.0>-<387.0,573.0>-<381.0,534.5>> = 13.70696100407981
+	* uni0E42 (U+0E42): X=18.0,Y=715.0 (should be at cap-height 714?)
 
-	* Wacute (U+1E82): B<<550.0,191.0>-<558.0,147.0>-<564.0,100.0>>/B<<564.0,100.0>-<569.0,145.0>-<577.0,190.5>> = 13.615196703799155
+	* uni0E42 (U+0E42): X=293.0,Y=715.0 (should be at cap-height 714?)
 
-	* Wcircumflex (U+0174): B<<206.0,179.5>-<214.0,134.0>-<217.0,100.0>>/B<<217.0,100.0>-<223.0,142.0>-<231.5,188.5>> = 13.172553423326871
+	* uni0E42 (U+0E42): X=139.0,Y=715.0 (should be at cap-height 714?) 
 
-	* Wcircumflex (U+0174): B<<401.5,521.5>-<395.0,559.0>-<390.0,599.0>>/B<<390.0,599.0>-<387.0,573.0>-<381.0,534.5>> = 13.70696100407981
+	* And 14 more.
 
-	* Wcircumflex (U+0174): B<<550.0,191.0>-<558.0,147.0>-<564.0,100.0>>/B<<564.0,100.0>-<569.0,145.0>-<577.0,190.5>> = 13.615196703799155
-
-	* Wdieresis (U+1E84): B<<206.0,179.5>-<214.0,134.0>-<217.0,100.0>>/B<<217.0,100.0>-<223.0,142.0>-<231.5,188.5>> = 13.172553423326871 
-
-	* And 5 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[13] NotoSansThaiUI-CondensedBlack.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
+</div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+* ⚠ **WARN** The following glyphs have segments which seem very short:
+
+	* uni0E04 (U+0E04) contains a short segment L<<153.0,226.0>--<156.0,225.0>>
+
+	* uni0E05 (U+0E05) contains a short segment L<<152.0,226.0>--<154.0,225.0>>
+
+	* uni0E07 (U+0E07) contains a short segment L<<204.0,74.0>--<212.0,74.0>>
+
+	* uni0E08 (U+0E08) contains a short segment L<<196.0,69.0>--<205.0,69.0>>
+
+	* uni0E09 (U+0E09) contains a short segment L<<357.0,76.0>--<353.0,76.0>>
+
+	* uni0E0A (U+0E0A) contains a short segment L<<251.0,408.0>--<255.0,408.0>>
+
+	* uni0E0B (U+0E0B) contains a short segment L<<257.0,408.0>--<260.0,408.0>>
+
+	* uni0E0D (U+0E0D) contains a short segment L<<587.0,70.0>--<583.0,70.0>>
+
+	* uni0E0D (U+0E0D) contains a short segment B<<161.0,69.0>-<169.0,60.0>-<185.0,60.0>>
+
+	* uni0E0E (U+0E0E) contains a short segment L<<87.0,-190.0>--<87.0,-174.0>> 
+
+	* And 48 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
+</div></details><br></div></details><details><summary><b>[13] NotoSansThaiUI-CondensedBlack.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Style name used in "fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBlack.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* 🔥 **FAIL** Missing required codepoints:
+
+	- 0x0030 (DIGIT ZERO)
+
+
+	- 0x0031 (DIGIT ONE)
+
+
+	- 0x0032 (DIGIT TWO)
+
+
+	- 0x0033 (DIGIT THREE)
+
+
+	- 0x0034 (DIGIT FOUR)
+
+
+	- 0x0035 (DIGIT FIVE)
+
+
+	- 0x0036 (DIGIT SIX)
+
+
+	- 0x0037 (DIGIT SEVEN)
+
+
+	- 0x0038 (DIGIT EIGHT)
+
+
+	- 0x0039 (DIGIT NINE)
+ 
+
+	- And 318 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
@@ -406,6 +529,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Black.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Bold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Condensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Light.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Medium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Regular.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Thin.ttf', 'fonts/NotoSansThaiUI/googlefonts/variable-ttf/NotoSansThaiUI[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check font can render its own name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/render_own_name">com.google.fonts/check/render_own_name</a>)</summary><div>
+
+
+* 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI Condensed Black [code: render-own-name]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -436,10 +563,6 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
@@ -448,89 +571,106 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
 
-	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
+	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
 
-	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3 
-
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- And Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B), uni030C (U+030C) and 4 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-	* three (U+0033): X=121.0,Y=-1.5 (should be at baseline 0?)
+	* uni0E0E (U+0E0E): X=115.0,Y=-1.0 (should be at baseline 0?)
 
-	* six (U+0036): X=454.0,Y=716.0 (should be at cap-height 714?)
+	* uni0E0F (U+0E0F): X=115.0,Y=-1.0 (should be at baseline 0?)
 
-	* nine (U+0039): X=69.0,Y=-2.0 (should be at baseline 0?)
+	* uni0E23 (U+0E23): X=128.0,Y=-1.0 (should be at baseline 0?)
 
-	* A (U+0041): X=192.0,Y=715.0 (should be at cap-height 714?)
+	* uni0E27 (U+0E27): X=104.0,Y=-1.5 (should be at baseline 0?)
 
-	* A (U+0041): X=426.0,Y=715.0 (should be at cap-height 714?)
+	* uni0E49 (U+0E49): X=-250.0,Y=713.0 (should be at cap-height 714?)
 
-	* C (U+0043): X=429.0,Y=712.0 (should be at cap-height 714?)
+	* uni0E4A (U+0E4A): X=-408.0,Y=713.0 (should be at cap-height 714?)
 
-	* G (U+0047): X=465.5,Y=1.0 (should be at baseline 0?)
+	* uni0E4E (U+0E4E): X=-180.0,Y=715.0 (should be at cap-height 714?)
 
-	* asciicircum (U+005E): X=222.0,Y=715.0 (should be at cap-height 714?)
+	* uni0E4E (U+0E4E): X=-7.0,Y=715.0 (should be at cap-height 714?) 
 
-	* asciicircum (U+005E): X=305.0,Y=715.0 (should be at cap-height 714?)
-
-	* t (U+0074): X=304.5,Y=-2.0 (should be at baseline 0?) 
-
-	* And 45 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
+	* And uni0E4E (U+0E4E): X=-60.0,Y=713.0 (should be at cap-height 714?) [code: found-misalignments]
+</div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
-* ⚠ **WARN** The following glyphs have jaggy segments:
+* ⚠ **WARN** The following glyphs have segments which seem very short:
 
-	* V (U+0056): B<<292.5,236.0>-<298.0,203.0>-<299.0,182.0>>/B<<299.0,182.0>-<302.0,203.0>-<307.0,236.0>> = 10.8564133480622
+	* uni0E04 (U+0E04) contains a short segment L<<220.0,236.0>--<224.0,235.0>>
 
-	* W (U+0057): B<<256.0,258.0>-<261.0,220.0>-<265.0,189.0>>/B<<265.0,189.0>-<269.0,227.0>-<276.0,269.5>> = 13.361385317386862
+	* uni0E04 (U+0E04) contains a short segment L<<319.0,155.0>--<305.0,155.0>>
 
-	* W (U+0057): B<<452.0,370.5>-<444.0,424.0>-<440.0,469.0>>/B<<440.0,469.0>-<438.0,443.0>-<433.0,408.0>> = 9.478313215010054
+	* uni0E05 (U+0E05) contains a short segment L<<221.0,236.0>--<224.0,235.0>>
 
-	* W (U+0057): B<<599.5,266.0>-<606.0,224.0>-<610.0,189.0>>/B<<610.0,189.0>-<612.0,216.0>-<617.0,251.0>> = 10.756196550715789
+	* uni0E05 (U+0E05) contains a short segment L<<330.0,155.0>--<316.0,155.0>>
 
-	* Wacute (U+1E82): B<<256.0,258.0>-<261.0,220.0>-<265.0,189.0>>/B<<265.0,189.0>-<269.0,227.0>-<276.0,269.5>> = 13.361385317386862
+	* uni0E07 (U+0E07) contains a short segment L<<254.0,135.0>--<255.0,135.0>>
 
-	* Wacute (U+1E82): B<<452.0,370.5>-<444.0,424.0>-<440.0,469.0>>/B<<440.0,469.0>-<438.0,443.0>-<433.0,408.0>> = 9.478313215010054
+	* uni0E07 (U+0E07) contains a short segment B<<255.0,135.0>-<261.0,135.0>-<267.0,140.5>>
 
-	* Wacute (U+1E82): B<<599.5,266.0>-<606.0,224.0>-<610.0,189.0>>/B<<610.0,189.0>-<612.0,216.0>-<617.0,251.0>> = 10.756196550715789
+	* uni0E07 (U+0E07) contains a short segment B<<250.0,392.0>-<246.0,392.0>-<241.5,392.0>>
 
-	* Wcircumflex (U+0174): B<<256.0,258.0>-<261.0,220.0>-<265.0,189.0>>/B<<265.0,189.0>-<269.0,227.0>-<276.0,269.5>> = 13.361385317386862
+	* uni0E07 (U+0E07) contains a short segment B<<241.5,392.0>-<237.0,392.0>-<233.0,390.0>>
 
-	* Wcircumflex (U+0174): B<<452.0,370.5>-<444.0,424.0>-<440.0,469.0>>/B<<440.0,469.0>-<438.0,443.0>-<433.0,408.0>> = 9.478313215010054
+	* uni0E08 (U+0E08) contains a short segment L<<227.0,127.0>--<228.0,127.0>>
 
-	* Wcircumflex (U+0174): B<<599.5,266.0>-<606.0,224.0>-<610.0,189.0>>/B<<610.0,189.0>-<612.0,216.0>-<617.0,251.0>> = 10.756196550715789 
+	* uni0E09 (U+0E09) contains a short segment L<<346.0,76.0>--<336.0,76.0>> 
 
-	* And 6 more.
+	* And 79 more.
 
-Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[13] NotoSansThaiUI-CondensedBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
+</div></details><br></div></details><details><summary><b>[13] NotoSansThaiUI-CondensedBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Style name used in "fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBold.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* 🔥 **FAIL** Missing required codepoints:
+
+	- 0x0030 (DIGIT ZERO)
+
+
+	- 0x0031 (DIGIT ONE)
+
+
+	- 0x0032 (DIGIT TWO)
+
+
+	- 0x0033 (DIGIT THREE)
+
+
+	- 0x0034 (DIGIT FOUR)
+
+
+	- 0x0035 (DIGIT FIVE)
+
+
+	- 0x0036 (DIGIT SIX)
+
+
+	- 0x0037 (DIGIT SEVEN)
+
+
+	- 0x0038 (DIGIT EIGHT)
+
+
+	- 0x0039 (DIGIT NINE)
+ 
+
+	- And 318 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
@@ -545,6 +685,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Black.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Bold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Condensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Light.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Medium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Regular.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Thin.ttf', 'fonts/NotoSansThaiUI/googlefonts/variable-ttf/NotoSansThaiUI[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check font can render its own name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/render_own_name">com.google.fonts/check/render_own_name</a>)</summary><div>
+
+
+* 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI Condensed [code: render-own-name]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -575,10 +719,6 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
@@ -587,89 +727,108 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
 
-	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
+	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
 
-	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3 
-
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- And Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B), uni030C (U+030C) and 4 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-	* three (U+0033): X=119.5,Y=-2.0 (should be at baseline 0?)
+	* uni0E0E (U+0E0E): X=57.5,Y=1.5 (should be at baseline 0?)
 
-	* four (U+0034): X=275.0,Y=715.0 (should be at cap-height 714?)
+	* uni0E0F (U+0E0F): X=57.5,Y=1.5 (should be at baseline 0?)
 
-	* four (U+0034): X=410.0,Y=715.0 (should be at cap-height 714?)
+	* uni0E18 (U+0E18): X=147.5,Y=-2.0 (should be at baseline 0?)
 
-	* six (U+0036): X=427.0,Y=715.0 (should be at cap-height 714?)
+	* uni0E23 (U+0E23): X=123.5,Y=-0.5 (should be at baseline 0?)
 
-	* nine (U+0039): X=72.0,Y=-1.0 (should be at baseline 0?)
+	* uni0E47 (U+0E47): X=-179.0,Y=712.0 (should be at cap-height 714?)
 
-	* A (U+0041): X=197.0,Y=715.0 (should be at cap-height 714?)
+	* uni0E47 (U+0E47): X=-88.0,Y=712.0 (should be at cap-height 714?)
 
-	* A (U+0041): X=376.0,Y=715.0 (should be at cap-height 714?)
+	* uni0E49 (U+0E49): X=-262.0,Y=713.0 (should be at cap-height 714?)
 
-	* G (U+0047): X=451.5,Y=0.5 (should be at baseline 0?)
+	* uni0E4E (U+0E4E): X=-179.0,Y=712.0 (should be at cap-height 714?)
 
-	* S (U+0053): X=121.5,Y=-0.5 (should be at baseline 0?)
+	* uni0E4E (U+0E4E): X=-19.0,Y=715.0 (should be at cap-height 714?) 
 
-	* S (U+0053): X=348.5,Y=712.0 (should be at cap-height 714?) 
-
-	* And 73 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
+	* And uni0E4E (U+0E4E): X=-74.0,Y=712.5 (should be at cap-height 714?) [code: found-misalignments]
+</div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
-* ⚠ **WARN** The following glyphs have jaggy segments:
+* ⚠ **WARN** The following glyphs have segments which seem very short:
 
-	* V (U+0056): B<<268.5,195.5>-<274.0,165.0>-<277.0,143.0>>/B<<277.0,143.0>-<279.0,165.0>-<284.5,195.0>> = 12.959594926160113
+	* uni0E03 (U+0E03) contains a short segment B<<155.0,468.0>-<162.0,468.0>-<170.0,471.0>>
 
-	* W (U+0057): B<<233.0,214.5>-<238.0,180.0>-<241.0,152.0>>/B<<241.0,152.0>-<245.0,183.0>-<250.5,218.0>> = 13.46788292617776
+	* uni0E04 (U+0E04) contains a short segment L<<196.0,228.0>--<199.0,227.0>>
 
-	* W (U+0057): B<<428.0,430.5>-<420.0,479.0>-<416.0,522.0>>/B<<416.0,522.0>-<413.0,500.0>-<409.0,468.5>> = 13.07971168837008
+	* uni0E05 (U+0E05) contains a short segment L<<196.0,228.0>--<198.0,227.0>>
 
-	* W (U+0057): B<<579.0,217.5>-<584.0,183.0>-<588.0,152.0>>/B<<588.0,152.0>-<592.0,194.0>-<600.5,248.0>> = 12.79271139089786
+	* uni0E06 (U+0E06) contains a short segment B<<159.0,468.0>-<167.0,468.0>-<175.0,471.0>>
 
-	* Wacute (U+1E82): B<<233.0,214.5>-<238.0,180.0>-<241.0,152.0>>/B<<241.0,152.0>-<245.0,183.0>-<250.5,218.0>> = 13.46788292617776
+	* uni0E07 (U+0E07) contains a short segment L<<243.0,115.0>--<247.0,115.0>>
 
-	* Wacute (U+1E82): B<<428.0,430.5>-<420.0,479.0>-<416.0,522.0>>/B<<416.0,522.0>-<413.0,500.0>-<409.0,468.5>> = 13.07971168837008
+	* uni0E08 (U+0E08) contains a short segment L<<221.0,108.0>--<226.0,108.0>>
 
-	* Wacute (U+1E82): B<<579.0,217.5>-<584.0,183.0>-<588.0,152.0>>/B<<588.0,152.0>-<592.0,194.0>-<600.5,248.0>> = 12.79271139089786
+	* uni0E09 (U+0E09) contains a short segment L<<364.0,76.0>--<357.0,76.0>>
 
-	* Wcircumflex (U+0174): B<<233.0,214.5>-<238.0,180.0>-<241.0,152.0>>/B<<241.0,152.0>-<245.0,183.0>-<250.5,218.0>> = 13.46788292617776
+	* uni0E0A (U+0E0A) contains a short segment L<<280.0,407.0>--<285.0,407.0>>
 
-	* Wcircumflex (U+0174): B<<428.0,430.5>-<420.0,479.0>-<416.0,522.0>>/B<<416.0,522.0>-<413.0,500.0>-<409.0,468.5>> = 13.07971168837008
+	* uni0E0B (U+0E0B) contains a short segment B<<155.0,468.0>-<163.0,468.0>-<171.0,471.0>>
 
-	* Wcircumflex (U+0174): B<<579.0,217.5>-<584.0,183.0>-<588.0,152.0>>/B<<588.0,152.0>-<592.0,194.0>-<600.5,248.0>> = 12.79271139089786 
+	* uni0E0B (U+0E0B) contains a short segment L<<289.0,407.0>--<293.0,407.0>> 
 
-	* And 6 more.
+	* And 59 more.
 
-Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[13] NotoSansThaiUI-CondensedExtraBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
+</div></details><br></div></details><details><summary><b>[13] NotoSansThaiUI-CondensedExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Style name used in "fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraBold.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* 🔥 **FAIL** Missing required codepoints:
+
+	- 0x0030 (DIGIT ZERO)
+
+
+	- 0x0031 (DIGIT ONE)
+
+
+	- 0x0032 (DIGIT TWO)
+
+
+	- 0x0033 (DIGIT THREE)
+
+
+	- 0x0034 (DIGIT FOUR)
+
+
+	- 0x0035 (DIGIT FIVE)
+
+
+	- 0x0036 (DIGIT SIX)
+
+
+	- 0x0037 (DIGIT SEVEN)
+
+
+	- 0x0038 (DIGIT EIGHT)
+
+
+	- 0x0039 (DIGIT NINE)
+ 
+
+	- And 318 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
@@ -684,6 +843,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Black.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Bold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Condensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Light.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Medium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Regular.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Thin.ttf', 'fonts/NotoSansThaiUI/googlefonts/variable-ttf/NotoSansThaiUI[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check font can render its own name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/render_own_name">com.google.fonts/check/render_own_name</a>)</summary><div>
+
+
+* 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI Condensed ExtraBold [code: render-own-name]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -714,10 +877,6 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
@@ -726,89 +885,112 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
 
-	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
+	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
 
-	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3 
-
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- And Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B), uni030C (U+030C) and 4 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-	* three (U+0033): X=120.0,Y=-2.0 (should be at baseline 0?)
+	* tildecomb (U+0303): X=-229.0,Y=713.0 (should be at cap-height 714?)
 
-	* four (U+0034): X=273.0,Y=715.0 (should be at cap-height 714?)
+	* uni0E0E (U+0E0E): X=109.0,Y=-2.0 (should be at baseline 0?)
 
-	* four (U+0034): X=422.0,Y=715.0 (should be at cap-height 714?)
+	* uni0E0F (U+0E0F): X=109.0,Y=-2.0 (should be at baseline 0?)
 
-	* six (U+0036): X=439.0,Y=715.0 (should be at cap-height 714?)
+	* uni0E23 (U+0E23): X=125.5,Y=-1.0 (should be at baseline 0?)
 
-	* nine (U+0039): X=70.0,Y=-2.0 (should be at baseline 0?)
+	* uni0E27 (U+0E27): X=105.0,Y=-2.0 (should be at baseline 0?)
 
-	* A (U+0041): X=194.0,Y=715.0 (should be at cap-height 714?)
+	* uni0E34 (U+0E34): X=-374.0,Y=712.0 (should be at cap-height 714?)
 
-	* A (U+0041): X=399.0,Y=715.0 (should be at cap-height 714?)
+	* uni0E34 (U+0E34): X=-65.0,Y=712.0 (should be at cap-height 714?)
 
-	* G (U+0047): X=458.0,Y=0.5 (should be at baseline 0?)
+	* uni0E35 (U+0E35): X=-374.0,Y=712.0 (should be at cap-height 714?)
 
-	* S (U+0053): X=122.5,Y=-0.5 (should be at baseline 0?)
+	* uni0E35 (U+0E35): X=-192.0,Y=712.0 (should be at cap-height 714?)
 
-	* asciicircum (U+005E): X=222.0,Y=715.0 (should be at cap-height 714?) 
+	* uni0E36 (U+0E36): X=-374.0,Y=712.0 (should be at cap-height 714?) 
 
-	* And 65 more.
+	* And 14 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
-* ⚠ **WARN** The following glyphs have jaggy segments:
+* ⚠ **WARN** The following glyphs have segments which seem very short:
 
-	* V (U+0056): B<<279.5,214.0>-<285.0,182.0>-<287.0,161.0>>/B<<287.0,161.0>-<290.0,182.0>-<295.5,213.5>> = 13.570434385161475
+	* uni0E04 (U+0E04) contains a short segment L<<207.0,232.0>--<211.0,231.0>>
 
-	* W (U+0057): B<<244.0,235.0>-<249.0,199.0>-<252.0,169.0>>/B<<252.0,169.0>-<256.0,203.0>-<262.0,242.0>> = 12.420429945256531
+	* uni0E05 (U+0E05) contains a short segment L<<207.0,232.0>--<210.0,231.0>>
 
-	* W (U+0057): B<<439.0,402.5>-<431.0,453.0>-<427.0,498.0>>/B<<427.0,498.0>-<425.0,473.0>-<420.5,440.5>> = 9.653529119915403
+	* uni0E05 (U+0E05) contains a short segment L<<327.0,167.0>--<310.0,167.0>>
 
-	* W (U+0057): B<<588.5,240.0>-<594.0,202.0>-<598.0,169.0>>/B<<598.0,169.0>-<600.0,197.0>-<605.0,231.5>> = 10.996843898999522
+	* uni0E07 (U+0E07) contains a short segment L<<248.0,124.0>--<251.0,124.0>>
 
-	* Wacute (U+1E82): B<<244.0,235.0>-<249.0,199.0>-<252.0,169.0>>/B<<252.0,169.0>-<256.0,203.0>-<262.0,242.0>> = 12.420429945256531
+	* uni0E07 (U+0E07) contains a short segment B<<248.0,402.0>-<242.0,402.0>-<236.5,401.5>>
 
-	* Wacute (U+1E82): B<<439.0,402.5>-<431.0,453.0>-<427.0,498.0>>/B<<427.0,498.0>-<425.0,473.0>-<420.5,440.5>> = 9.653529119915403
+	* uni0E07 (U+0E07) contains a short segment B<<236.5,401.5>-<231.0,401.0>-<227.0,399.0>>
 
-	* Wacute (U+1E82): B<<588.5,240.0>-<594.0,202.0>-<598.0,169.0>>/B<<598.0,169.0>-<600.0,197.0>-<605.0,231.5>> = 10.996843898999522
+	* uni0E08 (U+0E08) contains a short segment L<<224.0,117.0>--<227.0,117.0>>
 
-	* Wcircumflex (U+0174): B<<244.0,235.0>-<249.0,199.0>-<252.0,169.0>>/B<<252.0,169.0>-<256.0,203.0>-<262.0,242.0>> = 12.420429945256531
+	* uni0E09 (U+0E09) contains a short segment L<<356.0,76.0>--<347.0,76.0>>
 
-	* Wcircumflex (U+0174): B<<439.0,402.5>-<431.0,453.0>-<427.0,498.0>>/B<<427.0,498.0>-<425.0,473.0>-<420.5,440.5>> = 9.653529119915403
+	* uni0E0A (U+0E0A) contains a short segment L<<283.0,408.0>--<288.0,408.0>>
 
-	* Wcircumflex (U+0174): B<<588.5,240.0>-<594.0,202.0>-<598.0,169.0>>/B<<598.0,169.0>-<600.0,197.0>-<605.0,231.5>> = 10.996843898999522 
+	* uni0E0B (U+0E0B) contains a short segment L<<293.0,408.0>--<297.0,408.0>> 
 
-	* And 6 more.
+	* And 72 more.
 
-Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[11] NotoSansThaiUI-CondensedExtraLight.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
+</div></details><br></div></details><details><summary><b>[13] NotoSansThaiUI-CondensedExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Style name used in "fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraLight.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* 🔥 **FAIL** Missing required codepoints:
+
+	- 0x0030 (DIGIT ZERO)
+
+
+	- 0x0031 (DIGIT ONE)
+
+
+	- 0x0032 (DIGIT TWO)
+
+
+	- 0x0033 (DIGIT THREE)
+
+
+	- 0x0034 (DIGIT FOUR)
+
+
+	- 0x0035 (DIGIT FIVE)
+
+
+	- 0x0036 (DIGIT SIX)
+
+
+	- 0x0037 (DIGIT SEVEN)
+
+
+	- 0x0038 (DIGIT EIGHT)
+
+
+	- 0x0039 (DIGIT NINE)
+ 
+
+	- And 318 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
@@ -823,6 +1005,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Black.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Bold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Condensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Light.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Medium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Regular.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Thin.ttf', 'fonts/NotoSansThaiUI/googlefonts/variable-ttf/NotoSansThaiUI[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check font can render its own name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/render_own_name">com.google.fonts/check/render_own_name</a>)</summary><div>
+
+
+* 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI Condensed ExtraLight [code: render-own-name]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -853,10 +1039,6 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
@@ -865,33 +1047,112 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
 
-	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
+	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
 
-	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3 
-
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- And Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B), uni030C (U+030C) and 4 more.
+* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
-</div></details><br></div></details><details><summary><b>[12] NotoSansThaiUI-CondensedLight.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+	* tildecomb (U+0303): X=-120.0,Y=713.0 (should be at cap-height 714?)
+
+	* tildecomb (U+0303): X=-321.0,Y=713.0 (should be at cap-height 714?)
+
+	* tildecomb (U+0303): X=-148.0,Y=713.0 (should be at cap-height 714?)
+
+	* uni0E12 (U+0E12): X=259.0,Y=1.0 (should be at baseline 0?)
+
+	* uni0E15 (U+0E15): X=271.0,Y=1.0 (should be at baseline 0?)
+
+	* uni0E18 (U+0E18): X=132.5,Y=-0.5 (should be at baseline 0?)
+
+	* uni0E20 (U+0E20): X=23.0,Y=2.0 (should be at baseline 0?)
+
+	* uni0E23 (U+0E23): X=106.0,Y=1.5 (should be at baseline 0?)
+
+	* uni0E25 (U+0E25): X=238.0,Y=1.0 (should be at baseline 0?)
+
+	* uni0E26 (U+0E26): X=23.0,Y=2.0 (should be at baseline 0?) 
+
+	* And 22 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
+</div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+* ⚠ **WARN** The following glyphs have segments which seem very short:
+
+	* uni0E04 (U+0E04) contains a short segment L<<110.0,216.0>--<112.0,215.0>>
+
+	* uni0E05 (U+0E05) contains a short segment L<<109.0,216.0>--<112.0,215.0>>
+
+	* uni0E07 (U+0E07) contains a short segment L<<177.0,35.0>--<189.0,35.0>>
+
+	* uni0E08 (U+0E08) contains a short segment L<<166.0,34.0>--<177.0,34.0>>
+
+	* uni0E09 (U+0E09) contains a short segment L<<370.0,85.0>--<366.0,85.0>>
+
+	* uni0E0A (U+0E0A) contains a short segment L<<243.0,400.0>--<253.0,400.0>>
+
+	* uni0E0B (U+0E0B) contains a short segment L<<247.0,400.0>--<258.0,400.0>>
+
+	* uni0E0C (U+0E0C) contains a short segment L<<60.0,359.0>--<60.0,380.0>>
+
+	* uni0E0C (U+0E0C) contains a short segment B<<159.0,26.0>-<170.0,26.0>-<180.5,28.5>>
+
+	* uni0E0C (U+0E0C) contains a short segment B<<180.5,28.5>-<191.0,31.0>-<199.0,35.0>> 
+
+	* And 49 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
+</div></details><br></div></details><details><summary><b>[13] NotoSansThaiUI-CondensedLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Style name used in "fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedLight.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* 🔥 **FAIL** Missing required codepoints:
+
+	- 0x0030 (DIGIT ZERO)
+
+
+	- 0x0031 (DIGIT ONE)
+
+
+	- 0x0032 (DIGIT TWO)
+
+
+	- 0x0033 (DIGIT THREE)
+
+
+	- 0x0034 (DIGIT FOUR)
+
+
+	- 0x0035 (DIGIT FIVE)
+
+
+	- 0x0036 (DIGIT SIX)
+
+
+	- 0x0037 (DIGIT SEVEN)
+
+
+	- 0x0038 (DIGIT EIGHT)
+
+
+	- 0x0039 (DIGIT NINE)
+ 
+
+	- And 318 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
@@ -906,6 +1167,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Black.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Bold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Condensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Light.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Medium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Regular.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Thin.ttf', 'fonts/NotoSansThaiUI/googlefonts/variable-ttf/NotoSansThaiUI[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check font can render its own name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/render_own_name">com.google.fonts/check/render_own_name</a>)</summary><div>
+
+
+* 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI Condensed Light [code: render-own-name]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -936,10 +1201,6 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
@@ -948,47 +1209,112 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
 
-	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
+	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
 
-	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3 
-
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- And Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B), uni030C (U+030C) and 4 more.
+* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
+	* uni0E0D (U+0E0D): X=462.0,Y=1.0 (should be at baseline 0?)
+
+	* uni0E12 (U+0E12): X=269.0,Y=2.0 (should be at baseline 0?)
+
+	* uni0E14 (U+0E14): X=269.0,Y=1.0 (should be at baseline 0?)
+
+	* uni0E15 (U+0E15): X=278.0,Y=2.0 (should be at baseline 0?)
+
+	* uni0E23 (U+0E23): X=107.5,Y=1.5 (should be at baseline 0?)
+
+	* uni0E25 (U+0E25): X=247.0,Y=2.0 (should be at baseline 0?)
+
+	* uni0E27 (U+0E27): X=97.5,Y=-1.5 (should be at baseline 0?)
+
+	* uni0E2A (U+0E2A): X=247.0,Y=2.0 (should be at baseline 0?)
+
+	* uni0E31 (U+0E31): X=-205.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E49 (U+0E49): X=-209.0,Y=715.0 (should be at cap-height 714?) 
+
+	* And 6 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
+</div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
-* ⚠ **WARN** The following glyphs have jaggy segments:
+* ⚠ **WARN** The following glyphs have segments which seem very short:
 
-	* W (U+0057): B<<382.5,568.0>-<377.0,596.0>-<373.0,632.0>>/B<<373.0,632.0>-<369.0,603.0>-<364.0,575.0>> = 14.193505047888126
+	* uni0E04 (U+0E04) contains a short segment L<<126.0,220.0>--<128.0,219.0>>
 
-	* Wacute (U+1E82): B<<382.5,568.0>-<377.0,596.0>-<373.0,632.0>>/B<<373.0,632.0>-<369.0,603.0>-<364.0,575.0>> = 14.193505047888126
+	* uni0E05 (U+0E05) contains a short segment L<<125.0,220.0>--<127.0,219.0>>
 
-	* Wcircumflex (U+0174): B<<382.5,568.0>-<377.0,596.0>-<373.0,632.0>>/B<<373.0,632.0>-<369.0,603.0>-<364.0,575.0>> = 14.193505047888126
+	* uni0E07 (U+0E07) contains a short segment L<<187.0,49.0>--<198.0,49.0>>
 
-	* Wdieresis (U+1E84): B<<382.5,568.0>-<377.0,596.0>-<373.0,632.0>>/B<<373.0,632.0>-<369.0,603.0>-<364.0,575.0>> = 14.193505047888126 
+	* uni0E08 (U+0E08) contains a short segment L<<178.0,47.0>--<188.0,47.0>>
 
-	* And Wgrave (U+1E80): B<<382.5,568.0>-<377.0,596.0>-<373.0,632.0>>/B<<373.0,632.0>-<369.0,603.0>-<364.0,575.0>> = 14.193505047888126 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[12] NotoSansThaiUI-CondensedMedium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+	* uni0E09 (U+0E09) contains a short segment L<<365.0,81.0>--<361.0,81.0>>
 
+	* uni0E0A (U+0E0A) contains a short segment L<<246.0,403.0>--<254.0,403.0>>
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+	* uni0E0B (U+0E0B) contains a short segment L<<251.0,403.0>--<259.0,403.0>>
+
+	* uni0E0C (U+0E0C) contains a short segment L<<59.0,354.0>--<59.0,379.0>>
+
+	* uni0E0C (U+0E0C) contains a short segment B<<169.0,38.0>-<178.0,38.0>-<188.0,40.5>>
+
+	* uni0E0C (U+0E0C) contains a short segment B<<188.0,40.5>-<198.0,43.0>-<205.0,47.0>> 
+
+	* And 49 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
+</div></details><br></div></details><details><summary><b>[13] NotoSansThaiUI-CondensedMedium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Style name used in "fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedMedium.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* 🔥 **FAIL** Missing required codepoints:
+
+	- 0x0030 (DIGIT ZERO)
+
+
+	- 0x0031 (DIGIT ONE)
+
+
+	- 0x0032 (DIGIT TWO)
+
+
+	- 0x0033 (DIGIT THREE)
+
+
+	- 0x0034 (DIGIT FOUR)
+
+
+	- 0x0035 (DIGIT FIVE)
+
+
+	- 0x0036 (DIGIT SIX)
+
+
+	- 0x0037 (DIGIT SEVEN)
+
+
+	- 0x0038 (DIGIT EIGHT)
+
+
+	- 0x0039 (DIGIT NINE)
+ 
+
+	- And 318 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
@@ -1003,6 +1329,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Black.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Bold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Condensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Light.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Medium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Regular.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Thin.ttf', 'fonts/NotoSansThaiUI/googlefonts/variable-ttf/NotoSansThaiUI[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check font can render its own name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/render_own_name">com.google.fonts/check/render_own_name</a>)</summary><div>
+
+
+* 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI Condensed Medium [code: render-own-name]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -1033,10 +1363,6 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
@@ -1045,61 +1371,112 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
 
-	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
+	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
 
-	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3 
-
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- And Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B), uni030C (U+030C) and 4 more.
+* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
+	* uni0E23 (U+0E23): X=114.5,Y=0.5 (should be at baseline 0?)
 
+	* uni0E27 (U+0E27): X=102.5,Y=-2.0 (should be at baseline 0?)
 
-* ⚠ **WARN** The following glyphs have jaggy segments:
+	* uni0E33 (U+0E33): X=-147.0,Y=716.0 (should be at cap-height 714?)
 
-	* W (U+0057): B<<212.5,200.5>-<221.0,152.0>-<224.0,116.0>>/B<<224.0,116.0>-<230.0,159.0>-<238.5,207.5>> = 12.707113501316583
+	* uni0E49 (U+0E49): X=-242.0,Y=712.0 (should be at cap-height 714?)
 
-	* W (U+0057): B<<409.5,495.0>-<402.0,536.0>-<398.0,577.0>>/B<<398.0,577.0>-<394.0,548.0>-<387.5,506.0>> = 13.42551110594199
+	* uni0E4D (U+0E4D): X=-147.0,Y=716.0 (should be at cap-height 714?)
 
-	* W (U+0057): B<<557.0,209.0>-<565.0,162.0>-<571.0,116.0>>/B<<571.0,116.0>-<576.0,160.0>-<584.0,207.5>> = 13.914481664069719
+	* uni0E4E (U+0E4E): X=-43.5,Y=715.0 (should be at cap-height 714?)
 
-	* Wacute (U+1E82): B<<212.5,200.5>-<221.0,152.0>-<224.0,116.0>>/B<<224.0,116.0>-<230.0,159.0>-<238.5,207.5>> = 12.707113501316583
+	* uni0E4E (U+0E4E): X=-57.0,Y=716.0 (should be at cap-height 714?)
 
-	* Wacute (U+1E82): B<<409.5,495.0>-<402.0,536.0>-<398.0,577.0>>/B<<398.0,577.0>-<394.0,548.0>-<387.5,506.0>> = 13.42551110594199
+	* uni0E51 (U+0E51): X=153.0,Y=1.0 (should be at baseline 0?)
 
-	* Wacute (U+1E82): B<<557.0,209.0>-<565.0,162.0>-<571.0,116.0>>/B<<571.0,116.0>-<576.0,160.0>-<584.0,207.5>> = 13.914481664069719
+	* uni0E53 (U+0E53): X=240.0,Y=2.0 (should be at baseline 0?)
 
-	* Wcircumflex (U+0174): B<<212.5,200.5>-<221.0,152.0>-<224.0,116.0>>/B<<224.0,116.0>-<230.0,159.0>-<238.5,207.5>> = 12.707113501316583
-
-	* Wcircumflex (U+0174): B<<409.5,495.0>-<402.0,536.0>-<398.0,577.0>>/B<<398.0,577.0>-<394.0,548.0>-<387.5,506.0>> = 13.42551110594199
-
-	* Wcircumflex (U+0174): B<<557.0,209.0>-<565.0,162.0>-<571.0,116.0>>/B<<571.0,116.0>-<576.0,160.0>-<584.0,207.5>> = 13.914481664069719
-
-	* Wdieresis (U+1E84): B<<212.5,200.5>-<221.0,152.0>-<224.0,116.0>>/B<<224.0,116.0>-<230.0,159.0>-<238.5,207.5>> = 12.707113501316583 
+	* uni0E57 (U+0E57): X=240.0,Y=2.0 (should be at baseline 0?) 
 
 	* And 5 more.
 
-Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[13] NotoSansThaiUI-CondensedSemiBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
+</div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+* ⚠ **WARN** The following glyphs have segments which seem very short:
+
+	* uni0E04 (U+0E04) contains a short segment L<<166.0,227.0>--<168.0,226.0>>
+
+	* uni0E05 (U+0E05) contains a short segment L<<165.0,227.0>--<167.0,226.0>>
+
+	* uni0E07 (U+0E07) contains a short segment L<<216.0,86.0>--<223.0,86.0>>
+
+	* uni0E08 (U+0E08) contains a short segment L<<203.0,80.0>--<211.0,80.0>>
+
+	* uni0E09 (U+0E09) contains a short segment L<<359.0,76.0>--<354.0,76.0>>
+
+	* uni0E0A (U+0E0A) contains a short segment L<<259.0,408.0>--<264.0,408.0>>
+
+	* uni0E0B (U+0E0B) contains a short segment L<<266.0,408.0>--<270.0,408.0>>
+
+	* uni0E0D (U+0E0D) contains a short segment L<<595.0,70.0>--<590.0,70.0>>
+
+	* uni0E0D (U+0E0D) contains a short segment B<<171.0,77.0>-<179.0,68.0>-<196.0,68.0>>
+
+	* uni0E0E (U+0E0E) contains a short segment L<<85.0,-193.0>--<85.0,-177.0>> 
+
+	* And 51 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
+</div></details><br></div></details><details><summary><b>[13] NotoSansThaiUI-CondensedSemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Style name used in "fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedSemiBold.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* 🔥 **FAIL** Missing required codepoints:
+
+	- 0x0030 (DIGIT ZERO)
+
+
+	- 0x0031 (DIGIT ONE)
+
+
+	- 0x0032 (DIGIT TWO)
+
+
+	- 0x0033 (DIGIT THREE)
+
+
+	- 0x0034 (DIGIT FOUR)
+
+
+	- 0x0035 (DIGIT FIVE)
+
+
+	- 0x0036 (DIGIT SIX)
+
+
+	- 0x0037 (DIGIT SEVEN)
+
+
+	- 0x0038 (DIGIT EIGHT)
+
+
+	- 0x0039 (DIGIT NINE)
+ 
+
+	- And 318 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
@@ -1114,6 +1491,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Black.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Bold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Condensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Light.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Medium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Regular.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Thin.ttf', 'fonts/NotoSansThaiUI/googlefonts/variable-ttf/NotoSansThaiUI[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check font can render its own name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/render_own_name">com.google.fonts/check/render_own_name</a>)</summary><div>
+
+
+* 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI Condensed SemiBold [code: render-own-name]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -1144,10 +1525,6 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
@@ -1156,89 +1533,104 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
 
-	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
+	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
 
-	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3 
-
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- And Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B), uni030C (U+030C) and 4 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-	* three (U+0033): X=118.0,Y=-2.0 (should be at baseline 0?)
+	* uni0E0E (U+0E0E): X=55.5,Y=-1.0 (should be at baseline 0?)
 
-	* six (U+0036): X=412.0,Y=715.0 (should be at cap-height 714?)
+	* uni0E0F (U+0E0F): X=55.5,Y=-1.0 (should be at baseline 0?)
 
-	* nine (U+0039): X=74.0,Y=-1.0 (should be at baseline 0?)
+	* uni0E18 (U+0E18): X=144.0,Y=-1.0 (should be at baseline 0?)
 
-	* A (U+0041): X=200.0,Y=715.0 (should be at cap-height 714?)
+	* uni0E49 (U+0E49): X=-251.0,Y=713.0 (should be at cap-height 714?)
 
-	* A (U+0041): X=347.0,Y=715.0 (should be at cap-height 714?)
+	* uni0E4E (U+0E4E): X=-24.0,Y=713.0 (should be at cap-height 714?)
 
-	* G (U+0047): X=459.0,Y=712.0 (should be at cap-height 714?)
+	* uni0E53 (U+0E53): X=249.0,Y=2.0 (should be at baseline 0?)
 
-	* S (U+0053): X=119.0,Y=-1.0 (should be at baseline 0?)
+	* uni0E57 (U+0E57): X=249.0,Y=2.0 (should be at baseline 0?) 
 
-	* S (U+0053): X=342.0,Y=712.5 (should be at cap-height 714?)
-
-	* asciicircum (U+005E): X=219.0,Y=715.0 (should be at cap-height 714?)
-
-	* asciicircum (U+005E): X=280.0,Y=715.0 (should be at cap-height 714?) 
-
-	* And 69 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
+	* And uni0E59 (U+0E59): X=249.0,Y=2.0 (should be at baseline 0?) [code: found-misalignments]
+</div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
-* ⚠ **WARN** The following glyphs have jaggy segments:
+* ⚠ **WARN** The following glyphs have segments which seem very short:
 
-	* W (U+0057): B<<220.0,222.5>-<228.0,171.0>-<232.0,133.0>>/B<<232.0,133.0>-<238.0,178.0>-<247.0,229.0>> = 13.60364932608595
+	* uni0E04 (U+0E04) contains a short segment L<<180.0,227.0>--<183.0,226.0>>
 
-	* W (U+0057): B<<418.5,464.5>-<411.0,509.0>-<406.0,551.0>>/B<<406.0,551.0>-<403.0,520.0>-<396.0,474.0>> = 12.316514726094919
+	* uni0E05 (U+0E05) contains a short segment L<<179.0,227.0>--<182.0,226.0>>
 
-	* W (U+0057): B<<564.5,229.0>-<573.0,179.0>-<579.0,133.0>>/B<<579.0,133.0>-<583.0,176.0>-<591.5,226.5>> = 12.745953641117218
+	* uni0E07 (U+0E07) contains a short segment L<<228.0,99.0>--<234.0,99.0>>
 
-	* Wacute (U+1E82): B<<220.0,222.5>-<228.0,171.0>-<232.0,133.0>>/B<<232.0,133.0>-<238.0,178.0>-<247.0,229.0>> = 13.60364932608595
+	* uni0E08 (U+0E08) contains a short segment L<<211.0,93.0>--<218.0,93.0>>
 
-	* Wacute (U+1E82): B<<418.5,464.5>-<411.0,509.0>-<406.0,551.0>>/B<<406.0,551.0>-<403.0,520.0>-<396.0,474.0>> = 12.316514726094919
+	* uni0E09 (U+0E09) contains a short segment L<<361.0,76.0>--<355.0,76.0>>
 
-	* Wacute (U+1E82): B<<564.5,229.0>-<573.0,179.0>-<579.0,133.0>>/B<<579.0,133.0>-<583.0,176.0>-<591.5,226.5>> = 12.745953641117218
+	* uni0E0A (U+0E0A) contains a short segment L<<269.0,408.0>--<274.0,408.0>>
 
-	* Wcircumflex (U+0174): B<<220.0,222.5>-<228.0,171.0>-<232.0,133.0>>/B<<232.0,133.0>-<238.0,178.0>-<247.0,229.0>> = 13.60364932608595
+	* uni0E0B (U+0E0B) contains a short segment L<<277.0,408.0>--<280.0,408.0>>
 
-	* Wcircumflex (U+0174): B<<418.5,464.5>-<411.0,509.0>-<406.0,551.0>>/B<<406.0,551.0>-<403.0,520.0>-<396.0,474.0>> = 12.316514726094919
+	* uni0E0D (U+0E0D) contains a short segment L<<604.0,71.0>--<598.0,71.0>>
 
-	* Wcircumflex (U+0174): B<<564.5,229.0>-<573.0,179.0>-<579.0,133.0>>/B<<579.0,133.0>-<583.0,176.0>-<591.5,226.5>> = 12.745953641117218
+	* uni0E0D (U+0E0D) contains a short segment L<<52.0,339.0>--<52.0,366.0>>
 
-	* Wdieresis (U+1E84): B<<220.0,222.5>-<228.0,171.0>-<232.0,133.0>>/B<<232.0,133.0>-<238.0,178.0>-<247.0,229.0>> = 13.60364932608595 
+	* uni0E0E (U+0E0E) contains a short segment L<<82.0,-196.0>--<82.0,-180.0>> 
 
-	* And 5 more.
+	* And 46 more.
 
-Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[12] NotoSansThaiUI-CondensedThin.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
+</div></details><br></div></details><details><summary><b>[14] NotoSansThaiUI-CondensedThin.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Style name used in "fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedThin.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* 🔥 **FAIL** Missing required codepoints:
+
+	- 0x0030 (DIGIT ZERO)
+
+
+	- 0x0031 (DIGIT ONE)
+
+
+	- 0x0032 (DIGIT TWO)
+
+
+	- 0x0033 (DIGIT THREE)
+
+
+	- 0x0034 (DIGIT FOUR)
+
+
+	- 0x0035 (DIGIT FIVE)
+
+
+	- 0x0036 (DIGIT SIX)
+
+
+	- 0x0037 (DIGIT SEVEN)
+
+
+	- 0x0038 (DIGIT EIGHT)
+
+
+	- 0x0039 (DIGIT NINE)
+ 
+
+	- And 318 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
@@ -1253,6 +1645,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Black.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Bold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Condensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Light.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Medium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Regular.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Thin.ttf', 'fonts/NotoSansThaiUI/googlefonts/variable-ttf/NotoSansThaiUI[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check font can render its own name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/render_own_name">com.google.fonts/check/render_own_name</a>)</summary><div>
+
+
+* 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI Condensed Thin [code: render-own-name]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -1283,10 +1679,6 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
@@ -1295,45 +1687,114 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
 
-	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
+	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
 
-	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3 
-
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- And Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B), uni030C (U+030C) and 4 more.
+* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
+	* uni0E0E (U+0E0E): X=23.0,Y=2.0 (should be at baseline 0?)
+
+	* uni0E0F (U+0E0F): X=23.0,Y=2.0 (should be at baseline 0?)
+
+	* uni0E12 (U+0E12): X=252.0,Y=1.0 (should be at baseline 0?)
+
+	* uni0E14 (U+0E14): X=257.0,Y=-1.0 (should be at baseline 0?)
+
+	* uni0E15 (U+0E15): X=266.0,Y=1.0 (should be at baseline 0?)
+
+	* uni0E18 (U+0E18): X=131.5,Y=-1.0 (should be at baseline 0?)
+
+	* uni0E20 (U+0E20): X=23.0,Y=2.0 (should be at baseline 0?)
+
+	* uni0E23 (U+0E23): X=105.0,Y=2.0 (should be at baseline 0?)
+
+	* uni0E26 (U+0E26): X=23.0,Y=2.0 (should be at baseline 0?)
+
+	* uni0E27 (U+0E27): X=95.0,Y=-1.5 (should be at baseline 0?) 
+
+	* And 20 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
+</div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have segments which seem very short:
+
+	* uni0E04 (U+0E04) contains a short segment L<<98.0,213.0>--<101.0,212.0>>
+
+	* uni0E05 (U+0E05) contains a short segment L<<98.0,213.0>--<101.0,212.0>>
+
+	* uni0E06 (U+0E06) contains a short segment L<<165.0,517.0>--<183.0,517.0>>
+
+	* uni0E07 (U+0E07) contains a short segment L<<170.0,25.0>--<183.0,25.0>>
+
+	* uni0E08 (U+0E08) contains a short segment L<<159.0,25.0>--<170.0,25.0>>
+
+	* uni0E09 (U+0E09) contains a short segment L<<373.0,87.0>--<370.0,87.0>>
+
+	* uni0E0A (U+0E0A) contains a short segment L<<241.0,398.0>--<253.0,398.0>>
+
+	* uni0E0B (U+0E0B) contains a short segment L<<245.0,398.0>--<257.0,398.0>>
+
+	* uni0E0C (U+0E0C) contains a short segment L<<60.0,363.0>--<60.0,381.0>>
+
+	* uni0E0C (U+0E0C) contains a short segment L<<367.0,0.0>--<344.0,0.0>> 
+
+	* And 75 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
-	* exclam (U+0021): L<<118.0,714.0>--<114.0,171.0>>
-
-	* exclam (U+0021): L<<90.0,171.0>--<87.0,714.0>>
-
-	* exclamdown (U+00A1): L<<112.0,351.0>--<116.0,-192.0>>
-
-	* exclamdown (U+00A1): L<<86.0,-192.0>--<88.0,351.0>>
-
-	* p (U+0070): L<<97.0,527.0>--<98.0,403.0>> 
-
-	* And uni0E2B (U+0E2B): L<<366.0,0.0>--<365.0,174.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[11] NotoSansThaiUI-ExtraBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+	* uni0E2B (U+0E2B): L<<366.0,0.0>--<365.0,174.0>> [code: found-semi-vertical]
+</div></details><br></div></details><details><summary><b>[12] NotoSansThaiUI-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
+* 🔥 **FAIL** Missing required codepoints:
+
+	- 0x0030 (DIGIT ZERO)
+
+
+	- 0x0031 (DIGIT ONE)
+
+
+	- 0x0032 (DIGIT TWO)
+
+
+	- 0x0033 (DIGIT THREE)
+
+
+	- 0x0034 (DIGIT FOUR)
+
+
+	- 0x0035 (DIGIT FIVE)
+
+
+	- 0x0036 (DIGIT SIX)
+
+
+	- 0x0037 (DIGIT SEVEN)
+
+
+	- 0x0038 (DIGIT EIGHT)
+
+
+	- 0x0039 (DIGIT NINE)
+ 
+
+	- And 318 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
@@ -1348,6 +1809,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Black.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Bold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Condensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Light.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Medium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Regular.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Thin.ttf', 'fonts/NotoSansThaiUI/googlefonts/variable-ttf/NotoSansThaiUI[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check font can render its own name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/render_own_name">com.google.fonts/check/render_own_name</a>)</summary><div>
+
+
+* 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI ExtraBold [code: render-own-name]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -1378,10 +1843,6 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
@@ -1390,59 +1851,112 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
 
-	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
+	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
 
-	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3 
-
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- And Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B), uni030C (U+030C) and 4 more.
+* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
+	* uni0E0E (U+0E0E): X=120.0,Y=-1.0 (should be at baseline 0?)
 
+	* uni0E0F (U+0E0F): X=120.0,Y=-1.0 (should be at baseline 0?)
 
-* ⚠ **WARN** The following glyphs have jaggy segments:
+	* uni0E23 (U+0E23): X=140.5,Y=-1.0 (should be at baseline 0?)
 
-	* V (U+0056): B<<326.0,209.5>-<333.0,177.0>-<335.0,156.0>>/B<<335.0,156.0>-<338.0,177.0>-<344.5,209.0>> = 13.570434385161475
+	* uni0E27 (U+0E27): X=118.5,Y=-1.5 (should be at baseline 0?)
 
-	* W (U+0057): B<<283.5,211.5>-<290.0,175.0>-<293.0,151.0>>/B<<293.0,151.0>-<297.0,183.0>-<305.0,226.5>> = 14.25003269780357
+	* uni0E31 (U+0E31): X=-209.5,Y=716.0 (should be at cap-height 714?)
 
-	* W (U+0057): B<<506.5,475.5>-<502.0,500.0>-<501.0,516.0>>/B<<501.0,516.0>-<499.0,500.0>-<494.5,475.5>> = 10.701350723899111
+	* uni0E33 (U+0E33): X=-150.0,Y=715.0 (should be at cap-height 714?)
 
-	* Wacute (U+1E82): B<<283.5,211.5>-<290.0,175.0>-<293.0,151.0>>/B<<293.0,151.0>-<297.0,183.0>-<305.0,226.5>> = 14.25003269780357
+	* uni0E33 (U+0E33): X=-215.5,Y=715.0 (should be at cap-height 714?)
 
-	* Wacute (U+1E82): B<<506.5,475.5>-<502.0,500.0>-<501.0,516.0>>/B<<501.0,516.0>-<499.0,500.0>-<494.5,475.5>> = 10.701350723899111
+	* uni0E47 (U+0E47): X=-371.0,Y=716.0 (should be at cap-height 714?)
 
-	* Wcircumflex (U+0174): B<<283.5,211.5>-<290.0,175.0>-<293.0,151.0>>/B<<293.0,151.0>-<297.0,183.0>-<305.0,226.5>> = 14.25003269780357
+	* uni0E4D (U+0E4D): X=-150.0,Y=715.0 (should be at cap-height 714?)
 
-	* Wcircumflex (U+0174): B<<506.5,475.5>-<502.0,500.0>-<501.0,516.0>>/B<<501.0,516.0>-<499.0,500.0>-<494.5,475.5>> = 10.701350723899111
+	* uni0E4D (U+0E4D): X=-215.5,Y=715.0 (should be at cap-height 714?) 
 
-	* Wdieresis (U+1E84): B<<283.5,211.5>-<290.0,175.0>-<293.0,151.0>>/B<<293.0,151.0>-<297.0,183.0>-<305.0,226.5>> = 14.25003269780357
+	* And 3 more.
 
-	* Wdieresis (U+1E84): B<<506.5,475.5>-<502.0,500.0>-<501.0,516.0>>/B<<501.0,516.0>-<499.0,500.0>-<494.5,475.5>> = 10.701350723899111
-
-	* Wgrave (U+1E80): B<<283.5,211.5>-<290.0,175.0>-<293.0,151.0>>/B<<293.0,151.0>-<297.0,183.0>-<305.0,226.5>> = 14.25003269780357 
-
-	* And Wgrave (U+1E80): B<<506.5,475.5>-<502.0,500.0>-<501.0,516.0>>/B<<501.0,516.0>-<499.0,500.0>-<494.5,475.5>> = 10.701350723899111 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[13] NotoSansThaiUI-ExtraCondensed.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
+</div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+* ⚠ **WARN** The following glyphs have segments which seem very short:
+
+	* uni0E03 (U+0E03) contains a short segment B<<179.0,470.0>-<186.0,470.0>-<195.0,472.5>>
+
+	* uni0E04 (U+0E04) contains a short segment L<<230.0,227.0>--<233.0,226.0>>
+
+	* uni0E05 (U+0E05) contains a short segment L<<229.0,227.0>--<233.0,226.0>>
+
+	* uni0E06 (U+0E06) contains a short segment B<<185.0,470.0>-<192.0,470.0>-<201.0,472.5>>
+
+	* uni0E07 (U+0E07) contains a short segment L<<284.0,135.0>--<289.0,135.0>>
+
+	* uni0E08 (U+0E08) contains a short segment L<<253.0,127.0>--<258.0,127.0>>
+
+	* uni0E09 (U+0E09) contains a short segment L<<413.0,77.0>--<403.0,77.0>>
+
+	* uni0E0A (U+0E0A) contains a short segment L<<322.0,408.0>--<329.0,408.0>>
+
+	* uni0E0B (U+0E0B) contains a short segment B<<180.0,470.0>-<187.0,470.0>-<196.0,472.5>>
+
+	* uni0E0B (U+0E0B) contains a short segment L<<335.0,408.0>--<339.0,408.0>> 
+
+	* And 59 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
+</div></details><br></div></details><details><summary><b>[13] NotoSansThaiUI-ExtraCondensed.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Style name used in "fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensed.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* 🔥 **FAIL** Missing required codepoints:
+
+	- 0x0030 (DIGIT ZERO)
+
+
+	- 0x0031 (DIGIT ONE)
+
+
+	- 0x0032 (DIGIT TWO)
+
+
+	- 0x0033 (DIGIT THREE)
+
+
+	- 0x0034 (DIGIT FOUR)
+
+
+	- 0x0035 (DIGIT FIVE)
+
+
+	- 0x0036 (DIGIT SIX)
+
+
+	- 0x0037 (DIGIT SEVEN)
+
+
+	- 0x0038 (DIGIT EIGHT)
+
+
+	- 0x0039 (DIGIT NINE)
+ 
+
+	- And 318 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
@@ -1457,6 +1971,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Black.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Bold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Condensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Light.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Medium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Regular.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Thin.ttf', 'fonts/NotoSansThaiUI/googlefonts/variable-ttf/NotoSansThaiUI[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check font can render its own name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/render_own_name">com.google.fonts/check/render_own_name</a>)</summary><div>
+
+
+* 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI ExtraCondensed [code: render-own-name]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -1487,10 +2005,6 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
@@ -1499,89 +2013,112 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
 
-	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
+	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
 
-	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3 
-
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- And Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B), uni030C (U+030C) and 4 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-	* J (U+004A): X=154.0,Y=-1.0 (should be at baseline 0?)
+	* tildecomb (U+0303): X=-282.5,Y=712.5 (should be at cap-height 714?)
 
-	* S (U+0053): X=304.0,Y=713.5 (should be at cap-height 714?)
+	* uni0E0D (U+0E0D): X=413.0,Y=1.0 (should be at baseline 0?)
 
-	* asciicircum (U+005E): X=197.0,Y=713.0 (should be at cap-height 714?)
+	* uni0E18 (U+0E18): X=127.5,Y=1.0 (should be at baseline 0?)
 
-	* asciicircum (U+005E): X=245.0,Y=713.0 (should be at cap-height 714?)
+	* uni0E23 (U+0E23): X=104.5,Y=1.0 (should be at baseline 0?)
 
-	* grave (U+0060): X=163.5,Y=715.5 (should be at cap-height 714?)
+	* uni0E27 (U+0E27): X=94.5,Y=-2.0 (should be at baseline 0?)
 
-	* f (U+0066): X=99.5,Y=714.5 (should be at cap-height 714?)
+	* uni0E36 (U+0E36): X=-105.5,Y=715.0 (should be at cap-height 714?)
 
-	* f (U+0066): X=155.0,Y=537.0 (should be at x-height 536?)
+	* uni0E36 (U+0E36): X=-150.0,Y=715.5 (should be at cap-height 714?)
 
-	* f (U+0066): X=240.0,Y=537.0 (should be at x-height 536?)
+	* uni0E49 (U+0E49): X=-214.0,Y=712.0 (should be at cap-height 714?)
 
-	* g (U+0067): X=330.0,Y=537.0 (should be at x-height 536?)
+	* uni0E4A (U+0E4A): X=-85.0,Y=716.0 (should be at cap-height 714?)
 
-	* g (U+0067): X=398.0,Y=537.0 (should be at x-height 536?) 
+	* uni0E4E (U+0E4E): X=-43.5,Y=713.0 (should be at cap-height 714?) 
 
-	* And 90 more.
+	* And 8 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
-* ⚠ **WARN** The following glyphs have jaggy segments:
+* ⚠ **WARN** The following glyphs have segments which seem very short:
 
-	* A (U+0041): B<<230.5,589.0>-<226.0,615.0>-<223.0,638.0>>/B<<223.0,638.0>-<218.0,590.0>-<206.0,536.0>> = 13.37827102514601
+	* uni0E04 (U+0E04) contains a short segment L<<146.0,226.0>--<148.0,225.0>>
 
-	* Aacute (U+00C1): B<<230.5,589.0>-<226.0,615.0>-<223.0,638.0>>/B<<223.0,638.0>-<218.0,590.0>-<206.0,536.0>> = 13.37827102514601
+	* uni0E05 (U+0E05) contains a short segment L<<145.0,226.0>--<147.0,225.0>>
 
-	* Abreve (U+0102): B<<230.5,589.0>-<226.0,615.0>-<223.0,638.0>>/B<<223.0,638.0>-<218.0,590.0>-<206.0,536.0>> = 13.37827102514601
+	* uni0E07 (U+0E07) contains a short segment L<<190.0,73.0>--<196.0,73.0>>
 
-	* Acircumflex (U+00C2): B<<230.5,589.0>-<226.0,615.0>-<223.0,638.0>>/B<<223.0,638.0>-<218.0,590.0>-<206.0,536.0>> = 13.37827102514601
+	* uni0E08 (U+0E08) contains a short segment L<<181.0,68.0>--<188.0,68.0>>
 
-	* Adieresis (U+00C4): B<<230.5,589.0>-<226.0,615.0>-<223.0,638.0>>/B<<223.0,638.0>-<218.0,590.0>-<206.0,536.0>> = 13.37827102514601
+	* uni0E09 (U+0E09) contains a short segment L<<319.0,76.0>--<315.0,76.0>>
 
-	* Agrave (U+00C0): B<<230.5,589.0>-<226.0,615.0>-<223.0,638.0>>/B<<223.0,638.0>-<218.0,590.0>-<206.0,536.0>> = 13.37827102514601
+	* uni0E0A (U+0E0A) contains a short segment L<<229.0,408.0>--<233.0,408.0>>
 
-	* Amacron (U+0100): B<<230.5,589.0>-<226.0,615.0>-<223.0,638.0>>/B<<223.0,638.0>-<218.0,590.0>-<206.0,536.0>> = 13.37827102514601
+	* uni0E0B (U+0E0B) contains a short segment L<<235.0,408.0>--<238.0,408.0>>
 
-	* Aogonek (U+0104): B<<230.5,589.0>-<226.0,615.0>-<223.0,638.0>>/B<<223.0,638.0>-<218.0,590.0>-<206.0,536.0>> = 13.37827102514601
+	* uni0E0D (U+0E0D) contains a short segment L<<524.0,70.0>--<520.0,70.0>>
 
-	* Aring (U+00C5): B<<230.5,589.0>-<226.0,615.0>-<223.0,638.0>>/B<<223.0,638.0>-<218.0,590.0>-<206.0,536.0>> = 13.37827102514601
+	* uni0E0D (U+0E0D) contains a short segment B<<151.0,68.5>-<158.0,59.0>-<173.0,59.0>>
 
-	* Atilde (U+00C3): B<<230.5,589.0>-<226.0,615.0>-<223.0,638.0>>/B<<223.0,638.0>-<218.0,590.0>-<206.0,536.0>> = 13.37827102514601 
+	* uni0E0D (U+0E0D) contains a short segment B<<173.0,59.0>-<187.0,59.0>-<199.0,66.0>> 
 
-	* And 16 more.
+	* And 42 more.
 
-Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[13] NotoSansThaiUI-ExtraCondensedBlack.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
+</div></details><br></div></details><details><summary><b>[13] NotoSansThaiUI-ExtraCondensedBlack.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Style name used in "fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBlack.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* 🔥 **FAIL** Missing required codepoints:
+
+	- 0x0030 (DIGIT ZERO)
+
+
+	- 0x0031 (DIGIT ONE)
+
+
+	- 0x0032 (DIGIT TWO)
+
+
+	- 0x0033 (DIGIT THREE)
+
+
+	- 0x0034 (DIGIT FOUR)
+
+
+	- 0x0035 (DIGIT FIVE)
+
+
+	- 0x0036 (DIGIT SIX)
+
+
+	- 0x0037 (DIGIT SEVEN)
+
+
+	- 0x0038 (DIGIT EIGHT)
+
+
+	- 0x0039 (DIGIT NINE)
+ 
+
+	- And 318 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
@@ -1596,6 +2133,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Black.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Bold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Condensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Light.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Medium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Regular.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Thin.ttf', 'fonts/NotoSansThaiUI/googlefonts/variable-ttf/NotoSansThaiUI[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check font can render its own name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/render_own_name">com.google.fonts/check/render_own_name</a>)</summary><div>
+
+
+* 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI ExtraCondensed Black [code: render-own-name]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -1626,10 +2167,6 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
@@ -1638,89 +2175,104 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
 
-	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
+	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
 
-	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3 
-
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- And Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B), uni030C (U+030C) and 4 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-	* six (U+0036): X=430.0,Y=716.0 (should be at cap-height 714?)
+	* uni0E0E (U+0E0E): X=110.0,Y=-2.0 (should be at baseline 0?)
 
-	* nine (U+0039): X=65.0,Y=-1.0 (should be at baseline 0?)
+	* uni0E0F (U+0E0F): X=110.0,Y=-2.0 (should be at baseline 0?)
 
-	* e (U+0065): X=350.0,Y=-0.5 (should be at baseline 0?)
+	* uni0E23 (U+0E23): X=121.5,Y=-1.0 (should be at baseline 0?)
 
-	* t (U+0074): X=279.5,Y=-2.0 (should be at baseline 0?)
+	* uni0E27 (U+0E27): X=99.0,Y=-1.5 (should be at baseline 0?)
 
-	* y (U+0079): X=166.0,Y=-2.0 (should be at baseline 0?)
+	* uni0E47 (U+0E47): X=-292.0,Y=716.0 (should be at cap-height 714?)
 
-	* ordfeminine (U+00AA): X=108.0,Y=712.0 (should be at cap-height 714?)
+	* uni0E49 (U+0E49): X=-219.0,Y=712.0 (should be at cap-height 714?)
 
-	* acute (U+00B4): X=262.5,Y=712.5 (should be at cap-height 714?)
+	* uni0E4E (U+0E4E): X=-7.0,Y=715.0 (should be at cap-height 714?) 
 
-	* Aring (U+00C5): X=288.0,Y=716.0 (should be at cap-height 714?)
-
-	* Aring (U+00C5): X=288.0,Y=716.0 (should be at cap-height 714?)
-
-	* aacute (U+00E1): X=379.5,Y=712.5 (should be at cap-height 714?) 
-
-	* And 37 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
+	* And uni0E4E (U+0E4E): X=-55.5,Y=713.0 (should be at cap-height 714?) [code: found-misalignments]
+</div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
-* ⚠ **WARN** The following glyphs have jaggy segments:
+* ⚠ **WARN** The following glyphs have segments which seem very short:
 
-	* A (U+0041): B<<297.5,522.0>-<292.0,559.0>-<288.0,589.0>>/B<<288.0,589.0>-<285.0,561.0>-<279.5,524.0>> = 13.71014693487685
+	* uni0E04 (U+0E04) contains a short segment L<<210.0,239.0>--<214.0,238.0>>
 
-	* Aacute (U+00C1): B<<297.5,522.0>-<292.0,559.0>-<288.0,589.0>>/B<<288.0,589.0>-<285.0,561.0>-<279.5,524.0>> = 13.71014693487685
+	* uni0E04 (U+0E04) contains a short segment L<<300.0,157.0>--<288.0,157.0>>
 
-	* Abreve (U+0102): B<<297.5,522.0>-<292.0,559.0>-<288.0,589.0>>/B<<288.0,589.0>-<285.0,561.0>-<279.5,524.0>> = 13.71014693487685
+	* uni0E05 (U+0E05) contains a short segment L<<211.0,239.0>--<214.0,238.0>>
 
-	* Acircumflex (U+00C2): B<<297.5,522.0>-<292.0,559.0>-<288.0,589.0>>/B<<288.0,589.0>-<285.0,561.0>-<279.5,524.0>> = 13.71014693487685
+	* uni0E05 (U+0E05) contains a short segment L<<311.0,157.0>--<298.0,157.0>>
 
-	* Adieresis (U+00C4): B<<297.5,522.0>-<292.0,559.0>-<288.0,589.0>>/B<<288.0,589.0>-<285.0,561.0>-<279.5,524.0>> = 13.71014693487685
+	* uni0E07 (U+0E07) contains a short segment L<<237.0,128.0>--<238.0,128.0>>
 
-	* Agrave (U+00C0): B<<297.5,522.0>-<292.0,559.0>-<288.0,589.0>>/B<<288.0,589.0>-<285.0,561.0>-<279.5,524.0>> = 13.71014693487685
+	* uni0E07 (U+0E07) contains a short segment B<<238.0,128.0>-<243.0,128.0>-<248.0,133.5>>
 
-	* Amacron (U+0100): B<<297.5,522.0>-<292.0,559.0>-<288.0,589.0>>/B<<288.0,589.0>-<285.0,561.0>-<279.5,524.0>> = 13.71014693487685
+	* uni0E07 (U+0E07) contains a short segment B<<233.0,399.0>-<230.0,399.0>-<225.5,399.0>>
 
-	* Aogonek (U+0104): B<<297.5,522.0>-<292.0,559.0>-<288.0,589.0>>/B<<288.0,589.0>-<285.0,561.0>-<279.5,524.0>> = 13.71014693487685
+	* uni0E07 (U+0E07) contains a short segment B<<225.5,399.0>-<221.0,399.0>-<217.0,397.0>>
 
-	* Aring (U+00C5): B<<297.5,522.0>-<292.0,559.0>-<288.0,589.0>>/B<<288.0,589.0>-<285.0,561.0>-<279.5,524.0>> = 13.71014693487685
+	* uni0E08 (U+0E08) contains a short segment L<<214.0,120.0>--<215.0,120.0>>
 
-	* Atilde (U+00C3): B<<297.5,522.0>-<292.0,559.0>-<288.0,589.0>>/B<<288.0,589.0>-<285.0,561.0>-<279.5,524.0>> = 13.71014693487685 
+	* uni0E09 (U+0E09) contains a short segment L<<322.0,76.0>--<313.0,76.0>> 
 
-	* And 19 more.
+	* And 79 more.
 
-Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[13] NotoSansThaiUI-ExtraCondensedBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
+</div></details><br></div></details><details><summary><b>[13] NotoSansThaiUI-ExtraCondensedBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Style name used in "fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBold.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* 🔥 **FAIL** Missing required codepoints:
+
+	- 0x0030 (DIGIT ZERO)
+
+
+	- 0x0031 (DIGIT ONE)
+
+
+	- 0x0032 (DIGIT TWO)
+
+
+	- 0x0033 (DIGIT THREE)
+
+
+	- 0x0034 (DIGIT FOUR)
+
+
+	- 0x0035 (DIGIT FIVE)
+
+
+	- 0x0036 (DIGIT SIX)
+
+
+	- 0x0037 (DIGIT SEVEN)
+
+
+	- 0x0038 (DIGIT EIGHT)
+
+
+	- 0x0039 (DIGIT NINE)
+ 
+
+	- And 318 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
@@ -1735,6 +2287,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Black.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Bold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Condensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Light.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Medium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Regular.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Thin.ttf', 'fonts/NotoSansThaiUI/googlefonts/variable-ttf/NotoSansThaiUI[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check font can render its own name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/render_own_name">com.google.fonts/check/render_own_name</a>)</summary><div>
+
+
+* 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI ExtraCondensed [code: render-own-name]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -1765,10 +2321,6 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
@@ -1777,89 +2329,104 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
 
-	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
+	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
 
-	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3 
-
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- And Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B), uni030C (U+030C) and 4 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-	* four (U+0034): X=252.0,Y=716.0 (should be at cap-height 714?)
+	* tildecomb (U+0303): X=-262.0,Y=715.5 (should be at cap-height 714?)
 
-	* four (U+0034): X=385.0,Y=716.0 (should be at cap-height 714?)
+	* uni0E0E (U+0E0E): X=55.5,Y=1.5 (should be at baseline 0?)
 
-	* six (U+0036): X=400.0,Y=715.0 (should be at cap-height 714?)
+	* uni0E0F (U+0E0F): X=55.5,Y=1.5 (should be at baseline 0?)
 
-	* S (U+0053): X=113.0,Y=-1.5 (should be at baseline 0?)
+	* uni0E18 (U+0E18): X=139.5,Y=-2.0 (should be at baseline 0?)
 
-	* S (U+0053): X=325.5,Y=712.5 (should be at cap-height 714?)
+	* uni0E23 (U+0E23): X=117.5,Y=-0.5 (should be at baseline 0?)
 
-	* b (U+0062): X=239.0,Y=537.0 (should be at x-height 536?)
+	* uni0E49 (U+0E49): X=-243.0,Y=713.0 (should be at cap-height 714?)
 
-	* m (U+006D): X=383.0,Y=535.0 (should be at x-height 536?)
+	* uni0E4E (U+0E4E): X=-18.0,Y=715.0 (should be at cap-height 714?) 
 
-	* m (U+006D): X=480.5,Y=537.0 (should be at x-height 536?)
-
-	* braceleft (U+007B): X=125.0,Y=-1.0 (should be at baseline 0?)
-
-	* braceright (U+007D): X=239.0,Y=-1.0 (should be at baseline 0?) 
-
-	* And 47 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
+	* And uni0E4E (U+0E4E): X=-69.0,Y=712.5 (should be at cap-height 714?) [code: found-misalignments]
+</div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
-* ⚠ **WARN** The following glyphs have jaggy segments:
+* ⚠ **WARN** The following glyphs have segments which seem very short:
 
-	* A (U+0041): B<<283.0,480.0>-<271.0,551.0>-<263.0,608.0>>/B<<263.0,608.0>-<258.0,552.0>-<243.0,482.0>> = 13.091492018755051
+	* uni0E04 (U+0E04) contains a short segment L<<187.0,229.0>--<190.0,228.0>>
 
-	* Aacute (U+00C1): B<<283.0,480.0>-<271.0,551.0>-<263.0,608.0>>/B<<263.0,608.0>-<258.0,552.0>-<243.0,482.0>> = 13.091492018755051
+	* uni0E05 (U+0E05) contains a short segment L<<187.0,229.0>--<189.0,228.0>>
 
-	* Abreve (U+0102): B<<283.0,480.0>-<271.0,551.0>-<263.0,608.0>>/B<<263.0,608.0>-<258.0,552.0>-<243.0,482.0>> = 13.091492018755051
+	* uni0E05 (U+0E05) contains a short segment L<<304.0,180.0>--<286.0,180.0>>
 
-	* Acircumflex (U+00C2): B<<283.0,480.0>-<271.0,551.0>-<263.0,608.0>>/B<<263.0,608.0>-<258.0,552.0>-<243.0,482.0>> = 13.091492018755051
+	* uni0E07 (U+0E07) contains a short segment L<<228.0,112.0>--<232.0,112.0>>
 
-	* Adieresis (U+00C4): B<<283.0,480.0>-<271.0,551.0>-<263.0,608.0>>/B<<263.0,608.0>-<258.0,552.0>-<243.0,482.0>> = 13.091492018755051
+	* uni0E08 (U+0E08) contains a short segment L<<208.0,105.0>--<213.0,105.0>>
 
-	* Agrave (U+00C0): B<<283.0,480.0>-<271.0,551.0>-<263.0,608.0>>/B<<263.0,608.0>-<258.0,552.0>-<243.0,482.0>> = 13.091492018755051
+	* uni0E09 (U+0E09) contains a short segment L<<339.0,76.0>--<332.0,76.0>>
 
-	* Amacron (U+0100): B<<283.0,480.0>-<271.0,551.0>-<263.0,608.0>>/B<<263.0,608.0>-<258.0,552.0>-<243.0,482.0>> = 13.091492018755051
+	* uni0E0A (U+0E0A) contains a short segment B<<93.0,425.0>-<86.0,425.0>-<77.5,421.5>>
 
-	* Aogonek (U+0104): B<<283.0,480.0>-<271.0,551.0>-<263.0,608.0>>/B<<263.0,608.0>-<258.0,552.0>-<243.0,482.0>> = 13.091492018755051
+	* uni0E0A (U+0E0A) contains a short segment L<<263.0,407.0>--<268.0,407.0>>
 
-	* Aring (U+00C5): B<<283.0,480.0>-<271.0,551.0>-<263.0,608.0>>/B<<263.0,608.0>-<258.0,552.0>-<243.0,482.0>> = 13.091492018755051
+	* uni0E0B (U+0E0B) contains a short segment L<<272.0,407.0>--<275.0,407.0>>
 
-	* Atilde (U+00C3): B<<283.0,480.0>-<271.0,551.0>-<263.0,608.0>>/B<<263.0,608.0>-<258.0,552.0>-<243.0,482.0>> = 13.091492018755051 
+	* uni0E0C (U+0E0C) contains a short segment L<<46.0,336.0>--<46.0,360.0>> 
 
-	* And 17 more.
+	* And 57 more.
 
-Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[13] NotoSansThaiUI-ExtraCondensedExtraBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
+</div></details><br></div></details><details><summary><b>[13] NotoSansThaiUI-ExtraCondensedExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Style name used in "fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraBold.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* 🔥 **FAIL** Missing required codepoints:
+
+	- 0x0030 (DIGIT ZERO)
+
+
+	- 0x0031 (DIGIT ONE)
+
+
+	- 0x0032 (DIGIT TWO)
+
+
+	- 0x0033 (DIGIT THREE)
+
+
+	- 0x0034 (DIGIT FOUR)
+
+
+	- 0x0035 (DIGIT FIVE)
+
+
+	- 0x0036 (DIGIT SIX)
+
+
+	- 0x0037 (DIGIT SEVEN)
+
+
+	- 0x0038 (DIGIT EIGHT)
+
+
+	- 0x0039 (DIGIT NINE)
+ 
+
+	- And 318 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
@@ -1874,6 +2441,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Black.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Bold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Condensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Light.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Medium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Regular.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Thin.ttf', 'fonts/NotoSansThaiUI/googlefonts/variable-ttf/NotoSansThaiUI[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check font can render its own name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/render_own_name">com.google.fonts/check/render_own_name</a>)</summary><div>
+
+
+* 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI ExtraCondensed ExtraBold [code: render-own-name]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -1904,10 +2475,6 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
@@ -1916,89 +2483,104 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
 
-	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
+	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
 
-	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3 
-
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- And Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B), uni030C (U+030C) and 4 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-	* four (U+0034): X=252.0,Y=715.0 (should be at cap-height 714?)
+	* tildecomb (U+0303): X=-225.0,Y=713.0 (should be at cap-height 714?)
 
-	* four (U+0034): X=397.0,Y=715.0 (should be at cap-height 714?)
+	* uni0E23 (U+0E23): X=119.0,Y=-0.5 (should be at baseline 0?)
 
-	* six (U+0036): X=414.0,Y=715.0 (should be at cap-height 714?)
+	* uni0E27 (U+0E27): X=99.5,Y=-1.5 (should be at baseline 0?)
 
-	* S (U+0053): X=114.5,Y=-1.0 (should be at baseline 0?)
+	* uni0E47 (U+0E47): X=-393.0,Y=712.0 (should be at cap-height 714?)
 
-	* c (U+0063): X=318.0,Y=1.0 (should be at baseline 0?)
+	* uni0E49 (U+0E49): X=-232.0,Y=713.0 (should be at cap-height 714?)
 
-	* braceleft (U+007B): X=120.0,Y=-1.0 (should be at baseline 0?)
+	* uni0E4E (U+0E4E): X=-168.0,Y=712.0 (should be at cap-height 714?)
 
-	* braceright (U+007D): X=245.0,Y=-1.0 (should be at baseline 0?)
+	* uni0E4E (U+0E4E): X=-13.0,Y=715.0 (should be at cap-height 714?) 
 
-	* ordfeminine (U+00AA): X=106.0,Y=712.5 (should be at cap-height 714?)
-
-	* Aring (U+00C5): X=274.0,Y=716.0 (should be at cap-height 714?)
-
-	* Aring (U+00C5): X=274.0,Y=716.0 (should be at cap-height 714?) 
-
-	* And 26 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
+	* And uni0E4E (U+0E4E): X=-63.0,Y=712.5 (should be at cap-height 714?) [code: found-misalignments]
+</div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
-* ⚠ **WARN** The following glyphs have jaggy segments:
+* ⚠ **WARN** The following glyphs have segments which seem very short:
 
-	* A (U+0041): B<<283.5,536.0>-<278.0,571.0>-<275.0,599.0>>/B<<275.0,599.0>-<269.0,542.0>-<254.0,466.0>> = 12.12450952377988
+	* uni0E04 (U+0E04) contains a short segment L<<198.0,234.0>--<201.0,233.0>>
 
-	* Aacute (U+00C1): B<<283.5,536.0>-<278.0,571.0>-<275.0,599.0>>/B<<275.0,599.0>-<269.0,542.0>-<254.0,466.0>> = 12.12450952377988
+	* uni0E04 (U+0E04) contains a short segment L<<298.0,169.0>--<284.0,169.0>>
 
-	* Abreve (U+0102): B<<283.5,536.0>-<278.0,571.0>-<275.0,599.0>>/B<<275.0,599.0>-<269.0,542.0>-<254.0,466.0>> = 12.12450952377988
+	* uni0E05 (U+0E05) contains a short segment L<<198.0,234.0>--<201.0,233.0>>
 
-	* Acircumflex (U+00C2): B<<283.5,536.0>-<278.0,571.0>-<275.0,599.0>>/B<<275.0,599.0>-<269.0,542.0>-<254.0,466.0>> = 12.12450952377988
+	* uni0E05 (U+0E05) contains a short segment L<<307.0,169.0>--<292.0,169.0>>
 
-	* Adieresis (U+00C4): B<<283.5,536.0>-<278.0,571.0>-<275.0,599.0>>/B<<275.0,599.0>-<269.0,542.0>-<254.0,466.0>> = 12.12450952377988
+	* uni0E07 (U+0E07) contains a short segment L<<232.0,119.0>--<235.0,119.0>>
 
-	* Agrave (U+00C0): B<<283.5,536.0>-<278.0,571.0>-<275.0,599.0>>/B<<275.0,599.0>-<269.0,542.0>-<254.0,466.0>> = 12.12450952377988
+	* uni0E07 (U+0E07) contains a short segment B<<231.0,407.0>-<227.0,407.0>-<222.0,406.5>>
 
-	* Amacron (U+0100): B<<283.5,536.0>-<278.0,571.0>-<275.0,599.0>>/B<<275.0,599.0>-<269.0,542.0>-<254.0,466.0>> = 12.12450952377988
+	* uni0E07 (U+0E07) contains a short segment B<<222.0,406.5>-<217.0,406.0>-<212.0,404.0>>
 
-	* Aogonek (U+0104): B<<283.5,536.0>-<278.0,571.0>-<275.0,599.0>>/B<<275.0,599.0>-<269.0,542.0>-<254.0,466.0>> = 12.12450952377988
+	* uni0E08 (U+0E08) contains a short segment L<<211.0,112.0>--<214.0,112.0>>
 
-	* Aring (U+00C5): B<<283.5,536.0>-<278.0,571.0>-<275.0,599.0>>/B<<275.0,599.0>-<269.0,542.0>-<254.0,466.0>> = 12.12450952377988
+	* uni0E09 (U+0E09) contains a short segment L<<331.0,76.0>--<323.0,76.0>>
 
-	* Atilde (U+00C3): B<<283.5,536.0>-<278.0,571.0>-<275.0,599.0>>/B<<275.0,599.0>-<269.0,542.0>-<254.0,466.0>> = 12.12450952377988 
+	* uni0E0A (U+0E0A) contains a short segment L<<266.0,407.0>--<271.0,407.0>> 
 
-	* And 19 more.
+	* And 69 more.
 
-Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[12] NotoSansThaiUI-ExtraCondensedExtraLight.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
+</div></details><br></div></details><details><summary><b>[13] NotoSansThaiUI-ExtraCondensedExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Style name used in "fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraLight.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* 🔥 **FAIL** Missing required codepoints:
+
+	- 0x0030 (DIGIT ZERO)
+
+
+	- 0x0031 (DIGIT ONE)
+
+
+	- 0x0032 (DIGIT TWO)
+
+
+	- 0x0033 (DIGIT THREE)
+
+
+	- 0x0034 (DIGIT FOUR)
+
+
+	- 0x0035 (DIGIT FIVE)
+
+
+	- 0x0036 (DIGIT SIX)
+
+
+	- 0x0037 (DIGIT SEVEN)
+
+
+	- 0x0038 (DIGIT EIGHT)
+
+
+	- 0x0039 (DIGIT NINE)
+ 
+
+	- And 318 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
@@ -2013,6 +2595,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Black.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Bold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Condensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Light.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Medium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Regular.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Thin.ttf', 'fonts/NotoSansThaiUI/googlefonts/variable-ttf/NotoSansThaiUI[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check font can render its own name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/render_own_name">com.google.fonts/check/render_own_name</a>)</summary><div>
+
+
+* 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI ExtraCondensed ExtraLight [code: render-own-name]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -2043,10 +2629,6 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
@@ -2055,47 +2637,112 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
 
-	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
+	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
 
-	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3 
-
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- And Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B), uni030C (U+030C) and 4 more.
+* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
+	* uni0E12 (U+0E12): X=232.0,Y=1.0 (should be at baseline 0?)
+
+	* uni0E15 (U+0E15): X=242.0,Y=1.0 (should be at baseline 0?)
+
+	* uni0E18 (U+0E18): X=118.5,Y=-0.5 (should be at baseline 0?)
+
+	* uni0E20 (U+0E20): X=21.0,Y=2.0 (should be at baseline 0?)
+
+	* uni0E23 (U+0E23): X=95.0,Y=1.5 (should be at baseline 0?)
+
+	* uni0E25 (U+0E25): X=213.0,Y=1.0 (should be at baseline 0?)
+
+	* uni0E26 (U+0E26): X=21.0,Y=2.0 (should be at baseline 0?)
+
+	* uni0E27 (U+0E27): X=86.5,Y=-1.5 (should be at baseline 0?)
+
+	* uni0E2A (U+0E2A): X=214.0,Y=1.0 (should be at baseline 0?)
+
+	* uni0E2F (U+0E2F): X=250.0,Y=-1.0 (should be at baseline 0?) 
+
+	* And 19 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
+</div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
-* ⚠ **WARN** The following glyphs have jaggy segments:
+* ⚠ **WARN** The following glyphs have segments which seem very short:
 
-	* W (U+0057): B<<338.5,587.5>-<335.0,610.0>-<330.0,648.0>>/B<<330.0,648.0>-<326.0,614.0>-<322.0,591.0>> = 14.205694447486762
+	* uni0E04 (U+0E04) contains a short segment L<<101.0,218.0>--<103.0,217.0>>
 
-	* Wacute (U+1E82): B<<338.5,587.5>-<335.0,610.0>-<330.0,648.0>>/B<<330.0,648.0>-<326.0,614.0>-<322.0,591.0>> = 14.205694447486762
+	* uni0E05 (U+0E05) contains a short segment L<<101.0,218.0>--<103.0,217.0>>
 
-	* Wcircumflex (U+0174): B<<338.5,587.5>-<335.0,610.0>-<330.0,648.0>>/B<<330.0,648.0>-<326.0,614.0>-<322.0,591.0>> = 14.205694447486762
+	* uni0E07 (U+0E07) contains a short segment L<<162.0,35.0>--<172.0,35.0>>
 
-	* Wdieresis (U+1E84): B<<338.5,587.5>-<335.0,610.0>-<330.0,648.0>>/B<<330.0,648.0>-<326.0,614.0>-<322.0,591.0>> = 14.205694447486762 
+	* uni0E08 (U+0E08) contains a short segment L<<151.0,34.0>--<160.0,34.0>>
 
-	* And Wgrave (U+1E80): B<<338.5,587.5>-<335.0,610.0>-<330.0,648.0>>/B<<330.0,648.0>-<326.0,614.0>-<322.0,591.0>> = 14.205694447486762 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[13] NotoSansThaiUI-ExtraCondensedLight.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+	* uni0E09 (U+0E09) contains a short segment L<<327.0,82.0>--<324.0,82.0>>
 
+	* uni0E0A (U+0E0A) contains a short segment L<<216.0,400.0>--<225.0,400.0>>
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+	* uni0E0B (U+0E0B) contains a short segment L<<221.0,400.0>--<229.0,400.0>>
+
+	* uni0E0C (U+0E0C) contains a short segment L<<53.0,360.0>--<53.0,380.0>>
+
+	* uni0E0C (U+0E0C) contains a short segment B<<144.0,26.0>-<153.0,26.0>-<162.0,28.5>>
+
+	* uni0E0C (U+0E0C) contains a short segment B<<162.0,28.5>-<171.0,31.0>-<178.0,35.0>> 
+
+	* And 56 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
+</div></details><br></div></details><details><summary><b>[13] NotoSansThaiUI-ExtraCondensedLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Style name used in "fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedLight.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* 🔥 **FAIL** Missing required codepoints:
+
+	- 0x0030 (DIGIT ZERO)
+
+
+	- 0x0031 (DIGIT ONE)
+
+
+	- 0x0032 (DIGIT TWO)
+
+
+	- 0x0033 (DIGIT THREE)
+
+
+	- 0x0034 (DIGIT FOUR)
+
+
+	- 0x0035 (DIGIT FIVE)
+
+
+	- 0x0036 (DIGIT SIX)
+
+
+	- 0x0037 (DIGIT SEVEN)
+
+
+	- 0x0038 (DIGIT EIGHT)
+
+
+	- 0x0039 (DIGIT NINE)
+ 
+
+	- And 318 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
@@ -2110,6 +2757,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Black.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Bold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Condensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Light.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Medium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Regular.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Thin.ttf', 'fonts/NotoSansThaiUI/googlefonts/variable-ttf/NotoSansThaiUI[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check font can render its own name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/render_own_name">com.google.fonts/check/render_own_name</a>)</summary><div>
+
+
+* 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI ExtraCondensed Light [code: render-own-name]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -2140,10 +2791,6 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
@@ -2152,75 +2799,112 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
 
-	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
+	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
 
-	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3 
-
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- And Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B), uni030C (U+030C) and 4 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-	* slash (U+002F): X=334.0,Y=716.0 (should be at cap-height 714?)
+	* tildecomb (U+0303): X=-317.0,Y=716.0 (should be at cap-height 714?)
 
-	* slash (U+002F): X=75.0,Y=-1.0 (should be at baseline 0?)
+	* uni0E0D (U+0E0D): X=411.0,Y=1.0 (should be at baseline 0?)
 
-	* slash (U+002F): X=22.0,Y=-1.0 (should be at baseline 0?)
+	* uni0E12 (U+0E12): X=242.0,Y=2.0 (should be at baseline 0?)
 
-	* slash (U+002F): X=283.0,Y=716.0 (should be at cap-height 714?)
+	* uni0E14 (U+0E14): X=242.0,Y=1.0 (should be at baseline 0?)
 
-	* five (U+0035): X=102.5,Y=-1.5 (should be at baseline 0?)
+	* uni0E15 (U+0E15): X=249.0,Y=2.0 (should be at baseline 0?)
 
-	* nine (U+0039): X=70.0,Y=2.0 (should be at baseline 0?)
+	* uni0E18 (U+0E18): X=122.0,Y=0.5 (should be at baseline 0?)
 
-	* G (U+0047): X=392.5,Y=-1.5 (should be at baseline 0?)
+	* uni0E23 (U+0E23): X=98.5,Y=1.5 (should be at baseline 0?)
 
-	* G (U+0047): X=396.0,Y=713.5 (should be at cap-height 714?)
+	* uni0E25 (U+0E25): X=222.0,Y=2.0 (should be at baseline 0?)
 
-	* S (U+0053): X=294.5,Y=714.5 (should be at cap-height 714?)
+	* uni0E27 (U+0E27): X=89.5,Y=-1.5 (should be at baseline 0?)
 
-	* backslash (U+005C): X=73.0,Y=716.0 (should be at cap-height 714?) 
+	* uni0E2A (U+0E2A): X=222.0,Y=2.0 (should be at baseline 0?) 
 
-	* And 84 more.
+	* And 8 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
-* ⚠ **WARN** The following glyphs have jaggy segments:
+* ⚠ **WARN** The following glyphs have segments which seem very short:
 
-	* W (U+0057): B<<350.0,558.5>-<346.0,586.0>-<341.0,628.0>>/B<<341.0,628.0>-<337.0,595.0>-<333.0,567.0>> = 13.700201693463454
+	* uni0E04 (U+0E04) contains a short segment L<<118.0,221.0>--<120.0,220.0>>
 
-	* Wacute (U+1E82): B<<350.0,558.5>-<346.0,586.0>-<341.0,628.0>>/B<<341.0,628.0>-<337.0,595.0>-<333.0,567.0>> = 13.700201693463454
+	* uni0E05 (U+0E05) contains a short segment L<<118.0,221.0>--<120.0,220.0>>
 
-	* Wcircumflex (U+0174): B<<350.0,558.5>-<346.0,586.0>-<341.0,628.0>>/B<<341.0,628.0>-<337.0,595.0>-<333.0,567.0>> = 13.700201693463454
+	* uni0E06 (U+0E06) contains a short segment B<<115.0,454.0>-<122.0,454.0>-<131.0,458.5>>
 
-	* Wdieresis (U+1E84): B<<350.0,558.5>-<346.0,586.0>-<341.0,628.0>>/B<<341.0,628.0>-<337.0,595.0>-<333.0,567.0>> = 13.700201693463454 
+	* uni0E07 (U+0E07) contains a short segment L<<173.0,49.0>--<181.0,49.0>>
 
-	* And Wgrave (U+1E80): B<<350.0,558.5>-<346.0,586.0>-<341.0,628.0>>/B<<341.0,628.0>-<337.0,595.0>-<333.0,567.0>> = 13.700201693463454 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[12] NotoSansThaiUI-ExtraCondensedMedium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+	* uni0E07 (U+0E07) contains a short segment B<<174.5,473.0>-<166.0,471.0>-<161.0,468.0>>
 
+	* uni0E08 (U+0E08) contains a short segment L<<162.0,47.0>--<171.0,47.0>>
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+	* uni0E09 (U+0E09) contains a short segment L<<324.0,80.0>--<321.0,80.0>>
+
+	* uni0E0A (U+0E0A) contains a short segment L<<221.0,403.0>--<228.0,403.0>>
+
+	* uni0E0B (U+0E0B) contains a short segment L<<226.0,403.0>--<233.0,403.0>>
+
+	* uni0E0C (U+0E0C) contains a short segment L<<53.0,355.0>--<53.0,379.0>> 
+
+	* And 46 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
+</div></details><br></div></details><details><summary><b>[13] NotoSansThaiUI-ExtraCondensedMedium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Style name used in "fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedMedium.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* 🔥 **FAIL** Missing required codepoints:
+
+	- 0x0030 (DIGIT ZERO)
+
+
+	- 0x0031 (DIGIT ONE)
+
+
+	- 0x0032 (DIGIT TWO)
+
+
+	- 0x0033 (DIGIT THREE)
+
+
+	- 0x0034 (DIGIT FOUR)
+
+
+	- 0x0035 (DIGIT FIVE)
+
+
+	- 0x0036 (DIGIT SIX)
+
+
+	- 0x0037 (DIGIT SEVEN)
+
+
+	- 0x0038 (DIGIT EIGHT)
+
+
+	- 0x0039 (DIGIT NINE)
+ 
+
+	- And 318 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
@@ -2235,6 +2919,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Black.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Bold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Condensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Light.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Medium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Regular.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Thin.ttf', 'fonts/NotoSansThaiUI/googlefonts/variable-ttf/NotoSansThaiUI[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check font can render its own name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/render_own_name">com.google.fonts/check/render_own_name</a>)</summary><div>
+
+
+* 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI ExtraCondensed Medium [code: render-own-name]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -2265,10 +2953,6 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
@@ -2277,61 +2961,112 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
 
-	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
+	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
 
-	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3 
-
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- And Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B), uni030C (U+030C) and 4 more.
+* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
+	* tildecomb (U+0303): X=-383.0,Y=715.5 (should be at cap-height 714?)
 
+	* uni0E0D (U+0E0D): X=424.0,Y=2.0 (should be at baseline 0?)
 
-* ⚠ **WARN** The following glyphs have jaggy segments:
+	* uni0E23 (U+0E23): X=108.0,Y=0.5 (should be at baseline 0?)
 
-	* A (U+0041): B<<242.5,577.0>-<238.0,605.0>-<235.0,629.0>>/B<<235.0,629.0>-<230.0,579.0>-<217.0,520.0>> = 12.835609486401424
+	* uni0E27 (U+0E27): X=96.0,Y=-2.0 (should be at baseline 0?)
 
-	* Aacute (U+00C1): B<<242.5,577.0>-<238.0,605.0>-<235.0,629.0>>/B<<235.0,629.0>-<230.0,579.0>-<217.0,520.0>> = 12.835609486401424
+	* uni0E33 (U+0E33): X=-139.0,Y=716.0 (should be at cap-height 714?)
 
-	* Abreve (U+0102): B<<242.5,577.0>-<238.0,605.0>-<235.0,629.0>>/B<<235.0,629.0>-<230.0,579.0>-<217.0,520.0>> = 12.835609486401424
+	* uni0E49 (U+0E49): X=-223.0,Y=712.0 (should be at cap-height 714?)
 
-	* Acircumflex (U+00C2): B<<242.5,577.0>-<238.0,605.0>-<235.0,629.0>>/B<<235.0,629.0>-<230.0,579.0>-<217.0,520.0>> = 12.835609486401424
+	* uni0E4D (U+0E4D): X=-139.0,Y=716.0 (should be at cap-height 714?)
 
-	* Adieresis (U+00C4): B<<242.5,577.0>-<238.0,605.0>-<235.0,629.0>>/B<<235.0,629.0>-<230.0,579.0>-<217.0,520.0>> = 12.835609486401424
+	* uni0E4E (U+0E4E): X=-134.0,Y=713.0 (should be at cap-height 714?)
 
-	* Agrave (U+00C0): B<<242.5,577.0>-<238.0,605.0>-<235.0,629.0>>/B<<235.0,629.0>-<230.0,579.0>-<217.0,520.0>> = 12.835609486401424
+	* uni0E4E (U+0E4E): X=-40.0,Y=715.0 (should be at cap-height 714?)
 
-	* Amacron (U+0100): B<<242.5,577.0>-<238.0,605.0>-<235.0,629.0>>/B<<235.0,629.0>-<230.0,579.0>-<217.0,520.0>> = 12.835609486401424
+	* uni0E4E (U+0E4E): X=-52.0,Y=716.0 (should be at cap-height 714?) 
 
-	* Aogonek (U+0104): B<<242.5,577.0>-<238.0,605.0>-<235.0,629.0>>/B<<235.0,629.0>-<230.0,579.0>-<217.0,520.0>> = 12.835609486401424
+	* And 8 more.
 
-	* Aring (U+00C5): B<<242.5,577.0>-<238.0,605.0>-<235.0,629.0>>/B<<235.0,629.0>-<230.0,579.0>-<217.0,520.0>> = 12.835609486401424
-
-	* Atilde (U+00C3): B<<242.5,577.0>-<238.0,605.0>-<235.0,629.0>>/B<<235.0,629.0>-<230.0,579.0>-<217.0,520.0>> = 12.835609486401424 
-
-	* And 17 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[13] NotoSansThaiUI-ExtraCondensedSemiBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
+</div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+* ⚠ **WARN** The following glyphs have segments which seem very short:
+
+	* uni0E04 (U+0E04) contains a short segment L<<158.0,227.0>--<160.0,226.0>>
+
+	* uni0E05 (U+0E05) contains a short segment L<<157.0,227.0>--<159.0,226.0>>
+
+	* uni0E07 (U+0E07) contains a short segment L<<201.0,85.0>--<207.0,85.0>>
+
+	* uni0E08 (U+0E08) contains a short segment L<<189.0,79.0>--<195.0,79.0>>
+
+	* uni0E09 (U+0E09) contains a short segment L<<325.0,76.0>--<320.0,76.0>>
+
+	* uni0E0A (U+0E0A) contains a short segment L<<239.0,408.0>--<243.0,408.0>>
+
+	* uni0E0B (U+0E0B) contains a short segment L<<246.0,408.0>--<249.0,408.0>>
+
+	* uni0E0D (U+0E0D) contains a short segment L<<538.0,70.0>--<533.0,70.0>>
+
+	* uni0E0D (U+0E0D) contains a short segment B<<161.5,76.0>-<169.0,67.0>-<184.0,67.0>>
+
+	* uni0E0E (U+0E0E) contains a short segment L<<79.0,-193.0>--<79.0,-177.0>> 
+
+	* And 50 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
+</div></details><br></div></details><details><summary><b>[13] NotoSansThaiUI-ExtraCondensedSemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Style name used in "fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedSemiBold.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* 🔥 **FAIL** Missing required codepoints:
+
+	- 0x0030 (DIGIT ZERO)
+
+
+	- 0x0031 (DIGIT ONE)
+
+
+	- 0x0032 (DIGIT TWO)
+
+
+	- 0x0033 (DIGIT THREE)
+
+
+	- 0x0034 (DIGIT FOUR)
+
+
+	- 0x0035 (DIGIT FIVE)
+
+
+	- 0x0036 (DIGIT SIX)
+
+
+	- 0x0037 (DIGIT SEVEN)
+
+
+	- 0x0038 (DIGIT EIGHT)
+
+
+	- 0x0039 (DIGIT NINE)
+ 
+
+	- And 318 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
@@ -2346,6 +3081,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Black.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Bold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Condensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Light.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Medium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Regular.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Thin.ttf', 'fonts/NotoSansThaiUI/googlefonts/variable-ttf/NotoSansThaiUI[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check font can render its own name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/render_own_name">com.google.fonts/check/render_own_name</a>)</summary><div>
+
+
+* 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI ExtraCondensed SemiBold [code: render-own-name]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -2376,10 +3115,6 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
@@ -2388,89 +3123,108 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
 
-	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
+	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
 
-	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3 
-
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- And Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B), uni030C (U+030C) and 4 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-	* six (U+0036): X=382.0,Y=715.0 (should be at cap-height 714?)
+	* uni0E0E (U+0E0E): X=54.0,Y=-1.5 (should be at baseline 0?)
 
-	* G (U+0047): X=422.5,Y=712.0 (should be at cap-height 714?)
+	* uni0E0F (U+0E0F): X=54.0,Y=-1.5 (should be at baseline 0?)
 
-	* S (U+0053): X=110.0,Y=-2.0 (should be at baseline 0?)
+	* uni0E18 (U+0E18): X=134.5,Y=-1.0 (should be at baseline 0?)
 
-	* S (U+0053): X=317.0,Y=713.0 (should be at cap-height 714?)
+	* uni0E27 (U+0E27): X=98.0,Y=-2.0 (should be at baseline 0?)
 
-	* grave (U+0060): X=194.5,Y=716.0 (should be at cap-height 714?)
+	* uni0E49 (U+0E49): X=-232.0,Y=713.0 (should be at cap-height 714?)
 
-	* c (U+0063): X=293.5,Y=-1.0 (should be at baseline 0?)
+	* uni0E4C (U+0E4C): X=-203.0,Y=715.0 (should be at cap-height 714?)
 
-	* f (U+0066): X=102.0,Y=715.5 (should be at cap-height 714?)
+	* uni0E4E (U+0E4E): X=-23.0,Y=713.0 (should be at cap-height 714?)
 
-	* g (U+0067): X=264.5,Y=535.0 (should be at x-height 536?)
+	* uni0E53 (U+0E53): X=232.0,Y=2.0 (should be at baseline 0?)
 
-	* p (U+0070): X=223.0,Y=535.0 (should be at x-height 536?)
+	* uni0E57 (U+0E57): X=232.0,Y=2.0 (should be at baseline 0?) 
 
-	* q (U+0071): X=264.5,Y=535.0 (should be at x-height 536?) 
-
-	* And 57 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
+	* And uni0E59 (U+0E59): X=232.0,Y=2.0 (should be at baseline 0?) [code: found-misalignments]
+</div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
-* ⚠ **WARN** The following glyphs have jaggy segments:
+* ⚠ **WARN** The following glyphs have segments which seem very short:
 
-	* A (U+0041): B<<256.0,563.5>-<251.0,594.0>-<248.0,619.0>>/B<<248.0,619.0>-<243.0,566.0>-<229.0,502.0>> = 12.232085172604307
+	* uni0E04 (U+0E04) contains a short segment L<<172.0,228.0>--<174.0,227.0>>
 
-	* Aacute (U+00C1): B<<256.0,563.5>-<251.0,594.0>-<248.0,619.0>>/B<<248.0,619.0>-<243.0,566.0>-<229.0,502.0>> = 12.232085172604307
+	* uni0E05 (U+0E05) contains a short segment L<<171.0,228.0>--<173.0,227.0>>
 
-	* Abreve (U+0102): B<<256.0,563.5>-<251.0,594.0>-<248.0,619.0>>/B<<248.0,619.0>-<243.0,566.0>-<229.0,502.0>> = 12.232085172604307
+	* uni0E07 (U+0E07) contains a short segment L<<214.0,97.0>--<218.0,97.0>>
 
-	* Acircumflex (U+00C2): B<<256.0,563.5>-<251.0,594.0>-<248.0,619.0>>/B<<248.0,619.0>-<243.0,566.0>-<229.0,502.0>> = 12.232085172604307
+	* uni0E08 (U+0E08) contains a short segment L<<198.0,91.0>--<204.0,91.0>>
 
-	* Adieresis (U+00C4): B<<256.0,563.5>-<251.0,594.0>-<248.0,619.0>>/B<<248.0,619.0>-<243.0,566.0>-<229.0,502.0>> = 12.232085172604307
+	* uni0E09 (U+0E09) contains a short segment L<<331.0,76.0>--<326.0,76.0>>
 
-	* Agrave (U+00C0): B<<256.0,563.5>-<251.0,594.0>-<248.0,619.0>>/B<<248.0,619.0>-<243.0,566.0>-<229.0,502.0>> = 12.232085172604307
+	* uni0E0A (U+0E0A) contains a short segment L<<250.0,407.0>--<255.0,407.0>>
 
-	* Amacron (U+0100): B<<256.0,563.5>-<251.0,594.0>-<248.0,619.0>>/B<<248.0,619.0>-<243.0,566.0>-<229.0,502.0>> = 12.232085172604307
+	* uni0E0B (U+0E0B) contains a short segment L<<258.0,407.0>--<261.0,407.0>>
 
-	* Aogonek (U+0104): B<<256.0,563.5>-<251.0,594.0>-<248.0,619.0>>/B<<248.0,619.0>-<243.0,566.0>-<229.0,502.0>> = 12.232085172604307
+	* uni0E0D (U+0E0D) contains a short segment L<<553.0,71.0>--<548.0,71.0>>
 
-	* Aring (U+00C5): B<<256.0,563.5>-<251.0,594.0>-<248.0,619.0>>/B<<248.0,619.0>-<243.0,566.0>-<229.0,502.0>> = 12.232085172604307
+	* uni0E0D (U+0E0D) contains a short segment B<<197.0,76.0>-<210.0,76.0>-<223.0,82.0>>
 
-	* Atilde (U+00C3): B<<256.0,563.5>-<251.0,594.0>-<248.0,619.0>>/B<<248.0,619.0>-<243.0,566.0>-<229.0,502.0>> = 12.232085172604307 
+	* uni0E0D (U+0E0D) contains a short segment L<<49.0,340.0>--<49.0,366.0>> 
 
-	* And 17 more.
+	* And 52 more.
 
-Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[12] NotoSansThaiUI-ExtraCondensedThin.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
+</div></details><br></div></details><details><summary><b>[13] NotoSansThaiUI-ExtraCondensedThin.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Style name used in "fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedThin.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* 🔥 **FAIL** Missing required codepoints:
+
+	- 0x0030 (DIGIT ZERO)
+
+
+	- 0x0031 (DIGIT ONE)
+
+
+	- 0x0032 (DIGIT TWO)
+
+
+	- 0x0033 (DIGIT THREE)
+
+
+	- 0x0034 (DIGIT FOUR)
+
+
+	- 0x0035 (DIGIT FIVE)
+
+
+	- 0x0036 (DIGIT SIX)
+
+
+	- 0x0037 (DIGIT SEVEN)
+
+
+	- 0x0038 (DIGIT EIGHT)
+
+
+	- 0x0039 (DIGIT NINE)
+ 
+
+	- And 318 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
@@ -2485,6 +3239,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Black.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Bold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Condensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Light.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Medium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Regular.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Thin.ttf', 'fonts/NotoSansThaiUI/googlefonts/variable-ttf/NotoSansThaiUI[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check font can render its own name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/render_own_name">com.google.fonts/check/render_own_name</a>)</summary><div>
+
+
+* 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI ExtraCondensed Thin [code: render-own-name]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -2515,10 +3273,6 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
@@ -2527,39 +3281,108 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
 
-	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
+	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
 
-	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3 
-
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- And Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B), uni030C (U+030C) and 4 more.
+* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
+	* uni0E0E (U+0E0E): X=20.0,Y=2.0 (should be at baseline 0?)
+
+	* uni0E0F (U+0E0F): X=20.0,Y=2.0 (should be at baseline 0?)
+
+	* uni0E12 (U+0E12): X=225.0,Y=1.0 (should be at baseline 0?)
+
+	* uni0E14 (U+0E14): X=229.0,Y=-1.0 (should be at baseline 0?)
+
+	* uni0E15 (U+0E15): X=237.0,Y=1.0 (should be at baseline 0?)
+
+	* uni0E18 (U+0E18): X=116.5,Y=-1.0 (should be at baseline 0?)
+
+	* uni0E20 (U+0E20): X=20.0,Y=2.0 (should be at baseline 0?)
+
+	* uni0E23 (U+0E23): X=93.0,Y=2.0 (should be at baseline 0?)
+
+	* uni0E26 (U+0E26): X=20.0,Y=2.0 (should be at baseline 0?)
+
+	* uni0E27 (U+0E27): X=84.5,Y=-1.5 (should be at baseline 0?) 
+
+	* And 20 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
+</div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
-* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
+* ⚠ **WARN** The following glyphs have segments which seem very short:
 
-	* exclam (U+0021): L<<85.0,170.0>--<82.0,714.0>>
+	* uni0E04 (U+0E04) contains a short segment L<<90.0,216.0>--<92.0,215.0>>
 
-	* exclamdown (U+00A1): L<<81.0,-194.0>--<84.0,350.0>> 
+	* uni0E05 (U+0E05) contains a short segment L<<90.0,216.0>--<92.0,215.0>>
 
-	* And p (U+0070): L<<90.0,527.0>--<91.0,404.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[11] NotoSansThaiUI-ExtraLight.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+	* uni0E06 (U+0E06) contains a short segment L<<147.0,517.0>--<164.0,517.0>>
+
+	* uni0E07 (U+0E07) contains a short segment L<<155.0,25.0>--<166.0,25.0>>
+
+	* uni0E08 (U+0E08) contains a short segment L<<143.0,25.0>--<153.0,25.0>>
+
+	* uni0E09 (U+0E09) contains a short segment L<<329.0,84.0>--<326.0,84.0>>
+
+	* uni0E0A (U+0E0A) contains a short segment L<<213.0,398.0>--<223.0,398.0>>
+
+	* uni0E0B (U+0E0B) contains a short segment L<<217.0,398.0>--<227.0,398.0>>
+
+	* uni0E0C (U+0E0C) contains a short segment L<<53.0,363.0>--<53.0,381.0>>
+
+	* uni0E0C (U+0E0C) contains a short segment L<<326.0,0.0>--<303.0,0.0>> 
+
+	* And 79 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
+</div></details><br></div></details><details><summary><b>[13] NotoSansThaiUI-ExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
+* 🔥 **FAIL** Missing required codepoints:
+
+	- 0x0030 (DIGIT ZERO)
+
+
+	- 0x0031 (DIGIT ONE)
+
+
+	- 0x0032 (DIGIT TWO)
+
+
+	- 0x0033 (DIGIT THREE)
+
+
+	- 0x0034 (DIGIT FOUR)
+
+
+	- 0x0035 (DIGIT FIVE)
+
+
+	- 0x0036 (DIGIT SIX)
+
+
+	- 0x0037 (DIGIT SEVEN)
+
+
+	- 0x0038 (DIGIT EIGHT)
+
+
+	- 0x0039 (DIGIT NINE)
+ 
+
+	- And 318 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
@@ -2574,6 +3397,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Black.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Bold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Condensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Light.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Medium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Regular.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Thin.ttf', 'fonts/NotoSansThaiUI/googlefonts/variable-ttf/NotoSansThaiUI[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check font can render its own name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/render_own_name">com.google.fonts/check/render_own_name</a>)</summary><div>
+
+
+* 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI ExtraLight [code: render-own-name]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -2604,10 +3431,6 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
@@ -2616,35 +3439,114 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
 
-	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
+	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
 
-	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3 
-
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- And Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B), uni030C (U+030C) and 4 more.
+* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
+	* uni0E12 (U+0E12): X=323.0,Y=1.0 (should be at baseline 0?)
+
+	* uni0E15 (U+0E15): X=339.0,Y=1.0 (should be at baseline 0?)
+
+	* uni0E18 (U+0E18): X=165.5,Y=-0.5 (should be at baseline 0?)
+
+	* uni0E23 (U+0E23): X=131.5,Y=1.5 (should be at baseline 0?)
+
+	* uni0E25 (U+0E25): X=297.0,Y=1.0 (should be at baseline 0?)
+
+	* uni0E27 (U+0E27): X=119.0,Y=-1.5 (should be at baseline 0?)
+
+	* uni0E2A (U+0E2A): X=297.0,Y=1.0 (should be at baseline 0?)
+
+	* uni0E2F (U+0E2F): X=359.0,Y=-1.0 (should be at baseline 0?)
+
+	* uni0E2F (U+0E2F): X=398.0,Y=-1.0 (should be at baseline 0?)
+
+	* uni0E36 (U+0E36): X=-165.0,Y=713.0 (should be at cap-height 714?) 
+
+	* And 17 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
+</div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have segments which seem very short:
+
+	* uni0E04 (U+0E04) contains a short segment L<<129.0,211.0>--<132.0,210.0>>
+
+	* uni0E05 (U+0E05) contains a short segment L<<128.0,211.0>--<131.0,210.0>>
+
+	* uni0E07 (U+0E07) contains a short segment L<<213.0,35.0>--<228.0,35.0>>
+
+	* uni0E08 (U+0E08) contains a short segment L<<203.0,34.0>--<218.0,34.0>>
+
+	* uni0E09 (U+0E09) contains a short segment L<<469.0,90.0>--<465.0,90.0>>
+
+	* uni0E0A (U+0E0A) contains a short segment L<<304.0,400.0>--<319.0,400.0>>
+
+	* uni0E0B (U+0E0B) contains a short segment L<<309.0,400.0>--<324.0,400.0>>
+
+	* uni0E0C (U+0E0C) contains a short segment L<<75.0,359.0>--<75.0,380.0>>
+
+	* uni0E0C (U+0E0C) contains a short segment B<<223.0,29.0>-<237.0,32.0>-<248.0,35.0>>
+
+	* uni0E0D (U+0E0D) contains a short segment L<<761.0,89.0>--<757.0,89.0>> 
+
+	* And 45 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
 	* uni0E4A (U+0E4A): L<<-155.0,636.0>--<-154.0,636.0>> -> L<<-154.0,636.0>--<-63.0,636.0>> [code: found-colinear-vectors]
-</div></details><br></div></details><details><summary><b>[10] NotoSansThaiUI-Light.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[12] NotoSansThaiUI-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
+* 🔥 **FAIL** Missing required codepoints:
+
+	- 0x0030 (DIGIT ZERO)
+
+
+	- 0x0031 (DIGIT ONE)
+
+
+	- 0x0032 (DIGIT TWO)
+
+
+	- 0x0033 (DIGIT THREE)
+
+
+	- 0x0034 (DIGIT FOUR)
+
+
+	- 0x0035 (DIGIT FIVE)
+
+
+	- 0x0036 (DIGIT SIX)
+
+
+	- 0x0037 (DIGIT SEVEN)
+
+
+	- 0x0038 (DIGIT EIGHT)
+
+
+	- 0x0039 (DIGIT NINE)
+ 
+
+	- And 318 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
@@ -2659,6 +3561,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Black.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Bold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Condensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Light.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Medium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Regular.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Thin.ttf', 'fonts/NotoSansThaiUI/googlefonts/variable-ttf/NotoSansThaiUI[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check font can render its own name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/render_own_name">com.google.fonts/check/render_own_name</a>)</summary><div>
+
+
+* 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI Light [code: render-own-name]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -2689,10 +3595,6 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
@@ -2701,29 +3603,108 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
 
-	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
+	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
 
-	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3 
-
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- And Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B), uni030C (U+030C) and 4 more.
+* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
-</div></details><br></div></details><details><summary><b>[10] NotoSansThaiUI-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+	* tildecomb (U+0303): X=-312.5,Y=715.0 (should be at cap-height 714?)
+
+	* uni0E0D (U+0E0D): X=583.0,Y=1.0 (should be at baseline 0?)
+
+	* uni0E12 (U+0E12): X=332.0,Y=2.0 (should be at baseline 0?)
+
+	* uni0E14 (U+0E14): X=334.0,Y=1.0 (should be at baseline 0?)
+
+	* uni0E15 (U+0E15): X=344.0,Y=2.0 (should be at baseline 0?)
+
+	* uni0E23 (U+0E23): X=129.5,Y=1.5 (should be at baseline 0?)
+
+	* uni0E25 (U+0E25): X=305.0,Y=2.0 (should be at baseline 0?)
+
+	* uni0E27 (U+0E27): X=118.0,Y=-1.5 (should be at baseline 0?)
+
+	* uni0E2A (U+0E2A): X=306.0,Y=2.0 (should be at baseline 0?)
+
+	* uni0E31 (U+0E31): X=-259.0,Y=716.0 (should be at cap-height 714?) 
+
+	* And 8 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
+</div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
+* ⚠ **WARN** The following glyphs have segments which seem very short:
+
+	* uni0E04 (U+0E04) contains a short segment L<<144.0,217.0>--<147.0,216.0>>
+
+	* uni0E05 (U+0E05) contains a short segment L<<143.0,217.0>--<146.0,216.0>>
+
+	* uni0E07 (U+0E07) contains a short segment L<<222.0,51.0>--<236.0,51.0>>
+
+	* uni0E08 (U+0E08) contains a short segment L<<214.0,48.0>--<228.0,48.0>>
+
+	* uni0E09 (U+0E09) contains a short segment L<<460.0,85.0>--<456.0,85.0>>
+
+	* uni0E0A (U+0E0A) contains a short segment L<<303.0,403.0>--<314.0,403.0>>
+
+	* uni0E0B (U+0E0B) contains a short segment L<<309.0,403.0>--<320.0,403.0>>
+
+	* uni0E0C (U+0E0C) contains a short segment L<<72.0,354.0>--<72.0,378.0>>
+
+	* uni0E0C (U+0E0C) contains a short segment B<<203.0,40.0>-<215.0,40.0>-<227.5,42.0>>
+
+	* uni0E0C (U+0E0C) contains a short segment B<<227.5,42.0>-<240.0,44.0>-<250.0,48.0>> 
+
+	* And 42 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
+</div></details><br></div></details><details><summary><b>[12] NotoSansThaiUI-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* 🔥 **FAIL** Missing required codepoints:
+
+	- 0x0030 (DIGIT ZERO)
+
+
+	- 0x0031 (DIGIT ONE)
+
+
+	- 0x0032 (DIGIT TWO)
+
+
+	- 0x0033 (DIGIT THREE)
+
+
+	- 0x0034 (DIGIT FOUR)
+
+
+	- 0x0035 (DIGIT FIVE)
+
+
+	- 0x0036 (DIGIT SIX)
+
+
+	- 0x0037 (DIGIT SEVEN)
+
+
+	- 0x0038 (DIGIT EIGHT)
+
+
+	- 0x0039 (DIGIT NINE)
+ 
+
+	- And 318 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
@@ -2738,6 +3719,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Black.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Bold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Condensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Light.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Medium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Regular.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Thin.ttf', 'fonts/NotoSansThaiUI/googlefonts/variable-ttf/NotoSansThaiUI[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check font can render its own name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/render_own_name">com.google.fonts/check/render_own_name</a>)</summary><div>
+
+
+* 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI Medium [code: render-own-name]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -2768,10 +3753,6 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
@@ -2780,29 +3761,108 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
 
-	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
+	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
 
-	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3 
-
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- And Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B), uni030C (U+030C) and 4 more.
+* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
-</div></details><br></div></details><details><summary><b>[9] NotoSansThaiUI-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+	* uni0E18 (U+0E18): X=164.0,Y=-0.5 (should be at baseline 0?)
+
+	* uni0E23 (U+0E23): X=129.0,Y=0.5 (should be at baseline 0?)
+
+	* uni0E27 (U+0E27): X=117.0,Y=-2.0 (should be at baseline 0?)
+
+	* uni0E31 (U+0E31): X=-240.0,Y=712.0 (should be at cap-height 714?)
+
+	* uni0E33 (U+0E33): X=-166.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E49 (U+0E49): X=-287.0,Y=712.0 (should be at cap-height 714?)
+
+	* uni0E4D (U+0E4D): X=-166.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E4E (U+0E4E): X=-50.5,Y=715.0 (should be at cap-height 714?)
+
+	* uni0E4E (U+0E4E): X=-67.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E51 (U+0E51): X=189.0,Y=1.0 (should be at baseline 0?) 
+
+	* And 7 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
+</div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
+* ⚠ **WARN** The following glyphs have segments which seem very short:
+
+	* uni0E04 (U+0E04) contains a short segment L<<184.0,226.0>--<187.0,225.0>>
+
+	* uni0E05 (U+0E05) contains a short segment L<<182.0,226.0>--<185.0,225.0>>
+
+	* uni0E07 (U+0E07) contains a short segment L<<250.0,89.0>--<260.0,89.0>>
+
+	* uni0E08 (U+0E08) contains a short segment L<<237.0,84.0>--<249.0,84.0>>
+
+	* uni0E09 (U+0E09) contains a short segment L<<439.0,76.0>--<433.0,76.0>>
+
+	* uni0E0A (U+0E0A) contains a short segment L<<306.0,408.0>--<312.0,408.0>>
+
+	* uni0E0B (U+0E0B) contains a short segment L<<314.0,408.0>--<318.0,408.0>>
+
+	* uni0E0D (U+0E0D) contains a short segment L<<728.0,70.0>--<723.0,70.0>>
+
+	* uni0E0D (U+0E0D) contains a short segment L<<63.0,341.0>--<63.0,370.0>>
+
+	* uni0E0E (U+0E0E) contains a short segment L<<99.0,-194.0>--<99.0,-178.0>> 
+
+	* And 43 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
+</div></details><br></div></details><details><summary><b>[11] NotoSansThaiUI-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* 🔥 **FAIL** Missing required codepoints:
+
+	- 0x0030 (DIGIT ZERO)
+
+
+	- 0x0031 (DIGIT ONE)
+
+
+	- 0x0032 (DIGIT TWO)
+
+
+	- 0x0033 (DIGIT THREE)
+
+
+	- 0x0034 (DIGIT FOUR)
+
+
+	- 0x0035 (DIGIT FIVE)
+
+
+	- 0x0036 (DIGIT SIX)
+
+
+	- 0x0037 (DIGIT SEVEN)
+
+
+	- 0x0038 (DIGIT EIGHT)
+
+
+	- 0x0039 (DIGIT NINE)
+ 
+
+	- And 318 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
@@ -2817,6 +3877,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Black.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Bold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Condensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Light.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Medium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Regular.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Thin.ttf', 'fonts/NotoSansThaiUI/googlefonts/variable-ttf/NotoSansThaiUI[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check font can render its own name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/render_own_name">com.google.fonts/check/render_own_name</a>)</summary><div>
+
+
+* 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI [code: render-own-name]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -2840,10 +3904,6 @@ But instead we have got:
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
@@ -2852,29 +3912,108 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
 
-	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
+	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
 
-	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3 
-
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- And Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B), uni030C (U+030C) and 4 more.
+* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
-</div></details><br></div></details><details><summary><b>[12] NotoSansThaiUI-SemiBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+	* uni0E0D (U+0E0D): X=576.0,Y=1.0 (should be at baseline 0?)
+
+	* uni0E18 (U+0E18): X=162.5,Y=0.5 (should be at baseline 0?)
+
+	* uni0E23 (U+0E23): X=125.5,Y=1.0 (should be at baseline 0?)
+
+	* uni0E27 (U+0E27): X=115.5,Y=-2.0 (should be at baseline 0?)
+
+	* uni0E36 (U+0E36): X=-138.5,Y=715.0 (should be at cap-height 714?)
+
+	* uni0E36 (U+0E36): X=-201.0,Y=715.5 (should be at cap-height 714?)
+
+	* uni0E42 (U+0E42): X=9.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E42 (U+0E42): X=350.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E42 (U+0E42): X=147.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E42 (U+0E42): X=146.0,Y=712.0 (should be at cap-height 714?) 
+
+	* And 14 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
+</div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
+* ⚠ **WARN** The following glyphs have segments which seem very short:
+
+	* uni0E04 (U+0E04) contains a short segment L<<170.0,226.0>--<173.0,225.0>>
+
+	* uni0E05 (U+0E05) contains a short segment L<<168.0,226.0>--<171.0,225.0>>
+
+	* uni0E07 (U+0E07) contains a short segment L<<238.0,76.0>--<250.0,76.0>>
+
+	* uni0E08 (U+0E08) contains a short segment L<<232.0,71.0>--<245.0,71.0>>
+
+	* uni0E09 (U+0E09) contains a short segment L<<445.0,76.0>--<441.0,76.0>>
+
+	* uni0E0A (U+0E0A) contains a short segment L<<301.0,408.0>--<306.0,408.0>>
+
+	* uni0E0B (U+0E0B) contains a short segment L<<307.0,408.0>--<312.0,408.0>>
+
+	* uni0E0D (U+0E0D) contains a short segment L<<734.0,70.0>--<730.0,70.0>>
+
+	* uni0E0D (U+0E0D) contains a short segment L<<66.0,344.0>--<66.0,375.0>>
+
+	* uni0E0E (U+0E0E) contains a short segment L<<103.0,-191.0>--<103.0,-175.0>> 
+
+	* And 42 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
+</div></details><br></div></details><details><summary><b>[12] NotoSansThaiUI-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* 🔥 **FAIL** Missing required codepoints:
+
+	- 0x0030 (DIGIT ZERO)
+
+
+	- 0x0031 (DIGIT ONE)
+
+
+	- 0x0032 (DIGIT TWO)
+
+
+	- 0x0033 (DIGIT THREE)
+
+
+	- 0x0034 (DIGIT FOUR)
+
+
+	- 0x0035 (DIGIT FIVE)
+
+
+	- 0x0036 (DIGIT SIX)
+
+
+	- 0x0037 (DIGIT SEVEN)
+
+
+	- 0x0038 (DIGIT EIGHT)
+
+
+	- 0x0039 (DIGIT NINE)
+ 
+
+	- And 318 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
@@ -2889,6 +4028,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Black.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Bold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Condensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Light.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Medium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Regular.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Thin.ttf', 'fonts/NotoSansThaiUI/googlefonts/variable-ttf/NotoSansThaiUI[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check font can render its own name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/render_own_name">com.google.fonts/check/render_own_name</a>)</summary><div>
+
+
+* 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI SemiBold [code: render-own-name]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -2919,10 +4062,6 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
@@ -2931,85 +4070,108 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
 
-	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
+	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
 
-	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3 
-
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- And Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B), uni030C (U+030C) and 4 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-	* numbersign (U+0023): X=241.0,Y=713.0 (should be at cap-height 714?)
+	* tildecomb (U+0303): X=-454.0,Y=712.0 (should be at cap-height 714?)
 
-	* numbersign (U+0023): X=334.0,Y=713.0 (should be at cap-height 714?)
+	* uni0E18 (U+0E18): X=166.0,Y=-1.5 (should be at baseline 0?)
 
-	* numbersign (U+0023): X=449.0,Y=713.0 (should be at cap-height 714?)
+	* uni0E47 (U+0E47): X=-465.0,Y=712.0 (should be at cap-height 714?)
 
-	* numbersign (U+0023): X=540.0,Y=713.0 (should be at cap-height 714?)
+	* uni0E47 (U+0E47): X=-187.0,Y=713.0 (should be at cap-height 714?)
 
-	* three (U+0033): X=135.0,Y=-0.5 (should be at baseline 0?)
+	* uni0E47 (U+0E47): X=-100.0,Y=713.0 (should be at cap-height 714?)
 
-	* four (U+0034): X=340.0,Y=716.0 (should be at cap-height 714?)
+	* uni0E49 (U+0E49): X=-296.0,Y=713.0 (should be at cap-height 714?)
 
-	* four (U+0034): X=461.0,Y=716.0 (should be at cap-height 714?)
+	* uni0E4E (U+0E4E): X=-27.0,Y=713.0 (should be at cap-height 714?)
 
-	* six (U+0036): X=482.0,Y=715.0 (should be at cap-height 714?)
+	* uni0E53 (U+0E53): X=289.0,Y=2.0 (should be at baseline 0?)
 
-	* nine (U+0039): X=90.0,Y=-2.0 (should be at baseline 0?)
+	* uni0E57 (U+0E57): X=289.0,Y=2.0 (should be at baseline 0?) 
 
-	* C (U+0043): X=485.5,Y=-2.0 (should be at baseline 0?) 
-
-	* And 64 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
+	* And uni0E59 (U+0E59): X=289.0,Y=2.0 (should be at baseline 0?) [code: found-misalignments]
+</div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
-* ⚠ **WARN** The following glyphs have jaggy segments:
+* ⚠ **WARN** The following glyphs have segments which seem very short:
 
-	* W (U+0057): B<<257.0,182.5>-<263.0,150.0>-<266.0,126.0>>/B<<266.0,126.0>-<269.0,151.0>-<275.0,184.0>> = 13.967789761532726
+	* uni0E04 (U+0E04) contains a short segment L<<200.0,227.0>--<203.0,226.0>>
 
-	* W (U+0057): B<<678.0,182.0>-<684.0,150.0>-<687.0,126.0>>/B<<687.0,126.0>-<690.0,151.0>-<695.5,183.0>> = 13.967789761532726
+	* uni0E05 (U+0E05) contains a short segment L<<199.0,227.0>--<202.0,226.0>>
 
-	* Wacute (U+1E82): B<<257.0,182.5>-<263.0,150.0>-<266.0,126.0>>/B<<266.0,126.0>-<269.0,151.0>-<275.0,184.0>> = 13.967789761532726
+	* uni0E07 (U+0E07) contains a short segment L<<262.0,104.0>--<271.0,104.0>>
 
-	* Wacute (U+1E82): B<<678.0,182.0>-<684.0,150.0>-<687.0,126.0>>/B<<687.0,126.0>-<690.0,151.0>-<695.5,183.0>> = 13.967789761532726
+	* uni0E08 (U+0E08) contains a short segment L<<243.0,98.0>--<252.0,98.0>>
 
-	* Wcircumflex (U+0174): B<<257.0,182.5>-<263.0,150.0>-<266.0,126.0>>/B<<266.0,126.0>-<269.0,151.0>-<275.0,184.0>> = 13.967789761532726
+	* uni0E09 (U+0E09) contains a short segment L<<431.0,77.0>--<425.0,77.0>>
 
-	* Wcircumflex (U+0174): B<<678.0,182.0>-<684.0,150.0>-<687.0,126.0>>/B<<687.0,126.0>-<690.0,151.0>-<695.5,183.0>> = 13.967789761532726
+	* uni0E0A (U+0E0A) contains a short segment L<<312.0,408.0>--<318.0,408.0>>
 
-	* Wdieresis (U+1E84): B<<257.0,182.5>-<263.0,150.0>-<266.0,126.0>>/B<<266.0,126.0>-<269.0,151.0>-<275.0,184.0>> = 13.967789761532726
+	* uni0E0B (U+0E0B) contains a short segment L<<321.0,408.0>--<326.0,408.0>>
 
-	* Wdieresis (U+1E84): B<<678.0,182.0>-<684.0,150.0>-<687.0,126.0>>/B<<687.0,126.0>-<690.0,151.0>-<695.5,183.0>> = 13.967789761532726
+	* uni0E0D (U+0E0D) contains a short segment L<<721.0,71.0>--<715.0,71.0>>
 
-	* Wgrave (U+1E80): B<<257.0,182.5>-<263.0,150.0>-<266.0,126.0>>/B<<266.0,126.0>-<269.0,151.0>-<275.0,184.0>> = 13.967789761532726 
+	* uni0E0D (U+0E0D) contains a short segment L<<59.0,337.0>--<59.0,364.0>>
 
-	* And Wgrave (U+1E80): B<<678.0,182.0>-<684.0,150.0>-<687.0,126.0>>/B<<687.0,126.0>-<690.0,151.0>-<695.5,183.0>> = 13.967789761532726 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[12] NotoSansThaiUI-SemiCondensed.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+	* uni0E0E (U+0E0E) contains a short segment L<<96.0,-198.0>--<96.0,-181.0>> 
 
+	* And 42 more.
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
+</div></details><br></div></details><details><summary><b>[13] NotoSansThaiUI-SemiCondensed.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Style name used in "fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensed.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* 🔥 **FAIL** Missing required codepoints:
+
+	- 0x0030 (DIGIT ZERO)
+
+
+	- 0x0031 (DIGIT ONE)
+
+
+	- 0x0032 (DIGIT TWO)
+
+
+	- 0x0033 (DIGIT THREE)
+
+
+	- 0x0034 (DIGIT FOUR)
+
+
+	- 0x0035 (DIGIT FIVE)
+
+
+	- 0x0036 (DIGIT SIX)
+
+
+	- 0x0037 (DIGIT SEVEN)
+
+
+	- 0x0038 (DIGIT EIGHT)
+
+
+	- 0x0039 (DIGIT NINE)
+ 
+
+	- And 318 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
@@ -3024,6 +4186,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Black.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Bold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Condensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Light.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Medium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Regular.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Thin.ttf', 'fonts/NotoSansThaiUI/googlefonts/variable-ttf/NotoSansThaiUI[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check font can render its own name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/render_own_name">com.google.fonts/check/render_own_name</a>)</summary><div>
+
+
+* 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI SemiCondensed [code: render-own-name]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -3054,10 +4220,6 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
@@ -3066,47 +4228,112 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
 
-	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
+	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
 
-	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3 
-
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- And Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B), uni030C (U+030C) and 4 more.
+* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
+	* uni0E0D (U+0E0D): X=516.0,Y=1.0 (should be at baseline 0?)
+
+	* uni0E18 (U+0E18): X=149.5,Y=1.0 (should be at baseline 0?)
+
+	* uni0E23 (U+0E23): X=118.0,Y=1.0 (should be at baseline 0?)
+
+	* uni0E27 (U+0E27): X=107.5,Y=-2.0 (should be at baseline 0?)
+
+	* uni0E36 (U+0E36): X=-126.5,Y=715.0 (should be at cap-height 714?)
+
+	* uni0E36 (U+0E36): X=-182.5,Y=715.5 (should be at cap-height 714?)
+
+	* uni0E42 (U+0E42): X=14.0,Y=715.0 (should be at cap-height 714?)
+
+	* uni0E42 (U+0E42): X=320.0,Y=715.0 (should be at cap-height 714?)
+
+	* uni0E42 (U+0E42): X=143.0,Y=715.0 (should be at cap-height 714?)
+
+	* uni0E44 (U+0E44): X=148.0,Y=715.0 (should be at cap-height 714?) 
+
+	* And 11 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
+</div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
-* ⚠ **WARN** The following glyphs have jaggy segments:
+* ⚠ **WARN** The following glyphs have segments which seem very short:
 
-	* W (U+0057): B<<604.0,189.5>-<613.0,145.0>-<618.0,104.0>>/B<<618.0,104.0>-<623.0,145.0>-<631.5,189.5>> = 13.9059149363478
+	* uni0E04 (U+0E04) contains a short segment L<<161.0,226.0>--<164.0,225.0>>
 
-	* Wacute (U+1E82): B<<604.0,189.5>-<613.0,145.0>-<618.0,104.0>>/B<<618.0,104.0>-<623.0,145.0>-<631.5,189.5>> = 13.9059149363478
+	* uni0E05 (U+0E05) contains a short segment L<<160.0,226.0>--<162.0,225.0>>
 
-	* Wcircumflex (U+0174): B<<604.0,189.5>-<613.0,145.0>-<618.0,104.0>>/B<<618.0,104.0>-<623.0,145.0>-<631.5,189.5>> = 13.9059149363478
+	* uni0E07 (U+0E07) contains a short segment L<<220.0,75.0>--<230.0,75.0>>
 
-	* Wdieresis (U+1E84): B<<604.0,189.5>-<613.0,145.0>-<618.0,104.0>>/B<<618.0,104.0>-<623.0,145.0>-<631.5,189.5>> = 13.9059149363478 
+	* uni0E08 (U+0E08) contains a short segment L<<213.0,70.0>--<224.0,70.0>>
 
-	* And Wgrave (U+1E80): B<<604.0,189.5>-<613.0,145.0>-<618.0,104.0>>/B<<618.0,104.0>-<623.0,145.0>-<631.5,189.5>> = 13.9059149363478 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[13] NotoSansThaiUI-SemiCondensedBlack.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+	* uni0E09 (U+0E09) contains a short segment L<<399.0,76.0>--<395.0,76.0>>
 
+	* uni0E0A (U+0E0A) contains a short segment L<<275.0,408.0>--<279.0,408.0>>
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+	* uni0E0B (U+0E0B) contains a short segment L<<281.0,408.0>--<285.0,408.0>>
+
+	* uni0E0D (U+0E0D) contains a short segment L<<657.0,70.0>--<653.0,70.0>>
+
+	* uni0E0E (U+0E0E) contains a short segment L<<95.0,-191.0>--<95.0,-175.0>>
+
+	* uni0E0E (U+0E0E) contains a short segment B<<31.0,66.0>-<37.0,64.0>-<44.5,62.0>> 
+
+	* And 47 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
+</div></details><br></div></details><details><summary><b>[13] NotoSansThaiUI-SemiCondensedBlack.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Style name used in "fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBlack.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* 🔥 **FAIL** Missing required codepoints:
+
+	- 0x0030 (DIGIT ZERO)
+
+
+	- 0x0031 (DIGIT ONE)
+
+
+	- 0x0032 (DIGIT TWO)
+
+
+	- 0x0033 (DIGIT THREE)
+
+
+	- 0x0034 (DIGIT FOUR)
+
+
+	- 0x0035 (DIGIT FIVE)
+
+
+	- 0x0036 (DIGIT SIX)
+
+
+	- 0x0037 (DIGIT SEVEN)
+
+
+	- 0x0038 (DIGIT EIGHT)
+
+
+	- 0x0039 (DIGIT NINE)
+ 
+
+	- And 318 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
@@ -3121,6 +4348,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Black.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Bold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Condensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Light.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Medium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Regular.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Thin.ttf', 'fonts/NotoSansThaiUI/googlefonts/variable-ttf/NotoSansThaiUI[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check font can render its own name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/render_own_name">com.google.fonts/check/render_own_name</a>)</summary><div>
+
+
+* 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI SemiCondensed Black [code: render-own-name]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -3151,10 +4382,6 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
@@ -3163,89 +4390,108 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
 
-	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
+	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
 
-	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3 
-
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- And Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B), uni030C (U+030C) and 4 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-	* three (U+0033): X=124.5,Y=-0.5 (should be at baseline 0?)
+	* uni02BC (U+02BC): X=232.0,Y=713.0 (should be at cap-height 714?)
 
-	* six (U+0036): X=481.0,Y=716.0 (should be at cap-height 714?)
+	* uni02BC (U+02BC): X=65.0,Y=713.0 (should be at cap-height 714?)
 
-	* A (U+0041): X=211.0,Y=716.0 (should be at cap-height 714?)
+	* uni0E23 (U+0E23): X=135.5,Y=-1.5 (should be at baseline 0?)
 
-	* A (U+0041): X=456.0,Y=716.0 (should be at cap-height 714?)
+	* uni0E27 (U+0E27): X=110.0,Y=-1.5 (should be at baseline 0?)
 
-	* C (U+0043): X=451.5,Y=-0.5 (should be at baseline 0?)
+	* uni0E49 (U+0E49): X=-163.0,Y=712.0 (should be at cap-height 714?)
 
-	* C (U+0043): X=465.5,Y=712.0 (should be at cap-height 714?)
+	* uni0E49 (U+0E49): X=-46.0,Y=712.0 (should be at cap-height 714?)
 
-	* G (U+0047): X=503.5,Y=1.5 (should be at baseline 0?)
+	* uni0E4A (U+0E4A): X=-439.0,Y=715.0 (should be at cap-height 714?)
 
-	* asciicircum (U+005E): X=215.0,Y=716.0 (should be at cap-height 714?)
+	* uni0E4E (U+0E4E): X=-64.5,Y=712.5 (should be at cap-height 714?)
 
-	* asciicircum (U+005E): X=298.0,Y=716.0 (should be at cap-height 714?)
+	* uni0E51 (U+0E51): X=131.0,Y=-1.0 (should be at baseline 0?) 
 
-	* b (U+0062): X=239.0,Y=537.0 (should be at x-height 536?) 
-
-	* And 73 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
+	* And uni0E58 (U+0E58): X=286.5,Y=2.0 (should be at baseline 0?) [code: found-misalignments]
+</div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
-* ⚠ **WARN** The following glyphs have jaggy segments:
+* ⚠ **WARN** The following glyphs have segments which seem very short:
 
-	* V (U+0056): B<<314.5,235.5>-<320.0,203.0>-<322.0,183.0>>/B<<322.0,183.0>-<324.0,203.0>-<329.5,235.5>> = 11.42118627499929
+	* uni0E03 (U+0E03) contains a short segment B<<139.0,376.0>-<131.0,373.0>-<123.5,371.5>>
 
-	* W (U+0057): B<<279.0,244.0>-<285.0,206.0>-<289.0,179.0>>/B<<289.0,179.0>-<293.0,218.0>-<301.5,266.0>> = 14.282982606909593
+	* uni0E03 (U+0E03) contains a short segment B<<123.5,371.5>-<116.0,370.0>-<108.0,370.0>>
 
-	* W (U+0057): B<<486.5,414.0>-<481.0,450.0>-<478.0,477.0>>/B<<478.0,477.0>-<476.0,452.0>-<470.5,416.0>> = 10.914113005810767
+	* uni0E03 (U+0E03) contains a short segment B<<173.0,471.0>-<179.0,471.0>-<186.0,473.5>>
 
-	* W (U+0057): B<<652.0,263.0>-<660.0,215.0>-<664.0,179.0>>/B<<664.0,179.0>-<667.0,204.0>-<673.0,240.5>> = 13.182965158540823
+	* uni0E03 (U+0E03) contains a short segment B<<186.0,473.5>-<193.0,476.0>-<200.0,483.0>>
 
-	* Wacute (U+1E82): B<<279.0,244.0>-<285.0,206.0>-<289.0,179.0>>/B<<289.0,179.0>-<293.0,218.0>-<301.5,266.0>> = 14.282982606909593
+	* uni0E04 (U+0E04) contains a short segment L<<232.0,232.0>--<236.0,231.0>>
 
-	* Wacute (U+1E82): B<<486.5,414.0>-<481.0,450.0>-<478.0,477.0>>/B<<478.0,477.0>-<476.0,452.0>-<470.5,416.0>> = 10.914113005810767
+	* uni0E04 (U+0E04) contains a short segment L<<340.0,152.0>--<324.0,152.0>>
 
-	* Wacute (U+1E82): B<<652.0,263.0>-<660.0,215.0>-<664.0,179.0>>/B<<664.0,179.0>-<667.0,204.0>-<673.0,240.5>> = 13.182965158540823
+	* uni0E05 (U+0E05) contains a short segment L<<232.0,232.0>--<236.0,231.0>>
 
-	* Wcircumflex (U+0174): B<<279.0,244.0>-<285.0,206.0>-<289.0,179.0>>/B<<289.0,179.0>-<293.0,218.0>-<301.5,266.0>> = 14.282982606909593
+	* uni0E05 (U+0E05) contains a short segment L<<352.0,152.0>--<336.0,152.0>>
 
-	* Wcircumflex (U+0174): B<<486.5,414.0>-<481.0,450.0>-<478.0,477.0>>/B<<478.0,477.0>-<476.0,452.0>-<470.5,416.0>> = 10.914113005810767
+	* uni0E06 (U+0E06) contains a short segment B<<145.0,376.0>-<137.0,373.0>-<129.5,371.5>>
 
-	* Wcircumflex (U+0174): B<<652.0,263.0>-<660.0,215.0>-<664.0,179.0>>/B<<664.0,179.0>-<667.0,204.0>-<673.0,240.5>> = 13.182965158540823 
+	* uni0E06 (U+0E06) contains a short segment B<<129.5,371.5>-<122.0,370.0>-<114.0,370.0>> 
 
-	* And 6 more.
+	* And 84 more.
 
-Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[13] NotoSansThaiUI-SemiCondensedBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
+</div></details><br></div></details><details><summary><b>[13] NotoSansThaiUI-SemiCondensedBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Style name used in "fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBold.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* 🔥 **FAIL** Missing required codepoints:
+
+	- 0x0030 (DIGIT ZERO)
+
+
+	- 0x0031 (DIGIT ONE)
+
+
+	- 0x0032 (DIGIT TWO)
+
+
+	- 0x0033 (DIGIT THREE)
+
+
+	- 0x0034 (DIGIT FOUR)
+
+
+	- 0x0035 (DIGIT FIVE)
+
+
+	- 0x0036 (DIGIT SIX)
+
+
+	- 0x0037 (DIGIT SEVEN)
+
+
+	- 0x0038 (DIGIT EIGHT)
+
+
+	- 0x0039 (DIGIT NINE)
+ 
+
+	- And 318 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
@@ -3260,6 +4506,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Black.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Bold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Condensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Light.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Medium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Regular.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Thin.ttf', 'fonts/NotoSansThaiUI/googlefonts/variable-ttf/NotoSansThaiUI[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check font can render its own name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/render_own_name">com.google.fonts/check/render_own_name</a>)</summary><div>
+
+
+* 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI SemiCondensed [code: render-own-name]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -3290,10 +4540,6 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
@@ -3302,85 +4548,112 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
 
-	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
+	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
 
-	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3 
-
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- And Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B), uni030C (U+030C) and 4 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-	* numbersign (U+0023): X=213.0,Y=713.0 (should be at cap-height 714?)
+	* tildecomb (U+0303): X=-450.0,Y=713.0 (should be at cap-height 714?)
 
-	* numbersign (U+0023): X=316.0,Y=713.0 (should be at cap-height 714?)
+	* uni0E18 (U+0E18): X=157.0,Y=-2.0 (should be at baseline 0?)
 
-	* numbersign (U+0023): X=405.0,Y=713.0 (should be at cap-height 714?)
+	* uni0E23 (U+0E23): X=130.5,Y=-0.5 (should be at baseline 0?)
 
-	* numbersign (U+0023): X=506.0,Y=713.0 (should be at cap-height 714?)
+	* uni0E27 (U+0E27): X=113.0,Y=-2.0 (should be at baseline 0?)
 
-	* three (U+0033): X=126.5,Y=-1.0 (should be at baseline 0?)
+	* uni0E47 (U+0E47): X=-444.0,Y=713.0 (should be at cap-height 714?)
 
-	* four (U+0034): X=301.0,Y=715.0 (should be at cap-height 714?)
+	* uni0E47 (U+0E47): X=-274.0,Y=712.0 (should be at cap-height 714?)
 
-	* four (U+0034): X=438.0,Y=715.0 (should be at cap-height 714?)
+	* uni0E47 (U+0E47): X=-255.0,Y=712.0 (should be at cap-height 714?)
 
-	* five (U+0035): X=128.0,Y=-1.0 (should be at baseline 0?)
+	* uni0E47 (U+0E47): X=-190.0,Y=716.0 (should be at cap-height 714?)
 
-	* six (U+0036): X=456.0,Y=715.0 (should be at cap-height 714?)
+	* uni0E47 (U+0E47): X=-94.0,Y=716.0 (should be at cap-height 714?)
 
-	* nine (U+0039): X=77.0,Y=-2.0 (should be at baseline 0?) 
+	* uni0E4E (U+0E4E): X=-190.0,Y=712.0 (should be at cap-height 714?)
 
-	* And 73 more.
+	* uni0E4E (U+0E4E): X=-20.0,Y=716.0 (should be at cap-height 714?) 
 
-Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have jaggy segments:
-
-	* W (U+0057): B<<455.5,475.0>-<450.0,508.0>-<448.0,532.0>>/B<<448.0,532.0>-<446.0,511.0>-<440.5,478.5>> = 10.203973721731666
-
-	* W (U+0057): B<<628.5,207.0>-<634.0,172.0>-<637.0,145.0>>/B<<637.0,145.0>-<640.0,171.0>-<645.5,205.5>> = 12.922136401087942
-
-	* Wacute (U+1E82): B<<455.5,475.0>-<450.0,508.0>-<448.0,532.0>>/B<<448.0,532.0>-<446.0,511.0>-<440.5,478.5>> = 10.203973721731666
-
-	* Wacute (U+1E82): B<<628.5,207.0>-<634.0,172.0>-<637.0,145.0>>/B<<637.0,145.0>-<640.0,171.0>-<645.5,205.5>> = 12.922136401087942
-
-	* Wcircumflex (U+0174): B<<455.5,475.0>-<450.0,508.0>-<448.0,532.0>>/B<<448.0,532.0>-<446.0,511.0>-<440.5,478.5>> = 10.203973721731666
-
-	* Wcircumflex (U+0174): B<<628.5,207.0>-<634.0,172.0>-<637.0,145.0>>/B<<637.0,145.0>-<640.0,171.0>-<645.5,205.5>> = 12.922136401087942
-
-	* Wdieresis (U+1E84): B<<455.5,475.0>-<450.0,508.0>-<448.0,532.0>>/B<<448.0,532.0>-<446.0,511.0>-<440.5,478.5>> = 10.203973721731666
-
-	* Wdieresis (U+1E84): B<<628.5,207.0>-<634.0,172.0>-<637.0,145.0>>/B<<637.0,145.0>-<640.0,171.0>-<645.5,205.5>> = 12.922136401087942
-
-	* Wgrave (U+1E80): B<<455.5,475.0>-<450.0,508.0>-<448.0,532.0>>/B<<448.0,532.0>-<446.0,511.0>-<440.5,478.5>> = 10.203973721731666 
-
-	* And Wgrave (U+1E80): B<<628.5,207.0>-<634.0,172.0>-<637.0,145.0>>/B<<637.0,145.0>-<640.0,171.0>-<645.5,205.5>> = 12.922136401087942 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[13] NotoSansThaiUI-SemiCondensedExtraBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+	* And uni0E4E (U+0E4E): X=-79.5,Y=713.0 (should be at cap-height 714?) [code: found-misalignments]
+</div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+* ⚠ **WARN** The following glyphs have segments which seem very short:
+
+	* uni0E03 (U+0E03) contains a short segment B<<165.0,468.0>-<172.0,468.0>-<180.5,471.0>>
+
+	* uni0E04 (U+0E04) contains a short segment L<<207.0,228.0>--<210.0,227.0>>
+
+	* uni0E05 (U+0E05) contains a short segment L<<206.0,228.0>--<209.0,227.0>>
+
+	* uni0E06 (U+0E06) contains a short segment B<<169.0,468.0>-<176.0,468.0>-<185.0,471.0>>
+
+	* uni0E07 (U+0E07) contains a short segment L<<259.0,118.0>--<264.0,118.0>>
+
+	* uni0E08 (U+0E08) contains a short segment L<<235.0,111.0>--<241.0,111.0>>
+
+	* uni0E09 (U+0E09) contains a short segment L<<392.0,77.0>--<385.0,77.0>>
+
+	* uni0E0A (U+0E0A) contains a short segment L<<298.0,408.0>--<304.0,408.0>>
+
+	* uni0E0B (U+0E0B) contains a short segment B<<165.0,468.0>-<172.0,468.0>-<181.0,471.0>>
+
+	* uni0E0B (U+0E0B) contains a short segment L<<309.0,408.0>--<312.0,408.0>> 
+
+	* And 56 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
+</div></details><br></div></details><details><summary><b>[13] NotoSansThaiUI-SemiCondensedExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Style name used in "fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraBold.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* 🔥 **FAIL** Missing required codepoints:
+
+	- 0x0030 (DIGIT ZERO)
+
+
+	- 0x0031 (DIGIT ONE)
+
+
+	- 0x0032 (DIGIT TWO)
+
+
+	- 0x0033 (DIGIT THREE)
+
+
+	- 0x0034 (DIGIT FOUR)
+
+
+	- 0x0035 (DIGIT FIVE)
+
+
+	- 0x0036 (DIGIT SIX)
+
+
+	- 0x0037 (DIGIT SEVEN)
+
+
+	- 0x0038 (DIGIT EIGHT)
+
+
+	- 0x0039 (DIGIT NINE)
+ 
+
+	- And 318 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
@@ -3395,6 +4668,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Black.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Bold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Condensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Light.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Medium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Regular.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Thin.ttf', 'fonts/NotoSansThaiUI/googlefonts/variable-ttf/NotoSansThaiUI[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check font can render its own name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/render_own_name">com.google.fonts/check/render_own_name</a>)</summary><div>
+
+
+* 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI SemiCondensed ExtraBold [code: render-own-name]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -3425,10 +4702,6 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
@@ -3437,89 +4710,112 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
 
-	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
+	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
 
-	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3 
-
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- And Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B), uni030C (U+030C) and 4 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-	* three (U+0033): X=126.0,Y=-1.0 (should be at baseline 0?)
+	* tildecomb (U+0303): X=-233.0,Y=713.0 (should be at cap-height 714?)
 
-	* six (U+0036): X=468.0,Y=715.0 (should be at cap-height 714?)
+	* uni0E0E (U+0E0E): X=114.0,Y=-2.0 (should be at baseline 0?)
 
-	* A (U+0041): X=218.0,Y=716.0 (should be at cap-height 714?)
+	* uni0E0F (U+0E0F): X=114.0,Y=-2.0 (should be at baseline 0?)
 
-	* A (U+0041): X=429.0,Y=716.0 (should be at cap-height 714?)
+	* uni0E23 (U+0E23): X=132.5,Y=-1.0 (should be at baseline 0?)
 
-	* G (U+0047): X=495.0,Y=1.0 (should be at baseline 0?)
+	* uni0E27 (U+0E27): X=111.5,Y=-1.5 (should be at baseline 0?)
 
-	* asciicircum (U+005E): X=223.0,Y=716.0 (should be at cap-height 714?)
+	* uni0E31 (U+0E31): X=-194.0,Y=713.0 (should be at cap-height 714?)
 
-	* asciicircum (U+005E): X=299.0,Y=716.0 (should be at cap-height 714?)
+	* uni0E33 (U+0E33): X=-201.0,Y=713.0 (should be at cap-height 714?)
 
-	* b (U+0062): X=281.0,Y=537.0 (should be at x-height 536?)
+	* uni0E34 (U+0E34): X=-403.0,Y=716.0 (should be at cap-height 714?)
 
-	* c (U+0063): X=373.5,Y=1.0 (should be at baseline 0?)
+	* uni0E34 (U+0E34): X=-69.0,Y=716.0 (should be at cap-height 714?)
 
-	* d (U+0064): X=313.0,Y=537.5 (should be at x-height 536?) 
+	* uni0E35 (U+0E35): X=-403.0,Y=716.0 (should be at cap-height 714?) 
 
-	* And 81 more.
+	* And 14 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
-* ⚠ **WARN** The following glyphs have jaggy segments:
+* ⚠ **WARN** The following glyphs have segments which seem very short:
 
-	* V (U+0056): B<<301.5,212.0>-<308.0,180.0>-<310.0,159.0>>/B<<310.0,159.0>-<313.0,180.0>-<318.5,211.5>> = 13.570434385161475
+	* uni0E03 (U+0E03) contains a short segment B<<169.0,470.0>-<175.0,470.0>-<183.0,472.5>>
 
-	* W (U+0057): B<<263.0,223.5>-<269.0,187.0>-<272.0,161.0>>/B<<272.0,161.0>-<276.0,194.0>-<283.0,235.0>> = 13.493171774202695
+	* uni0E04 (U+0E04) contains a short segment L<<218.0,230.0>--<222.0,229.0>>
 
-	* W (U+0057): B<<470.0,447.0>-<464.0,481.0>-<462.0,507.0>>/B<<462.0,507.0>-<460.0,484.0>-<454.5,450.0>> = 9.368446083105818
+	* uni0E05 (U+0E05) contains a short segment L<<218.0,230.0>--<221.0,229.0>>
 
-	* W (U+0057): B<<639.0,233.0>-<646.0,192.0>-<650.0,161.0>>/B<<650.0,161.0>-<652.0,187.0>-<658.0,222.0>> = 11.751084714887869
+	* uni0E05 (U+0E05) contains a short segment L<<348.0,165.0>--<330.0,165.0>>
 
-	* Wacute (U+1E82): B<<263.0,223.5>-<269.0,187.0>-<272.0,161.0>>/B<<272.0,161.0>-<276.0,194.0>-<283.0,235.0>> = 13.493171774202695
+	* uni0E06 (U+0E06) contains a short segment B<<174.0,470.0>-<181.0,470.0>-<189.0,472.5>>
 
-	* Wacute (U+1E82): B<<470.0,447.0>-<464.0,481.0>-<462.0,507.0>>/B<<462.0,507.0>-<460.0,484.0>-<454.5,450.0>> = 9.368446083105818
+	* uni0E06 (U+0E06) contains a short segment B<<189.0,472.5>-<197.0,475.0>-<204.0,482.0>>
 
-	* Wacute (U+1E82): B<<639.0,233.0>-<646.0,192.0>-<650.0,161.0>>/B<<650.0,161.0>-<652.0,187.0>-<658.0,222.0>> = 11.751084714887869
+	* uni0E07 (U+0E07) contains a short segment L<<265.0,129.0>--<269.0,129.0>>
 
-	* Wcircumflex (U+0174): B<<263.0,223.5>-<269.0,187.0>-<272.0,161.0>>/B<<272.0,161.0>-<276.0,194.0>-<283.0,235.0>> = 13.493171774202695
+	* uni0E08 (U+0E08) contains a short segment L<<238.0,122.0>--<242.0,122.0>>
 
-	* Wcircumflex (U+0174): B<<470.0,447.0>-<464.0,481.0>-<462.0,507.0>>/B<<462.0,507.0>-<460.0,484.0>-<454.5,450.0>> = 9.368446083105818
+	* uni0E09 (U+0E09) contains a short segment L<<383.0,77.0>--<374.0,77.0>>
 
-	* Wcircumflex (U+0174): B<<639.0,233.0>-<646.0,192.0>-<650.0,161.0>>/B<<650.0,161.0>-<652.0,187.0>-<658.0,222.0>> = 11.751084714887869 
+	* uni0E0A (U+0E0A) contains a short segment L<<302.0,408.0>--<308.0,408.0>> 
 
-	* And 6 more.
+	* And 70 more.
 
-Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[12] NotoSansThaiUI-SemiCondensedExtraLight.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
+</div></details><br></div></details><details><summary><b>[14] NotoSansThaiUI-SemiCondensedExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Style name used in "fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraLight.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* 🔥 **FAIL** Missing required codepoints:
+
+	- 0x0030 (DIGIT ZERO)
+
+
+	- 0x0031 (DIGIT ONE)
+
+
+	- 0x0032 (DIGIT TWO)
+
+
+	- 0x0033 (DIGIT THREE)
+
+
+	- 0x0034 (DIGIT FOUR)
+
+
+	- 0x0035 (DIGIT FIVE)
+
+
+	- 0x0036 (DIGIT SIX)
+
+
+	- 0x0037 (DIGIT SEVEN)
+
+
+	- 0x0038 (DIGIT EIGHT)
+
+
+	- 0x0039 (DIGIT NINE)
+ 
+
+	- And 318 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
@@ -3534,6 +4830,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Black.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Bold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Condensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Light.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Medium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Regular.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Thin.ttf', 'fonts/NotoSansThaiUI/googlefonts/variable-ttf/NotoSansThaiUI[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check font can render its own name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/render_own_name">com.google.fonts/check/render_own_name</a>)</summary><div>
+
+
+* 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI SemiCondensed ExtraLight [code: render-own-name]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -3564,10 +4864,6 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
@@ -3576,39 +4872,118 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
 
-	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
+	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
 
-	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3 
-
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- And Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B), uni030C (U+030C) and 4 more.
+* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
+	* tildecomb (U+0303): X=-120.0,Y=716.0 (should be at cap-height 714?)
+
+	* tildecomb (U+0303): X=-333.0,Y=716.0 (should be at cap-height 714?)
+
+	* tildecomb (U+0303): X=-149.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E12 (U+0E12): X=289.0,Y=1.0 (should be at baseline 0?)
+
+	* uni0E15 (U+0E15): X=303.0,Y=1.0 (should be at baseline 0?)
+
+	* uni0E18 (U+0E18): X=148.5,Y=-0.5 (should be at baseline 0?)
+
+	* uni0E23 (U+0E23): X=117.5,Y=1.5 (should be at baseline 0?)
+
+	* uni0E25 (U+0E25): X=266.0,Y=1.0 (should be at baseline 0?)
+
+	* uni0E27 (U+0E27): X=107.0,Y=-1.5 (should be at baseline 0?)
+
+	* uni0E2A (U+0E2A): X=267.0,Y=1.0 (should be at baseline 0?) 
+
+	* And 20 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
+</div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have segments which seem very short:
+
+	* uni0E04 (U+0E04) contains a short segment L<<119.0,213.0>--<121.0,212.0>>
+
+	* uni0E05 (U+0E05) contains a short segment L<<118.0,213.0>--<121.0,212.0>>
+
+	* uni0E07 (U+0E07) contains a short segment L<<194.0,35.0>--<207.0,35.0>>
+
+	* uni0E08 (U+0E08) contains a short segment L<<184.0,34.0>--<197.0,34.0>>
+
+	* uni0E09 (U+0E09) contains a short segment L<<417.0,87.0>--<413.0,87.0>>
+
+	* uni0E0A (U+0E0A) contains a short segment L<<272.0,400.0>--<284.0,400.0>>
+
+	* uni0E0B (U+0E0B) contains a short segment L<<277.0,400.0>--<289.0,400.0>>
+
+	* uni0E0C (U+0E0C) contains a short segment L<<67.0,359.0>--<67.0,380.0>>
+
+	* uni0E0C (U+0E0C) contains a short segment B<<176.0,26.0>-<188.0,26.0>-<200.5,29.0>>
+
+	* uni0E0C (U+0E0C) contains a short segment B<<200.5,29.0>-<213.0,32.0>-<222.0,35.0>> 
+
+	* And 48 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
 	* uni0E4A (U+0E4A): L<<-138.0,636.0>--<-138.0,636.0>> -> L<<-138.0,636.0>--<-56.0,636.0>> [code: found-colinear-vectors]
-</div></details><br></div></details><details><summary><b>[11] NotoSansThaiUI-SemiCondensedLight.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[13] NotoSansThaiUI-SemiCondensedLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Style name used in "fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedLight.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* 🔥 **FAIL** Missing required codepoints:
+
+	- 0x0030 (DIGIT ZERO)
+
+
+	- 0x0031 (DIGIT ONE)
+
+
+	- 0x0032 (DIGIT TWO)
+
+
+	- 0x0033 (DIGIT THREE)
+
+
+	- 0x0034 (DIGIT FOUR)
+
+
+	- 0x0035 (DIGIT FIVE)
+
+
+	- 0x0036 (DIGIT SIX)
+
+
+	- 0x0037 (DIGIT SEVEN)
+
+
+	- 0x0038 (DIGIT EIGHT)
+
+
+	- 0x0039 (DIGIT NINE)
+ 
+
+	- And 318 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
@@ -3623,6 +4998,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Black.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Bold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Condensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Light.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Medium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Regular.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Thin.ttf', 'fonts/NotoSansThaiUI/googlefonts/variable-ttf/NotoSansThaiUI[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check font can render its own name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/render_own_name">com.google.fonts/check/render_own_name</a>)</summary><div>
+
+
+* 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI SemiCondensed Light [code: render-own-name]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -3653,10 +5032,6 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
@@ -3665,33 +5040,112 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
 
-	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
+	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
 
-	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3 
-
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- And Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B), uni030C (U+030C) and 4 more.
+* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
-</div></details><br></div></details><details><summary><b>[12] NotoSansThaiUI-SemiCondensedMedium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+	* tildecomb (U+0303): X=-301.5,Y=712.0 (should be at cap-height 714?)
+
+	* uni0E0D (U+0E0D): X=520.0,Y=1.0 (should be at baseline 0?)
+
+	* uni0E12 (U+0E12): X=299.0,Y=2.0 (should be at baseline 0?)
+
+	* uni0E14 (U+0E14): X=300.0,Y=1.0 (should be at baseline 0?)
+
+	* uni0E15 (U+0E15): X=309.0,Y=2.0 (should be at baseline 0?)
+
+	* uni0E23 (U+0E23): X=118.0,Y=1.5 (should be at baseline 0?)
+
+	* uni0E25 (U+0E25): X=274.0,Y=2.0 (should be at baseline 0?)
+
+	* uni0E27 (U+0E27): X=107.5,Y=-1.5 (should be at baseline 0?)
+
+	* uni0E2A (U+0E2A): X=275.0,Y=2.0 (should be at baseline 0?)
+
+	* uni0E31 (U+0E31): X=-231.0,Y=716.0 (should be at cap-height 714?) 
+
+	* And 7 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
+</div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+* ⚠ **WARN** The following glyphs have segments which seem very short:
+
+	* uni0E04 (U+0E04) contains a short segment L<<134.0,218.0>--<137.0,217.0>>
+
+	* uni0E05 (U+0E05) contains a short segment L<<134.0,218.0>--<136.0,217.0>>
+
+	* uni0E07 (U+0E07) contains a short segment L<<204.0,50.0>--<216.0,50.0>>
+
+	* uni0E08 (U+0E08) contains a short segment L<<195.0,47.0>--<207.0,47.0>>
+
+	* uni0E09 (U+0E09) contains a short segment L<<410.0,83.0>--<406.0,83.0>>
+
+	* uni0E0A (U+0E0A) contains a short segment L<<273.0,403.0>--<282.0,403.0>>
+
+	* uni0E0B (U+0E0B) contains a short segment L<<278.0,403.0>--<288.0,403.0>>
+
+	* uni0E0C (U+0E0C) contains a short segment L<<65.0,354.0>--<65.0,378.0>>
+
+	* uni0E0C (U+0E0C) contains a short segment B<<185.0,39.0>-<196.0,39.0>-<207.0,41.5>>
+
+	* uni0E0C (U+0E0C) contains a short segment B<<207.0,41.5>-<218.0,44.0>-<226.0,47.0>> 
+
+	* And 47 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
+</div></details><br></div></details><details><summary><b>[13] NotoSansThaiUI-SemiCondensedMedium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Style name used in "fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedMedium.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* 🔥 **FAIL** Missing required codepoints:
+
+	- 0x0030 (DIGIT ZERO)
+
+
+	- 0x0031 (DIGIT ONE)
+
+
+	- 0x0032 (DIGIT TWO)
+
+
+	- 0x0033 (DIGIT THREE)
+
+
+	- 0x0034 (DIGIT FOUR)
+
+
+	- 0x0035 (DIGIT FIVE)
+
+
+	- 0x0036 (DIGIT SIX)
+
+
+	- 0x0037 (DIGIT SEVEN)
+
+
+	- 0x0038 (DIGIT EIGHT)
+
+
+	- 0x0039 (DIGIT NINE)
+ 
+
+	- And 318 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
@@ -3706,6 +5160,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Black.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Bold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Condensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Light.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Medium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Regular.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Thin.ttf', 'fonts/NotoSansThaiUI/googlefonts/variable-ttf/NotoSansThaiUI[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check font can render its own name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/render_own_name">com.google.fonts/check/render_own_name</a>)</summary><div>
+
+
+* 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI SemiCondensed Medium [code: render-own-name]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -3736,10 +5194,6 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
@@ -3748,47 +5202,112 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
 
-	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
+	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
 
-	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3 
-
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- And Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B), uni030C (U+030C) and 4 more.
+* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
+	* uni0E23 (U+0E23): X=121.5,Y=0.5 (should be at baseline 0?)
+
+	* uni0E27 (U+0E27): X=109.0,Y=-2.0 (should be at baseline 0?)
+
+	* uni0E31 (U+0E31): X=-217.0,Y=712.0 (should be at cap-height 714?)
+
+	* uni0E33 (U+0E33): X=-156.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E49 (U+0E49): X=-263.0,Y=712.0 (should be at cap-height 714?)
+
+	* uni0E4D (U+0E4D): X=-156.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E4E (U+0E4E): X=-46.5,Y=715.0 (should be at cap-height 714?)
+
+	* uni0E4E (U+0E4E): X=-61.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E51 (U+0E51): X=170.0,Y=1.0 (should be at baseline 0?)
+
+	* uni0E53 (U+0E53): X=261.0,Y=2.0 (should be at baseline 0?) 
+
+	* And 6 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
+</div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
-* ⚠ **WARN** The following glyphs have jaggy segments:
+* ⚠ **WARN** The following glyphs have segments which seem very short:
 
-	* W (U+0057): B<<438.0,536.0>-<433.0,563.0>-<431.0,583.0>>/B<<431.0,583.0>-<429.0,567.0>-<424.5,541.0>> = 12.835609486401424
+	* uni0E04 (U+0E04) contains a short segment L<<175.0,227.0>--<177.0,226.0>>
 
-	* Wacute (U+1E82): B<<438.0,536.0>-<433.0,563.0>-<431.0,583.0>>/B<<431.0,583.0>-<429.0,567.0>-<424.5,541.0>> = 12.835609486401424
+	* uni0E05 (U+0E05) contains a short segment L<<173.0,227.0>--<176.0,226.0>>
 
-	* Wcircumflex (U+0174): B<<438.0,536.0>-<433.0,563.0>-<431.0,583.0>>/B<<431.0,583.0>-<429.0,567.0>-<424.5,541.0>> = 12.835609486401424
+	* uni0E07 (U+0E07) contains a short segment L<<232.0,88.0>--<240.0,88.0>>
 
-	* Wdieresis (U+1E84): B<<438.0,536.0>-<433.0,563.0>-<431.0,583.0>>/B<<431.0,583.0>-<429.0,567.0>-<424.5,541.0>> = 12.835609486401424 
+	* uni0E08 (U+0E08) contains a short segment L<<220.0,82.0>--<229.0,82.0>>
 
-	* And Wgrave (U+1E80): B<<438.0,536.0>-<433.0,563.0>-<431.0,583.0>>/B<<431.0,583.0>-<429.0,567.0>-<424.5,541.0>> = 12.835609486401424 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[13] NotoSansThaiUI-SemiCondensedSemiBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+	* uni0E09 (U+0E09) contains a short segment L<<397.0,76.0>--<392.0,76.0>>
 
+	* uni0E0A (U+0E0A) contains a short segment L<<282.0,408.0>--<287.0,408.0>>
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+	* uni0E0B (U+0E0B) contains a short segment L<<289.0,408.0>--<293.0,408.0>>
+
+	* uni0E0D (U+0E0D) contains a short segment L<<658.0,70.0>--<653.0,70.0>>
+
+	* uni0E0D (U+0E0D) contains a short segment L<<58.0,342.0>--<58.0,371.0>>
+
+	* uni0E0E (U+0E0E) contains a short segment L<<92.0,-194.0>--<92.0,-177.0>> 
+
+	* And 49 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
+</div></details><br></div></details><details><summary><b>[13] NotoSansThaiUI-SemiCondensedSemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Style name used in "fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedSemiBold.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* 🔥 **FAIL** Missing required codepoints:
+
+	- 0x0030 (DIGIT ZERO)
+
+
+	- 0x0031 (DIGIT ONE)
+
+
+	- 0x0032 (DIGIT TWO)
+
+
+	- 0x0033 (DIGIT THREE)
+
+
+	- 0x0034 (DIGIT FOUR)
+
+
+	- 0x0035 (DIGIT FIVE)
+
+
+	- 0x0036 (DIGIT SIX)
+
+
+	- 0x0037 (DIGIT SEVEN)
+
+
+	- 0x0038 (DIGIT EIGHT)
+
+
+	- 0x0039 (DIGIT NINE)
+ 
+
+	- And 318 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
@@ -3803,6 +5322,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Black.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Bold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Condensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Light.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Medium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Regular.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Thin.ttf', 'fonts/NotoSansThaiUI/googlefonts/variable-ttf/NotoSansThaiUI[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check font can render its own name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/render_own_name">com.google.fonts/check/render_own_name</a>)</summary><div>
+
+
+* 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI SemiCondensed SemiBold [code: render-own-name]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -3833,10 +5356,6 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
@@ -3845,85 +5364,104 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
 
-	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
+	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
 
-	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3 
-
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- And Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B), uni030C (U+030C) and 4 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-	* slash (U+002F): X=388.0,Y=716.0 (should be at cap-height 714?)
+	* uni0E0E (U+0E0E): X=57.5,Y=-0.5 (should be at baseline 0?)
 
-	* slash (U+002F): X=121.0,Y=-2.0 (should be at baseline 0?)
+	* uni0E0F (U+0E0F): X=57.5,Y=-0.5 (should be at baseline 0?)
 
-	* slash (U+002F): X=10.0,Y=-2.0 (should be at baseline 0?)
+	* uni0E18 (U+0E18): X=154.0,Y=-1.0 (should be at baseline 0?)
 
-	* slash (U+002F): X=277.0,Y=716.0 (should be at cap-height 714?)
+	* uni0E49 (U+0E49): X=-273.0,Y=713.0 (should be at cap-height 714?)
 
-	* three (U+0033): X=126.0,Y=-1.5 (should be at baseline 0?)
+	* uni0E4E (U+0E4E): X=-25.0,Y=713.0 (should be at cap-height 714?)
 
-	* four (U+0034): X=308.0,Y=716.0 (should be at cap-height 714?)
+	* uni0E53 (U+0E53): X=268.0,Y=2.0 (should be at baseline 0?)
 
-	* four (U+0034): X=427.0,Y=716.0 (should be at cap-height 714?)
+	* uni0E57 (U+0E57): X=268.0,Y=2.0 (should be at baseline 0?) 
 
-	* five (U+0035): X=129.0,Y=-1.0 (should be at baseline 0?)
-
-	* six (U+0036): X=445.0,Y=715.0 (should be at cap-height 714?)
-
-	* nine (U+0039): X=82.0,Y=-1.0 (should be at baseline 0?) 
-
-	* And 87 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
+	* And uni0E59 (U+0E59): X=268.0,Y=2.0 (should be at baseline 0?) [code: found-misalignments]
+</div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
-* ⚠ **WARN** The following glyphs have jaggy segments:
+* ⚠ **WARN** The following glyphs have segments which seem very short:
 
-	* W (U+0057): B<<446.5,507.5>-<441.0,537.0>-<439.0,559.0>>/B<<439.0,559.0>-<437.0,541.0>-<432.0,512.0>> = 11.534620653644708
+	* uni0E04 (U+0E04) contains a short segment L<<190.0,227.0>--<192.0,226.0>>
 
-	* W (U+0057): B<<615.5,221.5>-<625.0,170.0>-<630.0,130.0>>/B<<630.0,130.0>-<635.0,170.0>-<644.0,221.0>> = 14.25003269780357
+	* uni0E05 (U+0E05) contains a short segment L<<188.0,227.0>--<191.0,226.0>>
 
-	* Wacute (U+1E82): B<<446.5,507.5>-<441.0,537.0>-<439.0,559.0>>/B<<439.0,559.0>-<437.0,541.0>-<432.0,512.0>> = 11.534620653644708
+	* uni0E07 (U+0E07) contains a short segment L<<244.0,102.0>--<251.0,102.0>>
 
-	* Wacute (U+1E82): B<<615.5,221.5>-<625.0,170.0>-<630.0,130.0>>/B<<630.0,130.0>-<635.0,170.0>-<644.0,221.0>> = 14.25003269780357
+	* uni0E08 (U+0E08) contains a short segment L<<227.0,95.0>--<235.0,95.0>>
 
-	* Wcircumflex (U+0174): B<<446.5,507.5>-<441.0,537.0>-<439.0,559.0>>/B<<439.0,559.0>-<437.0,541.0>-<432.0,512.0>> = 11.534620653644708
+	* uni0E09 (U+0E09) contains a short segment L<<395.0,76.0>--<388.0,76.0>>
 
-	* Wcircumflex (U+0174): B<<615.5,221.5>-<625.0,170.0>-<630.0,130.0>>/B<<630.0,130.0>-<635.0,170.0>-<644.0,221.0>> = 14.25003269780357
+	* uni0E0A (U+0E0A) contains a short segment L<<289.0,408.0>--<295.0,408.0>>
 
-	* Wdieresis (U+1E84): B<<446.5,507.5>-<441.0,537.0>-<439.0,559.0>>/B<<439.0,559.0>-<437.0,541.0>-<432.0,512.0>> = 11.534620653644708
+	* uni0E0B (U+0E0B) contains a short segment L<<298.0,408.0>--<302.0,408.0>>
 
-	* Wdieresis (U+1E84): B<<615.5,221.5>-<625.0,170.0>-<630.0,130.0>>/B<<630.0,130.0>-<635.0,170.0>-<644.0,221.0>> = 14.25003269780357
+	* uni0E0D (U+0E0D) contains a short segment L<<659.0,71.0>--<654.0,71.0>>
 
-	* Wgrave (U+1E80): B<<446.5,507.5>-<441.0,537.0>-<439.0,559.0>>/B<<439.0,559.0>-<437.0,541.0>-<432.0,512.0>> = 11.534620653644708 
+	* uni0E0D (U+0E0D) contains a short segment L<<55.0,338.0>--<55.0,365.0>>
 
-	* And Wgrave (U+1E80): B<<615.5,221.5>-<625.0,170.0>-<630.0,130.0>>/B<<630.0,130.0>-<635.0,170.0>-<644.0,221.0>> = 14.25003269780357 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[12] NotoSansThaiUI-SemiCondensedThin.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+	* uni0E0E (U+0E0E) contains a short segment L<<89.0,-197.0>--<89.0,-181.0>> 
 
+	* And 43 more.
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
+</div></details><br></div></details><details><summary><b>[13] NotoSansThaiUI-SemiCondensedThin.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Style name used in "fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedThin.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* 🔥 **FAIL** Missing required codepoints:
+
+	- 0x0030 (DIGIT ZERO)
+
+
+	- 0x0031 (DIGIT ONE)
+
+
+	- 0x0032 (DIGIT TWO)
+
+
+	- 0x0033 (DIGIT THREE)
+
+
+	- 0x0034 (DIGIT FOUR)
+
+
+	- 0x0035 (DIGIT FIVE)
+
+
+	- 0x0036 (DIGIT SIX)
+
+
+	- 0x0037 (DIGIT SEVEN)
+
+
+	- 0x0038 (DIGIT EIGHT)
+
+
+	- 0x0039 (DIGIT NINE)
+ 
+
+	- And 318 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
@@ -3938,6 +5476,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Black.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Bold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Condensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Light.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Medium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Regular.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Thin.ttf', 'fonts/NotoSansThaiUI/googlefonts/variable-ttf/NotoSansThaiUI[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check font can render its own name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/render_own_name">com.google.fonts/check/render_own_name</a>)</summary><div>
+
+
+* 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI SemiCondensed Thin [code: render-own-name]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -3968,10 +5510,6 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
@@ -3980,43 +5518,108 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
 
-	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
+	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
 
-	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3 
-
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- And Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B), uni030C (U+030C) and 4 more.
+* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
+	* tildecomb (U+0303): X=-120.0,Y=712.0 (should be at cap-height 714?)
+
+	* tildecomb (U+0303): X=-329.0,Y=712.0 (should be at cap-height 714?)
+
+	* tildecomb (U+0303): X=-143.0,Y=712.0 (should be at cap-height 714?)
+
+	* uni0E0E (U+0E0E): X=26.0,Y=2.0 (should be at baseline 0?)
+
+	* uni0E0F (U+0E0F): X=26.0,Y=2.0 (should be at baseline 0?)
+
+	* uni0E12 (U+0E12): X=283.0,Y=1.0 (should be at baseline 0?)
+
+	* uni0E14 (U+0E14): X=289.0,Y=-1.0 (should be at baseline 0?)
+
+	* uni0E15 (U+0E15): X=299.0,Y=1.0 (should be at baseline 0?)
+
+	* uni0E18 (U+0E18): X=148.0,Y=-1.0 (should be at baseline 0?)
+
+	* uni0E20 (U+0E20): X=26.0,Y=2.0 (should be at baseline 0?) 
+
+	* And 23 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
+</div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
-* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
+* ⚠ **WARN** The following glyphs have segments which seem very short:
 
-	* exclam (U+0021): L<<122.0,714.0>--<119.0,173.0>>
+	* uni0E04 (U+0E04) contains a short segment L<<108.0,210.0>--<110.0,209.0>>
 
-	* exclam (U+0021): L<<95.0,173.0>--<92.0,714.0>>
+	* uni0E05 (U+0E05) contains a short segment L<<108.0,210.0>--<110.0,209.0>>
 
-	* exclamdown (U+00A1): L<<117.0,353.0>--<120.0,-189.0>>
+	* uni0E06 (U+0E06) contains a short segment L<<185.0,517.0>--<203.0,517.0>>
 
-	* exclamdown (U+00A1): L<<91.0,-189.0>--<93.0,353.0>> 
+	* uni0E07 (U+0E07) contains a short segment L<<187.0,25.0>--<201.0,25.0>>
 
-	* And p (U+0070): L<<105.0,528.0>--<106.0,403.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[11] NotoSansThaiUI-Thin.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+	* uni0E08 (U+0E08) contains a short segment L<<177.0,25.0>--<190.0,25.0>>
+
+	* uni0E09 (U+0E09) contains a short segment L<<421.0,90.0>--<418.0,90.0>>
+
+	* uni0E0A (U+0E0A) contains a short segment L<<271.0,398.0>--<286.0,398.0>>
+
+	* uni0E0B (U+0E0B) contains a short segment L<<180.0,517.0>--<198.0,517.0>>
+
+	* uni0E0B (U+0E0B) contains a short segment L<<276.0,398.0>--<290.0,398.0>>
+
+	* uni0E0C (U+0E0C) contains a short segment L<<68.0,363.0>--<68.0,381.0>> 
+
+	* And 75 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
+</div></details><br></div></details><details><summary><b>[12] NotoSansThaiUI-Thin.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
+* 🔥 **FAIL** Missing required codepoints:
+
+	- 0x0030 (DIGIT ZERO)
+
+
+	- 0x0031 (DIGIT ONE)
+
+
+	- 0x0032 (DIGIT TWO)
+
+
+	- 0x0033 (DIGIT THREE)
+
+
+	- 0x0034 (DIGIT FOUR)
+
+
+	- 0x0035 (DIGIT FIVE)
+
+
+	- 0x0036 (DIGIT SIX)
+
+
+	- 0x0037 (DIGIT SEVEN)
+
+
+	- 0x0038 (DIGIT EIGHT)
+
+
+	- 0x0039 (DIGIT NINE)
+ 
+
+	- And 318 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
@@ -4031,6 +5634,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Black.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Bold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Condensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Light.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Medium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Regular.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Thin.ttf', 'fonts/NotoSansThaiUI/googlefonts/variable-ttf/NotoSansThaiUI[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check font can render its own name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/render_own_name">com.google.fonts/check/render_own_name</a>)</summary><div>
+
+
+* 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI Thin [code: render-own-name]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -4061,10 +5668,6 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
@@ -4073,41 +5676,108 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
 
-	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
+	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
 
-	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3 
-
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- And Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B), uni030C (U+030C) and 4 more.
+* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
+	* tildecomb (U+0303): X=-120.0,Y=716.0 (should be at cap-height 714?)
+
+	* tildecomb (U+0303): X=-342.0,Y=716.0 (should be at cap-height 714?)
+
+	* tildecomb (U+0303): X=-144.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E0E (U+0E0E): X=30.0,Y=2.0 (should be at baseline 0?)
+
+	* uni0E0F (U+0E0F): X=30.0,Y=2.0 (should be at baseline 0?)
+
+	* uni0E12 (U+0E12): X=316.0,Y=1.0 (should be at baseline 0?)
+
+	* uni0E14 (U+0E14): X=323.0,Y=-1.0 (should be at baseline 0?)
+
+	* uni0E15 (U+0E15): X=335.0,Y=1.0 (should be at baseline 0?)
+
+	* uni0E18 (U+0E18): X=166.5,Y=-1.0 (should be at baseline 0?)
+
+	* uni0E20 (U+0E20): X=30.0,Y=2.0 (should be at baseline 0?) 
+
+	* And 24 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
+</div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
-* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
+* ⚠ **WARN** The following glyphs have segments which seem very short:
 
-	* exclam (U+0021): L<<100.0,174.0>--<98.0,714.0>>
+	* uni0E04 (U+0E04) contains a short segment L<<118.0,207.0>--<121.0,206.0>>
 
-	* exclam (U+0021): L<<127.0,714.0>--<125.0,174.0>>
+	* uni0E05 (U+0E05) contains a short segment L<<118.0,207.0>--<121.0,206.0>>
 
-	* exclamdown (U+00A1): L<<122.0,354.0>--<124.0,-186.0>> 
+	* uni0E06 (U+0E06) contains a short segment L<<207.0,517.0>--<226.0,517.0>>
 
-	* And exclamdown (U+00A1): L<<96.0,-186.0>--<98.0,354.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[9] NotoSansThaiUI[wdth,wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+	* uni0E07 (U+0E07) contains a short segment L<<206.0,25.0>--<222.0,25.0>>
+
+	* uni0E08 (U+0E08) contains a short segment L<<196.0,25.0>--<211.0,25.0>>
+
+	* uni0E09 (U+0E09) contains a short segment L<<475.0,93.0>--<471.0,93.0>>
+
+	* uni0E0A (U+0E0A) contains a short segment L<<305.0,398.0>--<322.0,398.0>>
+
+	* uni0E0B (U+0E0B) contains a short segment L<<201.0,517.0>--<220.0,517.0>>
+
+	* uni0E0B (U+0E0B) contains a short segment L<<310.0,398.0>--<327.0,398.0>>
+
+	* uni0E0C (U+0E0C) contains a short segment L<<77.0,363.0>--<77.0,381.0>> 
+
+	* And 76 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
+</div></details><br></div></details><details><summary><b>[10] NotoSansThaiUI[wdth,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
+* 🔥 **FAIL** Missing required codepoints:
+
+	- 0x0030 (DIGIT ZERO)
+
+
+	- 0x0031 (DIGIT ONE)
+
+
+	- 0x0032 (DIGIT TWO)
+
+
+	- 0x0033 (DIGIT THREE)
+
+
+	- 0x0034 (DIGIT FOUR)
+
+
+	- 0x0035 (DIGIT FIVE)
+
+
+	- 0x0036 (DIGIT SIX)
+
+
+	- 0x0037 (DIGIT SEVEN)
+
+
+	- 0x0038 (DIGIT EIGHT)
+
+
+	- 0x0039 (DIGIT NINE)
+ 
+
+	- And 318 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
@@ -4122,6 +5792,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Black.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Bold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Condensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Light.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Medium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Regular.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensed.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBlack.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedLight.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedMedium.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedSemiBold.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedThin.ttf', 'fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Thin.ttf', 'fonts/NotoSansThaiUI/googlefonts/variable-ttf/NotoSansThaiUI[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check font can render its own name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/render_own_name">com.google.fonts/check/render_own_name</a>)</summary><div>
+
+
+* 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI [code: render-own-name]
 </div></details><details><summary>🔥 <b>FAIL:</b> Validates that when an instance record is included for the default instance, its subfamilyNameID value is set to either 2 or 17, and its postScriptNameID value is set to 6. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/fvar.html#com.adobe.fonts/check/varfont/valid_default_instance_nameids">com.adobe.fonts/check/varfont/valid_default_instance_nameids</a>)</summary><div>
 
 
@@ -4142,20 +5816,41 @@ But instead we have got:
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B), uni030C (U+030C) and 4 more.
+* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
+	* uni0E0D (U+0E0D): X=576.0,Y=1.0 (should be at baseline 0?)
+
+	* uni0E18 (U+0E18): X=162.5,Y=0.5 (should be at baseline 0?)
+
+	* uni0E23 (U+0E23): X=125.5,Y=1.0 (should be at baseline 0?)
+
+	* uni0E27 (U+0E27): X=115.5,Y=-2.0 (should be at baseline 0?)
+
+	* uni0E36 (U+0E36): X=-138.5,Y=715.0 (should be at cap-height 714?)
+
+	* uni0E36 (U+0E36): X=-201.0,Y=715.5 (should be at cap-height 714?)
+
+	* uni0E42 (U+0E42): X=9.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E42 (U+0E42): X=350.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E42 (U+0E42): X=147.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E42 (U+0E42): X=146.0,Y=712.0 (should be at cap-height 714?) 
+
+	* And 14 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><br></div></details>
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 37 | 141 | 266 | 4386 | 247 | 3078 | 0 |
-| 0% | 2% | 3% | 54% | 3% | 38% | 0% |
+| 0 | 215 | 257 | 4386 | 247 | 3050 | 0 |
+| 0% | 3% | 3% | 54% | 3% | 37% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
