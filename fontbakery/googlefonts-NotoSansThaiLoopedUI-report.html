@@ -1,0 +1,1464 @@
+<!DOCTYPE html>
+                <html lang="en">
+                    <head>
+                        <meta charset="utf-8">
+                        <title>Fontbakery Check Report</title>
+                        <style>
+                            
+            html {
+                font-family: sans-serif;
+            }
+
+            h2 {
+                margin-top: 2em;
+            }
+
+            h3 {
+                margin-bottom: 1px;
+            }
+
+            table {
+                border-collapse: collapse;
+            }
+
+            th,
+            td {
+                border: 1px solid #ddd;
+                padding: 0.5em
+            }
+
+            tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+
+            tr {
+                text-align: left;
+            }
+
+            ul {
+                margin-top: 0;
+            }
+
+            .details_item {
+                list-style: none;
+                display: flex;
+                align-items: baseline;
+            }
+
+            .details_indicator {
+                flex: 0 0 5em;
+                font-weight: bold;
+                padding-right: 0.5em;
+                text-align: right;
+            }
+
+            .details_text {
+                flex: 1 0;
+            }
+            
+                        </style>
+                    </head>
+                    <body>
+                    <h1>Fontbakery Technical Report</h1>
+<div>If you think a check is flawed or have an idea for a check, please  file an issue at <a href='https://github.com/googlefonts/fontbakery/issues'>https://github.com/googlefonts/fontbakery/issues</a> and remember to include a pointer to the repo and branch you're checking.</div>
+<h2>Summary</h2>
+            <table>
+            <tr>
+                <th>💥 ERROR</th>
+                <th>🔥 FAIL</th>
+                <th>⚠️ WARN</th>
+                <th>⏩ SKIP</th>
+                <th>ℹ️ INFO</th>
+                <th>✔️ PASS</th>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>52</td>
+                <td>80</td>
+                <td>1037</td>
+                <td>58</td>
+                <td>768</td>
+            </tr>
+            <tr>
+                <td>0%</td>
+                <td>3%</td>
+                <td>5%</td>
+                <td>68%</td>
+                <td>4%</td>
+                <td>50%</td>
+            </tr>
+            </table>
+            
+<p><strong>Note:</strong> The following loglevels were omitted in this report: SKIP, INFO, PASS, DEBUG</p>
+<h2>&lt;Section: Google Fonts&gt; 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️</h2>
+<h3>Check Google Fonts glyph coverage.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/glyph_coverage&gt;</div>
+
+<details><summary>🔥 <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Black.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x0030 (DIGIT ZERO)
+
+
+- 0x0031 (DIGIT ONE)
+
+
+- 0x0032 (DIGIT TWO)
+
+
+- 0x0033 (DIGIT THREE)
+
+
+- 0x0034 (DIGIT FOUR)
+
+
+- 0x0035 (DIGIT FIVE)
+
+
+- 0x0036 (DIGIT SIX)
+
+
+- 0x0037 (DIGIT SEVEN)
+
+
+- 0x0038 (DIGIT EIGHT)
+
+
+- 0x0039 (DIGIT NINE)
+
+
+- And 290 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x0030 (DIGIT ZERO)
+
+
+- 0x0031 (DIGIT ONE)
+
+
+- 0x0032 (DIGIT TWO)
+
+
+- 0x0033 (DIGIT THREE)
+
+
+- 0x0034 (DIGIT FOUR)
+
+
+- 0x0035 (DIGIT FIVE)
+
+
+- 0x0036 (DIGIT SIX)
+
+
+- 0x0037 (DIGIT SEVEN)
+
+
+- 0x0038 (DIGIT EIGHT)
+
+
+- 0x0039 (DIGIT NINE)
+
+
+- And 290 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x0030 (DIGIT ZERO)
+
+
+- 0x0031 (DIGIT ONE)
+
+
+- 0x0032 (DIGIT TWO)
+
+
+- 0x0033 (DIGIT THREE)
+
+
+- 0x0034 (DIGIT FOUR)
+
+
+- 0x0035 (DIGIT FIVE)
+
+
+- 0x0036 (DIGIT SIX)
+
+
+- 0x0037 (DIGIT SEVEN)
+
+
+- 0x0038 (DIGIT EIGHT)
+
+
+- 0x0039 (DIGIT NINE)
+
+
+- And 290 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x0030 (DIGIT ZERO)
+
+
+- 0x0031 (DIGIT ONE)
+
+
+- 0x0032 (DIGIT TWO)
+
+
+- 0x0033 (DIGIT THREE)
+
+
+- 0x0034 (DIGIT FOUR)
+
+
+- 0x0035 (DIGIT FIVE)
+
+
+- 0x0036 (DIGIT SIX)
+
+
+- 0x0037 (DIGIT SEVEN)
+
+
+- 0x0038 (DIGIT EIGHT)
+
+
+- 0x0039 (DIGIT NINE)
+
+
+- And 290 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x0030 (DIGIT ZERO)
+
+
+- 0x0031 (DIGIT ONE)
+
+
+- 0x0032 (DIGIT TWO)
+
+
+- 0x0033 (DIGIT THREE)
+
+
+- 0x0034 (DIGIT FOUR)
+
+
+- 0x0035 (DIGIT FIVE)
+
+
+- 0x0036 (DIGIT SIX)
+
+
+- 0x0037 (DIGIT SEVEN)
+
+
+- 0x0038 (DIGIT EIGHT)
+
+
+- 0x0039 (DIGIT NINE)
+
+
+- And 290 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x0030 (DIGIT ZERO)
+
+
+- 0x0031 (DIGIT ONE)
+
+
+- 0x0032 (DIGIT TWO)
+
+
+- 0x0033 (DIGIT THREE)
+
+
+- 0x0034 (DIGIT FOUR)
+
+
+- 0x0035 (DIGIT FIVE)
+
+
+- 0x0036 (DIGIT SIX)
+
+
+- 0x0037 (DIGIT SEVEN)
+
+
+- 0x0038 (DIGIT EIGHT)
+
+
+- 0x0039 (DIGIT NINE)
+
+
+- And 290 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x0030 (DIGIT ZERO)
+
+
+- 0x0031 (DIGIT ONE)
+
+
+- 0x0032 (DIGIT TWO)
+
+
+- 0x0033 (DIGIT THREE)
+
+
+- 0x0034 (DIGIT FOUR)
+
+
+- 0x0035 (DIGIT FIVE)
+
+
+- 0x0036 (DIGIT SIX)
+
+
+- 0x0037 (DIGIT SEVEN)
+
+
+- 0x0038 (DIGIT EIGHT)
+
+
+- 0x0039 (DIGIT NINE)
+
+
+- And 290 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x0030 (DIGIT ZERO)
+
+
+- 0x0031 (DIGIT ONE)
+
+
+- 0x0032 (DIGIT TWO)
+
+
+- 0x0033 (DIGIT THREE)
+
+
+- 0x0034 (DIGIT FOUR)
+
+
+- 0x0035 (DIGIT FIVE)
+
+
+- 0x0036 (DIGIT SIX)
+
+
+- 0x0037 (DIGIT SEVEN)
+
+
+- 0x0038 (DIGIT EIGHT)
+
+
+- 0x0039 (DIGIT NINE)
+
+
+- And 290 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Thin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x0030 (DIGIT ZERO)
+
+
+- 0x0031 (DIGIT ONE)
+
+
+- 0x0032 (DIGIT TWO)
+
+
+- 0x0033 (DIGIT THREE)
+
+
+- 0x0034 (DIGIT FOUR)
+
+
+- 0x0035 (DIGIT FIVE)
+
+
+- 0x0036 (DIGIT SIX)
+
+
+- 0x0037 (DIGIT SEVEN)
+
+
+- 0x0038 (DIGIT EIGHT)
+
+
+- 0x0039 (DIGIT NINE)
+
+
+- And 290 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<h3>Checking OS/2 usWeightClass.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/usweightclass&gt;</div>
+
+<details><summary>🔥 <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2 usWeightClass is '400' when it should be '800'. [code: bad-value]</p>
+</span></li></ul></div></details>
+<h3>Check copyright namerecords match license file.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/name/license&gt;</div>
+
+<details><summary>🔥 <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Black.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.&quot; Must be changed to &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL&quot; [code: wrong]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.&quot; Must be changed to &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL&quot; [code: wrong]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.&quot; Must be changed to &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL&quot; [code: wrong]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.&quot; Must be changed to &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL&quot; [code: wrong]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.&quot; Must be changed to &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL&quot; [code: wrong]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.&quot; Must be changed to &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL&quot; [code: wrong]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.&quot; Must be changed to &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL&quot; [code: wrong]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.&quot; Must be changed to &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL&quot; [code: wrong]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Thin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.&quot; Must be changed to &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL&quot; [code: wrong]</p>
+</span></li></ul></div></details>
+<h3>Font has all mandatory 'name' table entries?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/name/mandatory_entries&gt;</div>
+
+<details><summary>🔥 <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Font lacks entry with nameId=16 (TYPOGRAPHIC_FAMILY_NAME) [code: missing-entry]</p>
+</span></li><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Font lacks entry with nameId=17 (TYPOGRAPHIC_SUBFAMILY_NAME) [code: missing-entry]</p>
+</span></li></ul></div></details>
+<h3>Check name table: FONT_FAMILY_NAME entries.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/name/familyname&gt;</div>
+
+<details><summary>🔥 <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the &quot;name&quot; table: Expected &quot;Noto Sans Thai Looped UI ExtraBold&quot; but got &quot;Noto Sans Thai Looped UI Extrabold&quot;. [code: mismatch]</p>
+</span></li></ul></div></details>
+<h3>Check name table: FULL_FONT_NAME entries.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/name/fullfontname&gt;</div>
+
+<details><summary>🔥 <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>[FULL_FONT_NAME(4):WINDOWS(3)]
+Expected: &quot;Noto Sans Thai Looped UI ExtraBold&quot;
+But got:  &quot;Noto Sans Thai Looped UI Extrabold Regular&quot; [code: bad-entry]</p>
+</span></li></ul></div></details>
+<h3>Check name table: POSTSCRIPT_NAME entries.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/name/postscriptname&gt;</div>
+
+<details><summary>🔥 <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>[POSTSCRIPT_NAME(6):WINDOWS(3)]
+Expected: &quot;NotoSansThaiLoopedUI-ExtraBold&quot;
+But got:  &quot;NotoSansThaiLoopedUIExtrabold-Regular&quot; [code: bad-entry]</p>
+</span></li></ul></div></details>
+<h3>Check name table: TYPOGRAPHIC_FAMILY_NAME entries.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/name/typographicfamilyname&gt;</div>
+
+<details><summary>🔥 <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Non-RIBBI fonts must have a TYPOGRAPHIC_FAMILY_NAME entry on the name table. [code: non-ribbi-lacks-entry]</p>
+</span></li></ul></div></details>
+<h3>Check name table: TYPOGRAPHIC_SUBFAMILY_NAME entries.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/name/typographicsubfamilyname&gt;</div>
+
+<details><summary>🔥 <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>TYPOGRAPHIC_SUBFAMILY_NAME for Win is missing. It must be &quot;ExtraBold&quot;. [code: missing-typo-win]</p>
+</span></li></ul></div></details>
+<h3>Combined length of family and style must not exceed 27 characters.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/name/family_and_style_max_length&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Black.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
+FONT_FAMILY_NAME = 'Noto Sans Thai Looped UI Black' / SUBFAMILY_NAME = 'Regular'</p>
+<p>Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
+FONT_FAMILY_NAME = 'Noto Sans Thai Looped UI' / SUBFAMILY_NAME = 'Bold'</p>
+<p>Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
+FONT_FAMILY_NAME = 'Noto Sans Thai Looped UI Extrabold' / SUBFAMILY_NAME = 'Regular'</p>
+<p>Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
+FONT_FAMILY_NAME = 'Noto Sans Thai Looped UI ExtraLight' / SUBFAMILY_NAME = 'Regular'</p>
+<p>Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
+FONT_FAMILY_NAME = 'Noto Sans Thai Looped UI Light' / SUBFAMILY_NAME = 'Regular'</p>
+<p>Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
+FONT_FAMILY_NAME = 'Noto Sans Thai Looped UI Medium' / SUBFAMILY_NAME = 'Regular'</p>
+<p>Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
+FONT_FAMILY_NAME = 'Noto Sans Thai Looped UI' / SUBFAMILY_NAME = 'Regular'</p>
+<p>Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
+FONT_FAMILY_NAME = 'Noto Sans Thai Looped UI SemiBold' / SUBFAMILY_NAME = 'Regular'</p>
+<p>Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Thin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
+FONT_FAMILY_NAME = 'Noto Sans Thai Looped UI Thin' / SUBFAMILY_NAME = 'Regular'</p>
+<p>Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]</p>
+</span></li></ul></div></details>
+<h3>Check font follows the Google Fonts vertical metric schema</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/vertical_metrics&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Black.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>We recommend the absolute sum of the hhea metrics should be between 1.2-1.5x of the font's upm. This font has 1.6x (1600) [code: bad-hhea-range]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>We recommend the absolute sum of the hhea metrics should be between 1.2-1.5x of the font's upm. This font has 1.6x (1600) [code: bad-hhea-range]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>We recommend the absolute sum of the hhea metrics should be between 1.2-1.5x of the font's upm. This font has 1.6x (1600) [code: bad-hhea-range]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>We recommend the absolute sum of the hhea metrics should be between 1.2-1.5x of the font's upm. This font has 1.6x (1600) [code: bad-hhea-range]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>We recommend the absolute sum of the hhea metrics should be between 1.2-1.5x of the font's upm. This font has 1.6x (1600) [code: bad-hhea-range]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>We recommend the absolute sum of the hhea metrics should be between 1.2-1.5x of the font's upm. This font has 1.6x (1600) [code: bad-hhea-range]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>We recommend the absolute sum of the hhea metrics should be between 1.2-1.5x of the font's upm. This font has 1.6x (1600) [code: bad-hhea-range]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>We recommend the absolute sum of the hhea metrics should be between 1.2-1.5x of the font's upm. This font has 1.6x (1600) [code: bad-hhea-range]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Thin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>We recommend the absolute sum of the hhea metrics should be between 1.2-1.5x of the font's upm. This font has 1.6x (1600) [code: bad-hhea-range]</p>
+</span></li></ul></div></details>
+<h3>Ensure fonts have ScriptLangTags declared on the 'meta' table.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/meta/script_lang_tags&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Black.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Thin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<h3>Check font can render its own name.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/render_own_name&gt;</div>
+
+<details><summary>🔥 <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Black.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>.notdef glyphs were found when attempting to render Noto Sans Thai Looped UI Black [code: render-own-name]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>.notdef glyphs were found when attempting to render Noto Sans Thai Looped UI [code: render-own-name]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>.notdef glyphs were found when attempting to render Noto Sans Thai Looped UI Extrabold [code: render-own-name]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>.notdef glyphs were found when attempting to render Noto Sans Thai Looped UI ExtraLight [code: render-own-name]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>.notdef glyphs were found when attempting to render Noto Sans Thai Looped UI Light [code: render-own-name]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>.notdef glyphs were found when attempting to render Noto Sans Thai Looped UI Medium [code: render-own-name]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>.notdef glyphs were found when attempting to render Noto Sans Thai Looped UI [code: render-own-name]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>.notdef glyphs were found when attempting to render Noto Sans Thai Looped UI SemiBold [code: render-own-name]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Thin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>.notdef glyphs were found when attempting to render Noto Sans Thai Looped UI Thin [code: render-own-name]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: Universal&gt; 🔥🔥🔥🔥🔥🔥🔥🔥🔥⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️</h2>
+<h3>Checking OS/2 usWinAscent & usWinDescent.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/family/win_ascent_and_descent&gt;</div>
+
+<details><summary>🔥 <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Black.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinAscent value should be equal or greater than 1112, but got 1069 instead [code: ascent]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinAscent value should be equal or greater than 1112, but got 1069 instead [code: ascent]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinAscent value should be equal or greater than 1112, but got 1069 instead [code: ascent]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinAscent value should be equal or greater than 1112, but got 1069 instead [code: ascent]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinAscent value should be equal or greater than 1112, but got 1069 instead [code: ascent]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinAscent value should be equal or greater than 1112, but got 1069 instead [code: ascent]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinAscent value should be equal or greater than 1112, but got 1069 instead [code: ascent]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinAscent value should be equal or greater than 1112, but got 1069 instead [code: ascent]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Thin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinAscent value should be equal or greater than 1112, but got 1069 instead [code: ascent]</p>
+</span></li></ul></div></details>
+<h3>Check font contains no unreachable glyphs</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/unreachable_glyphs&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Black.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- uni0E29.BRACKET.110
+</code></pre>
+<p>[code: unreachable-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- uni0E29.BRACKET.110
+</code></pre>
+<p>[code: unreachable-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- uni0E29.BRACKET.110
+</code></pre>
+<p>[code: unreachable-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- uni0E29.BRACKET.110
+</code></pre>
+<p>[code: unreachable-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- uni0E29.BRACKET.110
+</code></pre>
+<p>[code: unreachable-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- uni0E29.BRACKET.110
+</code></pre>
+<p>[code: unreachable-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- uni0E29.BRACKET.110
+</code></pre>
+<p>[code: unreachable-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- uni0E29.BRACKET.110
+</code></pre>
+<p>[code: unreachable-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Thin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- uni0E29.BRACKET.110
+</code></pre>
+<p>[code: unreachable-glyphs]</p>
+</span></li></ul></div></details>
+<h3>Check if each glyph has the recommended amount of contours.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/contour_count&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Black.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: uni0E04	Contours detected: 3	Expected: 1 or 2
+
+- Glyph name: uni0E05	Contours detected: 3	Expected: 1 or 2
+
+- Glyph name: uni0E12	Contours detected: 4	Expected: 1 or 3
+
+- Glyph name: uni0E14	Contours detected: 3	Expected: 1 or 2
+
+- Glyph name: uni0E15	Contours detected: 3	Expected: 1 or 2
+
+- Glyph name: uni0E1E	Contours detected: 3	Expected: 1 or 2
+
+- Glyph name: uni0E1F	Contours detected: 3	Expected: 1 or 2
+
+- Glyph name: uni0E28	Contours detected: 3	Expected: 1 or 2
+
+- Glyph name: uni0E2C	Contours detected: 6	Expected: 1 or 3
+
+- Glyph name: uni0E2E	Contours detected: 2	Expected: 1 or 3 
+
+- And 14 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists.
+[code: contour-count]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: uni0E12	Contours detected: 4	Expected: 1 or 3
+
+- Glyph name: uni0E1E	Contours detected: 3	Expected: 1 or 2
+
+- Glyph name: uni0E1F	Contours detected: 3	Expected: 1 or 2
+
+- Glyph name: uni0E2C	Contours detected: 4	Expected: 1 or 3
+
+- Glyph name: uni0E2E	Contours detected: 2	Expected: 1 or 3
+
+- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
+
+- Glyph name: uni0E5A	Contours detected: 3	Expected: 1 or 2
+
+- Glyph name: uni0E12	Contours detected: 4	Expected: 1 or 3
+
+- Glyph name: uni0E1E	Contours detected: 3	Expected: 1 or 2
+
+- Glyph name: uni0E1F	Contours detected: 3	Expected: 1 or 2 
+
+- And 4 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists.
+[code: contour-count]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: uni0E12	Contours detected: 4	Expected: 1 or 3
+
+- Glyph name: uni0E14	Contours detected: 3	Expected: 1 or 2
+
+- Glyph name: uni0E15	Contours detected: 3	Expected: 1 or 2
+
+- Glyph name: uni0E1E	Contours detected: 3	Expected: 1 or 2
+
+- Glyph name: uni0E1F	Contours detected: 3	Expected: 1 or 2
+
+- Glyph name: uni0E2C	Contours detected: 5	Expected: 1 or 3
+
+- Glyph name: uni0E2E	Contours detected: 2	Expected: 1 or 3
+
+- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
+
+- Glyph name: uni0E5A	Contours detected: 3	Expected: 1 or 2
+
+- Glyph name: uni0E12	Contours detected: 4	Expected: 1 or 3 
+
+- And 8 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists.
+[code: contour-count]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: uni0E1E	Contours detected: 4	Expected: 1 or 2
+
+- Glyph name: uni0E1F	Contours detected: 4	Expected: 1 or 2
+
+- Glyph name: uni0E2B	Contours detected: 4	Expected: 1 or 3
+
+- Glyph name: uni0E2E	Contours detected: 2	Expected: 1 or 3
+
+- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
+
+- Glyph name: uni0E5A	Contours detected: 3	Expected: 1 or 2
+
+- Glyph name: uni0E1E	Contours detected: 4	Expected: 1 or 2
+
+- Glyph name: uni0E1F	Contours detected: 4	Expected: 1 or 2
+
+- Glyph name: uni0E2B	Contours detected: 4	Expected: 1 or 3
+
+- Glyph name: uni0E2E	Contours detected: 2	Expected: 1 or 3
+
+- Glyph name: uni0E3F	Contours detected: 5	Expected: 3 
+
+- And Glyph name: uni0E5A	Contours detected: 3	Expected: 1 or 2
+</code></pre>
+<p>[code: contour-count]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: uni0E1E	Contours detected: 4	Expected: 1 or 2
+
+- Glyph name: uni0E1F	Contours detected: 4	Expected: 1 or 2
+
+- Glyph name: uni0E2E	Contours detected: 2	Expected: 1 or 3
+
+- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
+
+- Glyph name: uni0E5A	Contours detected: 3	Expected: 1 or 2
+
+- Glyph name: uni0E1E	Contours detected: 4	Expected: 1 or 2
+
+- Glyph name: uni0E1F	Contours detected: 4	Expected: 1 or 2
+
+- Glyph name: uni0E2E	Contours detected: 2	Expected: 1 or 3
+
+- Glyph name: uni0E3F	Contours detected: 5	Expected: 3 
+
+- And Glyph name: uni0E5A	Contours detected: 3	Expected: 1 or 2
+</code></pre>
+<p>[code: contour-count]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: uni0E1E	Contours detected: 4	Expected: 1 or 2
+
+- Glyph name: uni0E1F	Contours detected: 4	Expected: 1 or 2
+
+- Glyph name: uni0E2E	Contours detected: 2	Expected: 1 or 3
+
+- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
+
+- Glyph name: uni0E5A	Contours detected: 3	Expected: 1 or 2
+
+- Glyph name: uni0E1E	Contours detected: 4	Expected: 1 or 2
+
+- Glyph name: uni0E1F	Contours detected: 4	Expected: 1 or 2
+
+- Glyph name: uni0E2E	Contours detected: 2	Expected: 1 or 3
+
+- Glyph name: uni0E3F	Contours detected: 5	Expected: 3 
+
+- And Glyph name: uni0E5A	Contours detected: 3	Expected: 1 or 2
+</code></pre>
+<p>[code: contour-count]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: uni0E1E	Contours detected: 4	Expected: 1 or 2
+
+- Glyph name: uni0E1F	Contours detected: 4	Expected: 1 or 2
+
+- Glyph name: uni0E2E	Contours detected: 2	Expected: 1 or 3
+
+- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
+
+- Glyph name: uni0E5A	Contours detected: 3	Expected: 1 or 2
+
+- Glyph name: uni0E1E	Contours detected: 4	Expected: 1 or 2
+
+- Glyph name: uni0E1F	Contours detected: 4	Expected: 1 or 2
+
+- Glyph name: uni0E2E	Contours detected: 2	Expected: 1 or 3
+
+- Glyph name: uni0E3F	Contours detected: 5	Expected: 3 
+
+- And Glyph name: uni0E5A	Contours detected: 3	Expected: 1 or 2
+</code></pre>
+<p>[code: contour-count]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: uni0E12	Contours detected: 4	Expected: 1 or 3
+
+- Glyph name: uni0E1E	Contours detected: 3	Expected: 1 or 2
+
+- Glyph name: uni0E1F	Contours detected: 3	Expected: 1 or 2
+
+- Glyph name: uni0E2E	Contours detected: 2	Expected: 1 or 3
+
+- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
+
+- Glyph name: uni0E5A	Contours detected: 3	Expected: 1 or 2
+
+- Glyph name: uni0E12	Contours detected: 4	Expected: 1 or 3
+
+- Glyph name: uni0E1E	Contours detected: 3	Expected: 1 or 2
+
+- Glyph name: uni0E1F	Contours detected: 3	Expected: 1 or 2
+
+- Glyph name: uni0E2E	Contours detected: 2	Expected: 1 or 3
+
+- Glyph name: uni0E3F	Contours detected: 5	Expected: 3 
+
+- And Glyph name: uni0E5A	Contours detected: 3	Expected: 1 or 2
+</code></pre>
+<p>[code: contour-count]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Thin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: uni0E2B	Contours detected: 4	Expected: 1 or 3
+
+- Glyph name: uni0E2E	Contours detected: 2	Expected: 1 or 3
+
+- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
+
+- Glyph name: uni0E5A	Contours detected: 3	Expected: 1 or 2
+
+- Glyph name: uni0E2B	Contours detected: 4	Expected: 1 or 3
+
+- Glyph name: uni0E2E	Contours detected: 2	Expected: 1 or 3
+
+- Glyph name: uni0E3F	Contours detected: 5	Expected: 3 
+
+- And Glyph name: uni0E5A	Contours detected: 3	Expected: 1 or 2
+</code></pre>
+<p>[code: contour-count]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: fontbakery.profiles.post&gt; 🔥</h2>
+<h3>Fonts have consistent underline thickness?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/family/underline_thickness&gt;</div>
+
+<details><summary>🔥 <strong>Family check</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Thickness of the underline is not the same across this family. In order to fix this, please make sure that the underlineThickness value is the same in the 'post' table of all of this family font files.
+Detected underlineThickness values are:
+fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Black.ttf: 130
+fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Bold.ttf: 107
+fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-ExtraBold.ttf: 117
+fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-ExtraLight.ttf: 33
+fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Light.ttf: 47
+fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Medium.ttf: 81
+fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Regular.ttf: 70
+fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-SemiBold.ttf: 93
+fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Thin.ttf: 24
+[code: inconsistent-underline-thickness]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: fontbakery.profiles.hmtx&gt; 🔥🔥🔥🔥🔥🔥🔥🔥</h2>
+<h3>Space and non-breaking space have the same width?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/whitespace_widths&gt;</div>
+
+<details><summary>🔥 <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Black.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Space and non-breaking space have differing width: The space glyph named space is 240 font units wide, non-breaking space named (uni00A0) is 260 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Space and non-breaking space have differing width: The space glyph named space is 248 font units wide, non-breaking space named (uni00A0) is 260 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Space and non-breaking space have differing width: The space glyph named space is 244 font units wide, non-breaking space named (uni00A0) is 260 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Space and non-breaking space have differing width: The space glyph named space is 270 font units wide, non-breaking space named (uni00A0) is 531 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Space and non-breaking space have differing width: The space glyph named space is 266 font units wide, non-breaking space named (uni00A0) is 430 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Space and non-breaking space have differing width: The space glyph named space is 256 font units wide, non-breaking space named (uni00A0) is 260 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Space and non-breaking space have differing width: The space glyph named space is 252 font units wide, non-breaking space named (uni00A0) is 260 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Thin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Space and non-breaking space have differing width: The space glyph named space is 272 font units wide, non-breaking space named (uni00A0) is 600 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: Outline Correctness Checks&gt; ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️</h2>
+<h3>Are there any misaligned on-curve points?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_alignment_miss&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Black.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:</p>
+<pre><code>* ampersand (U+0026): X=391.5,Y=-2.0 (should be at baseline 0?)
+
+* uni0E33 (U+0E33): X=-304.0,Y=715.0 (should be at cap-height 714?)
+
+* uni0E33 (U+0E33): X=-22.0,Y=715.0 (should be at cap-height 714?)
+
+* uni0E33 (U+0E33): X=-115.0,Y=715.0 (should be at cap-height 714?)
+
+* uni0E33 (U+0E33): X=-211.0,Y=715.0 (should be at cap-height 714?)
+
+* uni0E34 (U+0E34): X=261.0,Y=713.0 (should be at cap-height 714?)
+
+* uni0E35 (U+0E35): X=254.0,Y=713.0 (should be at cap-height 714?)
+
+* uni0E36 (U+0E36): X=246.0,Y=713.0 (should be at cap-height 714?)
+
+* uni0E37 (U+0E37): X=242.0,Y=713.0 (should be at cap-height 714?)
+
+* uni0E47 (U+0E47): X=460.0,Y=712.0 (should be at cap-height 714?) 
+
+* And 23 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:</p>
+<pre><code>* ampersand (U+0026): X=386.0,Y=-0.5 (should be at baseline 0?)
+
+* uni0E31 (U+0E31): X=50.0,Y=716.0 (should be at cap-height 714?)
+
+* uni0E33 (U+0E33): X=-284.0,Y=712.0 (should be at cap-height 714?)
+
+* uni0E33 (U+0E33): X=-16.0,Y=712.0 (should be at cap-height 714?)
+
+* uni0E33 (U+0E33): X=-98.0,Y=712.0 (should be at cap-height 714?)
+
+* uni0E33 (U+0E33): X=-202.0,Y=712.0 (should be at cap-height 714?)
+
+* uni0E35 (U+0E35): X=416.0,Y=716.0 (should be at cap-height 714?)
+
+* uni0E44 (U+0E44): X=274.0,Y=713.0 (should be at cap-height 714?)
+
+* uni0E4D (U+0E4D): X=50.0,Y=712.0 (should be at cap-height 714?)
+
+* uni0E4D (U+0E4D): X=318.0,Y=712.0 (should be at cap-height 714?) 
+
+* And 16 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:</p>
+<pre><code>* ampersand (U+0026): X=388.0,Y=-1.5 (should be at baseline 0?)
+
+* uni0E31 (U+0E31): X=352.5,Y=715.0 (should be at cap-height 714?)
+
+* uni0E43 (U+0E43): X=280.0,Y=715.0 (should be at cap-height 714?)
+
+* uni0E49 (U+0E49): X=75.5,Y=713.0 (should be at cap-height 714?)
+
+* uni0E4C (U+0E4C): X=202.0,Y=714.5 (should be at cap-height 714?)
+
+* uni0E4C (U+0E4C): X=142.0,Y=714.5 (should be at cap-height 714?)
+
+* quoteleft (U+2018): X=96.0,Y=713.0 (should be at cap-height 714?)
+
+* quoteleft (U+2018): X=218.0,Y=713.0 (should be at cap-height 714?)
+
+* quoteright (U+2019): X=65.0,Y=713.0 (should be at cap-height 714?)
+
+* quoteright (U+2019): X=217.0,Y=713.0 (should be at cap-height 714?) 
+
+* And 10 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:</p>
+<pre><code>* exclam (U+0021): X=141.5,Y=1.5 (should be at baseline 0?)
+
+* exclam (U+0021): X=90.0,Y=1.5 (should be at baseline 0?)
+
+* comma (U+002C): X=72.0,Y=0.5 (should be at baseline 0?)
+
+* period (U+002E): X=141.5,Y=1.5 (should be at baseline 0?)
+
+* period (U+002E): X=90.0,Y=1.5 (should be at baseline 0?)
+
+* colon (U+003A): X=141.5,Y=1.5 (should be at baseline 0?)
+
+* colon (U+003A): X=90.0,Y=1.5 (should be at baseline 0?)
+
+* question (U+003F): X=111.5,Y=715.0 (should be at cap-height 714?)
+
+* question (U+003F): X=189.0,Y=1.5 (should be at baseline 0?)
+
+* question (U+003F): X=137.5,Y=1.5 (should be at baseline 0?) 
+
+* And 21 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:</p>
+<pre><code>* semicolon (U+003B): X=66.5,Y=-1.5 (should be at baseline 0?)
+
+* question (U+003F): X=107.5,Y=713.5 (should be at cap-height 714?)
+
+* uni0E4C (U+0E4C): X=133.0,Y=716.0 (should be at cap-height 714?)
+
+* uni25CC (U+25CC): X=326.0,Y=-2.0 (should be at baseline 0?) 
+
+* And uni25CC (U+25CC): X=326.0,Y=-2.0 (should be at baseline 0?) [code: found-misalignments]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:</p>
+<pre><code>* slash (U+002F): X=376.0,Y=716.0 (should be at cap-height 714?)
+
+* slash (U+002F): X=110.0,Y=-2.0 (should be at baseline 0?)
+
+* slash (U+002F): X=9.0,Y=-2.0 (should be at baseline 0?)
+
+* slash (U+002F): X=275.0,Y=716.0 (should be at cap-height 714?)
+
+* uni0E31 (U+0E31): X=50.0,Y=715.0 (should be at cap-height 714?)
+
+* uni0E35 (U+0E35): X=416.0,Y=713.0 (should be at cap-height 714?)
+
+* uni0E46 (U+0E46): X=353.0,Y=-1.0 (should be at baseline 0?)
+
+* uni0E49 (U+0E49): X=310.0,Y=712.5 (should be at cap-height 714?)
+
+* uni25CC (U+25CC): X=326.0,Y=-2.0 (should be at baseline 0?) 
+
+* And uni25CC (U+25CC): X=326.0,Y=-2.0 (should be at baseline 0?) [code: found-misalignments]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:</p>
+<pre><code>* exclam (U+0021): X=177.5,Y=2.0 (should be at baseline 0?)
+
+* exclam (U+0021): X=90.0,Y=2.0 (should be at baseline 0?)
+
+* period (U+002E): X=177.5,Y=2.0 (should be at baseline 0?)
+
+* period (U+002E): X=90.0,Y=2.0 (should be at baseline 0?)
+
+* colon (U+003A): X=177.5,Y=2.0 (should be at baseline 0?)
+
+* colon (U+003A): X=90.0,Y=2.0 (should be at baseline 0?)
+
+* question (U+003F): X=222.0,Y=2.0 (should be at baseline 0?)
+
+* question (U+003F): X=134.5,Y=2.0 (should be at baseline 0?)
+
+* uni0E35 (U+0E35): X=416.0,Y=712.0 (should be at cap-height 714?)
+
+* uni0E46 (U+0E46): X=358.0,Y=-0.5 (should be at baseline 0?) 
+
+* And 11 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:</p>
+<pre><code>* ampersand (U+0026): X=382.5,Y=0.5 (should be at baseline 0?)
+
+* uni0E31 (U+0E31): X=50.0,Y=716.0 (should be at cap-height 714?)
+
+* uni0E44 (U+0E44): X=280.0,Y=716.0 (should be at cap-height 714?)
+
+* uni0E48 (U+0E48): X=50.0,Y=712.0 (should be at cap-height 714?)
+
+* uni0E48 (U+0E48): X=169.0,Y=712.0 (should be at cap-height 714?)
+
+* uni25CC (U+25CC): X=326.0,Y=-2.0 (should be at baseline 0?) 
+
+* And uni25CC (U+25CC): X=326.0,Y=-2.0 (should be at baseline 0?) [code: found-misalignments]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Thin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:</p>
+<pre><code>* exclam (U+0021): X=132.5,Y=1.0 (should be at baseline 0?)
+
+* exclam (U+0021): X=90.0,Y=1.0 (should be at baseline 0?)
+
+* comma (U+002C): X=73.0,Y=1.5 (should be at baseline 0?)
+
+* period (U+002E): X=132.5,Y=1.0 (should be at baseline 0?)
+
+* period (U+002E): X=90.0,Y=1.0 (should be at baseline 0?)
+
+* colon (U+003A): X=132.5,Y=1.0 (should be at baseline 0?)
+
+* colon (U+003A): X=90.0,Y=1.0 (should be at baseline 0?)
+
+* semicolon (U+003B): X=73.0,Y=1.5 (should be at baseline 0?)
+
+* question (U+003F): X=180.5,Y=1.0 (should be at baseline 0?)
+
+* question (U+003F): X=138.0,Y=1.0 (should be at baseline 0?) 
+
+* And 19 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<h3>Are any segments inordinately short?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_short_segments&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Black.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:</p>
+<pre><code>* uni0E08 (U+0E08) contains a short segment L&lt;&lt;314.0,137.0&gt;--&lt;330.0,137.0&gt;&gt;
+
+* uni0E09 (U+0E09) contains a short segment L&lt;&lt;309.0,182.0&gt;--&lt;310.0,182.0&gt;&gt;
+
+* uni0E0C (U+0E0C) contains a short segment B&lt;&lt;603.0,264.0&gt;-&lt;603.0,250.0&gt;-&lt;604.0,239.0&gt;&gt;
+
+* uni0E0F (U+0E0F) contains a short segment B&lt;&lt;416.0,-140.0&gt;-&lt;427.0,-140.0&gt;-&lt;430.5,-131.5&gt;&gt;
+
+* uni0E0F (U+0E0F) contains a short segment B&lt;&lt;430.5,-131.5&gt;-&lt;434.0,-123.0&gt;-&lt;434.0,-110.0&gt;&gt;
+
+* uni0E10 (U+0E10) contains a short segment L&lt;&lt;309.0,138.0&gt;--&lt;325.0,138.0&gt;&gt;
+
+* uni0E12 (U+0E12) contains a short segment L&lt;&lt;360.0,366.0&gt;--&lt;354.0,366.0&gt;&gt;
+
+* uni0E13 (U+0E13) contains a short segment L&lt;&lt;586.0,187.0&gt;--&lt;590.0,187.0&gt;&gt;
+
+* uni0E13 (U+0E13) contains a short segment B&lt;&lt;660.0,225.0&gt;-&lt;675.0,232.0&gt;-&lt;679.5,239.0&gt;&gt;
+
+* uni0E13 (U+0E13) contains a short segment B&lt;&lt;679.5,239.0&gt;-&lt;684.0,246.0&gt;-&lt;684.0,261.0&gt;&gt; 
+
+* And 41 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:</p>
+<pre><code>* uni0E05 (U+0E05) contains a short segment L&lt;&lt;342.0,379.0&gt;--&lt;336.0,379.0&gt;&gt;
+
+* uni0E07 (U+0E07) contains a short segment L&lt;&lt;355.0,340.0&gt;--&lt;353.0,340.0&gt;&gt;
+
+* uni0E08 (U+0E08) contains a short segment L&lt;&lt;152.0,154.0&gt;--&lt;150.0,154.0&gt;&gt;
+
+* uni0E08 (U+0E08) contains a short segment L&lt;&lt;296.0,112.0&gt;--&lt;309.0,112.0&gt;&gt;
+
+* uni0E09 (U+0E09) contains a short segment B&lt;&lt;372.0,100.0&gt;-&lt;372.0,102.0&gt;-&lt;372.0,102.0&gt;&gt;
+
+* uni0E09 (U+0E09) contains a short segment L&lt;&lt;141.0,152.0&gt;--&lt;140.0,152.0&gt;&gt;
+
+* uni0E09 (U+0E09) contains a short segment L&lt;&lt;288.0,159.0&gt;--&lt;288.0,159.0&gt;&gt;
+
+* uni0E0C (U+0E0C) contains a short segment B&lt;&lt;573.0,248.0&gt;-&lt;573.0,236.0&gt;-&lt;574.0,225.0&gt;&gt;
+
+* uni0E0D (U+0E0D) contains a short segment B&lt;&lt;624.0,-166.0&gt;-&lt;627.0,-167.0&gt;-&lt;631.0,-167.0&gt;&gt;
+
+* uni0E0F (U+0E0F) contains a short segment B&lt;&lt;429.0,-165.0&gt;-&lt;442.0,-165.0&gt;-&lt;447.0,-155.0&gt;&gt; 
+
+* And 65 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:</p>
+<pre><code>* uni0E05 (U+0E05) contains a short segment L&lt;&lt;350.0,373.0&gt;--&lt;344.0,373.0&gt;&gt;
+
+* uni0E08 (U+0E08) contains a short segment L&lt;&lt;304.0,123.0&gt;--&lt;318.0,123.0&gt;&gt;
+
+* uni0E09 (U+0E09) contains a short segment L&lt;&lt;298.0,170.0&gt;--&lt;298.0,170.0&gt;&gt;
+
+* uni0E0C (U+0E0C) contains a short segment B&lt;&lt;587.0,256.0&gt;-&lt;587.0,242.0&gt;-&lt;588.0,232.0&gt;&gt;
+
+* uni0E0F (U+0E0F) contains a short segment B&lt;&lt;423.0,-154.0&gt;-&lt;435.0,-154.0&gt;-&lt;439.5,-144.5&gt;&gt;
+
+* uni0E0F (U+0E0F) contains a short segment B&lt;&lt;439.5,-144.5&gt;-&lt;444.0,-135.0&gt;-&lt;444.0,-120.0&gt;&gt;
+
+* uni0E10 (U+0E10) contains a short segment L&lt;&lt;300.0,124.0&gt;--&lt;315.0,124.0&gt;&gt;
+
+* uni0E12 (U+0E12) contains a short segment B&lt;&lt;392.0,115.0&gt;-&lt;392.0,119.0&gt;-&lt;393.0,122.0&gt;&gt;
+
+* uni0E12 (U+0E12) contains a short segment L&lt;&lt;354.0,373.0&gt;--&lt;348.0,373.0&gt;&gt;
+
+* uni0E13 (U+0E13) contains a short segment L&lt;&lt;568.0,175.0&gt;--&lt;570.0,175.0&gt;&gt; 
+
+* And 47 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:</p>
+<pre><code>* uni0E04 (U+0E04) contains a short segment B&lt;&lt;212.0,258.0&gt;-&lt;212.0,267.0&gt;-&lt;214.0,275.0&gt;&gt;
+
+* uni0E05 (U+0E05) contains a short segment L&lt;&lt;295.0,424.0&gt;--&lt;290.0,424.0&gt;&gt;
+
+* uni0E05 (U+0E05) contains a short segment B&lt;&lt;209.0,258.0&gt;-&lt;209.0,266.0&gt;-&lt;211.0,273.0&gt;&gt;
+
+* uni0E09 (U+0E09) contains a short segment L&lt;&lt;223.0,64.0&gt;--&lt;225.0,64.0&gt;&gt;
+
+* uni0E0C (U+0E0C) contains a short segment L&lt;&lt;66.0,351.0&gt;--&lt;66.0,375.0&gt;&gt;
+
+* uni0E0D (U+0E0D) contains a short segment L&lt;&lt;66.0,351.0&gt;--&lt;66.0,375.0&gt;&gt;
+
+* uni0E0E (U+0E0E) contains a short segment L&lt;&lt;131.0,351.0&gt;--&lt;131.0,374.0&gt;&gt;
+
+* uni0E0F (U+0E0F) contains a short segment L&lt;&lt;364.0,-114.0&gt;--&lt;390.0,-114.0&gt;&gt;
+
+* uni0E0F (U+0E0F) contains a short segment L&lt;&lt;131.0,351.0&gt;--&lt;131.0,374.0&gt;&gt;
+
+* uni0E0F (U+0E0F) contains a short segment L&lt;&lt;329.0,-270.0&gt;--&lt;309.0,-270.0&gt;&gt; 
+
+* And 55 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:</p>
+<pre><code>* uni0E03 (U+0E03) contains a short segment B&lt;&lt;222.0,452.0&gt;-&lt;222.0,441.0&gt;-&lt;220.0,433.0&gt;&gt;
+
+* uni0E05 (U+0E05) contains a short segment L&lt;&lt;304.0,415.0&gt;--&lt;299.0,415.0&gt;&gt;
+
+* uni0E06 (U+0E06) contains a short segment B&lt;&lt;239.0,452.0&gt;-&lt;239.0,441.0&gt;-&lt;237.0,433.0&gt;&gt;
+
+* uni0E06 (U+0E06) contains a short segment B&lt;&lt;257.0,132.0&gt;-&lt;259.0,122.0&gt;-&lt;260.0,112.0&gt;&gt;
+
+* uni0E06 (U+0E06) contains a short segment B&lt;&lt;260.0,112.0&gt;-&lt;261.0,102.0&gt;-&lt;261.0,92.0&gt;&gt;
+
+* uni0E09 (U+0E09) contains a short segment L&lt;&lt;235.0,87.0&gt;--&lt;237.0,87.0&gt;&gt;
+
+* uni0E0B (U+0E0B) contains a short segment B&lt;&lt;228.0,452.0&gt;-&lt;228.0,441.0&gt;-&lt;226.0,433.0&gt;&gt;
+
+* uni0E0C (U+0E0C) contains a short segment L&lt;&lt;64.0,349.0&gt;--&lt;64.0,376.0&gt;&gt;
+
+* uni0E0C (U+0E0C) contains a short segment B&lt;&lt;428.0,196.0&gt;-&lt;442.0,196.0&gt;-&lt;454.0,194.0&gt;&gt;
+
+* uni0E0D (U+0E0D) contains a short segment L&lt;&lt;64.0,349.0&gt;--&lt;64.0,376.0&gt;&gt; 
+
+* And 41 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:</p>
+<pre><code>* uni0E03 (U+0E03) contains a short segment L&lt;&lt;237.0,447.0&gt;--&lt;237.0,447.0&gt;&gt;
+
+* uni0E05 (U+0E05) contains a short segment L&lt;&lt;325.0,393.0&gt;--&lt;319.0,393.0&gt;&gt;
+
+* uni0E06 (U+0E06) contains a short segment B&lt;&lt;177.0,221.0&gt;-&lt;176.0,227.0&gt;-&lt;176.0,235.0&gt;&gt;
+
+* uni0E06 (U+0E06) contains a short segment L&lt;&lt;259.0,447.0&gt;--&lt;259.0,447.0&gt;&gt;
+
+* uni0E06 (U+0E06) contains a short segment B&lt;&lt;281.0,225.0&gt;-&lt;281.0,218.0&gt;-&lt;282.0,212.0&gt;&gt;
+
+* uni0E06 (U+0E06) contains a short segment B&lt;&lt;299.0,122.0&gt;-&lt;300.0,113.0&gt;-&lt;300.0,105.0&gt;&gt;
+
+* uni0E08 (U+0E08) contains a short segment B&lt;&lt;173.0,161.0&gt;-&lt;166.0,160.0&gt;-&lt;159.0,160.0&gt;&gt;
+
+* uni0E08 (U+0E08) contains a short segment L&lt;&lt;276.0,84.0&gt;--&lt;285.0,84.0&gt;&gt;
+
+* uni0E09 (U+0E09) contains a short segment B&lt;&lt;161.0,157.0&gt;-&lt;154.0,157.0&gt;-&lt;147.0,157.0&gt;&gt;
+
+* uni0E09 (U+0E09) contains a short segment L&lt;&lt;265.0,134.0&gt;--&lt;266.0,134.0&gt;&gt; 
+
+* And 79 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:</p>
+<pre><code>* uni0E05 (U+0E05) contains a short segment L&lt;&lt;318.0,399.0&gt;--&lt;312.0,399.0&gt;&gt;
+
+* uni0E06 (U+0E06) contains a short segment B&lt;&lt;176.0,215.0&gt;-&lt;181.0,215.0&gt;-&lt;186.0,215.0&gt;&gt;
+
+* uni0E06 (U+0E06) contains a short segment B&lt;&lt;270.0,223.0&gt;-&lt;270.0,213.0&gt;-&lt;271.0,203.0&gt;&gt;
+
+* uni0E08 (U+0E08) contains a short segment L&lt;&lt;268.0,72.0&gt;--&lt;275.0,72.0&gt;&gt;
+
+* uni0E09 (U+0E09) contains a short segment L&lt;&lt;255.0,124.0&gt;--&lt;257.0,124.0&gt;&gt;
+
+* uni0E0C (U+0E0C) contains a short segment B&lt;&lt;525.0,224.0&gt;-&lt;525.0,212.0&gt;-&lt;526.0,202.0&gt;&gt;
+
+* uni0E0C (U+0E0C) contains a short segment B&lt;&lt;543.0,124.0&gt;-&lt;545.0,115.0&gt;-&lt;545.0,102.0&gt;&gt;
+
+* uni0E0C (U+0E0C) contains a short segment B&lt;&lt;433.0,215.0&gt;-&lt;436.0,215.0&gt;-&lt;439.0,215.0&gt;&gt;
+
+* uni0E0C (U+0E0C) contains a short segment B&lt;&lt;439.0,215.0&gt;-&lt;439.0,227.0&gt;-&lt;439.0,243.0&gt;&gt;
+
+* uni0E0C (U+0E0C) contains a short segment B&lt;&lt;162.0,190.0&gt;-&lt;171.0,191.0&gt;-&lt;181.0,191.0&gt;&gt; 
+
+* And 63 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:</p>
+<pre><code>* uni0E02 (U+0E02) contains a short segment B&lt;&lt;176.0,339.0&gt;-&lt;170.0,338.0&gt;-&lt;164.0,338.0&gt;&gt;
+
+* uni0E05 (U+0E05) contains a short segment L&lt;&lt;333.0,386.0&gt;--&lt;327.0,386.0&gt;&gt;
+
+* uni0E06 (U+0E06) contains a short segment B&lt;&lt;168.0,227.0&gt;-&lt;168.0,229.0&gt;-&lt;168.0,233.0&gt;&gt;
+
+* uni0E06 (U+0E06) contains a short segment B&lt;&lt;293.0,227.0&gt;-&lt;293.0,224.0&gt;-&lt;293.0,222.0&gt;&gt;
+
+* uni0E06 (U+0E06) contains a short segment B&lt;&lt;309.0,118.0&gt;-&lt;310.0,114.0&gt;-&lt;310.0,109.0&gt;&gt;
+
+* uni0E07 (U+0E07) contains a short segment B&lt;&lt;353.0,341.0&gt;-&lt;350.0,341.0&gt;-&lt;345.0,341.0&gt;&gt;
+
+* uni0E08 (U+0E08) contains a short segment B&lt;&lt;163.0,158.0&gt;-&lt;159.0,158.0&gt;-&lt;155.0,158.0&gt;&gt;
+
+* uni0E08 (U+0E08) contains a short segment L&lt;&lt;285.0,97.0&gt;--&lt;296.0,97.0&gt;&gt;
+
+* uni0E09 (U+0E09) contains a short segment B&lt;&lt;370.0,98.0&gt;-&lt;370.0,106.0&gt;-&lt;372.0,114.0&gt;&gt;
+
+* uni0E09 (U+0E09) contains a short segment B&lt;&lt;152.0,155.0&gt;-&lt;148.0,154.0&gt;-&lt;144.0,154.0&gt;&gt; 
+
+* And 79 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Thin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:</p>
+<pre><code>* uni0E03 (U+0E03) contains a short segment B&lt;&lt;255.0,441.0&gt;-&lt;255.0,445.0&gt;-&lt;255.0,448.5&gt;&gt;
+
+* uni0E03 (U+0E03) contains a short segment B&lt;&lt;255.0,448.5&gt;-&lt;255.0,452.0&gt;-&lt;255.0,455.0&gt;&gt;
+
+* uni0E05 (U+0E05) contains a short segment L&lt;&lt;289.0,430.0&gt;--&lt;285.0,430.0&gt;&gt;
+
+* uni0E06 (U+0E06) contains a short segment B&lt;&lt;153.0,176.0&gt;-&lt;164.0,176.0&gt;-&lt;174.5,174.5&gt;&gt;
+
+* uni0E06 (U+0E06) contains a short segment B&lt;&lt;269.0,441.0&gt;-&lt;269.0,447.0&gt;-&lt;269.0,454.0&gt;&gt;
+
+* uni0E09 (U+0E09) contains a short segment L&lt;&lt;215.0,49.0&gt;--&lt;217.0,49.0&gt;&gt;
+
+* uni0E0B (U+0E0B) contains a short segment B&lt;&lt;262.0,441.0&gt;-&lt;262.0,445.0&gt;-&lt;262.0,448.5&gt;&gt;
+
+* uni0E0B (U+0E0B) contains a short segment B&lt;&lt;262.0,448.5&gt;-&lt;262.0,452.0&gt;-&lt;262.0,455.0&gt;&gt;
+
+* uni0E0C (U+0E0C) contains a short segment L&lt;&lt;68.0,353.0&gt;--&lt;68.0,374.0&gt;&gt;
+
+* uni0E0C (U+0E0C) contains a short segment L&lt;&lt;721.0,530.0&gt;--&lt;746.0,530.0&gt;&gt; 
+
+* And 76 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<h3>Do any segments have colinear vectors?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_colinear_vectors&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Black.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have colinear vectors:</p>
+<pre><code>* uni0E48 (U+0E48): L&lt;&lt;219.0,818.0&gt;--&lt;219.0,725.0&gt;&gt; -&gt; L&lt;&lt;219.0,725.0&gt;--&lt;210.0,593.0&gt;&gt; 
+
+* And uni0E48 (U+0E48): L&lt;&lt;59.0,593.0&gt;--&lt;50.0,725.0&gt;&gt; -&gt; L&lt;&lt;50.0,725.0&gt;--&lt;50.0,818.0&gt;&gt; [code: found-colinear-vectors]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have colinear vectors:</p>
+<pre><code>* uni0E48 (U+0E48): L&lt;&lt;187.0,803.0&gt;--&lt;187.0,717.0&gt;&gt; -&gt; L&lt;&lt;187.0,717.0&gt;--&lt;180.0,595.0&gt;&gt; 
+
+* And uni0E48 (U+0E48): L&lt;&lt;57.0,595.0&gt;--&lt;50.0,717.0&gt;&gt; -&gt; L&lt;&lt;50.0,717.0&gt;--&lt;50.0,803.0&gt;&gt; [code: found-colinear-vectors]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have colinear vectors:</p>
+<pre><code>* uni0E48 (U+0E48): L&lt;&lt;202.0,810.0&gt;--&lt;202.0,721.0&gt;&gt; -&gt; L&lt;&lt;202.0,721.0&gt;--&lt;194.0,594.0&gt;&gt; 
+
+* And uni0E48 (U+0E48): L&lt;&lt;58.0,594.0&gt;--&lt;50.0,721.0&gt;&gt; -&gt; L&lt;&lt;50.0,721.0&gt;--&lt;50.0,810.0&gt;&gt; [code: found-colinear-vectors]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have colinear vectors:</p>
+<pre><code>* uni0E48 (U+0E48): L&lt;&lt;53.0,604.0&gt;--&lt;50.0,712.0&gt;&gt; -&gt; L&lt;&lt;50.0,712.0&gt;--&lt;50.0,775.0&gt;&gt; 
+
+* And uni0E48 (U+0E48): L&lt;&lt;89.0,775.0&gt;--&lt;89.0,712.0&gt;&gt; -&gt; L&lt;&lt;89.0,712.0&gt;--&lt;86.0,604.0&gt;&gt; [code: found-colinear-vectors]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have colinear vectors:</p>
+<pre><code>* uni0E48 (U+0E48): L&lt;&lt;108.0,777.0&gt;--&lt;108.0,709.0&gt;&gt; -&gt; L&lt;&lt;108.0,709.0&gt;--&lt;104.0,602.0&gt;&gt; 
+
+* And uni0E48 (U+0E48): L&lt;&lt;54.0,602.0&gt;--&lt;50.0,709.0&gt;&gt; -&gt; L&lt;&lt;50.0,709.0&gt;--&lt;50.0,777.0&gt;&gt; [code: found-colinear-vectors]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have colinear vectors:</p>
+<pre><code>* uni0E1E (U+0E1E): L&lt;&lt;255.0,149.0&gt;--&lt;255.0,149.0&gt;&gt; -&gt; L&lt;&lt;255.0,149.0&gt;--&lt;255.0,149.0&gt;&gt;
+
+* uni0E1F (U+0E1F): L&lt;&lt;255.0,149.0&gt;--&lt;255.0,149.0&gt;&gt; -&gt; L&lt;&lt;255.0,149.0&gt;--&lt;255.0,149.0&gt;&gt;
+
+* uni0E48 (U+0E48): L&lt;&lt;153.0,787.0&gt;--&lt;153.0,708.0&gt;&gt; -&gt; L&lt;&lt;153.0,708.0&gt;--&lt;147.0,597.0&gt;&gt; 
+
+* And uni0E48 (U+0E48): L&lt;&lt;56.0,597.0&gt;--&lt;50.0,708.0&gt;&gt; -&gt; L&lt;&lt;50.0,708.0&gt;--&lt;50.0,787.0&gt;&gt; [code: found-colinear-vectors]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have colinear vectors:</p>
+<pre><code>* uni0E48 (U+0E48): L&lt;&lt;138.0,780.0&gt;--&lt;138.0,704.0&gt;&gt; -&gt; L&lt;&lt;138.0,704.0&gt;--&lt;133.0,598.0&gt;&gt; 
+
+* And uni0E48 (U+0E48): L&lt;&lt;55.0,598.0&gt;--&lt;50.0,704.0&gt;&gt; -&gt; L&lt;&lt;50.0,704.0&gt;--&lt;50.0,780.0&gt;&gt; [code: found-colinear-vectors]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have colinear vectors:</p>
+<pre><code>* uni0E48 (U+0E48): L&lt;&lt;169.0,794.0&gt;--&lt;169.0,712.0&gt;&gt; -&gt; L&lt;&lt;169.0,712.0&gt;--&lt;162.0,596.0&gt;&gt; 
+
+* And uni0E48 (U+0E48): L&lt;&lt;57.0,596.0&gt;--&lt;50.0,712.0&gt;&gt; -&gt; L&lt;&lt;50.0,712.0&gt;--&lt;50.0,794.0&gt;&gt; [code: found-colinear-vectors]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Thin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have colinear vectors:</p>
+<pre><code>* uni0E48 (U+0E48): L&lt;&lt;53.0,605.0&gt;--&lt;50.0,714.0&gt;&gt; -&gt; L&lt;&lt;50.0,714.0&gt;--&lt;50.0,774.0&gt;&gt; 
+
+* And uni0E48 (U+0E48): L&lt;&lt;77.0,774.0&gt;--&lt;77.0,714.0&gt;&gt; -&gt; L&lt;&lt;77.0,714.0&gt;--&lt;74.0,605.0&gt;&gt; [code: found-colinear-vectors]
+</code></pre>
+</span></li></ul></div></details>
+<h3>Do outlines contain any jaggy segments?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_jaggy_segments&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Black.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have jaggy segments:</p>
+<pre><code>* uni0E12 (U+0E12): B&lt;&lt;431.5,324.0&gt;-&lt;459.0,304.0&gt;-&lt;469.0,271.0&gt;&gt;/B&lt;&lt;469.0,271.0&gt;-&lt;468.0,282.0&gt;-&lt;468.0,295.0&gt;&gt; = 11.663969860003432 [code: found-jaggy-segments]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have jaggy segments:</p>
+<pre><code>* uni0E10 (U+0E10): B&lt;&lt;368.0,-160.0&gt;-&lt;389.0,-190.0&gt;-&lt;429.0,-197.0&gt;&gt;/B&lt;&lt;429.0,-197.0&gt;-&lt;406.0,-187.0&gt;-&lt;391.0,-167.5&gt;&gt; = 13.572320169300394 
+
+* And uni0E10 (U+0E10): B&lt;&lt;534.0,433.0&gt;-&lt;513.0,433.0&gt;-&lt;491.0,437.0&gt;&gt;/L&lt;&lt;491.0,437.0&gt;--&lt;491.0,437.0&gt;&gt; = 10.304846468766044 [code: found-jaggy-segments]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have jaggy segments:</p>
+<pre><code>* uni0E15 (U+0E15): B&lt;&lt;432.0,322.5&gt;-&lt;461.0,298.0&gt;-&lt;466.0,258.0&gt;&gt;/L&lt;&lt;466.0,258.0&gt;--&lt;466.0,364.0&gt;&gt; = 7.125016348901757 
+
+* And uni0E15 (U+0E15): L&lt;&lt;466.0,0.0&gt;--&lt;466.0,224.0&gt;&gt;/B&lt;&lt;466.0,224.0&gt;-&lt;462.0,194.0&gt;-&lt;446.0,169.0&gt;&gt; = 7.594643368591447 [code: found-jaggy-segments]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have jaggy segments:</p>
+<pre><code>* uni0E2A (U+0E2A): B&lt;&lt;418.0,491.0&gt;-&lt;408.0,492.0&gt;-&lt;398.0,494.0&gt;&gt;/L&lt;&lt;398.0,494.0&gt;--&lt;398.0,494.0&gt;&gt; = 11.309932474020195 [code: found-jaggy-segments]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have jaggy segments:</p>
+<pre><code>* uni0E1E (U+0E1E): B&lt;&lt;227.0,89.0&gt;-&lt;227.0,86.0&gt;-&lt;226.0,84.0&gt;&gt;/L&lt;&lt;226.0,84.0&gt;--&lt;228.0,89.0&gt;&gt; = 4.763641690726143
+
+* uni0E1E (U+0E1E): L&lt;&lt;583.0,88.0&gt;--&lt;585.0,83.0&gt;&gt;/L&lt;&lt;585.0,83.0&gt;--&lt;584.0,88.0&gt;&gt; = 10.491477012331599
+
+* uni0E1F (U+0E1F): B&lt;&lt;227.0,89.0&gt;-&lt;227.0,87.0&gt;-&lt;226.0,84.0&gt;&gt;/L&lt;&lt;226.0,84.0&gt;--&lt;228.0,89.0&gt;&gt; = 3.3664606634297236 
+
+* And uni0E1F (U+0E1F): L&lt;&lt;583.0,88.0&gt;--&lt;585.0,83.0&gt;&gt;/L&lt;&lt;585.0,83.0&gt;--&lt;584.0,88.0&gt;&gt; = 10.491477012331599 [code: found-jaggy-segments]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have jaggy segments:</p>
+<pre><code>* uni0E03 (U+0E03): B&lt;&lt;168.5,320.0&gt;-&lt;193.0,344.0&gt;-&lt;213.0,364.0&gt;&gt;/B&lt;&lt;213.0,364.0&gt;-&lt;198.0,355.0&gt;-&lt;181.0,350.0&gt;&gt; = 14.036243467926457
+
+* uni0E06 (U+0E06): B&lt;&lt;210.0,332.5&gt;-&lt;227.0,351.0&gt;-&lt;242.0,368.0&gt;&gt;/B&lt;&lt;242.0,368.0&gt;-&lt;226.0,357.0&gt;-&lt;207.5,351.0&gt;&gt; = 14.067811387328987
+
+* uni0E0B (U+0E0B): B&lt;&lt;170.5,320.0&gt;-&lt;195.0,344.0&gt;-&lt;215.0,364.0&gt;&gt;/B&lt;&lt;215.0,364.0&gt;-&lt;200.0,355.0&gt;-&lt;183.0,350.0&gt;&gt; = 14.036243467926457 
+
+* And uni0E10 (U+0E10): B&lt;&lt;442.0,-204.0&gt;-&lt;449.0,-204.0&gt;-&lt;454.0,-204.0&gt;&gt;/B&lt;&lt;454.0,-204.0&gt;-&lt;419.0,-200.0&gt;-&lt;395.5,-178.0&gt;&gt; = 6.5198017516569164 [code: found-jaggy-segments]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Thin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have jaggy segments:</p>
+<pre><code>* uni0E11 (U+0E11): B&lt;&lt;205.5,386.5&gt;-&lt;219.0,413.0&gt;-&lt;225.0,439.0&gt;&gt;/B&lt;&lt;225.0,439.0&gt;-&lt;212.0,413.0&gt;-&lt;182.0,395.0&gt;&gt; = 13.570434385161475 [code: found-jaggy-segments]
+</code></pre>
+</span></li></ul></div></details>
+<h3>Do outlines contain any semi-vertical or semi-horizontal lines?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_semi_vertical&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/NotoSansThaiLoopedUI/googlefonts/ttf/NotoSansThaiLoopedUI-Thin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<pre><code>* exclam (U+0021): L&lt;&lt;100.0,174.0&gt;--&lt;98.0,714.0&gt;&gt; 
+
+* And exclam (U+0021): L&lt;&lt;127.0,714.0&gt;--&lt;125.0,174.0&gt;&gt; [code: found-semi-vertical]
+</code></pre>
+</span></li></ul></div></details>
+                    </body>
+                </html>
