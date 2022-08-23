@@ -10,12 +10,12 @@ Fontbakery version: 0.8.9
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni0E0D
 	* tripleKhan
-	* uni0E260E45
 	* uni0E240E45
+	* uni0E0D0331
+	* uni0E0D
 	* pikKaa
-	* uni0E0D0331 and uni0E0C0331
+	* uni0E0C0331 and uni0E260E45
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -685,16 +685,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* unalome
-	* uni0E52
-	* uni0E0D
-	* uni0E0C
 	* khomutReversed
-	* uni0E5B
 	* tripleKhan
-	* uni0E260E45
+	* uni0E5B
+	* uni0E52
+	* unalome
 	* uni0E240E45
-	* uni0E0D0331 and 4 more.
+	* uni0E140331
+	* uni0E0D0331
+	* ampersand
+	* uni0E0D and 4 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
