@@ -1,23 +1,13 @@
 {
-.appVersion = "1352";
+.appVersion = "3109";
+DisplayStrings = (
+"'"
+);
 copyright = "Copyright 2022 The Noto Project Authors";
 customParameters = (
 {
 name = "Enforce Compatibility Check";
 value = 1;
-},
-{
-name = Axes;
-value = (
-{
-Name = Weight;
-Tag = wght;
-},
-{
-Name = Width;
-Tag = wdth;
-}
-);
 },
 {
 name = fsType;
@@ -35,30 +25,6 @@ name = codePageRanges;
 value = (
 874
 );
-},
-{
-name = license;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.";
-},
-{
-name = licenseURL;
-value = "http://scripts.sil.org/OFL";
-},
-{
-name = vendorID;
-value = GOOG;
-},
-{
-name = trademark;
-value = "Noto is a trademark of Google LLC.";
-},
-{
-name = versionString;
-value = "Version 1.000";
-},
-{
-name = sampleText;
-value = "กขคงจฉบพอ";
 },
 {
 name = "Family Alignment Zones";
@@ -88,8 +54,45 @@ name = blueFuzz;
 value = 1;
 },
 {
+name = license;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.";
+},
+{
+name = licenseURL;
+value = "http://scripts.sil.org/OFL";
+},
+{
+name = vendorID;
+value = GOOG;
+},
+{
+name = trademark;
+value = "Noto is a trademark of Google LLC.";
+},
+{
+name = versionString;
+value = "Version 1.000";
+},
+{
+name = sampleText;
+value = "กขคงจฉบพอ";
+},
+{
 name = description;
 value = "Design by Cadson Demak Co.,Ltd.";
+},
+{
+name = Axes;
+value = (
+{
+Name = Weight;
+Tag = wght;
+},
+{
+Name = Width;
+Tag = wdth;
+}
+);
 }
 );
 date = "2022-10-15 17:17:10 +0000";
@@ -30593,7 +30596,7 @@ position = "{406, 555}";
 );
 associatedMasterId = "94F80E8F-7C96-497F-B870-569C37B7A2A5";
 layerId = "85930745-CA49-45A7-8887-FADD04BEADB6";
-name = "Condensed [90]";
+name = "[90]";
 paths = (
 {
 closed = 1;
@@ -30716,7 +30719,7 @@ position = "{541, 550}";
 );
 associatedMasterId = "90A34054-68E4-499D-AE50-276C7B026D8B";
 layerId = "D1D2823E-9CCD-4005-8DE6-F60A5A48BC09";
-name = "Light [90]";
+name = "[90]";
 paths = (
 {
 closed = 1;
@@ -30869,7 +30872,7 @@ type = Stem;
 }
 );
 layerId = "BFF631F4-B936-45A8-8FC9-21B21F4FD798";
-name = "Regular [90]";
+name = "[90]";
 paths = (
 {
 closed = 1;
@@ -30992,7 +30995,7 @@ position = "{628, 563}";
 );
 associatedMasterId = "EB3A5D6C-8260-43A6-9EF2-63971FC08D48";
 layerId = "6A85B960-1440-4A4F-8E2A-FD8C067AF176";
-name = "Bold [90]";
+name = "[90]";
 paths = (
 {
 closed = 1;
@@ -31118,7 +31121,7 @@ position = "{352, 550}";
 );
 associatedMasterId = "54E3FB14-E6D2-4DF3-BA4A-5621168F9335";
 layerId = "3247B453-4C61-48DE-87D5-A029F875DF4F";
-name = "Light Condensed [90]";
+name = "[90]";
 paths = (
 {
 closed = 1;
@@ -31241,7 +31244,7 @@ position = "{480, 563}";
 );
 associatedMasterId = "E703E12A-5DA7-48FA-B69F-BB282FBD8E56";
 layerId = "2838D589-333B-4F1E-9BC6-2249BE90D1D6";
-name = "Bold Condensed [90]";
+name = "[90]";
 paths = (
 {
 closed = 1;
@@ -45775,7 +45778,7 @@ unicode = 0E59;
 {
 color = 1;
 glyphname = period;
-lastChange = "2022-09-01 17:09:18 +0000";
+lastChange = "2022-11-22 15:32:28 +0000";
 layers = (
 {
 layerId = "90A34054-68E4-499D-AE50-276C7B026D8B";
@@ -45916,14 +45919,12 @@ nodes = (
 width = 247;
 }
 );
-leftKerningGroup = period.right;
-rightKerningGroup = period.left;
 unicode = 002E;
 },
 {
 color = 1;
 glyphname = comma;
-lastChange = "2022-09-01 17:09:18 +0000";
+lastChange = "2022-11-22 15:32:28 +0000";
 layers = (
 {
 layerId = "90A34054-68E4-499D-AE50-276C7B026D8B";
@@ -46046,14 +46047,12 @@ nodes = (
 width = 233;
 }
 );
-leftKerningGroup = period.right;
-rightKerningGroup = period.left;
 unicode = 002C;
 },
 {
 color = 1;
 glyphname = colon;
-lastChange = "2022-09-01 17:09:18 +0000";
+lastChange = "2022-11-22 15:32:28 +0000";
 layers = (
 {
 layerId = "90A34054-68E4-499D-AE50-276C7B026D8B";
@@ -46296,14 +46295,13 @@ nodes = (
 width = 247;
 }
 );
-leftKerningGroup = colon;
 note = colon;
 unicode = 003A;
 },
 {
 color = 1;
 glyphname = semicolon;
-lastChange = "2022-09-01 17:09:18 +0000";
+lastChange = "2022-11-22 15:32:28 +0000";
 layers = (
 {
 layerId = "90A34054-68E4-499D-AE50-276C7B026D8B";
@@ -46528,14 +46526,13 @@ nodes = (
 width = 250;
 }
 );
-leftKerningGroup = colon;
 note = semicolon;
 unicode = 003B;
 },
 {
 color = 1;
 glyphname = ellipsis;
-lastChange = "2022-09-01 17:09:18 +0000";
+lastChange = "2022-11-22 15:32:28 +0000";
 layers = (
 {
 components = (
@@ -46658,7 +46655,6 @@ layerId = "94F80E8F-7C96-497F-B870-569C37B7A2A5";
 width = 748;
 }
 );
-leftKerningGroup = period.right;
 unicode = 2026;
 },
 {
@@ -48012,7 +48008,7 @@ unicode = 005C;
 {
 color = 1;
 glyphname = parenleft;
-lastChange = "2022-09-01 17:09:18 +0000";
+lastChange = "2022-11-22 15:32:28 +0000";
 layers = (
 {
 layerId = "90A34054-68E4-499D-AE50-276C7B026D8B";
@@ -48165,13 +48161,12 @@ nodes = (
 width = 296;
 }
 );
-rightKerningGroup = paren.left;
 unicode = 0028;
 },
 {
 color = 1;
 glyphname = parenright;
-lastChange = "2022-09-01 17:09:18 +0000";
+lastChange = "2022-11-22 15:32:28 +0000";
 layers = (
 {
 layerId = "90A34054-68E4-499D-AE50-276C7B026D8B";
@@ -48324,7 +48319,6 @@ nodes = (
 width = 296;
 }
 );
-leftKerningGroup = Paren.right;
 unicode = 0029;
 },
 {
@@ -48985,7 +48979,7 @@ unicode = 005B;
 {
 color = 1;
 glyphname = bracketright;
-lastChange = "2022-09-01 17:09:18 +0000";
+lastChange = "2022-11-22 15:32:28 +0000";
 layers = (
 {
 layerId = "90A34054-68E4-499D-AE50-276C7B026D8B";
@@ -49102,14 +49096,13 @@ nodes = (
 width = 317;
 }
 );
-leftKerningGroup = parenright;
 note = bracketright;
 unicode = 005D;
 },
 {
 color = 1;
 glyphname = hyphen;
-lastChange = "2022-09-01 17:09:18 +0000";
+lastChange = "2022-11-22 15:32:28 +0000";
 layers = (
 {
 layerId = "90A34054-68E4-499D-AE50-276C7B026D8B";
@@ -49202,14 +49195,12 @@ nodes = (
 width = 274;
 }
 );
-leftKerningGroup = hyphen.right;
-rightKerningGroup = hyphen.left;
 unicode = 002D;
 },
 {
 color = 1;
 glyphname = endash;
-lastChange = "2022-09-01 17:09:18 +0000";
+lastChange = "2022-11-22 15:32:28 +0000";
 layers = (
 {
 layerId = "90A34054-68E4-499D-AE50-276C7B026D8B";
@@ -49302,14 +49293,12 @@ nodes = (
 width = 500;
 }
 );
-leftKerningGroup = hyphen.right;
-rightKerningGroup = hyphen.left;
 unicode = 2013;
 },
 {
 color = 1;
 glyphname = emdash;
-lastChange = "2022-09-01 17:09:18 +0000";
+lastChange = "2022-11-22 15:32:28 +0000";
 layers = (
 {
 layerId = "90A34054-68E4-499D-AE50-276C7B026D8B";
@@ -49402,8 +49391,6 @@ nodes = (
 width = 1000;
 }
 );
-leftKerningGroup = hyphen.right;
-rightKerningGroup = hyphen.left;
 unicode = 2014;
 },
 {
@@ -49743,7 +49730,7 @@ unicode = 005F;
 {
 color = 1;
 glyphname = quotedblleft;
-lastChange = "2022-09-01 17:09:18 +0000";
+lastChange = "2022-11-22 15:32:28 +0000";
 layers = (
 {
 layerId = "90A34054-68E4-499D-AE50-276C7B026D8B";
@@ -49950,14 +49937,12 @@ nodes = (
 width = 357;
 }
 );
-leftKerningGroup = quoteleft;
-rightKerningGroup = quote.left;
 unicode = 201C;
 },
 {
 color = 1;
 glyphname = quotedblright;
-lastChange = "2022-09-01 17:09:18 +0000";
+lastChange = "2022-11-22 15:32:28 +0000";
 layers = (
 {
 layerId = "90A34054-68E4-499D-AE50-276C7B026D8B";
@@ -50164,14 +50149,12 @@ nodes = (
 width = 357;
 }
 );
-leftKerningGroup = quote.right;
-rightKerningGroup = quote.left;
 unicode = 201D;
 },
 {
 color = 1;
 glyphname = quoteleft;
-lastChange = "2022-09-01 17:09:18 +0000";
+lastChange = "2022-11-22 15:32:28 +0000";
 layers = (
 {
 layerId = "90A34054-68E4-499D-AE50-276C7B026D8B";
@@ -50294,14 +50277,12 @@ nodes = (
 width = 175;
 }
 );
-leftKerningGroup = quoteleft;
-rightKerningGroup = quote.left;
 unicode = 2018;
 },
 {
 color = 1;
 glyphname = quoteright;
-lastChange = "2022-09-01 17:09:18 +0000";
+lastChange = "2022-11-22 15:32:28 +0000";
 layers = (
 {
 layerId = "90A34054-68E4-499D-AE50-276C7B026D8B";
@@ -50424,14 +50405,12 @@ nodes = (
 width = 175;
 }
 );
-leftKerningGroup = quote.right;
-rightKerningGroup = quote.left;
 unicode = 2019;
 },
 {
 color = 1;
 glyphname = guillemetleft;
-lastChange = "2022-09-01 17:09:18 +0000";
+lastChange = "2022-11-22 15:32:28 +0000";
 layers = (
 {
 layerId = "90A34054-68E4-499D-AE50-276C7B026D8B";
@@ -50614,14 +50593,12 @@ nodes = (
 width = 501;
 }
 );
-leftKerningGroup = guillemotleft;
-rightKerningGroup = guillemotleft;
 unicode = 00AB;
 },
 {
 color = 1;
 glyphname = guillemetright;
-lastChange = "2022-09-01 17:09:18 +0000";
+lastChange = "2022-11-22 15:32:28 +0000";
 layers = (
 {
 layerId = "90A34054-68E4-499D-AE50-276C7B026D8B";
@@ -50804,14 +50781,12 @@ nodes = (
 width = 501;
 }
 );
-leftKerningGroup = guillemotright;
-rightKerningGroup = guillemotright;
 unicode = 00BB;
 },
 {
 color = 1;
 glyphname = guilsinglleft;
-lastChange = "2022-09-01 17:09:18 +0000";
+lastChange = "2022-11-22 15:32:28 +0000";
 layers = (
 {
 layerId = "90A34054-68E4-499D-AE50-276C7B026D8B";
@@ -50922,14 +50897,12 @@ nodes = (
 width = 291;
 }
 );
-leftKerningGroup = guillemotleft;
-rightKerningGroup = guillemotleft;
 unicode = 2039;
 },
 {
 color = 1;
 glyphname = guilsinglright;
-lastChange = "2022-09-01 17:09:18 +0000";
+lastChange = "2022-11-22 15:32:28 +0000";
 layers = (
 {
 layerId = "90A34054-68E4-499D-AE50-276C7B026D8B";
@@ -51040,14 +51013,12 @@ nodes = (
 width = 291;
 }
 );
-leftKerningGroup = guillemotright;
-rightKerningGroup = guillemotright;
 unicode = 203A;
 },
 {
 color = 1;
 glyphname = quotedbl;
-lastChange = "2022-09-01 17:09:18 +0000";
+lastChange = "2022-11-22 15:33:36 +0000";
 layers = (
 {
 layerId = "90A34054-68E4-499D-AE50-276C7B026D8B";
@@ -51194,15 +51165,13 @@ nodes = (
 width = 400;
 }
 );
-leftKerningGroup = quotedbl;
 note = quotedbl;
-rightKerningGroup = quotedbl;
 unicode = 0022;
 },
 {
 color = 1;
 glyphname = quotesingle;
-lastChange = "2022-09-01 17:09:18 +0000";
+lastChange = "2022-11-22 15:39:13 +0000";
 layers = (
 {
 layerId = "90A34054-68E4-499D-AE50-276C7B026D8B";
@@ -51295,9 +51264,7 @@ nodes = (
 width = 219;
 }
 );
-leftKerningGroup = quotedbl;
 note = quotesingle;
-rightKerningGroup = quotedbl;
 unicode = 0027;
 },
 {
@@ -73742,34 +73709,6 @@ value = (
 );
 },
 {
-name = weightClass;
-value = 100;
-},
-{
-name = styleMapFamilyName;
-value = "Noto Sans Thai Looped Thin";
-},
-{
-name = preferredFamilyName;
-value = "Noto Sans Thai Looped";
-},
-{
-name = preferredSubfamilyName;
-value = Thin;
-},
-{
-name = postscriptFontName;
-value = "NotoSansThaiLooped-Thin";
-},
-{
-name = postscriptFullName;
-value = "Noto Sans Thai Looped Thin";
-},
-{
-name = compatibleFullName;
-value = "Noto Sans Thai Looped Thin";
-},
-{
 name = "Instance Preview";
 value = (
 "koKai-thai",
@@ -73819,6 +73758,30 @@ value = (
 "oAng-thai",
 "hoNokhuk-thai"
 );
+},
+{
+name = styleMapFamilyName;
+value = "Noto Sans Thai Looped Thin";
+},
+{
+name = preferredFamilyName;
+value = "Noto Sans Thai Looped";
+},
+{
+name = preferredSubfamilyName;
+value = Thin;
+},
+{
+name = postscriptFontName;
+value = "NotoSansThaiLooped-Thin";
+},
+{
+name = postscriptFullName;
+value = "Noto Sans Thai Looped Thin";
+},
+{
+name = compatibleFullName;
+value = "Noto Sans Thai Looped Thin";
 }
 );
 interpolationWeight = 26;
@@ -73846,34 +73809,6 @@ value = (
 );
 },
 {
-name = weightClass;
-value = 200;
-},
-{
-name = styleMapFamilyName;
-value = "Noto Sans Thai Looped ExtraLight";
-},
-{
-name = preferredFamilyName;
-value = "Noto Sans Thai Looped";
-},
-{
-name = preferredSubfamilyName;
-value = ExtraLight;
-},
-{
-name = postscriptFontName;
-value = "NotoSansThaiLooped-ExtraLight";
-},
-{
-name = postscriptFullName;
-value = "Noto Sans Thai Looped ExtraLight";
-},
-{
-name = compatibleFullName;
-value = "Noto Sans Thai Looped ExtraLight";
-},
-{
 name = "Instance Preview";
 value = (
 "koKai-thai",
@@ -73923,6 +73858,30 @@ value = (
 "oAng-thai",
 "hoNokhuk-thai"
 );
+},
+{
+name = styleMapFamilyName;
+value = "Noto Sans Thai Looped ExtraLight";
+},
+{
+name = preferredFamilyName;
+value = "Noto Sans Thai Looped";
+},
+{
+name = preferredSubfamilyName;
+value = ExtraLight;
+},
+{
+name = postscriptFontName;
+value = "NotoSansThaiLooped-ExtraLight";
+},
+{
+name = postscriptFullName;
+value = "Noto Sans Thai Looped ExtraLight";
+},
+{
+name = compatibleFullName;
+value = "Noto Sans Thai Looped ExtraLight";
 }
 );
 interpolationWeight = 39;
@@ -73951,34 +73910,6 @@ value = (
 );
 },
 {
-name = weightClass;
-value = 300;
-},
-{
-name = styleMapFamilyName;
-value = "Noto Sans Thai Looped Light";
-},
-{
-name = preferredFamilyName;
-value = "Noto Sans Thai Looped";
-},
-{
-name = preferredSubfamilyName;
-value = Light;
-},
-{
-name = postscriptFontName;
-value = "NotoSansThaiLooped-Light";
-},
-{
-name = postscriptFullName;
-value = "Noto Sans Thai Looped Light";
-},
-{
-name = compatibleFullName;
-value = "Noto Sans Thai Looped Light";
-},
-{
 name = "Instance Preview";
 value = (
 "koKai-thai",
@@ -74028,6 +73959,30 @@ value = (
 "oAng-thai",
 "hoNokhuk-thai"
 );
+},
+{
+name = styleMapFamilyName;
+value = "Noto Sans Thai Looped Light";
+},
+{
+name = preferredFamilyName;
+value = "Noto Sans Thai Looped";
+},
+{
+name = preferredSubfamilyName;
+value = Light;
+},
+{
+name = postscriptFontName;
+value = "NotoSansThaiLooped-Light";
+},
+{
+name = postscriptFullName;
+value = "Noto Sans Thai Looped Light";
+},
+{
+name = compatibleFullName;
+value = "Noto Sans Thai Looped Light";
 }
 );
 interpolationWeight = 58;
@@ -74054,30 +74009,6 @@ value = (
 2,
 4
 );
-},
-{
-name = weightClass;
-value = 400;
-},
-{
-name = styleMapFamilyName;
-value = "Noto Sans Thai Looped";
-},
-{
-name = preferredFamilyName;
-value = "Noto Sans Thai Looped";
-},
-{
-name = preferredSubfamilyName;
-value = Regular;
-},
-{
-name = postscriptFontName;
-value = "NotoSansThaiLooped-Regular";
-},
-{
-name = postscriptFullName;
-value = "Noto Sans Thai Looped Regular";
 },
 {
 name = "#compatibleFullName";
@@ -74133,6 +74064,26 @@ value = (
 "oAng-thai",
 "hoNokhuk-thai"
 );
+},
+{
+name = styleMapFamilyName;
+value = "Noto Sans Thai Looped";
+},
+{
+name = preferredFamilyName;
+value = "Noto Sans Thai Looped";
+},
+{
+name = preferredSubfamilyName;
+value = Regular;
+},
+{
+name = postscriptFontName;
+value = "NotoSansThaiLooped-Regular";
+},
+{
+name = postscriptFullName;
+value = "Noto Sans Thai Looped Regular";
 }
 );
 interpolationWeight = 90;
@@ -74157,34 +74108,6 @@ value = (
 2,
 4
 );
-},
-{
-name = weightClass;
-value = 500;
-},
-{
-name = styleMapFamilyName;
-value = "Noto Sans Thai Looped Medium";
-},
-{
-name = preferredFamilyName;
-value = "Noto Sans Thai Looped";
-},
-{
-name = preferredSubfamilyName;
-value = Medium;
-},
-{
-name = postscriptFontName;
-value = "NotoSansThaiLooped-Medium";
-},
-{
-name = postscriptFullName;
-value = "Noto Sans Thai Looped Medium";
-},
-{
-name = compatibleFullName;
-value = "Noto Sans Thai Looped Medium";
 },
 {
 name = "Instance Preview";
@@ -74236,6 +74159,30 @@ value = (
 "oAng-thai",
 "hoNokhuk-thai"
 );
+},
+{
+name = styleMapFamilyName;
+value = "Noto Sans Thai Looped Medium";
+},
+{
+name = preferredFamilyName;
+value = "Noto Sans Thai Looped";
+},
+{
+name = preferredSubfamilyName;
+value = Medium;
+},
+{
+name = postscriptFontName;
+value = "NotoSansThaiLooped-Medium";
+},
+{
+name = postscriptFullName;
+value = "Noto Sans Thai Looped Medium";
+},
+{
+name = compatibleFullName;
+value = "Noto Sans Thai Looped Medium";
 }
 );
 interpolationWeight = 108;
@@ -74264,34 +74211,6 @@ value = (
 );
 },
 {
-name = weightClass;
-value = 600;
-},
-{
-name = styleMapFamilyName;
-value = "Noto Sans Thai Looped SemiBold";
-},
-{
-name = preferredFamilyName;
-value = "Noto Sans Thai Looped";
-},
-{
-name = preferredSubfamilyName;
-value = SemiBold;
-},
-{
-name = postscriptFontName;
-value = "NotoSansThaiLooped-SemiBold";
-},
-{
-name = postscriptFullName;
-value = "Noto Sans Thai Looped SemiBold";
-},
-{
-name = compatibleFullName;
-value = "Noto Sans Thai Looped SemiBold";
-},
-{
 name = "Instance Preview";
 value = (
 "koKai-thai",
@@ -74341,6 +74260,30 @@ value = (
 "oAng-thai",
 "hoNokhuk-thai"
 );
+},
+{
+name = styleMapFamilyName;
+value = "Noto Sans Thai Looped SemiBold";
+},
+{
+name = preferredFamilyName;
+value = "Noto Sans Thai Looped";
+},
+{
+name = preferredSubfamilyName;
+value = SemiBold;
+},
+{
+name = postscriptFontName;
+value = "NotoSansThaiLooped-SemiBold";
+},
+{
+name = postscriptFullName;
+value = "Noto Sans Thai Looped SemiBold";
+},
+{
+name = compatibleFullName;
+value = "Noto Sans Thai Looped SemiBold";
 }
 );
 interpolationWeight = 128;
@@ -74369,34 +74312,6 @@ value = (
 );
 },
 {
-name = weightClass;
-value = 700;
-},
-{
-name = styleMapFamilyName;
-value = "Noto Sans Thai Looped";
-},
-{
-name = preferredFamilyName;
-value = "Noto Sans Thai Looped";
-},
-{
-name = preferredSubfamilyName;
-value = Bold;
-},
-{
-name = postscriptFontName;
-value = "NotoSansThaiLooped-Bold";
-},
-{
-name = postscriptFullName;
-value = "Noto Sans Thai Looped Bold";
-},
-{
-name = compatibleFullName;
-value = "Noto Sans Thai Looped Bold";
-},
-{
 name = "Instance Preview";
 value = (
 "koKai-thai",
@@ -74446,6 +74361,30 @@ value = (
 "oAng-thai",
 "hoNokhuk-thai"
 );
+},
+{
+name = styleMapFamilyName;
+value = "Noto Sans Thai Looped";
+},
+{
+name = preferredFamilyName;
+value = "Noto Sans Thai Looped";
+},
+{
+name = preferredSubfamilyName;
+value = Bold;
+},
+{
+name = postscriptFontName;
+value = "NotoSansThaiLooped-Bold";
+},
+{
+name = postscriptFullName;
+value = "Noto Sans Thai Looped Bold";
+},
+{
+name = compatibleFullName;
+value = "Noto Sans Thai Looped Bold";
 }
 );
 interpolationWeight = 151;
@@ -74476,34 +74415,6 @@ value = (
 );
 },
 {
-name = weightClass;
-value = 800;
-},
-{
-name = styleMapFamilyName;
-value = "Noto Sans Thai Looped ExtraBold";
-},
-{
-name = preferredFamilyName;
-value = "Noto Sans Thai Looped";
-},
-{
-name = preferredSubfamilyName;
-value = Extrabold;
-},
-{
-name = postscriptFontName;
-value = "NotoSansThaiLooped-ExtraBold";
-},
-{
-name = postscriptFullName;
-value = "Noto Sans Thai Looped ExtraBold";
-},
-{
-name = compatibleFullName;
-value = "Noto Sans Thai Looped ExtraBold";
-},
-{
 name = "Instance Preview";
 value = (
 "koKai-thai",
@@ -74553,6 +74464,30 @@ value = (
 "oAng-thai",
 "hoNokhuk-thai"
 );
+},
+{
+name = styleMapFamilyName;
+value = "Noto Sans Thai Looped ExtraBold";
+},
+{
+name = preferredFamilyName;
+value = "Noto Sans Thai Looped";
+},
+{
+name = preferredSubfamilyName;
+value = Extrabold;
+},
+{
+name = postscriptFontName;
+value = "NotoSansThaiLooped-ExtraBold";
+},
+{
+name = postscriptFullName;
+value = "Noto Sans Thai Looped ExtraBold";
+},
+{
+name = compatibleFullName;
+value = "Noto Sans Thai Looped ExtraBold";
 }
 );
 interpolationWeight = 169;
@@ -74581,34 +74516,6 @@ value = (
 );
 },
 {
-name = weightClass;
-value = 900;
-},
-{
-name = styleMapFamilyName;
-value = "Noto Sans Thai Looped Black";
-},
-{
-name = preferredFamilyName;
-value = "Noto Sans Thai Looped";
-},
-{
-name = preferredSubfamilyName;
-value = Black;
-},
-{
-name = postscriptFontName;
-value = "NotoSansThaiLooped-Black";
-},
-{
-name = postscriptFullName;
-value = "Noto Sans Thai Looped Black";
-},
-{
-name = compatibleFullName;
-value = "Noto Sans Thai Looped Black";
-},
-{
 name = "Instance Preview";
 value = (
 "koKai-thai",
@@ -74658,6 +74565,30 @@ value = (
 "oAng-thai",
 "hoNokhuk-thai"
 );
+},
+{
+name = styleMapFamilyName;
+value = "Noto Sans Thai Looped Black";
+},
+{
+name = preferredFamilyName;
+value = "Noto Sans Thai Looped";
+},
+{
+name = preferredSubfamilyName;
+value = Black;
+},
+{
+name = postscriptFontName;
+value = "NotoSansThaiLooped-Black";
+},
+{
+name = postscriptFullName;
+value = "Noto Sans Thai Looped Black";
+},
+{
+name = compatibleFullName;
+value = "Noto Sans Thai Looped Black";
 }
 );
 interpolationWeight = 190;
@@ -74685,34 +74616,6 @@ value = (
 );
 },
 {
-name = weightClass;
-value = 100;
-},
-{
-name = styleMapFamilyName;
-value = "Noto Sans Thai Looped SemiCondensed Thin";
-},
-{
-name = preferredFamilyName;
-value = "Noto Sans Thai Looped SemiCondensed";
-},
-{
-name = preferredSubfamilyName;
-value = Thin;
-},
-{
-name = postscriptFontName;
-value = "NotoSansThaiLoopedSemiCondensed-Thin";
-},
-{
-name = postscriptFullName;
-value = "Noto Sans Thai Looped SemiCondensed Thin";
-},
-{
-name = compatibleFullName;
-value = "Noto Sans Thai Looped SemiCondensed Thin";
-},
-{
 name = "Instance Preview";
 value = (
 "koKai-thai",
@@ -74762,6 +74665,30 @@ value = (
 "oAng-thai",
 "hoNokhuk-thai"
 );
+},
+{
+name = styleMapFamilyName;
+value = "Noto Sans Thai Looped SemiCondensed Thin";
+},
+{
+name = preferredFamilyName;
+value = "Noto Sans Thai Looped SemiCondensed";
+},
+{
+name = preferredSubfamilyName;
+value = Thin;
+},
+{
+name = postscriptFontName;
+value = "NotoSansThaiLoopedSemiCondensed-Thin";
+},
+{
+name = postscriptFullName;
+value = "Noto Sans Thai Looped SemiCondensed Thin";
+},
+{
+name = compatibleFullName;
+value = "Noto Sans Thai Looped SemiCondensed Thin";
 }
 );
 interpolationWeight = 26;
@@ -74792,34 +74719,6 @@ value = (
 );
 },
 {
-name = weightClass;
-value = 200;
-},
-{
-name = styleMapFamilyName;
-value = "Noto Sans Thai Looped SemiCondensed ExtraLight";
-},
-{
-name = preferredFamilyName;
-value = "Noto Sans Thai Looped SemiCondensed";
-},
-{
-name = preferredSubfamilyName;
-value = ExtraLight;
-},
-{
-name = postscriptFontName;
-value = "NotoSansThaiLoopedSemiCondensed-ExtraLight";
-},
-{
-name = postscriptFullName;
-value = "Noto Sans Thai Looped SemiCondensed ExtraLight";
-},
-{
-name = compatibleFullName;
-value = "Noto Sans Thai Looped SemiCondensed ExtraLight";
-},
-{
 name = "Instance Preview";
 value = (
 "koKai-thai",
@@ -74869,6 +74768,30 @@ value = (
 "oAng-thai",
 "hoNokhuk-thai"
 );
+},
+{
+name = styleMapFamilyName;
+value = "Noto Sans Thai Looped SemiCondensed ExtraLight";
+},
+{
+name = preferredFamilyName;
+value = "Noto Sans Thai Looped SemiCondensed";
+},
+{
+name = preferredSubfamilyName;
+value = ExtraLight;
+},
+{
+name = postscriptFontName;
+value = "NotoSansThaiLoopedSemiCondensed-ExtraLight";
+},
+{
+name = postscriptFullName;
+value = "Noto Sans Thai Looped SemiCondensed ExtraLight";
+},
+{
+name = compatibleFullName;
+value = "Noto Sans Thai Looped SemiCondensed ExtraLight";
 }
 );
 interpolationWeight = 39;
@@ -74901,34 +74824,6 @@ value = (
 );
 },
 {
-name = weightClass;
-value = 300;
-},
-{
-name = styleMapFamilyName;
-value = "Noto Sans Thai Looped SemiCondensed Light";
-},
-{
-name = preferredFamilyName;
-value = "Noto Sans Thai Looped SemiCondensed";
-},
-{
-name = preferredSubfamilyName;
-value = Light;
-},
-{
-name = postscriptFontName;
-value = "NotoSansThaiLoopedSemiCondensed-Light";
-},
-{
-name = postscriptFullName;
-value = "Noto Sans Thai Looped SemiCondensed Light";
-},
-{
-name = compatibleFullName;
-value = "Noto Sans Thai Looped SemiCondensed Light";
-},
-{
 name = "Instance Preview";
 value = (
 "koKai-thai",
@@ -74978,6 +74873,30 @@ value = (
 "oAng-thai",
 "hoNokhuk-thai"
 );
+},
+{
+name = styleMapFamilyName;
+value = "Noto Sans Thai Looped SemiCondensed Light";
+},
+{
+name = preferredFamilyName;
+value = "Noto Sans Thai Looped SemiCondensed";
+},
+{
+name = preferredSubfamilyName;
+value = Light;
+},
+{
+name = postscriptFontName;
+value = "NotoSansThaiLoopedSemiCondensed-Light";
+},
+{
+name = postscriptFullName;
+value = "Noto Sans Thai Looped SemiCondensed Light";
+},
+{
+name = compatibleFullName;
+value = "Noto Sans Thai Looped SemiCondensed Light";
 }
 );
 interpolationWeight = 58;
@@ -75008,30 +74927,6 @@ value = (
 2,
 4
 );
-},
-{
-name = weightClass;
-value = 400;
-},
-{
-name = styleMapFamilyName;
-value = "Noto Sans Thai Looped SemiCondensed";
-},
-{
-name = preferredFamilyName;
-value = "Noto Sans Thai Looped SemiCondensed";
-},
-{
-name = preferredSubfamilyName;
-value = Regular;
-},
-{
-name = postscriptFontName;
-value = "NotoSansThaiLoopedSemiCondensed-Regular";
-},
-{
-name = postscriptFullName;
-value = "Noto Sans Thai Looped SemiCondensed Regular";
 },
 {
 name = "#compatibleFullName";
@@ -75087,6 +74982,26 @@ value = (
 "oAng-thai",
 "hoNokhuk-thai"
 );
+},
+{
+name = styleMapFamilyName;
+value = "Noto Sans Thai Looped SemiCondensed";
+},
+{
+name = preferredFamilyName;
+value = "Noto Sans Thai Looped SemiCondensed";
+},
+{
+name = preferredSubfamilyName;
+value = Regular;
+},
+{
+name = postscriptFontName;
+value = "NotoSansThaiLoopedSemiCondensed-Regular";
+},
+{
+name = postscriptFullName;
+value = "Noto Sans Thai Looped SemiCondensed Regular";
 }
 );
 interpolationWeight = 90;
@@ -75114,34 +75029,6 @@ value = (
 2,
 4
 );
-},
-{
-name = weightClass;
-value = 500;
-},
-{
-name = styleMapFamilyName;
-value = "Noto Sans Thai Looped SemiCondensed Medium";
-},
-{
-name = preferredFamilyName;
-value = "Noto Sans Thai Looped SemiCondensed";
-},
-{
-name = preferredSubfamilyName;
-value = Medium;
-},
-{
-name = postscriptFontName;
-value = "NotoSansThaiLoopedSemiCondensed-Medium";
-},
-{
-name = postscriptFullName;
-value = "Noto Sans Thai Looped SemiCondensed Medium";
-},
-{
-name = compatibleFullName;
-value = "Noto Sans Thai Looped SemiCondensed Medium";
 },
 {
 name = "Instance Preview";
@@ -75193,6 +75080,30 @@ value = (
 "oAng-thai",
 "hoNokhuk-thai"
 );
+},
+{
+name = styleMapFamilyName;
+value = "Noto Sans Thai Looped SemiCondensed Medium";
+},
+{
+name = preferredFamilyName;
+value = "Noto Sans Thai Looped SemiCondensed";
+},
+{
+name = preferredSubfamilyName;
+value = Medium;
+},
+{
+name = postscriptFontName;
+value = "NotoSansThaiLoopedSemiCondensed-Medium";
+},
+{
+name = postscriptFullName;
+value = "Noto Sans Thai Looped SemiCondensed Medium";
+},
+{
+name = compatibleFullName;
+value = "Noto Sans Thai Looped SemiCondensed Medium";
 }
 );
 interpolationWeight = 108;
@@ -75225,34 +75136,6 @@ value = (
 );
 },
 {
-name = weightClass;
-value = 600;
-},
-{
-name = styleMapFamilyName;
-value = "Noto Sans Thai Looped SemiCondensed SemiBold";
-},
-{
-name = preferredFamilyName;
-value = "Noto Sans Thai Looped SemiCondensed";
-},
-{
-name = preferredSubfamilyName;
-value = SemiBold;
-},
-{
-name = postscriptFontName;
-value = "NotoSansThaiLoopedSemiCondensed-SemiBold";
-},
-{
-name = postscriptFullName;
-value = "Noto Sans Thai Looped SemiCondensed SemiBold";
-},
-{
-name = compatibleFullName;
-value = "Noto Sans Thai Looped SemiCondensed SemiBold";
-},
-{
 name = "Instance Preview";
 value = (
 "koKai-thai",
@@ -75302,6 +75185,30 @@ value = (
 "oAng-thai",
 "hoNokhuk-thai"
 );
+},
+{
+name = styleMapFamilyName;
+value = "Noto Sans Thai Looped SemiCondensed SemiBold";
+},
+{
+name = preferredFamilyName;
+value = "Noto Sans Thai Looped SemiCondensed";
+},
+{
+name = preferredSubfamilyName;
+value = SemiBold;
+},
+{
+name = postscriptFontName;
+value = "NotoSansThaiLoopedSemiCondensed-SemiBold";
+},
+{
+name = postscriptFullName;
+value = "Noto Sans Thai Looped SemiCondensed SemiBold";
+},
+{
+name = compatibleFullName;
+value = "Noto Sans Thai Looped SemiCondensed SemiBold";
 }
 );
 interpolationWeight = 128;
@@ -75334,34 +75241,6 @@ value = (
 );
 },
 {
-name = weightClass;
-value = 700;
-},
-{
-name = styleMapFamilyName;
-value = "Noto Sans Thai Looped SemiCondensed";
-},
-{
-name = preferredFamilyName;
-value = "Noto Sans Thai Looped SemiCondensed";
-},
-{
-name = preferredSubfamilyName;
-value = Bold;
-},
-{
-name = postscriptFontName;
-value = "NotoSansThaiLoopedSemiCondensed-Bold";
-},
-{
-name = postscriptFullName;
-value = "Noto Sans Thai Looped SemiCondensed Bold";
-},
-{
-name = compatibleFullName;
-value = "Noto Sans Thai Looped SemiCondensed Bold";
-},
-{
 name = "Instance Preview";
 value = (
 "koKai-thai",
@@ -75411,6 +75290,30 @@ value = (
 "oAng-thai",
 "hoNokhuk-thai"
 );
+},
+{
+name = styleMapFamilyName;
+value = "Noto Sans Thai Looped SemiCondensed";
+},
+{
+name = preferredFamilyName;
+value = "Noto Sans Thai Looped SemiCondensed";
+},
+{
+name = preferredSubfamilyName;
+value = Bold;
+},
+{
+name = postscriptFontName;
+value = "NotoSansThaiLoopedSemiCondensed-Bold";
+},
+{
+name = postscriptFullName;
+value = "Noto Sans Thai Looped SemiCondensed Bold";
+},
+{
+name = compatibleFullName;
+value = "Noto Sans Thai Looped SemiCondensed Bold";
 }
 );
 interpolationWeight = 151;
@@ -75445,34 +75348,6 @@ value = (
 );
 },
 {
-name = weightClass;
-value = 800;
-},
-{
-name = styleMapFamilyName;
-value = "Noto Sans Thai Looped SemiCondensed ExtraBold";
-},
-{
-name = preferredFamilyName;
-value = "Noto Sans Thai Looped SemiCondensed";
-},
-{
-name = preferredSubfamilyName;
-value = ExtraBold;
-},
-{
-name = postscriptFontName;
-value = "NotoSansThaiLoopedSemiCondensed-ExtraBold";
-},
-{
-name = postscriptFullName;
-value = "Noto Sans Thai Looped SemiCondensed ExtraBold";
-},
-{
-name = compatibleFullName;
-value = "Noto Sans Thai Looped SemiCondensed ExtraBold";
-},
-{
 name = "Instance Preview";
 value = (
 "koKai-thai",
@@ -75522,6 +75397,30 @@ value = (
 "oAng-thai",
 "hoNokhuk-thai"
 );
+},
+{
+name = styleMapFamilyName;
+value = "Noto Sans Thai Looped SemiCondensed ExtraBold";
+},
+{
+name = preferredFamilyName;
+value = "Noto Sans Thai Looped SemiCondensed";
+},
+{
+name = preferredSubfamilyName;
+value = ExtraBold;
+},
+{
+name = postscriptFontName;
+value = "NotoSansThaiLoopedSemiCondensed-ExtraBold";
+},
+{
+name = postscriptFullName;
+value = "Noto Sans Thai Looped SemiCondensed ExtraBold";
+},
+{
+name = compatibleFullName;
+value = "Noto Sans Thai Looped SemiCondensed ExtraBold";
 }
 );
 interpolationWeight = 169;
@@ -75554,34 +75453,6 @@ value = (
 );
 },
 {
-name = weightClass;
-value = 900;
-},
-{
-name = styleMapFamilyName;
-value = "Noto Sans Thai Looped SemiCondensed Black";
-},
-{
-name = preferredFamilyName;
-value = "Noto Sans Thai Looped SemiCondensed";
-},
-{
-name = preferredSubfamilyName;
-value = Black;
-},
-{
-name = postscriptFontName;
-value = "NotoSansThaiLoopedSemiCondensed-Black";
-},
-{
-name = postscriptFullName;
-value = "Noto Sans Thai Looped SemiCondensed Black";
-},
-{
-name = compatibleFullName;
-value = "Noto Sans Thai Looped SemiCondensed Black";
-},
-{
 name = "Instance Preview";
 value = (
 "koKai-thai",
@@ -75631,6 +75502,30 @@ value = (
 "oAng-thai",
 "hoNokhuk-thai"
 );
+},
+{
+name = styleMapFamilyName;
+value = "Noto Sans Thai Looped SemiCondensed Black";
+},
+{
+name = preferredFamilyName;
+value = "Noto Sans Thai Looped SemiCondensed";
+},
+{
+name = preferredSubfamilyName;
+value = Black;
+},
+{
+name = postscriptFontName;
+value = "NotoSansThaiLoopedSemiCondensed-Black";
+},
+{
+name = postscriptFullName;
+value = "Noto Sans Thai Looped SemiCondensed Black";
+},
+{
+name = compatibleFullName;
+value = "Noto Sans Thai Looped SemiCondensed Black";
 }
 );
 interpolationWeight = 190;
@@ -75661,34 +75556,6 @@ value = (
 );
 },
 {
-name = weightClass;
-value = 100;
-},
-{
-name = styleMapFamilyName;
-value = "Noto Sans Thai Looped Condensed Thin";
-},
-{
-name = preferredFamilyName;
-value = "Noto Sans Thai Looped Condensed";
-},
-{
-name = preferredSubfamilyName;
-value = Thin;
-},
-{
-name = postscriptFontName;
-value = "NotoSansThaiLoopedCondensed-Thin";
-},
-{
-name = postscriptFullName;
-value = "Noto Sans Thai Looped Condensed Thin";
-},
-{
-name = compatibleFullName;
-value = "Noto Sans Thai Looped Condensed Thin";
-},
-{
 name = "Instance Preview";
 value = (
 "koKai-thai",
@@ -75738,6 +75605,30 @@ value = (
 "oAng-thai",
 "hoNokhuk-thai"
 );
+},
+{
+name = styleMapFamilyName;
+value = "Noto Sans Thai Looped Condensed Thin";
+},
+{
+name = preferredFamilyName;
+value = "Noto Sans Thai Looped Condensed";
+},
+{
+name = preferredSubfamilyName;
+value = Thin;
+},
+{
+name = postscriptFontName;
+value = "NotoSansThaiLoopedCondensed-Thin";
+},
+{
+name = postscriptFullName;
+value = "Noto Sans Thai Looped Condensed Thin";
+},
+{
+name = compatibleFullName;
+value = "Noto Sans Thai Looped Condensed Thin";
 }
 );
 interpolationWeight = 26;
@@ -75768,34 +75659,6 @@ value = (
 );
 },
 {
-name = weightClass;
-value = 200;
-},
-{
-name = styleMapFamilyName;
-value = "Noto Sans Thai Looped Condensed ExtraLight";
-},
-{
-name = preferredFamilyName;
-value = "Noto Sans Thai Looped Condensed";
-},
-{
-name = preferredSubfamilyName;
-value = ExtraLight;
-},
-{
-name = postscriptFontName;
-value = "NotoSansThaiLoopedCondensed-ExtraLight";
-},
-{
-name = postscriptFullName;
-value = "Noto Sans Thai Looped Condensed ExtraLight";
-},
-{
-name = compatibleFullName;
-value = "Noto Sans Thai Looped Condensed ExtraLight";
-},
-{
 name = "Instance Preview";
 value = (
 "koKai-thai",
@@ -75845,6 +75708,30 @@ value = (
 "oAng-thai",
 "hoNokhuk-thai"
 );
+},
+{
+name = styleMapFamilyName;
+value = "Noto Sans Thai Looped Condensed ExtraLight";
+},
+{
+name = preferredFamilyName;
+value = "Noto Sans Thai Looped Condensed";
+},
+{
+name = preferredSubfamilyName;
+value = ExtraLight;
+},
+{
+name = postscriptFontName;
+value = "NotoSansThaiLoopedCondensed-ExtraLight";
+},
+{
+name = postscriptFullName;
+value = "Noto Sans Thai Looped Condensed ExtraLight";
+},
+{
+name = compatibleFullName;
+value = "Noto Sans Thai Looped Condensed ExtraLight";
 }
 );
 interpolationWeight = 39;
@@ -75877,34 +75764,6 @@ value = (
 );
 },
 {
-name = weightClass;
-value = 300;
-},
-{
-name = styleMapFamilyName;
-value = "Noto Sans Thai Looped Condensed Light";
-},
-{
-name = preferredFamilyName;
-value = "Noto Sans Thai Looped Condensed";
-},
-{
-name = preferredSubfamilyName;
-value = Light;
-},
-{
-name = postscriptFontName;
-value = "NotoSansThaiLoopedCondensed-Light";
-},
-{
-name = postscriptFullName;
-value = "Noto Sans Thai Looped Condensed Light";
-},
-{
-name = compatibleFullName;
-value = "Noto Sans Thai Looped Condensed Light";
-},
-{
 name = "Instance Preview";
 value = (
 "koKai-thai",
@@ -75954,6 +75813,30 @@ value = (
 "oAng-thai",
 "hoNokhuk-thai"
 );
+},
+{
+name = styleMapFamilyName;
+value = "Noto Sans Thai Looped Condensed Light";
+},
+{
+name = preferredFamilyName;
+value = "Noto Sans Thai Looped Condensed";
+},
+{
+name = preferredSubfamilyName;
+value = Light;
+},
+{
+name = postscriptFontName;
+value = "NotoSansThaiLoopedCondensed-Light";
+},
+{
+name = postscriptFullName;
+value = "Noto Sans Thai Looped Condensed Light";
+},
+{
+name = compatibleFullName;
+value = "Noto Sans Thai Looped Condensed Light";
 }
 );
 interpolationWeight = 58;
@@ -75984,30 +75867,6 @@ value = (
 2,
 4
 );
-},
-{
-name = weightClass;
-value = 400;
-},
-{
-name = styleMapFamilyName;
-value = "Noto Sans Thai Looped Condensed";
-},
-{
-name = preferredFamilyName;
-value = "Noto Sans Thai Looped Condensed";
-},
-{
-name = preferredSubfamilyName;
-value = Regular;
-},
-{
-name = postscriptFontName;
-value = "NotoSansThaiLoopedCondensed-Regular";
-},
-{
-name = postscriptFullName;
-value = "Noto Sans Thai Looped Condensed Regular";
 },
 {
 name = "#compatibleFullName";
@@ -76063,6 +75922,26 @@ value = (
 "oAng-thai",
 "hoNokhuk-thai"
 );
+},
+{
+name = styleMapFamilyName;
+value = "Noto Sans Thai Looped Condensed";
+},
+{
+name = preferredFamilyName;
+value = "Noto Sans Thai Looped Condensed";
+},
+{
+name = preferredSubfamilyName;
+value = Regular;
+},
+{
+name = postscriptFontName;
+value = "NotoSansThaiLoopedCondensed-Regular";
+},
+{
+name = postscriptFullName;
+value = "Noto Sans Thai Looped Condensed Regular";
 }
 );
 interpolationWeight = 90;
@@ -76090,34 +75969,6 @@ value = (
 2,
 4
 );
-},
-{
-name = weightClass;
-value = 500;
-},
-{
-name = styleMapFamilyName;
-value = "Noto Sans Thai Looped Condensed Medium";
-},
-{
-name = preferredFamilyName;
-value = "Noto Sans Thai Looped Condensed";
-},
-{
-name = preferredSubfamilyName;
-value = Medium;
-},
-{
-name = postscriptFontName;
-value = "NotoSansThaiLoopedCondensed-Medium";
-},
-{
-name = postscriptFullName;
-value = "Noto Sans Thai Looped Condensed Medium";
-},
-{
-name = compatibleFullName;
-value = "Noto Sans Thai Looped Condensed Medium";
 },
 {
 name = "Instance Preview";
@@ -76169,6 +76020,30 @@ value = (
 "oAng-thai",
 "hoNokhuk-thai"
 );
+},
+{
+name = styleMapFamilyName;
+value = "Noto Sans Thai Looped Condensed Medium";
+},
+{
+name = preferredFamilyName;
+value = "Noto Sans Thai Looped Condensed";
+},
+{
+name = preferredSubfamilyName;
+value = Medium;
+},
+{
+name = postscriptFontName;
+value = "NotoSansThaiLoopedCondensed-Medium";
+},
+{
+name = postscriptFullName;
+value = "Noto Sans Thai Looped Condensed Medium";
+},
+{
+name = compatibleFullName;
+value = "Noto Sans Thai Looped Condensed Medium";
 }
 );
 interpolationWeight = 108;
@@ -76201,34 +76076,6 @@ value = (
 );
 },
 {
-name = weightClass;
-value = 600;
-},
-{
-name = styleMapFamilyName;
-value = "Noto Sans Thai Looped Condensed SemiBold";
-},
-{
-name = preferredFamilyName;
-value = "Noto Sans Thai Looped Condensed";
-},
-{
-name = preferredSubfamilyName;
-value = SemiBold;
-},
-{
-name = postscriptFontName;
-value = "NotoSansThaiLoopedCondensed-SemiBold";
-},
-{
-name = postscriptFullName;
-value = "Noto Sans Thai Looped Condensed SemiBold";
-},
-{
-name = compatibleFullName;
-value = "Noto Sans Thai Looped Condensed SemiBold";
-},
-{
 name = "Instance Preview";
 value = (
 "koKai-thai",
@@ -76278,6 +76125,30 @@ value = (
 "oAng-thai",
 "hoNokhuk-thai"
 );
+},
+{
+name = styleMapFamilyName;
+value = "Noto Sans Thai Looped Condensed SemiBold";
+},
+{
+name = preferredFamilyName;
+value = "Noto Sans Thai Looped Condensed";
+},
+{
+name = preferredSubfamilyName;
+value = SemiBold;
+},
+{
+name = postscriptFontName;
+value = "NotoSansThaiLoopedCondensed-SemiBold";
+},
+{
+name = postscriptFullName;
+value = "Noto Sans Thai Looped Condensed SemiBold";
+},
+{
+name = compatibleFullName;
+value = "Noto Sans Thai Looped Condensed SemiBold";
 }
 );
 interpolationWeight = 128;
@@ -76310,34 +76181,6 @@ value = (
 );
 },
 {
-name = weightClass;
-value = 700;
-},
-{
-name = styleMapFamilyName;
-value = "Noto Sans Thai Looped Condensed";
-},
-{
-name = preferredFamilyName;
-value = "Noto Sans Thai Looped Condensed";
-},
-{
-name = preferredSubfamilyName;
-value = Bold;
-},
-{
-name = postscriptFontName;
-value = "NotoSansThaiLoopedCondensed-Bold";
-},
-{
-name = postscriptFullName;
-value = "Noto Sans Thai Looped Condensed Bold";
-},
-{
-name = compatibleFullName;
-value = "Noto Sans Thai Looped Condensed Bold";
-},
-{
 name = "Instance Preview";
 value = (
 "koKai-thai",
@@ -76387,6 +76230,30 @@ value = (
 "oAng-thai",
 "hoNokhuk-thai"
 );
+},
+{
+name = styleMapFamilyName;
+value = "Noto Sans Thai Looped Condensed";
+},
+{
+name = preferredFamilyName;
+value = "Noto Sans Thai Looped Condensed";
+},
+{
+name = preferredSubfamilyName;
+value = Bold;
+},
+{
+name = postscriptFontName;
+value = "NotoSansThaiLoopedCondensed-Bold";
+},
+{
+name = postscriptFullName;
+value = "Noto Sans Thai Looped Condensed Bold";
+},
+{
+name = compatibleFullName;
+value = "Noto Sans Thai Looped Condensed Bold";
 }
 );
 interpolationWeight = 151;
@@ -76421,34 +76288,6 @@ value = (
 );
 },
 {
-name = weightClass;
-value = 800;
-},
-{
-name = styleMapFamilyName;
-value = "Noto Sans Thai Looped Condensed ExtraBold";
-},
-{
-name = preferredFamilyName;
-value = "Noto Sans Thai Looped Condensed";
-},
-{
-name = preferredSubfamilyName;
-value = ExtraBold;
-},
-{
-name = postscriptFontName;
-value = "NotoSansThaiLoopedCondensed-ExtraBold";
-},
-{
-name = postscriptFullName;
-value = "Noto Sans Thai Looped Condensed ExtraBold";
-},
-{
-name = compatibleFullName;
-value = "Noto Sans Thai Looped Condensed ExtraBold";
-},
-{
 name = "Instance Preview";
 value = (
 "koKai-thai",
@@ -76498,6 +76337,30 @@ value = (
 "oAng-thai",
 "hoNokhuk-thai"
 );
+},
+{
+name = styleMapFamilyName;
+value = "Noto Sans Thai Looped Condensed ExtraBold";
+},
+{
+name = preferredFamilyName;
+value = "Noto Sans Thai Looped Condensed";
+},
+{
+name = preferredSubfamilyName;
+value = ExtraBold;
+},
+{
+name = postscriptFontName;
+value = "NotoSansThaiLoopedCondensed-ExtraBold";
+},
+{
+name = postscriptFullName;
+value = "Noto Sans Thai Looped Condensed ExtraBold";
+},
+{
+name = compatibleFullName;
+value = "Noto Sans Thai Looped Condensed ExtraBold";
 }
 );
 interpolationWeight = 169;
@@ -76530,34 +76393,6 @@ value = (
 );
 },
 {
-name = weightClass;
-value = 900;
-},
-{
-name = styleMapFamilyName;
-value = "Noto Sans Thai Looped Condensed Black";
-},
-{
-name = preferredFamilyName;
-value = "Noto Sans Thai Looped Condensed";
-},
-{
-name = preferredSubfamilyName;
-value = Black;
-},
-{
-name = postscriptFontName;
-value = "NotoSansThaiLoopedCondensed-Black";
-},
-{
-name = postscriptFullName;
-value = "Noto Sans Thai Looped Condensed Black";
-},
-{
-name = compatibleFullName;
-value = "Noto Sans Thai Looped Condensed Black";
-},
-{
 name = "Instance Preview";
 value = (
 "koKai-thai",
@@ -76607,6 +76442,30 @@ value = (
 "oAng-thai",
 "hoNokhuk-thai"
 );
+},
+{
+name = styleMapFamilyName;
+value = "Noto Sans Thai Looped Condensed Black";
+},
+{
+name = preferredFamilyName;
+value = "Noto Sans Thai Looped Condensed";
+},
+{
+name = preferredSubfamilyName;
+value = Black;
+},
+{
+name = postscriptFontName;
+value = "NotoSansThaiLoopedCondensed-Black";
+},
+{
+name = postscriptFullName;
+value = "Noto Sans Thai Looped Condensed Black";
+},
+{
+name = compatibleFullName;
+value = "Noto Sans Thai Looped Condensed Black";
 }
 );
 interpolationWeight = 190;
@@ -76637,34 +76496,6 @@ value = (
 );
 },
 {
-name = weightClass;
-value = 100;
-},
-{
-name = styleMapFamilyName;
-value = "Noto Sans Thai Looped ExtraCondensed Thin";
-},
-{
-name = preferredFamilyName;
-value = "Noto Sans Thai Looped ExtraCondensed";
-},
-{
-name = preferredSubfamilyName;
-value = Thin;
-},
-{
-name = postscriptFontName;
-value = "NotoSansThaiLoopedExtraCondensed-Thin";
-},
-{
-name = postscriptFullName;
-value = "Noto Sans Thai Looped ExtraCondensed Thin";
-},
-{
-name = compatibleFullName;
-value = "Noto Sans Thai Looped ExtraCondensed Thin";
-},
-{
 name = "Instance Preview";
 value = (
 "koKai-thai",
@@ -76714,6 +76545,30 @@ value = (
 "oAng-thai",
 "hoNokhuk-thai"
 );
+},
+{
+name = styleMapFamilyName;
+value = "Noto Sans Thai Looped ExtraCondensed Thin";
+},
+{
+name = preferredFamilyName;
+value = "Noto Sans Thai Looped ExtraCondensed";
+},
+{
+name = preferredSubfamilyName;
+value = Thin;
+},
+{
+name = postscriptFontName;
+value = "NotoSansThaiLoopedExtraCondensed-Thin";
+},
+{
+name = postscriptFullName;
+value = "Noto Sans Thai Looped ExtraCondensed Thin";
+},
+{
+name = compatibleFullName;
+value = "Noto Sans Thai Looped ExtraCondensed Thin";
 }
 );
 interpolationWeight = 26;
@@ -76743,34 +76598,6 @@ value = (
 );
 },
 {
-name = weightClass;
-value = 200;
-},
-{
-name = styleMapFamilyName;
-value = "Noto Sans Thai Looped ExtraCondensed ExtraLight";
-},
-{
-name = preferredFamilyName;
-value = "Noto Sans Thai Looped ExtraCondensed";
-},
-{
-name = preferredSubfamilyName;
-value = ExtraLight;
-},
-{
-name = postscriptFontName;
-value = "NotoSansThaiLoopedExtraCondensed-ExtraLight";
-},
-{
-name = postscriptFullName;
-value = "Noto Sans Thai Looped ExtraCondensed ExtraLight";
-},
-{
-name = compatibleFullName;
-value = "Noto Sans Thai Looped ExtraCondensed ExtraLight";
-},
-{
 name = "Instance Preview";
 value = (
 "koKai-thai",
@@ -76820,6 +76647,30 @@ value = (
 "oAng-thai",
 "hoNokhuk-thai"
 );
+},
+{
+name = styleMapFamilyName;
+value = "Noto Sans Thai Looped ExtraCondensed ExtraLight";
+},
+{
+name = preferredFamilyName;
+value = "Noto Sans Thai Looped ExtraCondensed";
+},
+{
+name = preferredSubfamilyName;
+value = ExtraLight;
+},
+{
+name = postscriptFontName;
+value = "NotoSansThaiLoopedExtraCondensed-ExtraLight";
+},
+{
+name = postscriptFullName;
+value = "Noto Sans Thai Looped ExtraCondensed ExtraLight";
+},
+{
+name = compatibleFullName;
+value = "Noto Sans Thai Looped ExtraCondensed ExtraLight";
 }
 );
 interpolationWeight = 39;
@@ -76850,34 +76701,6 @@ value = (
 );
 },
 {
-name = weightClass;
-value = 300;
-},
-{
-name = styleMapFamilyName;
-value = "Noto Sans Thai Looped ExtraCondensed Light";
-},
-{
-name = preferredFamilyName;
-value = "Noto Sans Thai Looped ExtraCondensed";
-},
-{
-name = preferredSubfamilyName;
-value = Light;
-},
-{
-name = postscriptFontName;
-value = "NotoSansThaiLoopedExtraCondensed-Light";
-},
-{
-name = postscriptFullName;
-value = "Noto Sans Thai Looped ExtraCondensed Light";
-},
-{
-name = compatibleFullName;
-value = "Noto Sans Thai Looped ExtraCondensed Light";
-},
-{
 name = "Instance Preview";
 value = (
 "koKai-thai",
@@ -76927,6 +76750,30 @@ value = (
 "oAng-thai",
 "hoNokhuk-thai"
 );
+},
+{
+name = styleMapFamilyName;
+value = "Noto Sans Thai Looped ExtraCondensed Light";
+},
+{
+name = preferredFamilyName;
+value = "Noto Sans Thai Looped ExtraCondensed";
+},
+{
+name = preferredSubfamilyName;
+value = Light;
+},
+{
+name = postscriptFontName;
+value = "NotoSansThaiLoopedExtraCondensed-Light";
+},
+{
+name = postscriptFullName;
+value = "Noto Sans Thai Looped ExtraCondensed Light";
+},
+{
+name = compatibleFullName;
+value = "Noto Sans Thai Looped ExtraCondensed Light";
 }
 );
 interpolationWeight = 58;
@@ -76955,30 +76802,6 @@ value = (
 2,
 4
 );
-},
-{
-name = weightClass;
-value = 400;
-},
-{
-name = styleMapFamilyName;
-value = "Noto Sans Thai Looped ExtraCondensed";
-},
-{
-name = preferredFamilyName;
-value = "Noto Sans Thai Looped ExtraCondensed";
-},
-{
-name = preferredSubfamilyName;
-value = Regular;
-},
-{
-name = postscriptFontName;
-value = "NotoSansThaiLoopedExtraCondensed-Regular";
-},
-{
-name = postscriptFullName;
-value = "Noto Sans Thai Looped ExtraCondensed Regular";
 },
 {
 name = "#compatibleFullName";
@@ -77034,6 +76857,26 @@ value = (
 "oAng-thai",
 "hoNokhuk-thai"
 );
+},
+{
+name = styleMapFamilyName;
+value = "Noto Sans Thai Looped ExtraCondensed";
+},
+{
+name = preferredFamilyName;
+value = "Noto Sans Thai Looped ExtraCondensed";
+},
+{
+name = preferredSubfamilyName;
+value = Regular;
+},
+{
+name = postscriptFontName;
+value = "NotoSansThaiLoopedExtraCondensed-Regular";
+},
+{
+name = postscriptFullName;
+value = "Noto Sans Thai Looped ExtraCondensed Regular";
 }
 );
 interpolationWeight = 90;
@@ -77060,34 +76903,6 @@ value = (
 2,
 4
 );
-},
-{
-name = weightClass;
-value = 500;
-},
-{
-name = styleMapFamilyName;
-value = "Noto Sans Thai Looped ExtraCondensed Medium";
-},
-{
-name = preferredFamilyName;
-value = "Noto Sans Thai Looped ExtraCondensed";
-},
-{
-name = preferredSubfamilyName;
-value = Medium;
-},
-{
-name = postscriptFontName;
-value = "NotoSansThaiLoopedExtraCondensed-Medium";
-},
-{
-name = postscriptFullName;
-value = "Noto Sans Thai Looped ExtraCondensed Medium";
-},
-{
-name = compatibleFullName;
-value = "Noto Sans Thai Looped ExtraCondensed Medium";
 },
 {
 name = "Instance Preview";
@@ -77139,6 +76954,30 @@ value = (
 "oAng-thai",
 "hoNokhuk-thai"
 );
+},
+{
+name = styleMapFamilyName;
+value = "Noto Sans Thai Looped ExtraCondensed Medium";
+},
+{
+name = preferredFamilyName;
+value = "Noto Sans Thai Looped ExtraCondensed";
+},
+{
+name = preferredSubfamilyName;
+value = Medium;
+},
+{
+name = postscriptFontName;
+value = "NotoSansThaiLoopedExtraCondensed-Medium";
+},
+{
+name = postscriptFullName;
+value = "Noto Sans Thai Looped ExtraCondensed Medium";
+},
+{
+name = compatibleFullName;
+value = "Noto Sans Thai Looped ExtraCondensed Medium";
 }
 );
 interpolationWeight = 108;
@@ -77169,34 +77008,6 @@ value = (
 );
 },
 {
-name = weightClass;
-value = 600;
-},
-{
-name = styleMapFamilyName;
-value = "Noto Sans Thai Looped ExtraCondensed SemiBold";
-},
-{
-name = preferredFamilyName;
-value = "Noto Sans Thai Looped ExtraCondensed";
-},
-{
-name = preferredSubfamilyName;
-value = SemiBold;
-},
-{
-name = postscriptFontName;
-value = "NotoSansThaiLoopedExtraCondensed-SemiBold";
-},
-{
-name = postscriptFullName;
-value = "Noto Sans Thai Looped ExtraCondensed SemiBold";
-},
-{
-name = compatibleFullName;
-value = "Noto Sans Thai Looped ExtraCondensed SemiBold";
-},
-{
 name = "Instance Preview";
 value = (
 "koKai-thai",
@@ -77246,6 +77057,30 @@ value = (
 "oAng-thai",
 "hoNokhuk-thai"
 );
+},
+{
+name = styleMapFamilyName;
+value = "Noto Sans Thai Looped ExtraCondensed SemiBold";
+},
+{
+name = preferredFamilyName;
+value = "Noto Sans Thai Looped ExtraCondensed";
+},
+{
+name = preferredSubfamilyName;
+value = SemiBold;
+},
+{
+name = postscriptFontName;
+value = "NotoSansThaiLoopedExtraCondensed-SemiBold";
+},
+{
+name = postscriptFullName;
+value = "Noto Sans Thai Looped ExtraCondensed SemiBold";
+},
+{
+name = compatibleFullName;
+value = "Noto Sans Thai Looped ExtraCondensed SemiBold";
 }
 );
 interpolationWeight = 128;
@@ -77276,34 +77111,6 @@ value = (
 );
 },
 {
-name = weightClass;
-value = 700;
-},
-{
-name = styleMapFamilyName;
-value = "Noto Sans Thai Looped ExtraCondensed";
-},
-{
-name = preferredFamilyName;
-value = "Noto Sans Thai Looped ExtraCondensed";
-},
-{
-name = preferredSubfamilyName;
-value = Bold;
-},
-{
-name = postscriptFontName;
-value = "NotoSansThaiLoopedExtraCondensed-Bold";
-},
-{
-name = postscriptFullName;
-value = "Noto Sans Thai Looped ExtraCondensed Bold";
-},
-{
-name = compatibleFullName;
-value = "Noto Sans Thai Looped ExtraCondensed Bold";
-},
-{
 name = "Instance Preview";
 value = (
 "koKai-thai",
@@ -77353,6 +77160,30 @@ value = (
 "oAng-thai",
 "hoNokhuk-thai"
 );
+},
+{
+name = styleMapFamilyName;
+value = "Noto Sans Thai Looped ExtraCondensed";
+},
+{
+name = preferredFamilyName;
+value = "Noto Sans Thai Looped ExtraCondensed";
+},
+{
+name = preferredSubfamilyName;
+value = Bold;
+},
+{
+name = postscriptFontName;
+value = "NotoSansThaiLoopedExtraCondensed-Bold";
+},
+{
+name = postscriptFullName;
+value = "Noto Sans Thai Looped ExtraCondensed Bold";
+},
+{
+name = compatibleFullName;
+value = "Noto Sans Thai Looped ExtraCondensed Bold";
 }
 );
 interpolationWeight = 151;
@@ -77385,34 +77216,6 @@ value = (
 );
 },
 {
-name = weightClass;
-value = 800;
-},
-{
-name = styleMapFamilyName;
-value = "Noto Sans Thai Looped ExtraCondensed ExtraBold";
-},
-{
-name = preferredFamilyName;
-value = "Noto Sans Thai Looped ExtraCondensed";
-},
-{
-name = preferredSubfamilyName;
-value = ExtraBold;
-},
-{
-name = postscriptFontName;
-value = "NotoSansThaiLoopedExtraCondensed-ExtraBold";
-},
-{
-name = postscriptFullName;
-value = "Noto Sans Thai Looped ExtraCondensed ExtraBold";
-},
-{
-name = compatibleFullName;
-value = "Noto Sans Thai Looped ExtraCondensed ExtraBold";
-},
-{
 name = "Instance Preview";
 value = (
 "koKai-thai",
@@ -77462,6 +77265,30 @@ value = (
 "oAng-thai",
 "hoNokhuk-thai"
 );
+},
+{
+name = styleMapFamilyName;
+value = "Noto Sans Thai Looped ExtraCondensed ExtraBold";
+},
+{
+name = preferredFamilyName;
+value = "Noto Sans Thai Looped ExtraCondensed";
+},
+{
+name = preferredSubfamilyName;
+value = ExtraBold;
+},
+{
+name = postscriptFontName;
+value = "NotoSansThaiLoopedExtraCondensed-ExtraBold";
+},
+{
+name = postscriptFullName;
+value = "Noto Sans Thai Looped ExtraCondensed ExtraBold";
+},
+{
+name = compatibleFullName;
+value = "Noto Sans Thai Looped ExtraCondensed ExtraBold";
 }
 );
 interpolationWeight = 169;
@@ -77492,34 +77319,6 @@ value = (
 );
 },
 {
-name = weightClass;
-value = 900;
-},
-{
-name = styleMapFamilyName;
-value = "Noto Sans Thai Looped ExtraCondensed Black";
-},
-{
-name = preferredFamilyName;
-value = "Noto Sans Thai Looped ExtraCondensed";
-},
-{
-name = preferredSubfamilyName;
-value = Black;
-},
-{
-name = postscriptFontName;
-value = "NotoSansThaiLoopedExtraCondensed-Black";
-},
-{
-name = postscriptFullName;
-value = "Noto Sans Thai Looped ExtraCondensed Black";
-},
-{
-name = compatibleFullName;
-value = "Noto Sans Thai Looped ExtraCondensed Black";
-},
-{
 name = "Instance Preview";
 value = (
 "koKai-thai",
@@ -77569,6 +77368,30 @@ value = (
 "oAng-thai",
 "hoNokhuk-thai"
 );
+},
+{
+name = styleMapFamilyName;
+value = "Noto Sans Thai Looped ExtraCondensed Black";
+},
+{
+name = preferredFamilyName;
+value = "Noto Sans Thai Looped ExtraCondensed";
+},
+{
+name = preferredSubfamilyName;
+value = Black;
+},
+{
+name = postscriptFontName;
+value = "NotoSansThaiLoopedExtraCondensed-Black";
+},
+{
+name = postscriptFullName;
+value = "Noto Sans Thai Looped ExtraCondensed Black";
+},
+{
+name = compatibleFullName;
+value = "Noto Sans Thai Looped ExtraCondensed Black";
 }
 );
 interpolationWeight = 190;
@@ -77597,24 +77420,18 @@ kerning = {
 "@MMK_R_saraAa-thai" = -5;
 };
 "@MMK_L_quote.left" = {
-"saraAiMaimalai-thai" = 25;
-"saraAiMaimuan-thai" = 40;
-"saraO-thai" = 40;
 };
 "@MMK_L_quotedbl" = {
-"saraAiMaimalai-thai" = 5;
-"saraAiMaimuan-thai" = 20;
-"saraO-thai" = 20;
 };
 "@MMK_L_saraE-thai" = {
 "@MMK_R_boBaimai-thai" = -25;
 "@MMK_R_choChan-thai" = -25;
 "@MMK_R_ngoNgu-thai" = -35;
-"@MMK_R_quotedbl" = -55;
 "@MMK_R_saraAa-thai" = -30;
 apostrophemod = -35;
 "roRua-thai" = -20;
 "thoNangmontho-thai" = -15;
+quotedbl = -55;
 };
 "choChing-thai" = {
 "@MMK_R_saraAa-thai" = -10;
@@ -77644,6 +77461,31 @@ slash = {
 "thoThahan-thai" = {
 "@MMK_R_saraAa-thai" = -12;
 };
+quotedblleft = {
+"saraAiMaimalai-thai" = 25;
+"saraAiMaimuan-thai" = 40;
+"saraO-thai" = 40;
+};
+quotedblright = {
+"saraAiMaimalai-thai" = 25;
+"saraAiMaimuan-thai" = 40;
+"saraO-thai" = 40;
+};
+quoteleft = {
+"saraAiMaimalai-thai" = 25;
+"saraAiMaimuan-thai" = 40;
+"saraO-thai" = 40;
+};
+quoteright = {
+"saraAiMaimalai-thai" = 25;
+"saraAiMaimuan-thai" = 40;
+"saraO-thai" = 40;
+};
+quotedbl = {
+"saraAiMaimalai-thai" = 5;
+"saraAiMaimuan-thai" = 20;
+"saraO-thai" = 20;
+};
 };
 "9148514D-BEB8-4275-B264-8F51401A425F" = {
 "@MMK_L_choChan-thai" = {
@@ -77660,24 +77502,19 @@ slash = {
 "@MMK_R_saraAa-thai" = -13;
 };
 "@MMK_L_quote.left" = {
-"saraAiMaimalai-thai" = 25;
-"saraAiMaimuan-thai" = 40;
-"saraO-thai" = 40;
 };
 "@MMK_L_quotedbl" = {
-"saraAiMaimalai-thai" = 5;
-"saraAiMaimuan-thai" = 20;
-"saraO-thai" = 20;
 };
 "@MMK_L_saraE-thai" = {
 "@MMK_R_boBaimai-thai" = -19;
 "@MMK_R_choChan-thai" = -15;
 "@MMK_R_ngoNgu-thai" = -27;
-"@MMK_R_quotedbl" = -57;
 "@MMK_R_saraAa-thai" = -22;
 apostrophemod = -27;
 "roRua-thai" = -16;
 "thoNangmontho-thai" = -13;
+quotedbl = -57;
+quotesingle = -57;
 };
 "choChing-thai" = {
 "@MMK_R_saraAa-thai" = -9;
@@ -77713,6 +77550,36 @@ apostrophemod = -27;
 "woWaen-thai" = {
 "@MMK_R_saraAa-thai" = -11;
 };
+quotedblleft = {
+"saraAiMaimalai-thai" = 25;
+"saraAiMaimuan-thai" = 40;
+"saraO-thai" = 40;
+};
+quotedblright = {
+"saraAiMaimalai-thai" = 25;
+"saraAiMaimuan-thai" = 40;
+"saraO-thai" = 40;
+};
+quoteleft = {
+"saraAiMaimalai-thai" = 25;
+"saraAiMaimuan-thai" = 40;
+"saraO-thai" = 40;
+};
+quoteright = {
+"saraAiMaimalai-thai" = 25;
+"saraAiMaimuan-thai" = 40;
+"saraO-thai" = 40;
+};
+quotedbl = {
+"saraAiMaimalai-thai" = 5;
+"saraAiMaimuan-thai" = 20;
+"saraO-thai" = 20;
+};
+quotesingle = {
+"saraAiMaimalai-thai" = 5;
+"saraAiMaimuan-thai" = 20;
+"saraO-thai" = 20;
+};
 };
 "EB3A5D6C-8260-43A6-9EF2-63971FC08D48" = {
 "@MMK_L_choChan-thai" = {
@@ -77725,29 +77592,21 @@ apostrophemod = -27;
 "@MMK_R_saraAa-thai" = -20;
 };
 "@MMK_L_paren.left" = {
-"saraAiMaimalai-thai" = 20;
-"saraAiMaimuan-thai" = 45;
-"saraO-thai" = 45;
 };
 "@MMK_L_quote.left" = {
-"saraAiMaimalai-thai" = 25;
-"saraAiMaimuan-thai" = 40;
-"saraO-thai" = 40;
 };
 "@MMK_L_quotedbl" = {
-"saraAiMaimalai-thai" = 5;
-"saraAiMaimuan-thai" = 20;
-"saraO-thai" = 20;
 };
 "@MMK_L_saraE-thai" = {
 "@MMK_R_boBaimai-thai" = -10;
 "@MMK_R_choChan-thai" = 0;
 "@MMK_R_ngoNgu-thai" = -15;
-"@MMK_R_quotedbl" = -60;
 "@MMK_R_saraAa-thai" = -10;
 apostrophemod = -16;
 "roRua-thai" = -10;
 "thoNangmontho-thai" = -10;
+quotedbl = -60;
+quotesingle = -60;
 };
 "choChing-thai" = {
 "@MMK_R_saraAa-thai" = -8;
@@ -77783,6 +77642,41 @@ apostrophemod = -16;
 "woWaen-thai" = {
 "@MMK_R_saraAa-thai" = -10;
 };
+parenleft = {
+"saraAiMaimalai-thai" = 20;
+"saraAiMaimuan-thai" = 45;
+"saraO-thai" = 45;
+};
+quotedblleft = {
+"saraAiMaimalai-thai" = 25;
+"saraAiMaimuan-thai" = 40;
+"saraO-thai" = 40;
+};
+quotedblright = {
+"saraAiMaimalai-thai" = 25;
+"saraAiMaimuan-thai" = 40;
+"saraO-thai" = 40;
+};
+quoteleft = {
+"saraAiMaimalai-thai" = 25;
+"saraAiMaimuan-thai" = 40;
+"saraO-thai" = 40;
+};
+quoteright = {
+"saraAiMaimalai-thai" = 25;
+"saraAiMaimuan-thai" = 40;
+"saraO-thai" = 40;
+};
+quotedbl = {
+"saraAiMaimalai-thai" = 5;
+"saraAiMaimuan-thai" = 20;
+"saraO-thai" = 20;
+};
+quotesingle = {
+"saraAiMaimalai-thai" = 5;
+"saraAiMaimuan-thai" = 20;
+"saraO-thai" = 20;
+};
 };
 "54E3FB14-E6D2-4DF3-BA4A-5621168F9335" = {
 "@MMK_L_choChan-thai" = {
@@ -77799,24 +77693,19 @@ apostrophemod = -16;
 "@MMK_R_saraAa-thai" = -5;
 };
 "@MMK_L_quote.left" = {
-"saraAiMaimalai-thai" = 25;
-"saraAiMaimuan-thai" = 40;
-"saraO-thai" = 40;
 };
 "@MMK_L_quotedbl" = {
-"saraAiMaimalai-thai" = 5;
-"saraAiMaimuan-thai" = 20;
-"saraO-thai" = 20;
 };
 "@MMK_L_saraE-thai" = {
 "@MMK_R_boBaimai-thai" = -16;
 "@MMK_R_choChan-thai" = -16;
 "@MMK_R_ngoNgu-thai" = -22;
-"@MMK_R_quotedbl" = -55;
 "@MMK_R_saraAa-thai" = -19;
 apostrophemod = -35;
 "roRua-thai" = -13;
 "thoNangmontho-thai" = -10;
+quotedbl = -55;
+quotesingle = -55;
 };
 "@MMK_L_thoThan-thai" = {
 "@MMK_R_saraAa-thai" = -20;
@@ -77867,6 +77756,36 @@ slash = {
 "woWaen-thai" = {
 "@MMK_R_saraAa-thai" = -8;
 };
+quotedblleft = {
+"saraAiMaimalai-thai" = 25;
+"saraAiMaimuan-thai" = 40;
+"saraO-thai" = 40;
+};
+quotedblright = {
+"saraAiMaimalai-thai" = 25;
+"saraAiMaimuan-thai" = 40;
+"saraO-thai" = 40;
+};
+quoteleft = {
+"saraAiMaimalai-thai" = 25;
+"saraAiMaimuan-thai" = 40;
+"saraO-thai" = 40;
+};
+quoteright = {
+"saraAiMaimalai-thai" = 25;
+"saraAiMaimuan-thai" = 40;
+"saraO-thai" = 40;
+};
+quotedbl = {
+"saraAiMaimalai-thai" = 5;
+"saraAiMaimuan-thai" = 20;
+"saraO-thai" = 20;
+};
+quotesingle = {
+"saraAiMaimalai-thai" = 5;
+"saraAiMaimuan-thai" = 20;
+"saraO-thai" = 20;
+};
 };
 "94F80E8F-7C96-497F-B870-569C37B7A2A5" = {
 "@MMK_L_choChan-thai" = {
@@ -77883,30 +77802,22 @@ slash = {
 "@MMK_R_saraAa-thai" = -9;
 };
 "@MMK_L_paren.left" = {
-"saraAiMaimalai-thai" = 8;
-"saraAiMaimuan-thai" = 18;
-"saraO-thai" = 18;
 };
 "@MMK_L_quote.left" = {
-"saraAiMaimalai-thai" = 25;
-"saraAiMaimuan-thai" = 40;
-"saraO-thai" = 40;
 };
 "@MMK_L_quotedbl" = {
-"saraAiMaimalai-thai" = 5;
-"saraAiMaimuan-thai" = 20;
-"saraO-thai" = 20;
 };
 "@MMK_L_saraE-thai" = {
 "@MMK_R_boBaimai-thai" = -13;
 "@MMK_R_choChan-thai" = -10;
 "@MMK_R_ngoNgu-thai" = -18;
 "@MMK_R_oAng-thai" = -4;
-"@MMK_R_quotedbl" = -57;
 "@MMK_R_saraAa-thai" = -15;
 apostrophemod = -28;
 "roRua-thai" = -11;
 "thoNangmontho-thai" = -9;
+quotedbl = -57;
+quotesingle = -57;
 };
 "@MMK_L_thoThan-thai" = {
 "@MMK_R_saraAa-thai" = -12;
@@ -77961,6 +77872,41 @@ slash = {
 "woWaen-thai" = {
 "@MMK_R_saraAa-thai" = -8;
 };
+parenleft = {
+"saraAiMaimalai-thai" = 8;
+"saraAiMaimuan-thai" = 18;
+"saraO-thai" = 18;
+};
+quotedblleft = {
+"saraAiMaimalai-thai" = 25;
+"saraAiMaimuan-thai" = 40;
+"saraO-thai" = 40;
+};
+quotedblright = {
+"saraAiMaimalai-thai" = 25;
+"saraAiMaimuan-thai" = 40;
+"saraO-thai" = 40;
+};
+quoteleft = {
+"saraAiMaimalai-thai" = 25;
+"saraAiMaimuan-thai" = 40;
+"saraO-thai" = 40;
+};
+quoteright = {
+"saraAiMaimalai-thai" = 25;
+"saraAiMaimuan-thai" = 40;
+"saraO-thai" = 40;
+};
+quotedbl = {
+"saraAiMaimalai-thai" = 5;
+"saraAiMaimuan-thai" = 20;
+"saraO-thai" = 20;
+};
+quotesingle = {
+"saraAiMaimalai-thai" = 5;
+"saraAiMaimuan-thai" = 20;
+"saraO-thai" = 20;
+};
 };
 "E703E12A-5DA7-48FA-B69F-BB282FBD8E56" = {
 "@MMK_L_choChan-thai" = {
@@ -77973,30 +77919,22 @@ slash = {
 "@MMK_R_saraAa-thai" = -15;
 };
 "@MMK_L_paren.left" = {
-"saraAiMaimalai-thai" = 20;
-"saraAiMaimuan-thai" = 45;
-"saraO-thai" = 45;
 };
 "@MMK_L_quote.left" = {
-"saraAiMaimalai-thai" = 25;
-"saraAiMaimuan-thai" = 40;
-"saraO-thai" = 40;
 };
 "@MMK_L_quotedbl" = {
-"saraAiMaimalai-thai" = 5;
-"saraAiMaimuan-thai" = 20;
-"saraO-thai" = 20;
 };
 "@MMK_L_saraE-thai" = {
 "@MMK_R_boBaimai-thai" = -8;
 "@MMK_R_choChan-thai" = 0;
 "@MMK_R_ngoNgu-thai" = -11;
 "@MMK_R_oAng-thai" = -10;
-"@MMK_R_quotedbl" = -60;
 "@MMK_R_saraAa-thai" = -8;
 apostrophemod = -16;
 "roRua-thai" = -8;
 "thoNangmontho-thai" = -8;
+quotedbl = -60;
+quotesingle = -60;
 };
 "choChing-thai" = {
 "@MMK_R_saraAa-thai" = -6;
@@ -78031,6 +77969,41 @@ apostrophemod = -16;
 };
 "woWaen-thai" = {
 "@MMK_R_saraAa-thai" = -8;
+};
+parenleft = {
+"saraAiMaimalai-thai" = 20;
+"saraAiMaimuan-thai" = 45;
+"saraO-thai" = 45;
+};
+quotedblleft = {
+"saraAiMaimalai-thai" = 25;
+"saraAiMaimuan-thai" = 40;
+"saraO-thai" = 40;
+};
+quotedblright = {
+"saraAiMaimalai-thai" = 25;
+"saraAiMaimuan-thai" = 40;
+"saraO-thai" = 40;
+};
+quoteleft = {
+"saraAiMaimalai-thai" = 25;
+"saraAiMaimuan-thai" = 40;
+"saraO-thai" = 40;
+};
+quoteright = {
+"saraAiMaimalai-thai" = 25;
+"saraAiMaimuan-thai" = 40;
+"saraO-thai" = 40;
+};
+quotedbl = {
+"saraAiMaimalai-thai" = 5;
+"saraAiMaimuan-thai" = 20;
+"saraO-thai" = 20;
+};
+quotesingle = {
+"saraAiMaimalai-thai" = 5;
+"saraAiMaimuan-thai" = 20;
+"saraO-thai" = 20;
 };
 };
 };
