@@ -41,6 +41,10 @@ sub [maiHanaKat-thai.narrow maitaikhu-thai.narrow saraI-thai.narrow saraIi-thai.
 sub [choChoe-thai thoPhuthao-thai noNen-thai] macronbelowcomb' by macronbelowcomb.alt;
 } thai_comb1;
 
+lookup yo_macron {
+  lookupflag UseMarkFilteringSet [macronbelowcomb];
+  sub yoYing-thai' macronbelowcomb by yoYing-thai.less;
+} yo_macron;
 
 lookup short_lo {
   lookupflag UseMarkFilteringSet @abovemarks;
