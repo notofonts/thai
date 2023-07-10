@@ -1,21 +1,79 @@
 ## Fontbakery report
 
-Fontbakery version: 0.8.9
+Fontbakery version: 0.8.13
 
-<details><summary><b>[9] NotoSansThaiLooped-Black.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+<details><summary><b>[3] Family checks</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking all files are in the same directory. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/single_directory">com.google.fonts/check/family/single_directory</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
+* 🔥 **FAIL** Not all fonts passed in the command line are in the same directory. This may lead to bad results as the tool will interpret all font files as belonging to a single font family. The detected directories are: ['fonts/NotoSansThaiLooped/googlefonts/ttf', 'fonts/NotoSansThaiLooped/googlefonts/variable-ttf'] [code: single-directory]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check that OS/2.fsSelection bold & italic settings are unique for each NameID1 (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.adobe.fonts/check/family/bold_italic_unique_for_nameid1">com.adobe.fonts/check/family/bold_italic_unique_for_nameid1</a>)</summary><div>
+
+
+* 🔥 **FAIL** Family 'Noto Sans Thai Looped' has 2 fonts (should be no more than 1) with the same OS/2.fsSelection bold & italic settings: Bold=False, Italic=False [code: unique-fsselection]
+</div></details><details><summary>🔥 <b>FAIL:</b> Verify that family names in the name table are consistent across all fonts in the family. Checks Typographic Family name (nameID 16) if present,  otherwise uses Font Family name (nameID 1) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.adobe.fonts/check/family/consistent_family_name">com.adobe.fonts/check/family/consistent_family_name</a>)</summary><div>
+
+
+* 🔥 **FAIL** 2 different Font Family names were found:
+
+* 'Noto Sans Thai Looped' was found in:
+  - NotoSansThaiLooped-Black.ttf (nameID 16)
+  - NotoSansThaiLooped-Bold.ttf (nameID 1)
+  - NotoSansThaiLooped-ExtraLight.ttf (nameID 16)
+  - NotoSansThaiLooped-Light.ttf (nameID 16)
+  - NotoSansThaiLooped-Medium.ttf (nameID 16)
+  - NotoSansThaiLooped-Regular.ttf (nameID 1)
+  - NotoSansThaiLooped-SemiBold.ttf (nameID 16)
+  - NotoSansThaiLooped-Thin.ttf (nameID 16)
+  - NotoSansThaiLooped[wdth,wght].ttf (nameID 1)
+
+* 'Noto Sans Thai Looped Extrabold' was found in:
+  - NotoSansThaiLooped-ExtraBold.ttf (nameID 1) [code: inconsistent-family-name]
+</div></details><br></div></details><details><summary><b>[14] NotoSansThaiLooped-Black.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
+
+
+* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
+</div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
+
+
+* 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
+But instead we have got:
+"Copyright 2022 The Noto Project Authors" [code: bad-notice-format]
+</div></details><details><summary>🔥 <b>FAIL:</b> Version number has increased since previous release on Google Fonts? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/version_bump">com.google.fonts/check/version_bump</a>)</summary><div>
+
+
+* 🔥 **FAIL** Version number 1.0 is less than version on Google Fonts (1.001007080078125).
+* 🔥 **FAIL** Version number 1.0 is less than version on Google Fonts GitHub repo (1.001007080078125).
+</div></details><details><summary>🔥 <b>FAIL:</b> Check if the vertical metrics of a family are similar to the same family hosted on Google Fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics_regressions">com.google.fonts/check/vertical_metrics_regressions</a>)</summary><div>
+
+
+* 🔥 **FAIL** Noto Sans Thai Looped Extrabold Regular: OS/2 sTypoAscender is 1192 when it should be 1250 [code: bad-typo-ascender]
+* 🔥 **FAIL** Noto Sans Thai Looped Extrabold Regular: hhea Ascender is 1192 when it should be 1250 [code: bad-hhea-ascender]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
+</div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+
+
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
+
+The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̦̒ į̧̀ į̧́ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* tripleKhan
-	* uni0E0D0331
-	* uni0E0D
-	* pikKaa
-	* uni0E240E45
-	* uni0E0C0331 and uni0E260E45
+	* uni0E06
+	* uni0E09
+	* uni0E0E.short
+	* uni0E0F.short
+	* uni0E10
+	* uni0E10.less
+	* uni0E12
+	* uni0E14
+	* uni0E15
+	* uni0E1B and 41 more.
+
+Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -32,9 +90,11 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- fonThongthai 
+	- uni0331.alt
 
-	- And uni0E29.BRACKET.110
+	- uni035E.wide 
+
+	- uni0E29.BRACKET.varAlt01
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -51,22 +111,31 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E05	Contours detected: 3	Expected: 1 or 2
 
-	- Glyph name: uni0E12	Contours detected: 4	Expected: 1 or 3
+	- Glyph name: uni0E10	Contours detected: 6	Expected: 1 or 5
 
 	- Glyph name: uni0E14	Contours detected: 3	Expected: 1 or 2
 
-	- Glyph name: uni0E15	Contours detected: 3	Expected: 1 or 2
-
 	- Glyph name: uni0E28	Contours detected: 3	Expected: 1 or 2
 
-	- Glyph name: uni0E2E	Contours detected: 2	Expected: 1 or 3
+	- Glyph name: uni0E29	Contours detected: 4	Expected: 1 or 3
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3 
+	- Glyph name: uni0E2E	Contours detected: 4	Expected: 1 or 3
 
-	- And 14 more.
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
+
+	- 8 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
+
+
+* ⚠ **WARN** The most common width is 586 among a set of 6 math glyphs.
+The following math glyphs have a different width, though:
+
+Width = 318:
+minus
+ [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
@@ -92,17 +161,9 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* f (U+0066): X=143.0,Y=716.0 (should be at cap-height 714?) 
 
-	* And 75 more.
+	* 79 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
-</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have colinear vectors:
-
-	* uni0E48 (U+0E48): L<<219.0,860.0>--<219.0,767.0>> -> L<<219.0,767.0>--<210.0,635.0>> 
-
-	* And uni0E48 (U+0E48): L<<59.0,635.0>--<50.0,767.0>> -> L<<50.0,767.0>--<50.0,860.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
@@ -128,13 +189,55 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* Wcircumflex (U+0174): B<<714.0,235.0>-<721.0,196.0>-<724.0,167.0>>/B<<724.0,167.0>-<727.0,192.0>-<734.0,229.0>> = 12.748914526401432 
 
-	* And 6 more.
+	* 8 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[8] NotoSansThaiLooped-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[13] NotoSansThaiLooped-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
+* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
+</div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
+
+
+* 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
+But instead we have got:
+"Copyright 2022 The Noto Project Authors" [code: bad-notice-format]
+</div></details><details><summary>🔥 <b>FAIL:</b> Version number has increased since previous release on Google Fonts? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/version_bump">com.google.fonts/check/version_bump</a>)</summary><div>
+
+
+* 🔥 **FAIL** Version number 1.0 is less than version on Google Fonts (1.001007080078125).
+* 🔥 **FAIL** Version number 1.0 is less than version on Google Fonts GitHub repo (1.001007080078125).
+</div></details><details><summary>🔥 <b>FAIL:</b> Check if the vertical metrics of a family are similar to the same family hosted on Google Fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics_regressions">com.google.fonts/check/vertical_metrics_regressions</a>)</summary><div>
+
+
+* 🔥 **FAIL** Noto Sans Thai Looped Extrabold Regular: OS/2 sTypoAscender is 1192 when it should be 1250 [code: bad-typo-ascender]
+* 🔥 **FAIL** Noto Sans Thai Looped Extrabold Regular: hhea Ascender is 1192 when it should be 1250 [code: bad-hhea-ascender]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
+</div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+
+
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
+
+The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̦̒ į̧̀ į̧́ [code: soft-dotted]
+</div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
+
+
+* ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
+	* uni0E06
+	* uni0E09
+	* uni0E10
+	* uni0E12
+	* uni0E1A
+	* uni0E1B
+	* uni0E240E45
+	* uni0E260E45
+	* uni0E29
+	* uni0E2C and 29 more.
+
+Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -144,9 +247,11 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- fonThongthai 
+	- uni0331.alt
 
-	- And uni0E29.BRACKET.110
+	- uni035E.wide 
+
+	- uni0E29.BRACKET.varAlt01
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -159,26 +264,31 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: uni0E12	Contours detected: 4	Expected: 1 or 3
+	- Glyph name: uni0E10	Contours detected: 6	Expected: 1 or 5
 
-	- Glyph name: uni0E2E	Contours detected: 2	Expected: 1 or 3
+	- Glyph name: uni0E29	Contours detected: 4	Expected: 1 or 3
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
-	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni0E5A	Contours detected: 3	Expected: 1 or 2
+	- Glyph name: uni0E2E	Contours detected: 4	Expected: 1 or 3
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni0E12	Contours detected: 4	Expected: 1 or 3
+	- Glyph name: uni0E10	Contours detected: 6	Expected: 1 or 5
 
-	- Glyph name: uni0E2E	Contours detected: 2	Expected: 1 or 3 
+	- Glyph name: uni0E29	Contours detected: 4	Expected: 1 or 3
 
-	- And 4 more.
+	- Glyph name: uni0E2E	Contours detected: 4	Expected: 1 or 3 
 
-Use -F or --full-lists to disable shortening of long lists.
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
+
+
+* ⚠ **WARN** The most common width is 581 among a set of 6 math glyphs.
+The following math glyphs have a different width, though:
+
+Width = 320:
+minus
+ [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
@@ -204,37 +314,9 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* s (U+0073): X=361.0,Y=545.0 (should be at x-height 546?) 
 
-	* And 88 more.
+	* 88 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
-</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have colinear vectors:
-
-	* fongDan (U+EC0A): L<<131.0,637.0>--<120.0,759.0>> -> L<<120.0,759.0>--<120.0,845.0>>
-
-	* fongDan (U+EC0A): L<<247.0,845.0>--<247.0,759.0>> -> L<<247.0,759.0>--<236.0,637.0>>
-
-	* fongDan (U+EC0A): L<<314.0,637.0>--<303.0,759.0>> -> L<<303.0,759.0>--<303.0,845.0>>
-
-	* fongDan (U+EC0A): L<<430.0,845.0>--<430.0,759.0>> -> L<<430.0,759.0>--<419.0,637.0>>
-
-	* fongmanFanNu (U+EC09): L<<131.0,637.0>--<120.0,759.0>> -> L<<120.0,759.0>--<120.0,845.0>>
-
-	* fongmanFanNu (U+EC09): L<<247.0,845.0>--<247.0,759.0>> -> L<<247.0,759.0>--<236.0,637.0>>
-
-	* fongmanFanNu (U+EC09): L<<315.0,637.0>--<303.0,759.0>> -> L<<303.0,759.0>--<303.0,845.0>>
-
-	* fongmanFanNu (U+EC09): L<<431.0,845.0>--<431.0,759.0>> -> L<<431.0,759.0>--<419.0,637.0>>
-
-	* uni0E12 (U+0E12): L<<393.0,146.0>--<390.0,143.0>> -> L<<390.0,143.0>--<256.0,0.0>>
-
-	* uni0E48 (U+0E48): L<<187.0,845.0>--<187.0,759.0>> -> L<<187.0,759.0>--<180.0,637.0>> 
-
-	* And 7 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
@@ -260,26 +342,69 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 	* Wdieresis (U+1E84): B<<280.5,202.0>-<287.0,168.0>-<290.0,144.0>>/B<<290.0,144.0>-<294.0,179.0>-<302.5,223.0>> = 13.644818100558723 
 
-	* And 6 more.
+	* 7 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[16] NotoSansThaiLooped-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
-* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
-
-	* uni0E05 (U+0E05): L<<466.0,0.0>--<465.0,382.0>> 
-
-	* And uni0E1B (U+0E1B): L<<283.0,114.0>--<398.0,115.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[8] NotoSansThaiLooped-ExtraBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+* 🔥 **FAIL** Expected "NotoSansThaiLoopedExtrabold-Regular.ttf. Got NotoSansThaiLooped-ExtraBold.ttf. [code: bad-filename]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
+* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
+</div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
+
+
+* 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
+But instead we have got:
+"Copyright 2022 The Noto Project Authors" [code: bad-notice-format]
+</div></details><details><summary>🔥 <b>FAIL:</b> Version number has increased since previous release on Google Fonts? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/version_bump">com.google.fonts/check/version_bump</a>)</summary><div>
+
+
+* 🔥 **FAIL** Version number 1.0 is less than version on Google Fonts (1.001007080078125).
+* 🔥 **FAIL** Version number 1.0 is less than version on Google Fonts GitHub repo (1.001007080078125).
+</div></details><details><summary>🔥 <b>FAIL:</b> Font has all mandatory 'name' table entries? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/mandatory_entries">com.google.fonts/check/name/mandatory_entries</a>)</summary><div>
+
+
+* 🔥 **FAIL** Font lacks entry with nameId=16 (TYPOGRAPHIC_FAMILY_NAME) [code: missing-entry]
+* 🔥 **FAIL** Font lacks entry with nameId=17 (TYPOGRAPHIC_SUBFAMILY_NAME) [code: missing-entry]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check if the vertical metrics of a family are similar to the same family hosted on Google Fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics_regressions">com.google.fonts/check/vertical_metrics_regressions</a>)</summary><div>
+
+
+* 🔥 **FAIL** Noto Sans Thai Looped Extrabold Regular: OS/2 sTypoAscender is 1192 when it should be 1250 [code: bad-typo-ascender]
+* 🔥 **FAIL** Noto Sans Thai Looped Extrabold Regular: hhea Ascender is 1192 when it should be 1250 [code: bad-hhea-ascender]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
+</div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+
+
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
+
+The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̦̒ į̧̀ į̧́ [code: soft-dotted]
+</div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
+
+
+* ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
+	* uni0E06
+	* uni0E09
+	* uni0E0E.short
+	* uni0E10
+	* uni0E12
+	* uni0E14
+	* uni0E15
+	* uni0E1A
+	* uni0E1B
+	* uni0E240E45 and 32 more.
+
+Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
 * ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
- FONT_FAMILY_NAME = 'Noto Sans Thai Looped ExtraBold' / SUBFAMILY_NAME = 'Regular'
+ FONT_FAMILY_NAME = 'Noto Sans Thai Looped Extrabold' / SUBFAMILY_NAME = 'Regular'
 
 Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -291,9 +416,11 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- fonThongthai 
+	- uni0331.alt
 
-	- And uni0E29.BRACKET.110
+	- uni035E.wide 
+
+	- uni0E29.BRACKET.varAlt01
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -306,52 +433,41 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: uni0E12	Contours detected: 4	Expected: 1 or 3
+	- Glyph name: uni0E04	Contours detected: 3	Expected: 1 or 2
 
-	- Glyph name: uni0E14	Contours detected: 3	Expected: 1 or 2
+	- Glyph name: uni0E05	Contours detected: 3	Expected: 1 or 2
 
-	- Glyph name: uni0E15	Contours detected: 3	Expected: 1 or 2
+	- Glyph name: uni0E10	Contours detected: 6	Expected: 1 or 5
 
-	- Glyph name: uni0E2E	Contours detected: 2	Expected: 1 or 3
+	- Glyph name: uni0E28	Contours detected: 3	Expected: 1 or 2
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
+	- Glyph name: uni0E29	Contours detected: 5	Expected: 1 or 3
 
-	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
+	- Glyph name: uni0E2E	Contours detected: 4	Expected: 1 or 3
 
-	- Glyph name: uni0E5A	Contours detected: 3	Expected: 1 or 2
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
+	- Glyph name: uni0E04	Contours detected: 3	Expected: 1 or 2 
 
-	- And 8 more.
+	- 6 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
+
+
+* ⚠ **WARN** The most common width is 583 among a set of 6 math glyphs.
+The following math glyphs have a different width, though:
+
+Width = 319:
+minus
+ [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
-	* fongDan (U+EC0A): L<<116.0,636.0>--<104.0,763.0>> -> L<<104.0,763.0>--<104.0,852.0>>
-
-	* fongDan (U+EC0A): L<<312.0,636.0>--<300.0,763.0>> -> L<<300.0,763.0>--<300.0,852.0>>
-
-	* fongmanFanNu (U+EC09): L<<244.0,852.0>--<244.0,763.0>> -> L<<244.0,763.0>--<232.0,636.0>>
-
-	* fongmanFanNu (U+EC09): L<<440.0,852.0>--<440.0,763.0>> -> L<<440.0,763.0>--<428.0,636.0>>
-
-	* unalome (U+EC0B): L<<287.0,615.0>--<287.0,615.0>> -> L<<287.0,615.0>--<287.0,615.0>>
-
-	* uni0E48 (U+0E48): L<<202.0,852.0>--<202.0,763.0>> -> L<<202.0,763.0>--<194.0,636.0>>
-
-	* uni0E48 (U+0E48): L<<58.0,636.0>--<50.0,763.0>> -> L<<50.0,763.0>--<50.0,852.0>>
-
-	* uni17C9 (U+17C9): L<<190.0,852.0>--<190.0,763.0>> -> L<<190.0,763.0>--<178.0,636.0>>
-
-	* uni17C9 (U+17C9): L<<386.0,852.0>--<386.0,763.0>> -> L<<386.0,763.0>--<374.0,636.0>>
-
-	* uni17CB (U+17CB): L<<202.0,852.0>--<202.0,763.0>> -> L<<202.0,763.0>--<190.0,636.0>> 
-
-	* And uni17CB (U+17CB): L<<62.0,636.0>--<50.0,763.0>> -> L<<50.0,763.0>--<50.0,852.0>> [code: found-colinear-vectors]
+	* uni0E2D (U+0E2D): L<<220.0,183.0>--<220.0,182.0>> -> L<<220.0,182.0>--<220.0,140.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
@@ -377,19 +493,47 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* Wgrave (U+1E80): B<<517.0,457.0>-<511.0,491.0>-<508.0,512.0>>/B<<508.0,512.0>-<506.0,491.0>-<500.0,457.0>> = 13.570434385161475 
 
-	* And 3 more.
+	* 7 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[15] NotoSansThaiLooped-ExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
-* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
-
-	* uni0E05 (U+0E05): L<<464.0,0.0>--<463.0,379.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[7] NotoSansThaiLooped-ExtraLight.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
+</div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
+* 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
+But instead we have got:
+"Copyright 2022 The Noto Project Authors" [code: bad-notice-format]
+</div></details><details><summary>🔥 <b>FAIL:</b> Version number has increased since previous release on Google Fonts? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/version_bump">com.google.fonts/check/version_bump</a>)</summary><div>
+
+
+* 🔥 **FAIL** Version number 1.0 is less than version on Google Fonts (1.001007080078125).
+* 🔥 **FAIL** Version number 1.0 is less than version on Google Fonts GitHub repo (1.001007080078125).
+</div></details><details><summary>🔥 <b>FAIL:</b> Check if the vertical metrics of a family are similar to the same family hosted on Google Fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics_regressions">com.google.fonts/check/vertical_metrics_regressions</a>)</summary><div>
+
+
+* 🔥 **FAIL** Noto Sans Thai Looped Extrabold Regular: OS/2 sTypoAscender is 1192 when it should be 1250 [code: bad-typo-ascender]
+* 🔥 **FAIL** Noto Sans Thai Looped Extrabold Regular: hhea Ascender is 1192 when it should be 1250 [code: bad-hhea-ascender]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
+</div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+
+
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
+
+The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̦̒ į̧̀ į̧́ [code: soft-dotted]
+</div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
+
+
+* ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
+	* uni0E2E
+	* uni0E4A.small
+	* uni0E4F
+	* uni0E53 and uni0E5B
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -406,9 +550,11 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- fonThongthai 
+	- uni0331.alt
 
-	- And uni0E29.BRACKET.110
+	- uni035E.wide 
+
+	- uni0E29.BRACKET.varAlt01
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -421,64 +567,84 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: uni0E1E	Contours detected: 4	Expected: 1 or 2
-
-	- Glyph name: uni0E1F	Contours detected: 3	Expected: 1 or 2
-
-	- Glyph name: uni0E2B	Contours detected: 4	Expected: 1 or 3
-
-	- Glyph name: uni0E2E	Contours detected: 2	Expected: 1 or 3
-
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
-	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni0E5A	Contours detected: 3	Expected: 1 or 2
-
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
 
-	- And 8 more.
-
-Use -F or --full-lists to disable shortening of long lists.
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
+
+
+* ⚠ **WARN** The most common width is 570 among a set of 6 math glyphs.
+The following math glyphs have a different width, though:
+
+Width = 322:
+minus
+ [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
-	* fongDan (U+EC0A): L<<218.0,644.0>--<213.0,752.0>> -> L<<213.0,752.0>--<213.0,816.0>>
+	* uni0E48 (U+0E48): L<<-134.0,644.0>--<-138.0,761.0>> -> L<<-138.0,761.0>--<-138.0,821.0>> 
 
-	* fongDan (U+EC0A): L<<252.0,816.0>--<252.0,752.0>> -> L<<252.0,752.0>--<247.0,644.0>>
-
-	* fongDan (U+EC0A): L<<333.0,644.0>--<328.0,752.0>> -> L<<328.0,752.0>--<328.0,816.0>>
-
-	* fongDan (U+EC0A): L<<367.0,816.0>--<367.0,752.0>> -> L<<367.0,752.0>--<362.0,644.0>>
-
-	* fongmanFanNu (U+EC09): L<<218.0,644.0>--<213.0,752.0>> -> L<<213.0,752.0>--<213.0,816.0>>
-
-	* fongmanFanNu (U+EC09): L<<252.0,816.0>--<252.0,752.0>> -> L<<252.0,752.0>--<247.0,644.0>>
-
-	* fongmanFanNu (U+EC09): L<<333.0,644.0>--<328.0,752.0>> -> L<<328.0,752.0>--<328.0,816.0>>
-
-	* fongmanFanNu (U+EC09): L<<367.0,816.0>--<367.0,752.0>> -> L<<367.0,752.0>--<362.0,644.0>>
-
-	* uni0E1E (U+0E1E): L<<217.0,60.0>--<217.0,60.0>> -> L<<217.0,60.0>--<217.0,60.0>>
-
-	* uni0E48 (U+0E48): L<<53.0,644.0>--<50.0,752.0>> -> L<<50.0,752.0>--<50.0,816.0>> 
-
-	* And 7 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
+	* uni0E48 (U+0E48): L<<-98.0,821.0>--<-98.0,761.0>> -> L<<-98.0,761.0>--<-102.0,644.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
-	* uni0E2A (U+0E2A): B<<418.0,511.0>-<408.0,512.0>-<398.0,514.0>>/L<<398.0,514.0>--<398.0,514.0>> = 11.309932474020195 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[8] NotoSansThaiLooped-Light.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+	* uni0E0D (U+0E0D): B<<541.5,-171.0>-<527.0,-189.0>-<502.0,-195.0>>/B<<502.0,-195.0>-<506.0,-195.0>-<511.0,-195.0>> = 13.495733280795811 [code: found-jaggy-segments]
+</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
+* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
+
+	* uni0E5B (U+0E5B): L<<906.0,257.0>--<1045.0,256.0>> [code: found-semi-vertical]
+</div></details><br></div></details><details><summary><b>[14] NotoSansThaiLooped-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
+
+
+* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
+</div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
+
+
+* 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
+But instead we have got:
+"Copyright 2022 The Noto Project Authors" [code: bad-notice-format]
+</div></details><details><summary>🔥 <b>FAIL:</b> Version number has increased since previous release on Google Fonts? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/version_bump">com.google.fonts/check/version_bump</a>)</summary><div>
+
+
+* 🔥 **FAIL** Version number 1.0 is less than version on Google Fonts (1.001007080078125).
+* 🔥 **FAIL** Version number 1.0 is less than version on Google Fonts GitHub repo (1.001007080078125).
+</div></details><details><summary>🔥 <b>FAIL:</b> Check if the vertical metrics of a family are similar to the same family hosted on Google Fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics_regressions">com.google.fonts/check/vertical_metrics_regressions</a>)</summary><div>
+
+
+* 🔥 **FAIL** Noto Sans Thai Looped Extrabold Regular: OS/2 sTypoAscender is 1192 when it should be 1250 [code: bad-typo-ascender]
+* 🔥 **FAIL** Noto Sans Thai Looped Extrabold Regular: hhea Ascender is 1192 when it should be 1250 [code: bad-hhea-ascender]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
+</div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+
+
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
+
+The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̦̒ į̧̀ į̧́ [code: soft-dotted]
+</div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
+
+
+* ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
+	* uni0E2E
+	* uni0E36.narrow
+	* uni0E37
+	* uni0E37.narrow
+	* uni0E46
+	* uni0E47
+	* uni0E47.narrow
+	* uni0E47.small
+	* uni0E4A.small
+	* uni0E4F
+	* uni0E53 and uni0E5B
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -495,9 +661,11 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- fonThongthai 
+	- uni0331.alt
 
-	- And uni0E29.BRACKET.110
+	- uni035E.wide 
+
+	- uni0E29.BRACKET.varAlt01
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -510,72 +678,79 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: uni0E1E	Contours detected: 4	Expected: 1 or 2
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
 
-	- Glyph name: uni0E1F	Contours detected: 4	Expected: 1 or 2
-
-	- Glyph name: uni0E2E	Contours detected: 2	Expected: 1 or 3
-
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
-	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni0E5A	Contours detected: 3	Expected: 1 or 2
-
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni0E1E	Contours detected: 4	Expected: 1 or 2 
-
-	- And 6 more.
-
-Use -F or --full-lists to disable shortening of long lists.
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
+
+
+* ⚠ **WARN** The most common width is 571 among a set of 6 math glyphs.
+The following math glyphs have a different width, though:
+
+Width = 322:
+minus
+ [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
-	* fongDan (U+EC0A): L<<204.0,643.0>--<199.0,750.0>> -> L<<199.0,750.0>--<199.0,818.0>>
+	* uni0E48 (U+0E48): L<<-147.0,643.0>--<-153.0,765.0>> -> L<<-153.0,765.0>--<-153.0,834.0>> 
 
-	* fongDan (U+EC0A): L<<254.0,818.0>--<254.0,750.0>> -> L<<254.0,750.0>--<249.0,643.0>>
-
-	* fongDan (U+EC0A): L<<329.0,643.0>--<323.0,750.0>> -> L<<323.0,750.0>--<323.0,818.0>>
-
-	* fongDan (U+EC0A): L<<379.0,818.0>--<379.0,750.0>> -> L<<379.0,750.0>--<373.0,643.0>>
-
-	* fongmanFanNu (U+EC09): L<<205.0,643.0>--<199.0,750.0>> -> L<<199.0,750.0>--<199.0,818.0>>
-
-	* fongmanFanNu (U+EC09): L<<255.0,818.0>--<255.0,750.0>> -> L<<255.0,750.0>--<249.0,643.0>>
-
-	* fongmanFanNu (U+EC09): L<<329.0,643.0>--<324.0,750.0>> -> L<<324.0,750.0>--<324.0,818.0>>
-
-	* fongmanFanNu (U+EC09): L<<379.0,818.0>--<379.0,750.0>> -> L<<379.0,750.0>--<374.0,643.0>>
-
-	* uni0E48 (U+0E48): L<<108.0,818.0>--<108.0,750.0>> -> L<<108.0,750.0>--<104.0,643.0>>
-
-	* uni0E48 (U+0E48): L<<54.0,643.0>--<50.0,750.0>> -> L<<50.0,750.0>--<50.0,818.0>> 
-
-	* And 6 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have jaggy segments:
-
-	* uni0E10 (U+0E10): B<<442.0,497.0>-<425.0,497.0>-<409.0,500.0>>/L<<409.0,500.0>--<409.0,500.0>> = 10.61965527615514 [code: found-jaggy-segments]
+	* uni0E48 (U+0E48): L<<-94.0,834.0>--<-94.0,765.0>> -> L<<-94.0,765.0>--<-100.0,643.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
-	* uni0E05 (U+0E05): L<<475.0,0.0>--<474.0,389.0>> 
-
-	* And uni0E1B (U+0E1B): L<<234.0,47.0>--<417.0,48.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[8] NotoSansThaiLooped-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+	* uni0E09 (U+0E09): L<<168.0,0.0>--<167.0,169.0>> [code: found-semi-vertical]
+</div></details><br></div></details><details><summary><b>[14] NotoSansThaiLooped-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
+* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
+</div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
+
+
+* 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
+But instead we have got:
+"Copyright 2022 The Noto Project Authors" [code: bad-notice-format]
+</div></details><details><summary>🔥 <b>FAIL:</b> Version number has increased since previous release on Google Fonts? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/version_bump">com.google.fonts/check/version_bump</a>)</summary><div>
+
+
+* 🔥 **FAIL** Version number 1.0 is less than version on Google Fonts (1.001007080078125).
+* 🔥 **FAIL** Version number 1.0 is less than version on Google Fonts GitHub repo (1.001007080078125).
+</div></details><details><summary>🔥 <b>FAIL:</b> Check if the vertical metrics of a family are similar to the same family hosted on Google Fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics_regressions">com.google.fonts/check/vertical_metrics_regressions</a>)</summary><div>
+
+
+* 🔥 **FAIL** Noto Sans Thai Looped Extrabold Regular: OS/2 sTypoAscender is 1192 when it should be 1250 [code: bad-typo-ascender]
+* 🔥 **FAIL** Noto Sans Thai Looped Extrabold Regular: hhea Ascender is 1192 when it should be 1250 [code: bad-hhea-ascender]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
+</div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+
+
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
+
+The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̦̒ į̧̀ į̧́ [code: soft-dotted]
+</div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
+
+
+* ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
+	* uni0E06
+	* uni0E0D.less
+	* uni0E12
+	* uni0E1A
+	* uni0E1B
+	* uni0E2C
+	* uni0E2E
+	* uni0E30
+	* uni0E31
+	* uni0E31.narrow and 21 more.
+
+Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -592,9 +767,11 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- fonThongthai 
+	- uni0331.alt
 
-	- And uni0E29.BRACKET.110
+	- uni035E.wide 
+
+	- uni0E29.BRACKET.varAlt01
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -607,54 +784,35 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: uni0E2E	Contours detected: 2	Expected: 1 or 3
+	- Glyph name: uni0E29	Contours detected: 4	Expected: 1 or 3
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
-	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni0E5A	Contours detected: 3	Expected: 1 or 2
+	- Glyph name: uni0E2E	Contours detected: 4	Expected: 1 or 3
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni0E2E	Contours detected: 2	Expected: 1 or 3
+	- Glyph name: uni0E29	Contours detected: 4	Expected: 1 or 3
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
+	- Glyph name: uni0E2E	Contours detected: 4	Expected: 1 or 3 
 
-	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni0E5A	Contours detected: 3	Expected: 1 or 2 
-
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
+
+
+* ⚠ **WARN** The most common width is 575 among a set of 6 math glyphs.
+The following math glyphs have a different width, though:
+
+Width = 321:
+minus
+ [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
-	* fongDan (U+EC0A): L<<166.0,639.0>--<158.0,750.0>> -> L<<158.0,750.0>--<158.0,829.0>>
+	* uni0E48 (U+0E48): L<<-184.0,640.0>--<-194.0,774.0>> -> L<<-194.0,774.0>--<-194.0,861.0>> 
 
-	* fongDan (U+EC0A): L<<255.0,829.0>--<255.0,750.0>> -> L<<255.0,750.0>--<247.0,639.0>>
-
-	* fongDan (U+EC0A): L<<319.0,639.0>--<311.0,750.0>> -> L<<311.0,750.0>--<311.0,829.0>>
-
-	* fongDan (U+EC0A): L<<408.0,829.0>--<408.0,750.0>> -> L<<408.0,750.0>--<399.0,639.0>>
-
-	* fongmanFanNu (U+EC09): L<<166.0,639.0>--<158.0,750.0>> -> L<<158.0,750.0>--<158.0,829.0>>
-
-	* fongmanFanNu (U+EC09): L<<255.0,829.0>--<255.0,750.0>> -> L<<255.0,750.0>--<247.0,639.0>>
-
-	* fongmanFanNu (U+EC09): L<<319.0,639.0>--<311.0,750.0>> -> L<<311.0,750.0>--<311.0,829.0>>
-
-	* fongmanFanNu (U+EC09): L<<408.0,829.0>--<408.0,750.0>> -> L<<408.0,750.0>--<399.0,639.0>>
-
-	* uni0E48 (U+0E48): L<<153.0,829.0>--<153.0,750.0>> -> L<<153.0,750.0>--<147.0,639.0>>
-
-	* uni0E48 (U+0E48): L<<56.0,639.0>--<50.0,750.0>> -> L<<50.0,750.0>--<50.0,829.0>> 
-
-	* And 6 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
+	* uni0E48 (U+0E48): L<<-86.0,861.0>--<-86.0,774.0>> -> L<<-86.0,774.0>--<-97.0,640.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
@@ -668,33 +826,51 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 	* Wdieresis (U+1E84): B<<479.0,550.0>-<473.0,575.0>-<472.0,587.0>>/B<<472.0,587.0>-<471.0,575.0>-<465.5,550.0>> = 9.527283381452328 
 
-	* And Wgrave (U+1E80): B<<479.0,550.0>-<473.0,575.0>-<472.0,587.0>>/B<<472.0,587.0>-<471.0,575.0>-<465.5,550.0>> = 9.527283381452328 [code: found-jaggy-segments]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
+	* Wgrave (U+1E80): B<<479.0,550.0>-<473.0,575.0>-<472.0,587.0>>/B<<472.0,587.0>-<471.0,575.0>-<465.5,550.0>> = 9.527283381452328 [code: found-jaggy-segments]
+</div></details><br></div></details><details><summary><b>[13] NotoSansThaiLooped-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
-* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
-
-	* uni0E05 (U+0E05): L<<471.0,0.0>--<470.0,388.0>> 
-
-	* And uni0E1B (U+0E1B): L<<263.0,84.0>--<402.0,85.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[8] NotoSansThaiLooped-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
+</div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
+* 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
+But instead we have got:
+"Copyright 2022 The Noto Project Authors" [code: bad-notice-format]
+</div></details><details><summary>🔥 <b>FAIL:</b> Version number has increased since previous release on Google Fonts? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/version_bump">com.google.fonts/check/version_bump</a>)</summary><div>
+
+
+* 🔥 **FAIL** Version number 1.0 is less than version on Google Fonts (1.001007080078125).
+* 🔥 **FAIL** Version number 1.0 is less than version on Google Fonts GitHub repo (1.001007080078125).
+</div></details><details><summary>🔥 <b>FAIL:</b> Check if the vertical metrics of a family are similar to the same family hosted on Google Fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics_regressions">com.google.fonts/check/vertical_metrics_regressions</a>)</summary><div>
+
+
+* 🔥 **FAIL** Noto Sans Thai Looped Extrabold Regular: OS/2 sTypoAscender is 1192 when it should be 1250 [code: bad-typo-ascender]
+* 🔥 **FAIL** Noto Sans Thai Looped Extrabold Regular: hhea Ascender is 1192 when it should be 1250 [code: bad-hhea-ascender]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
+</div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+
+
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
+
+The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̦̒ į̧̀ į̧́ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* tripleKhan
-	* uni0E12
-	* uni0E0D0331
+	* uni0E06
 	* uni0E0D
-	* unalome
-	* uni0E240E45
-	* uni0E0C0331
-	* ampersand
-	* uni0E5B
-	* khomutReversed and 4 more.
+	* uni0E0D.less
+	* uni0E1A
+	* uni0E1B
+	* uni0E2C
+	* uni0E2E
+	* uni0E30
+	* uni0E31
+	* uni0E31.narrow and 19 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -713,9 +889,11 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- fonThongthai 
+	- uni0331.alt
 
-	- And uni0E29.BRACKET.110
+	- uni035E.wide 
+
+	- uni0E29.BRACKET.varAlt01
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -728,66 +906,81 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: uni0E2E	Contours detected: 2	Expected: 1 or 3
+	- Glyph name: uni0E29	Contours detected: 4	Expected: 1 or 3
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
-	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni0E5A	Contours detected: 3	Expected: 1 or 2
+	- Glyph name: uni0E2E	Contours detected: 4	Expected: 1 or 3
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni0E2E	Contours detected: 2	Expected: 1 or 3
+	- Glyph name: uni0E29	Contours detected: 4	Expected: 1 or 3
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
+	- Glyph name: uni0E2E	Contours detected: 4	Expected: 1 or 3 
 
-	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni0E5A	Contours detected: 3	Expected: 1 or 2 
-
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
+
+
+* ⚠ **WARN** The most common width is 572 among a set of 6 math glyphs.
+The following math glyphs have a different width, though:
+
+Width = 322:
+minus
+ [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
-	* fongDan (U+EC0A): L<<181.0,640.0>--<174.0,746.0>> -> L<<174.0,746.0>--<174.0,822.0>>
+	* uni0E48 (U+0E48): L<<-171.0,641.0>--<-180.0,771.0>> -> L<<-180.0,771.0>--<-180.0,855.0>> 
 
-	* fongDan (U+EC0A): L<<258.0,822.0>--<258.0,746.0>> -> L<<258.0,746.0>--<251.0,640.0>>
-
-	* fongDan (U+EC0A): L<<321.0,640.0>--<314.0,746.0>> -> L<<314.0,746.0>--<314.0,822.0>>
-
-	* fongDan (U+EC0A): L<<398.0,822.0>--<398.0,746.0>> -> L<<398.0,746.0>--<391.0,640.0>>
-
-	* fongmanFanNu (U+EC09): L<<181.0,640.0>--<174.0,746.0>> -> L<<174.0,746.0>--<174.0,822.0>>
-
-	* fongmanFanNu (U+EC09): L<<258.0,822.0>--<258.0,746.0>> -> L<<258.0,746.0>--<251.0,640.0>>
-
-	* fongmanFanNu (U+EC09): L<<321.0,640.0>--<314.0,746.0>> -> L<<314.0,746.0>--<314.0,822.0>>
-
-	* fongmanFanNu (U+EC09): L<<398.0,822.0>--<398.0,746.0>> -> L<<398.0,746.0>--<391.0,640.0>>
-
-	* uni0E48 (U+0E48): L<<138.0,822.0>--<138.0,746.0>> -> L<<138.0,746.0>--<133.0,640.0>>
-
-	* uni0E48 (U+0E48): L<<55.0,640.0>--<50.0,746.0>> -> L<<50.0,746.0>--<50.0,822.0>> 
-
-	* And 6 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
+	* uni0E48 (U+0E48): L<<-89.0,855.0>--<-89.0,771.0>> -> L<<-89.0,771.0>--<-98.0,641.0>> [code: found-colinear-vectors]
+</div></details><br></div></details><details><summary><b>[14] NotoSansThaiLooped-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
-* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
-
-	* uni0E05 (U+0E05): L<<473.0,0.0>--<472.0,391.0>> 
-
-	* And uni0E1B (U+0E1B): L<<254.0,71.0>--<404.0,72.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[8] NotoSansThaiLooped-SemiBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
+</div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
+* 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
+But instead we have got:
+"Copyright 2022 The Noto Project Authors" [code: bad-notice-format]
+</div></details><details><summary>🔥 <b>FAIL:</b> Version number has increased since previous release on Google Fonts? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/version_bump">com.google.fonts/check/version_bump</a>)</summary><div>
+
+
+* 🔥 **FAIL** Version number 1.0 is less than version on Google Fonts (1.001007080078125).
+* 🔥 **FAIL** Version number 1.0 is less than version on Google Fonts GitHub repo (1.001007080078125).
+</div></details><details><summary>🔥 <b>FAIL:</b> Check if the vertical metrics of a family are similar to the same family hosted on Google Fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics_regressions">com.google.fonts/check/vertical_metrics_regressions</a>)</summary><div>
+
+
+* 🔥 **FAIL** Noto Sans Thai Looped Extrabold Regular: OS/2 sTypoAscender is 1192 when it should be 1250 [code: bad-typo-ascender]
+* 🔥 **FAIL** Noto Sans Thai Looped Extrabold Regular: hhea Ascender is 1192 when it should be 1250 [code: bad-hhea-ascender]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
+</div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+
+
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
+
+The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̦̒ į̧̀ į̧́ [code: soft-dotted]
+</div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
+
+
+* ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
+	* uni0E06
+	* uni0E12
+	* uni0E1A
+	* uni0E1B
+	* uni0E29
+	* uni0E2C
+	* uni0E2F
+	* uni0E30
+	* uni0E31
+	* uni0E31.narrow and 23 more.
+
+Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -804,9 +997,11 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- fonThongthai 
+	- uni0331.alt
 
-	- And uni0E29.BRACKET.110
+	- uni035E.wide 
+
+	- uni0E29.BRACKET.varAlt01
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -819,54 +1014,35 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: uni0E2E	Contours detected: 2	Expected: 1 or 3
+	- Glyph name: uni0E29	Contours detected: 4	Expected: 1 or 3
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
-	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni0E5A	Contours detected: 3	Expected: 1 or 2
+	- Glyph name: uni0E2E	Contours detected: 4	Expected: 1 or 3
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni0E2E	Contours detected: 2	Expected: 1 or 3
+	- Glyph name: uni0E29	Contours detected: 4	Expected: 1 or 3
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
+	- Glyph name: uni0E2E	Contours detected: 4	Expected: 1 or 3 
 
-	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni0E5A	Contours detected: 3	Expected: 1 or 2 
-
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
+
+
+* ⚠ **WARN** The most common width is 577 among a set of 6 math glyphs.
+The following math glyphs have a different width, though:
+
+Width = 320:
+minus
+ [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
-	* fongDan (U+EC0A): L<<150.0,638.0>--<140.0,754.0>> -> L<<140.0,754.0>--<140.0,836.0>>
+	* uni0E48 (U+0E48): L<<-198.0,639.0>--<-210.0,777.0>> -> L<<-210.0,777.0>--<-210.0,868.0>> 
 
-	* fongDan (U+EC0A): L<<251.0,836.0>--<251.0,754.0>> -> L<<251.0,754.0>--<242.0,638.0>>
-
-	* fongDan (U+EC0A): L<<317.0,638.0>--<307.0,754.0>> -> L<<307.0,754.0>--<307.0,836.0>>
-
-	* fongDan (U+EC0A): L<<418.0,836.0>--<418.0,754.0>> -> L<<418.0,754.0>--<408.0,638.0>>
-
-	* fongmanFanNu (U+EC09): L<<150.0,638.0>--<140.0,754.0>> -> L<<140.0,754.0>--<140.0,836.0>>
-
-	* fongmanFanNu (U+EC09): L<<251.0,836.0>--<251.0,754.0>> -> L<<251.0,754.0>--<241.0,638.0>>
-
-	* fongmanFanNu (U+EC09): L<<317.0,638.0>--<307.0,754.0>> -> L<<307.0,754.0>--<307.0,836.0>>
-
-	* fongmanFanNu (U+EC09): L<<418.0,836.0>--<418.0,754.0>> -> L<<418.0,754.0>--<408.0,638.0>>
-
-	* uni0E48 (U+0E48): L<<169.0,836.0>--<169.0,754.0>> -> L<<169.0,754.0>--<162.0,638.0>>
-
-	* uni0E48 (U+0E48): L<<57.0,638.0>--<50.0,754.0>> -> L<<50.0,754.0>--<50.0,836.0>> 
-
-	* And 6 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
+	* uni0E48 (U+0E48): L<<-83.0,868.0>--<-83.0,777.0>> -> L<<-83.0,777.0>--<-96.0,639.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
@@ -878,21 +1054,44 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 	* Wcircumflex (U+0174): B<<684.5,198.0>-<692.0,160.0>-<695.0,130.0>>/B<<695.0,130.0>-<700.0,167.0>-<710.5,217.5>> = 13.406644859516216
 
-	* Wdieresis (U+1E84): B<<684.5,198.0>-<692.0,160.0>-<695.0,130.0>>/B<<695.0,130.0>-<700.0,167.0>-<710.5,217.5>> = 13.406644859516216
+	* Wdieresis (U+1E84): B<<684.5,198.0>-<692.0,160.0>-<695.0,130.0>>/B<<695.0,130.0>-<700.0,167.0>-<710.5,217.5>> = 13.406644859516216 
 
-	* Wgrave (U+1E80): B<<684.5,198.0>-<692.0,160.0>-<695.0,130.0>>/B<<695.0,130.0>-<700.0,167.0>-<710.5,217.5>> = 13.406644859516216 
-
-	* And uni0E10 (U+0E10): B<<442.0,-204.0>-<449.0,-204.0>-<454.0,-204.0>>/B<<454.0,-204.0>-<419.0,-200.0>-<395.5,-178.0>> = 6.5198017516569164 [code: found-jaggy-segments]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
+	* Wgrave (U+1E80): B<<684.5,198.0>-<692.0,160.0>-<695.0,130.0>>/B<<695.0,130.0>-<700.0,167.0>-<710.5,217.5>> = 13.406644859516216 [code: found-jaggy-segments]
+</div></details><br></div></details><details><summary><b>[15] NotoSansThaiLooped-Thin.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
-* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
-
-	* uni0E1B (U+0E1B): L<<272.0,98.0>--<400.0,99.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[8] NotoSansThaiLooped-Thin.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
+</div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
+* 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
+But instead we have got:
+"Copyright 2022 The Noto Project Authors" [code: bad-notice-format]
+</div></details><details><summary>🔥 <b>FAIL:</b> Version number has increased since previous release on Google Fonts? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/version_bump">com.google.fonts/check/version_bump</a>)</summary><div>
+
+
+* 🔥 **FAIL** Version number 1.0 is less than version on Google Fonts (1.001007080078125).
+* 🔥 **FAIL** Version number 1.0 is less than version on Google Fonts GitHub repo (1.001007080078125).
+</div></details><details><summary>🔥 <b>FAIL:</b> Check if the vertical metrics of a family are similar to the same family hosted on Google Fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics_regressions">com.google.fonts/check/vertical_metrics_regressions</a>)</summary><div>
+
+
+* 🔥 **FAIL** Noto Sans Thai Looped Extrabold Regular: OS/2 sTypoAscender is 1192 when it should be 1250 [code: bad-typo-ascender]
+* 🔥 **FAIL** Noto Sans Thai Looped Extrabold Regular: hhea Ascender is 1192 when it should be 1250 [code: bad-hhea-ascender]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
+</div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+
+
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
+
+The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̦̒ į̧̀ į̧́ [code: soft-dotted]
+</div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
+
+
+* ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
+	* uni0E2E and uni0E4F
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -909,9 +1108,11 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- fonThongthai 
+	- uni0331.alt
 
-	- And uni0E29.BRACKET.110
+	- uni035E.wide 
+
+	- uni0E29.BRACKET.varAlt01
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -924,60 +1125,43 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: uni0E2B	Contours detected: 4	Expected: 1 or 3
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
 
-	- Glyph name: uni0E2E	Contours detected: 2	Expected: 1 or 3
-
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
-	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni0E5A	Contours detected: 3	Expected: 1 or 2
-
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni0E2B	Contours detected: 4	Expected: 1 or 3
-
-	- Glyph name: uni0E2E	Contours detected: 2	Expected: 1 or 3 
-
-	- And 4 more.
-
-Use -F or --full-lists to disable shortening of long lists.
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
+
+
+* ⚠ **WARN** The most common width is 570 among a set of 6 math glyphs.
+The following math glyphs have a different width, though:
+
+Width = 322:
+minus
+ [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
-	* fongDan (U+EC0A): L<<227.0,645.0>--<223.0,754.0>> -> L<<223.0,754.0>--<223.0,814.0>>
+	* uni0E48 (U+0E48): L<<-100.0,812.0>--<-100.0,758.0>> -> L<<-100.0,758.0>--<-103.0,645.0>> 
 
-	* fongDan (U+EC0A): L<<250.0,814.0>--<250.0,754.0>> -> L<<250.0,754.0>--<246.0,645.0>>
-
-	* fongDan (U+EC0A): L<<336.0,645.0>--<332.0,754.0>> -> L<<332.0,754.0>--<332.0,814.0>>
-
-	* fongDan (U+EC0A): L<<359.0,814.0>--<359.0,754.0>> -> L<<359.0,754.0>--<355.0,645.0>>
-
-	* fongmanFanNu (U+EC09): L<<227.0,645.0>--<223.0,754.0>> -> L<<223.0,754.0>--<223.0,814.0>>
-
-	* fongmanFanNu (U+EC09): L<<250.0,814.0>--<250.0,754.0>> -> L<<250.0,754.0>--<246.0,645.0>>
-
-	* fongmanFanNu (U+EC09): L<<336.0,645.0>--<332.0,754.0>> -> L<<332.0,754.0>--<332.0,814.0>>
-
-	* fongmanFanNu (U+EC09): L<<359.0,814.0>--<359.0,754.0>> -> L<<359.0,754.0>--<355.0,645.0>>
-
-	* uni0E48 (U+0E48): L<<53.0,645.0>--<50.0,754.0>> -> L<<50.0,754.0>--<50.0,814.0>>
-
-	* uni0E48 (U+0E48): L<<77.0,814.0>--<77.0,754.0>> -> L<<77.0,754.0>--<74.0,645.0>> 
-
-	* And 6 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
+	* uni0E48 (U+0E48): L<<-124.0,645.0>--<-127.0,758.0>> -> L<<-127.0,758.0>--<-127.0,812.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
-	* uni0E11 (U+0E11): B<<205.5,406.5>-<219.0,433.0>-<225.0,459.0>>/B<<225.0,459.0>-<212.0,433.0>-<182.0,415.0>> = 13.570434385161475 [code: found-jaggy-segments]
+	* uni0E0D (U+0E0D): B<<531.5,-172.5>-<515.0,-191.0>-<487.0,-195.0>>/B<<487.0,-195.0>-<497.0,-196.0>-<509.0,-196.0>> = 13.840695491655614
+
+	* uni0E2F (U+0E2F): B<<151.5,430.5>-<135.0,412.0>-<107.0,408.0>>/B<<107.0,408.0>-<117.0,407.0>-<129.0,407.0>> = 13.840695491655614
+
+	* uni0E30 (U+0E30): B<<190.5,398.5>-<173.0,380.0>-<143.0,375.0>>/B<<143.0,375.0>-<147.0,375.0>-<150.0,375.0>> = 9.462322208025613
+
+	* uni0E30 (U+0E30): B<<190.5,78.5>-<173.0,60.0>-<143.0,55.0>>/B<<143.0,55.0>-<147.0,55.0>-<150.0,55.0>> = 9.462322208025613
+
+	* uni0E31 (U+0E31): B<<-194.5,681.0>-<-210.0,663.0>-<-237.0,657.0>>/L<<-237.0,657.0>--<-237.0,657.0>> = 12.528807709151492 
+
+	* uni0E5A (U+0E5A): B<<151.5,430.5>-<135.0,412.0>-<107.0,408.0>>/B<<107.0,408.0>-<117.0,407.0>-<129.0,407.0>> = 13.840695491655614 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -989,14 +1173,101 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 	* exclamdown (U+00A1): L<<122.0,354.0>--<124.0,-186.0>> 
 
-	* And exclamdown (U+00A1): L<<96.0,-186.0>--<98.0,354.0>> [code: found-semi-vertical]
+	* exclamdown (U+00A1): L<<96.0,-186.0>--<98.0,354.0>> [code: found-semi-vertical]
+</div></details><br></div></details><details><summary><b>[14] NotoSansThaiLooped[wdth,wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
+
+
+* 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
+</div></details><details><summary>💔 <b>ERROR:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
+
+
+* 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
+</div></details><details><summary>💔 <b>ERROR:</b> Check a font's STAT table contains compulsory Axis Values. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/STAT">com.google.fonts/check/STAT</a>)</summary><div>
+
+
+* 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
+</div></details><details><summary>💔 <b>ERROR:</b> Check variable font instances (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fvar_instances">com.google.fonts/check/fvar_instances</a>)</summary><div>
+
+
+* 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
+</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
+
+
+* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
+</div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
+
+
+* 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
+But instead we have got:
+"Copyright 2022 The Noto Project Authors" [code: bad-notice-format]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check if the vertical metrics of a family are similar to the same family hosted on Google Fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics_regressions">com.google.fonts/check/vertical_metrics_regressions</a>)</summary><div>
+
+
+* 🔥 **FAIL** Noto Sans Thai Looped Extrabold Regular: OS/2 sTypoAscender is 1192 when it should be 1250 [code: bad-typo-ascender]
+* 🔥 **FAIL** Noto Sans Thai Looped Extrabold Regular: hhea Ascender is 1192 when it should be 1250 [code: bad-hhea-ascender]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
+</div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+
+
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
+
+The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̦̒ į̧̀ į̧́ [code: soft-dotted]
+</div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
+
+
+* ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
+	* uni0E09
+	* uni0E0D
+	* uni0E0D.less
+	* uni0E0E
+	* uni0E13
+	* uni0E19
+	* uni0E1A
+	* uni0E1B
+	* uni0E20
+	* uni0E25 and 26 more.
+
+Use -F or --full-lists to disable shortening of long lists.
+</div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
+
+
+* ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
+ FONT_FAMILY_NAME = 'Noto Sans Thai Looped' / SUBFAMILY_NAME = 'Regular'
+
+Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
+
+
+* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- uni0331.alt 
+
+	- uni035E.wide
+ [code: unreachable-glyphs]
+</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
+
+
+* ⚠ **WARN** The most common width is 572 among a set of 6 math glyphs.
+The following math glyphs have a different width, though:
+
+Width = 322:
+minus
+ [code: width-outliers]
 </div></details><br></div></details>
+
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 9 | 0 | 63 | 1010 | 56 | 857 | 0 |
-| 0% | 0% | 3% | 51% | 3% | 43% | 0% |
+| 4 | 64 | 77 | 1152 | 63 | 947 | 0 |
+| 0% | 3% | 3% | 50% | 3% | 41% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**

@@ -1,8 +1,8 @@
 ## Fontbakery report
 
-Fontbakery version: 0.8.9
+Fontbakery version: 0.8.13
 
-<details><summary><b>[2] Family checks</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking all files are in the same directory. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/single_directory">com.google.fonts/check/family/single_directory</a>)</summary><div>
+<details><summary><b>[4] Family checks</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking all files are in the same directory. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/single_directory">com.google.fonts/check/family/single_directory</a>)</summary><div>
 
 
 * 🔥 **FAIL** Not all fonts passed in the command line are in the same directory. This may lead to bad results as the tool will interpret all font files as belonging to a single font family. The detected directories are: ['fonts/NotoSansThaiUI/googlefonts/ttf', 'fonts/NotoSansThaiUI/googlefonts/variable-ttf'] [code: single-directory]
@@ -10,7 +10,60 @@ Fontbakery version: 0.8.9
 
 
 * 🔥 **FAIL** PANOSE proportion is not the same across this family. In order to fix this, please make sure that the panose.bProportion value is the same in the OS/2 table of all of this family font files. [code: inconsistency]
-</div></details><br></div></details><details><summary><b>[12] NotoSansThaiUI-Black.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><details><summary>🔥 <b>FAIL:</b> Check that OS/2.fsSelection bold & italic settings are unique for each NameID1 (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.adobe.fonts/check/family/bold_italic_unique_for_nameid1">com.adobe.fonts/check/family/bold_italic_unique_for_nameid1</a>)</summary><div>
+
+
+* 🔥 **FAIL** Family 'Noto Sans Thai UI' has 2 fonts (should be no more than 1) with the same OS/2.fsSelection bold & italic settings: Bold=False, Italic=False [code: unique-fsselection]
+</div></details><details><summary>🔥 <b>FAIL:</b> Verify that family names in the name table are consistent across all fonts in the family. Checks Typographic Family name (nameID 16) if present,  otherwise uses Font Family name (nameID 1) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.adobe.fonts/check/family/consistent_family_name">com.adobe.fonts/check/family/consistent_family_name</a>)</summary><div>
+
+
+* 🔥 **FAIL** 4 different Font Family names were found:
+
+* 'Noto Sans Thai UI' was found in:
+  - NotoSansThaiUI-Black.ttf (nameID 16)
+  - NotoSansThaiUI-Bold.ttf (nameID 1)
+  - NotoSansThaiUI-ExtraBold.ttf (nameID 16)
+  - NotoSansThaiUI-ExtraLight.ttf (nameID 16)
+  - NotoSansThaiUI-Light.ttf (nameID 16)
+  - NotoSansThaiUI-Medium.ttf (nameID 16)
+  - NotoSansThaiUI-Regular.ttf (nameID 1)
+  - NotoSansThaiUI-SemiBold.ttf (nameID 16)
+  - NotoSansThaiUI-Thin.ttf (nameID 16)
+  - NotoSansThaiUI[wdth,wght].ttf (nameID 1)
+
+* 'Noto Sans Thai UI Condensed' was found in:
+  - NotoSansThaiUI-Condensed.ttf (nameID 1)
+  - NotoSansThaiUI-CondensedBlack.ttf (nameID 16)
+  - NotoSansThaiUI-CondensedBold.ttf (nameID 1)
+  - NotoSansThaiUI-CondensedExtraBold.ttf (nameID 16)
+  - NotoSansThaiUI-CondensedExtraLight.ttf (nameID 16)
+  - NotoSansThaiUI-CondensedLight.ttf (nameID 16)
+  - NotoSansThaiUI-CondensedMedium.ttf (nameID 16)
+  - NotoSansThaiUI-CondensedSemiBold.ttf (nameID 16)
+  - NotoSansThaiUI-CondensedThin.ttf (nameID 16)
+
+* 'Noto Sans Thai UI ExtraCondensed' was found in:
+  - NotoSansThaiUI-ExtraCondensed.ttf (nameID 1)
+  - NotoSansThaiUI-ExtraCondensedBlack.ttf (nameID 16)
+  - NotoSansThaiUI-ExtraCondensedBold.ttf (nameID 1)
+  - NotoSansThaiUI-ExtraCondensedExtraBold.ttf (nameID 16)
+  - NotoSansThaiUI-ExtraCondensedExtraLight.ttf (nameID 16)
+  - NotoSansThaiUI-ExtraCondensedLight.ttf (nameID 16)
+  - NotoSansThaiUI-ExtraCondensedMedium.ttf (nameID 16)
+  - NotoSansThaiUI-ExtraCondensedSemiBold.ttf (nameID 16)
+  - NotoSansThaiUI-ExtraCondensedThin.ttf (nameID 16)
+
+* 'Noto Sans Thai UI SemiCondensed' was found in:
+  - NotoSansThaiUI-SemiCondensed.ttf (nameID 1)
+  - NotoSansThaiUI-SemiCondensedBlack.ttf (nameID 16)
+  - NotoSansThaiUI-SemiCondensedBold.ttf (nameID 1)
+  - NotoSansThaiUI-SemiCondensedExtraBold.ttf (nameID 16)
+  - NotoSansThaiUI-SemiCondensedExtraLight.ttf (nameID 16)
+  - NotoSansThaiUI-SemiCondensedLight.ttf (nameID 16)
+  - NotoSansThaiUI-SemiCondensedMedium.ttf (nameID 16)
+  - NotoSansThaiUI-SemiCondensedSemiBold.ttf (nameID 16)
+  - NotoSansThaiUI-SemiCondensedThin.ttf (nameID 16) [code: inconsistent-family-name]
+</div></details><br></div></details><details><summary><b>[13] NotoSansThaiUI-Black.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -45,7 +98,7 @@ Fontbakery version: 0.8.9
 	- 0x0039 (DIGIT NINE)
  
 
-	- And 318 more.
+	- 316 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
@@ -66,6 +119,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI Black [code: render-own-name]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -77,7 +134,7 @@ But instead we have got:
 
 	- uni0E26 + uni0E45 
 
-	- And uni0E24 + uni0E45 [code: lacks-kern-info]
+	- uni0E24 + uni0E45 [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -98,19 +155,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
 	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
 
 	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
 
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
 	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
 
-	- And Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
+	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
@@ -137,7 +190,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0E4A (U+0E4A): X=-225.0,Y=713.0 (should be at cap-height 714?) 
 
-	* And 5 more.
+	* 5 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
@@ -165,10 +218,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* uni0E07 (U+0E07) contains a short segment L<<293.0,152.0>--<296.0,152.0>> 
 
-	* And 76 more.
+	* 76 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
-</div></details><br></div></details><details><summary><b>[11] NotoSansThaiUI-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[12] NotoSansThaiUI-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -203,7 +256,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 	- 0x0039 (DIGIT NINE)
  
 
-	- And 318 more.
+	- 316 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
@@ -224,6 +277,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI [code: render-own-name]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -235,7 +292,7 @@ But instead we have got:
 
 	- uni0E26 + uni0E45 
 
-	- And uni0E24 + uni0E45 [code: lacks-kern-info]
+	- uni0E24 + uni0E45 [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -249,19 +306,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
 	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
 
 	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
 
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
 	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
 
-	- And Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
+	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
@@ -282,7 +335,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0E4E (U+0E4E): X=-21.0,Y=716.0 (should be at cap-height 714?) 
 
-	* And uni0E4E (U+0E4E): X=-85.5,Y=713.5 (should be at cap-height 714?) [code: found-misalignments]
+	* uni0E4E (U+0E4E): X=-85.5,Y=713.5 (should be at cap-height 714?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
@@ -308,13 +361,13 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0E0C (U+0E0C) contains a short segment L<<55.0,333.0>--<55.0,357.0>> 
 
-	* And 51 more.
+	* 51 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
-</div></details><br></div></details><details><summary><b>[13] NotoSansThaiUI-Condensed.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[14] NotoSansThaiUI-Condensed.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
-* 🔥 **FAIL** Style name used in "fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-Condensed.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+* 🔥 **FAIL** Expected "NotoSansThaiUICondensed-Regular.ttf. Got NotoSansThaiUI-Condensed.ttf. [code: bad-filename]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
@@ -350,7 +403,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 	- 0x0039 (DIGIT NINE)
  
 
-	- And 318 more.
+	- 316 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
@@ -371,6 +424,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI Condensed [code: render-own-name]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -382,7 +439,7 @@ But instead we have got:
 
 	- uni0E26 + uni0E45 
 
-	- And uni0E24 + uni0E45 [code: lacks-kern-info]
+	- uni0E24 + uni0E45 [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -403,19 +460,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
 	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
 
 	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
 
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
 	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
 
-	- And Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
+	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
@@ -442,7 +495,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0E42 (U+0E42): X=139.0,Y=715.0 (should be at cap-height 714?) 
 
-	* And 14 more.
+	* 14 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
@@ -470,13 +523,13 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* uni0E0E (U+0E0E) contains a short segment L<<87.0,-190.0>--<87.0,-174.0>> 
 
-	* And 48 more.
+	* 48 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
-</div></details><br></div></details><details><summary><b>[13] NotoSansThaiUI-CondensedBlack.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[14] NotoSansThaiUI-CondensedBlack.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
-* 🔥 **FAIL** Style name used in "fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBlack.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+* 🔥 **FAIL** Expected "NotoSansThaiUICondensed-Black.ttf. Got NotoSansThaiUI-CondensedBlack.ttf. [code: bad-filename]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
@@ -512,7 +565,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 	- 0x0039 (DIGIT NINE)
  
 
-	- And 318 more.
+	- 316 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
@@ -533,6 +586,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI Condensed Black [code: render-own-name]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -544,7 +601,7 @@ But instead we have got:
 
 	- uni0E26 + uni0E45 
 
-	- And uni0E24 + uni0E45 [code: lacks-kern-info]
+	- uni0E24 + uni0E45 [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -565,19 +622,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
 	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
 
 	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
 
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
 	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
 
-	- And Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
+	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
@@ -600,7 +653,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0E4E (U+0E4E): X=-7.0,Y=715.0 (should be at cap-height 714?) 
 
-	* And uni0E4E (U+0E4E): X=-60.0,Y=713.0 (should be at cap-height 714?) [code: found-misalignments]
+	* uni0E4E (U+0E4E): X=-60.0,Y=713.0 (should be at cap-height 714?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
@@ -626,13 +679,13 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0E09 (U+0E09) contains a short segment L<<346.0,76.0>--<336.0,76.0>> 
 
-	* And 79 more.
+	* 79 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
-</div></details><br></div></details><details><summary><b>[13] NotoSansThaiUI-CondensedBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[14] NotoSansThaiUI-CondensedBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
-* 🔥 **FAIL** Style name used in "fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedBold.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+* 🔥 **FAIL** Expected "NotoSansThaiUICondensed-Bold.ttf. Got NotoSansThaiUI-CondensedBold.ttf. [code: bad-filename]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
@@ -668,7 +721,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 	- 0x0039 (DIGIT NINE)
  
 
-	- And 318 more.
+	- 316 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
@@ -689,6 +742,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI Condensed [code: render-own-name]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -700,7 +757,7 @@ But instead we have got:
 
 	- uni0E26 + uni0E45 
 
-	- And uni0E24 + uni0E45 [code: lacks-kern-info]
+	- uni0E24 + uni0E45 [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -721,19 +778,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
 	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
 
 	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
 
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
 	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
 
-	- And Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
+	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
@@ -758,7 +811,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0E4E (U+0E4E): X=-19.0,Y=715.0 (should be at cap-height 714?) 
 
-	* And uni0E4E (U+0E4E): X=-74.0,Y=712.5 (should be at cap-height 714?) [code: found-misalignments]
+	* uni0E4E (U+0E4E): X=-74.0,Y=712.5 (should be at cap-height 714?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
@@ -784,13 +837,13 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0E0B (U+0E0B) contains a short segment L<<289.0,407.0>--<293.0,407.0>> 
 
-	* And 59 more.
+	* 59 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
-</div></details><br></div></details><details><summary><b>[13] NotoSansThaiUI-CondensedExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[14] NotoSansThaiUI-CondensedExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
-* 🔥 **FAIL** Style name used in "fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraBold.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+* 🔥 **FAIL** Expected "NotoSansThaiUICondensed-ExtraBold.ttf. Got NotoSansThaiUI-CondensedExtraBold.ttf. [code: bad-filename]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
@@ -826,7 +879,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 	- 0x0039 (DIGIT NINE)
  
 
-	- And 318 more.
+	- 316 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
@@ -847,6 +900,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI Condensed ExtraBold [code: render-own-name]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -858,7 +915,7 @@ But instead we have got:
 
 	- uni0E26 + uni0E45 
 
-	- And uni0E24 + uni0E45 [code: lacks-kern-info]
+	- uni0E24 + uni0E45 [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -879,19 +936,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
 	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
 
 	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
 
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
 	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
 
-	- And Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
+	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
@@ -918,7 +971,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0E36 (U+0E36): X=-374.0,Y=712.0 (should be at cap-height 714?) 
 
-	* And 14 more.
+	* 14 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
@@ -946,13 +999,13 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* uni0E0B (U+0E0B) contains a short segment L<<293.0,408.0>--<297.0,408.0>> 
 
-	* And 72 more.
+	* 72 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
-</div></details><br></div></details><details><summary><b>[13] NotoSansThaiUI-CondensedExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[14] NotoSansThaiUI-CondensedExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
-* 🔥 **FAIL** Style name used in "fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedExtraLight.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+* 🔥 **FAIL** Expected "NotoSansThaiUICondensed-ExtraLight.ttf. Got NotoSansThaiUI-CondensedExtraLight.ttf. [code: bad-filename]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
@@ -988,7 +1041,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 	- 0x0039 (DIGIT NINE)
  
 
-	- And 318 more.
+	- 316 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
@@ -1009,6 +1062,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI Condensed ExtraLight [code: render-own-name]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -1020,7 +1077,7 @@ But instead we have got:
 
 	- uni0E26 + uni0E45 
 
-	- And uni0E24 + uni0E45 [code: lacks-kern-info]
+	- uni0E24 + uni0E45 [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -1041,19 +1098,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
 	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
 
 	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
 
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
 	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
 
-	- And Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
+	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
@@ -1080,7 +1133,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0E26 (U+0E26): X=23.0,Y=2.0 (should be at baseline 0?) 
 
-	* And 22 more.
+	* 22 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
@@ -1108,13 +1161,13 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* uni0E0C (U+0E0C) contains a short segment B<<180.5,28.5>-<191.0,31.0>-<199.0,35.0>> 
 
-	* And 49 more.
+	* 49 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
-</div></details><br></div></details><details><summary><b>[13] NotoSansThaiUI-CondensedLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[14] NotoSansThaiUI-CondensedLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
-* 🔥 **FAIL** Style name used in "fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedLight.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+* 🔥 **FAIL** Expected "NotoSansThaiUICondensed-Light.ttf. Got NotoSansThaiUI-CondensedLight.ttf. [code: bad-filename]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
@@ -1150,7 +1203,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 	- 0x0039 (DIGIT NINE)
  
 
-	- And 318 more.
+	- 316 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
@@ -1171,6 +1224,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI Condensed Light [code: render-own-name]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -1182,7 +1239,7 @@ But instead we have got:
 
 	- uni0E26 + uni0E45 
 
-	- And uni0E24 + uni0E45 [code: lacks-kern-info]
+	- uni0E24 + uni0E45 [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -1203,19 +1260,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
 	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
 
 	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
 
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
 	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
 
-	- And Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
+	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
@@ -1242,7 +1295,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0E49 (U+0E49): X=-209.0,Y=715.0 (should be at cap-height 714?) 
 
-	* And 6 more.
+	* 6 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
@@ -1270,13 +1323,13 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* uni0E0C (U+0E0C) contains a short segment B<<188.0,40.5>-<198.0,43.0>-<205.0,47.0>> 
 
-	* And 49 more.
+	* 49 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
-</div></details><br></div></details><details><summary><b>[13] NotoSansThaiUI-CondensedMedium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[14] NotoSansThaiUI-CondensedMedium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
-* 🔥 **FAIL** Style name used in "fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedMedium.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+* 🔥 **FAIL** Expected "NotoSansThaiUICondensed-Medium.ttf. Got NotoSansThaiUI-CondensedMedium.ttf. [code: bad-filename]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
@@ -1312,7 +1365,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 	- 0x0039 (DIGIT NINE)
  
 
-	- And 318 more.
+	- 316 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
@@ -1333,6 +1386,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI Condensed Medium [code: render-own-name]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -1344,7 +1401,7 @@ But instead we have got:
 
 	- uni0E26 + uni0E45 
 
-	- And uni0E24 + uni0E45 [code: lacks-kern-info]
+	- uni0E24 + uni0E45 [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -1365,19 +1422,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
 	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
 
 	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
 
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
 	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
 
-	- And Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
+	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
@@ -1404,7 +1457,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0E57 (U+0E57): X=240.0,Y=2.0 (should be at baseline 0?) 
 
-	* And 5 more.
+	* 5 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
@@ -1432,13 +1485,13 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* uni0E0E (U+0E0E) contains a short segment L<<85.0,-193.0>--<85.0,-177.0>> 
 
-	* And 51 more.
+	* 51 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
-</div></details><br></div></details><details><summary><b>[13] NotoSansThaiUI-CondensedSemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[14] NotoSansThaiUI-CondensedSemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
-* 🔥 **FAIL** Style name used in "fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedSemiBold.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+* 🔥 **FAIL** Expected "NotoSansThaiUICondensed-SemiBold.ttf. Got NotoSansThaiUI-CondensedSemiBold.ttf. [code: bad-filename]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
@@ -1474,7 +1527,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 	- 0x0039 (DIGIT NINE)
  
 
-	- And 318 more.
+	- 316 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
@@ -1495,6 +1548,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI Condensed SemiBold [code: render-own-name]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -1506,7 +1563,7 @@ But instead we have got:
 
 	- uni0E26 + uni0E45 
 
-	- And uni0E24 + uni0E45 [code: lacks-kern-info]
+	- uni0E24 + uni0E45 [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -1527,19 +1584,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
 	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
 
 	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
 
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
 	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
 
-	- And Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
+	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
@@ -1560,7 +1613,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0E57 (U+0E57): X=249.0,Y=2.0 (should be at baseline 0?) 
 
-	* And uni0E59 (U+0E59): X=249.0,Y=2.0 (should be at baseline 0?) [code: found-misalignments]
+	* uni0E59 (U+0E59): X=249.0,Y=2.0 (should be at baseline 0?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
@@ -1586,13 +1639,13 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0E0E (U+0E0E) contains a short segment L<<82.0,-196.0>--<82.0,-180.0>> 
 
-	* And 46 more.
+	* 46 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
-</div></details><br></div></details><details><summary><b>[14] NotoSansThaiUI-CondensedThin.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[15] NotoSansThaiUI-CondensedThin.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
-* 🔥 **FAIL** Style name used in "fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-CondensedThin.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+* 🔥 **FAIL** Expected "NotoSansThaiUICondensed-Thin.ttf. Got NotoSansThaiUI-CondensedThin.ttf. [code: bad-filename]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
@@ -1628,7 +1681,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 	- 0x0039 (DIGIT NINE)
  
 
-	- And 318 more.
+	- 316 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
@@ -1649,6 +1702,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI Condensed Thin [code: render-own-name]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -1660,7 +1717,7 @@ But instead we have got:
 
 	- uni0E26 + uni0E45 
 
-	- And uni0E24 + uni0E45 [code: lacks-kern-info]
+	- uni0E24 + uni0E45 [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -1681,19 +1738,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
 	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
 
 	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
 
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
 	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
 
-	- And Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
+	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
@@ -1720,7 +1773,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0E27 (U+0E27): X=95.0,Y=-1.5 (should be at baseline 0?) 
 
-	* And 20 more.
+	* 20 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
@@ -1748,7 +1801,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* uni0E0C (U+0E0C) contains a short segment L<<367.0,0.0>--<344.0,0.0>> 
 
-	* And 75 more.
+	* 75 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
@@ -1757,7 +1810,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
 	* uni0E2B (U+0E2B): L<<366.0,0.0>--<365.0,174.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[12] NotoSansThaiUI-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[13] NotoSansThaiUI-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -1792,7 +1845,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 	- 0x0039 (DIGIT NINE)
  
 
-	- And 318 more.
+	- 316 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
@@ -1813,6 +1866,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI ExtraBold [code: render-own-name]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -1824,7 +1881,7 @@ But instead we have got:
 
 	- uni0E26 + uni0E45 
 
-	- And uni0E24 + uni0E45 [code: lacks-kern-info]
+	- uni0E24 + uni0E45 [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -1845,19 +1902,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
 	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
 
 	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
 
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
 	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
 
-	- And Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
+	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
@@ -1884,7 +1937,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0E4D (U+0E4D): X=-215.5,Y=715.0 (should be at cap-height 714?) 
 
-	* And 3 more.
+	* 3 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
@@ -1912,13 +1965,13 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* uni0E0B (U+0E0B) contains a short segment L<<335.0,408.0>--<339.0,408.0>> 
 
-	* And 59 more.
+	* 59 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
-</div></details><br></div></details><details><summary><b>[13] NotoSansThaiUI-ExtraCondensed.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[14] NotoSansThaiUI-ExtraCondensed.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
-* 🔥 **FAIL** Style name used in "fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensed.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+* 🔥 **FAIL** Expected "NotoSansThaiUIExtraCondensed-Regular.ttf. Got NotoSansThaiUI-ExtraCondensed.ttf. [code: bad-filename]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
@@ -1954,7 +2007,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 	- 0x0039 (DIGIT NINE)
  
 
-	- And 318 more.
+	- 316 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
@@ -1975,6 +2028,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI ExtraCondensed [code: render-own-name]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -1986,7 +2043,7 @@ But instead we have got:
 
 	- uni0E26 + uni0E45 
 
-	- And uni0E24 + uni0E45 [code: lacks-kern-info]
+	- uni0E24 + uni0E45 [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -2007,19 +2064,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
 	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
 
 	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
 
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
 	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
 
-	- And Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
+	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
@@ -2046,7 +2099,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0E4E (U+0E4E): X=-43.5,Y=713.0 (should be at cap-height 714?) 
 
-	* And 8 more.
+	* 8 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
@@ -2074,13 +2127,13 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* uni0E0D (U+0E0D) contains a short segment B<<173.0,59.0>-<187.0,59.0>-<199.0,66.0>> 
 
-	* And 42 more.
+	* 42 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
-</div></details><br></div></details><details><summary><b>[13] NotoSansThaiUI-ExtraCondensedBlack.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[14] NotoSansThaiUI-ExtraCondensedBlack.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
-* 🔥 **FAIL** Style name used in "fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBlack.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+* 🔥 **FAIL** Expected "NotoSansThaiUIExtraCondensed-Black.ttf. Got NotoSansThaiUI-ExtraCondensedBlack.ttf. [code: bad-filename]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
@@ -2116,7 +2169,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 	- 0x0039 (DIGIT NINE)
  
 
-	- And 318 more.
+	- 316 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
@@ -2137,6 +2190,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI ExtraCondensed Black [code: render-own-name]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -2148,7 +2205,7 @@ But instead we have got:
 
 	- uni0E26 + uni0E45 
 
-	- And uni0E24 + uni0E45 [code: lacks-kern-info]
+	- uni0E24 + uni0E45 [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -2169,19 +2226,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
 	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
 
 	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
 
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
 	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
 
-	- And Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
+	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
@@ -2202,7 +2255,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0E4E (U+0E4E): X=-7.0,Y=715.0 (should be at cap-height 714?) 
 
-	* And uni0E4E (U+0E4E): X=-55.5,Y=713.0 (should be at cap-height 714?) [code: found-misalignments]
+	* uni0E4E (U+0E4E): X=-55.5,Y=713.0 (should be at cap-height 714?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
@@ -2228,13 +2281,13 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0E09 (U+0E09) contains a short segment L<<322.0,76.0>--<313.0,76.0>> 
 
-	* And 79 more.
+	* 79 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
-</div></details><br></div></details><details><summary><b>[13] NotoSansThaiUI-ExtraCondensedBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[14] NotoSansThaiUI-ExtraCondensedBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
-* 🔥 **FAIL** Style name used in "fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedBold.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+* 🔥 **FAIL** Expected "NotoSansThaiUIExtraCondensed-Bold.ttf. Got NotoSansThaiUI-ExtraCondensedBold.ttf. [code: bad-filename]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
@@ -2270,7 +2323,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 	- 0x0039 (DIGIT NINE)
  
 
-	- And 318 more.
+	- 316 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
@@ -2291,6 +2344,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI ExtraCondensed [code: render-own-name]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -2302,7 +2359,7 @@ But instead we have got:
 
 	- uni0E26 + uni0E45 
 
-	- And uni0E24 + uni0E45 [code: lacks-kern-info]
+	- uni0E24 + uni0E45 [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -2323,19 +2380,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
 	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
 
 	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
 
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
 	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
 
-	- And Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
+	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
@@ -2356,7 +2409,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0E4E (U+0E4E): X=-18.0,Y=715.0 (should be at cap-height 714?) 
 
-	* And uni0E4E (U+0E4E): X=-69.0,Y=712.5 (should be at cap-height 714?) [code: found-misalignments]
+	* uni0E4E (U+0E4E): X=-69.0,Y=712.5 (should be at cap-height 714?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
@@ -2382,13 +2435,13 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0E0C (U+0E0C) contains a short segment L<<46.0,336.0>--<46.0,360.0>> 
 
-	* And 57 more.
+	* 57 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
-</div></details><br></div></details><details><summary><b>[13] NotoSansThaiUI-ExtraCondensedExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[14] NotoSansThaiUI-ExtraCondensedExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
-* 🔥 **FAIL** Style name used in "fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraBold.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+* 🔥 **FAIL** Expected "NotoSansThaiUIExtraCondensed-ExtraBold.ttf. Got NotoSansThaiUI-ExtraCondensedExtraBold.ttf. [code: bad-filename]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
@@ -2424,7 +2477,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 	- 0x0039 (DIGIT NINE)
  
 
-	- And 318 more.
+	- 316 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
@@ -2445,6 +2498,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI ExtraCondensed ExtraBold [code: render-own-name]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -2456,7 +2513,7 @@ But instead we have got:
 
 	- uni0E26 + uni0E45 
 
-	- And uni0E24 + uni0E45 [code: lacks-kern-info]
+	- uni0E24 + uni0E45 [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -2477,19 +2534,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
 	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
 
 	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
 
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
 	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
 
-	- And Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
+	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
@@ -2510,7 +2563,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0E4E (U+0E4E): X=-13.0,Y=715.0 (should be at cap-height 714?) 
 
-	* And uni0E4E (U+0E4E): X=-63.0,Y=712.5 (should be at cap-height 714?) [code: found-misalignments]
+	* uni0E4E (U+0E4E): X=-63.0,Y=712.5 (should be at cap-height 714?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
@@ -2536,13 +2589,13 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0E0A (U+0E0A) contains a short segment L<<266.0,407.0>--<271.0,407.0>> 
 
-	* And 69 more.
+	* 69 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
-</div></details><br></div></details><details><summary><b>[13] NotoSansThaiUI-ExtraCondensedExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[14] NotoSansThaiUI-ExtraCondensedExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
-* 🔥 **FAIL** Style name used in "fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedExtraLight.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+* 🔥 **FAIL** Expected "NotoSansThaiUIExtraCondensed-ExtraLight.ttf. Got NotoSansThaiUI-ExtraCondensedExtraLight.ttf. [code: bad-filename]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
@@ -2578,7 +2631,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 	- 0x0039 (DIGIT NINE)
  
 
-	- And 318 more.
+	- 316 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
@@ -2599,6 +2652,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI ExtraCondensed ExtraLight [code: render-own-name]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -2610,7 +2667,7 @@ But instead we have got:
 
 	- uni0E26 + uni0E45 
 
-	- And uni0E24 + uni0E45 [code: lacks-kern-info]
+	- uni0E24 + uni0E45 [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -2631,19 +2688,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
 	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
 
 	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
 
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
 	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
 
-	- And Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
+	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
@@ -2670,7 +2723,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0E2F (U+0E2F): X=250.0,Y=-1.0 (should be at baseline 0?) 
 
-	* And 19 more.
+	* 19 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
@@ -2698,13 +2751,13 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* uni0E0C (U+0E0C) contains a short segment B<<162.0,28.5>-<171.0,31.0>-<178.0,35.0>> 
 
-	* And 56 more.
+	* 56 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
-</div></details><br></div></details><details><summary><b>[13] NotoSansThaiUI-ExtraCondensedLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[14] NotoSansThaiUI-ExtraCondensedLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
-* 🔥 **FAIL** Style name used in "fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedLight.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+* 🔥 **FAIL** Expected "NotoSansThaiUIExtraCondensed-Light.ttf. Got NotoSansThaiUI-ExtraCondensedLight.ttf. [code: bad-filename]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
@@ -2740,7 +2793,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 	- 0x0039 (DIGIT NINE)
  
 
-	- And 318 more.
+	- 316 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
@@ -2761,6 +2814,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI ExtraCondensed Light [code: render-own-name]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -2772,7 +2829,7 @@ But instead we have got:
 
 	- uni0E26 + uni0E45 
 
-	- And uni0E24 + uni0E45 [code: lacks-kern-info]
+	- uni0E24 + uni0E45 [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -2793,19 +2850,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
 	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
 
 	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
 
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
 	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
 
-	- And Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
+	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
@@ -2832,7 +2885,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0E2A (U+0E2A): X=222.0,Y=2.0 (should be at baseline 0?) 
 
-	* And 8 more.
+	* 8 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
@@ -2860,13 +2913,13 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* uni0E0C (U+0E0C) contains a short segment L<<53.0,355.0>--<53.0,379.0>> 
 
-	* And 46 more.
+	* 46 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
-</div></details><br></div></details><details><summary><b>[13] NotoSansThaiUI-ExtraCondensedMedium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[14] NotoSansThaiUI-ExtraCondensedMedium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
-* 🔥 **FAIL** Style name used in "fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedMedium.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+* 🔥 **FAIL** Expected "NotoSansThaiUIExtraCondensed-Medium.ttf. Got NotoSansThaiUI-ExtraCondensedMedium.ttf. [code: bad-filename]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
@@ -2902,7 +2955,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 	- 0x0039 (DIGIT NINE)
  
 
-	- And 318 more.
+	- 316 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
@@ -2923,6 +2976,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI ExtraCondensed Medium [code: render-own-name]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -2934,7 +2991,7 @@ But instead we have got:
 
 	- uni0E26 + uni0E45 
 
-	- And uni0E24 + uni0E45 [code: lacks-kern-info]
+	- uni0E24 + uni0E45 [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -2955,19 +3012,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
 	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
 
 	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
 
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
 	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
 
-	- And Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
+	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
@@ -2994,7 +3047,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0E4E (U+0E4E): X=-52.0,Y=716.0 (should be at cap-height 714?) 
 
-	* And 8 more.
+	* 8 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
@@ -3022,13 +3075,13 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* uni0E0E (U+0E0E) contains a short segment L<<79.0,-193.0>--<79.0,-177.0>> 
 
-	* And 50 more.
+	* 50 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
-</div></details><br></div></details><details><summary><b>[13] NotoSansThaiUI-ExtraCondensedSemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[14] NotoSansThaiUI-ExtraCondensedSemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
-* 🔥 **FAIL** Style name used in "fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedSemiBold.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+* 🔥 **FAIL** Expected "NotoSansThaiUIExtraCondensed-SemiBold.ttf. Got NotoSansThaiUI-ExtraCondensedSemiBold.ttf. [code: bad-filename]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
@@ -3064,7 +3117,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 	- 0x0039 (DIGIT NINE)
  
 
-	- And 318 more.
+	- 316 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
@@ -3085,6 +3138,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI ExtraCondensed SemiBold [code: render-own-name]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -3096,7 +3153,7 @@ But instead we have got:
 
 	- uni0E26 + uni0E45 
 
-	- And uni0E24 + uni0E45 [code: lacks-kern-info]
+	- uni0E24 + uni0E45 [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -3117,19 +3174,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
 	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
 
 	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
 
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
 	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
 
-	- And Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
+	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
@@ -3154,7 +3207,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0E57 (U+0E57): X=232.0,Y=2.0 (should be at baseline 0?) 
 
-	* And uni0E59 (U+0E59): X=232.0,Y=2.0 (should be at baseline 0?) [code: found-misalignments]
+	* uni0E59 (U+0E59): X=232.0,Y=2.0 (should be at baseline 0?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
@@ -3180,13 +3233,13 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0E0D (U+0E0D) contains a short segment L<<49.0,340.0>--<49.0,366.0>> 
 
-	* And 52 more.
+	* 52 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
-</div></details><br></div></details><details><summary><b>[13] NotoSansThaiUI-ExtraCondensedThin.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[14] NotoSansThaiUI-ExtraCondensedThin.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
-* 🔥 **FAIL** Style name used in "fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-ExtraCondensedThin.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+* 🔥 **FAIL** Expected "NotoSansThaiUIExtraCondensed-Thin.ttf. Got NotoSansThaiUI-ExtraCondensedThin.ttf. [code: bad-filename]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
@@ -3222,7 +3275,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 	- 0x0039 (DIGIT NINE)
  
 
-	- And 318 more.
+	- 316 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
@@ -3243,6 +3296,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI ExtraCondensed Thin [code: render-own-name]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -3254,7 +3311,7 @@ But instead we have got:
 
 	- uni0E26 + uni0E45 
 
-	- And uni0E24 + uni0E45 [code: lacks-kern-info]
+	- uni0E24 + uni0E45 [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -3275,19 +3332,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
 	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
 
 	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
 
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
 	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
 
-	- And Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
+	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
@@ -3314,7 +3367,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0E27 (U+0E27): X=84.5,Y=-1.5 (should be at baseline 0?) 
 
-	* And 20 more.
+	* 20 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
@@ -3342,10 +3395,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* uni0E0C (U+0E0C) contains a short segment L<<326.0,0.0>--<303.0,0.0>> 
 
-	* And 79 more.
+	* 79 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
-</div></details><br></div></details><details><summary><b>[13] NotoSansThaiUI-ExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[14] NotoSansThaiUI-ExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -3380,7 +3433,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 	- 0x0039 (DIGIT NINE)
  
 
-	- And 318 more.
+	- 316 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
@@ -3401,6 +3454,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI ExtraLight [code: render-own-name]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -3412,7 +3469,7 @@ But instead we have got:
 
 	- uni0E26 + uni0E45 
 
-	- And uni0E24 + uni0E45 [code: lacks-kern-info]
+	- uni0E24 + uni0E45 [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -3433,19 +3490,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
 	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
 
 	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
 
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
 	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
 
-	- And Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
+	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
@@ -3472,7 +3525,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0E36 (U+0E36): X=-165.0,Y=713.0 (should be at cap-height 714?) 
 
-	* And 17 more.
+	* 17 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
@@ -3500,7 +3553,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* uni0E0D (U+0E0D) contains a short segment L<<761.0,89.0>--<757.0,89.0>> 
 
-	* And 45 more.
+	* 45 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
@@ -3509,7 +3562,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
 	* uni0E4A (U+0E4A): L<<-155.0,636.0>--<-154.0,636.0>> -> L<<-154.0,636.0>--<-63.0,636.0>> [code: found-colinear-vectors]
-</div></details><br></div></details><details><summary><b>[12] NotoSansThaiUI-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[13] NotoSansThaiUI-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -3544,7 +3597,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 	- 0x0039 (DIGIT NINE)
  
 
-	- And 318 more.
+	- 316 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
@@ -3565,6 +3618,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI Light [code: render-own-name]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -3576,7 +3633,7 @@ But instead we have got:
 
 	- uni0E26 + uni0E45 
 
-	- And uni0E24 + uni0E45 [code: lacks-kern-info]
+	- uni0E24 + uni0E45 [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -3597,19 +3654,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
 	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
 
 	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
 
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
 	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
 
-	- And Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
+	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
@@ -3636,7 +3689,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0E31 (U+0E31): X=-259.0,Y=716.0 (should be at cap-height 714?) 
 
-	* And 8 more.
+	* 8 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
@@ -3664,10 +3717,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* uni0E0C (U+0E0C) contains a short segment B<<227.5,42.0>-<240.0,44.0>-<250.0,48.0>> 
 
-	* And 42 more.
+	* 42 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
-</div></details><br></div></details><details><summary><b>[12] NotoSansThaiUI-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[13] NotoSansThaiUI-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -3702,7 +3755,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 	- 0x0039 (DIGIT NINE)
  
 
-	- And 318 more.
+	- 316 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
@@ -3723,6 +3776,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI Medium [code: render-own-name]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -3734,7 +3791,7 @@ But instead we have got:
 
 	- uni0E26 + uni0E45 
 
-	- And uni0E24 + uni0E45 [code: lacks-kern-info]
+	- uni0E24 + uni0E45 [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -3755,19 +3812,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
 	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
 
 	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
 
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
 	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
 
-	- And Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
+	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
@@ -3794,7 +3847,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0E51 (U+0E51): X=189.0,Y=1.0 (should be at baseline 0?) 
 
-	* And 7 more.
+	* 7 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
@@ -3822,10 +3875,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* uni0E0E (U+0E0E) contains a short segment L<<99.0,-194.0>--<99.0,-178.0>> 
 
-	* And 43 more.
+	* 43 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
-</div></details><br></div></details><details><summary><b>[11] NotoSansThaiUI-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[12] NotoSansThaiUI-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -3860,7 +3913,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 	- 0x0039 (DIGIT NINE)
  
 
-	- And 318 more.
+	- 316 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
@@ -3881,6 +3934,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI [code: render-own-name]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -3892,7 +3949,7 @@ But instead we have got:
 
 	- uni0E26 + uni0E45 
 
-	- And uni0E24 + uni0E45 [code: lacks-kern-info]
+	- uni0E24 + uni0E45 [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -3906,19 +3963,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
 	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
 
 	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
 
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
 	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
 
-	- And Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
+	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
@@ -3945,7 +3998,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0E42 (U+0E42): X=146.0,Y=712.0 (should be at cap-height 714?) 
 
-	* And 14 more.
+	* 14 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
@@ -3973,10 +4026,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* uni0E0E (U+0E0E) contains a short segment L<<103.0,-191.0>--<103.0,-175.0>> 
 
-	* And 42 more.
+	* 42 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
-</div></details><br></div></details><details><summary><b>[12] NotoSansThaiUI-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[13] NotoSansThaiUI-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -4011,7 +4064,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 	- 0x0039 (DIGIT NINE)
  
 
-	- And 318 more.
+	- 316 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
@@ -4032,6 +4085,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI SemiBold [code: render-own-name]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -4043,7 +4100,7 @@ But instead we have got:
 
 	- uni0E26 + uni0E45 
 
-	- And uni0E24 + uni0E45 [code: lacks-kern-info]
+	- uni0E24 + uni0E45 [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -4064,19 +4121,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
 	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
 
 	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
 
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
 	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
 
-	- And Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
+	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
@@ -4101,7 +4154,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0E57 (U+0E57): X=289.0,Y=2.0 (should be at baseline 0?) 
 
-	* And uni0E59 (U+0E59): X=289.0,Y=2.0 (should be at baseline 0?) [code: found-misalignments]
+	* uni0E59 (U+0E59): X=289.0,Y=2.0 (should be at baseline 0?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
@@ -4127,13 +4180,13 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0E0E (U+0E0E) contains a short segment L<<96.0,-198.0>--<96.0,-181.0>> 
 
-	* And 42 more.
+	* 42 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
-</div></details><br></div></details><details><summary><b>[13] NotoSansThaiUI-SemiCondensed.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[14] NotoSansThaiUI-SemiCondensed.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
-* 🔥 **FAIL** Style name used in "fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensed.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+* 🔥 **FAIL** Expected "NotoSansThaiUISemiCondensed-Regular.ttf. Got NotoSansThaiUI-SemiCondensed.ttf. [code: bad-filename]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
@@ -4169,7 +4222,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 	- 0x0039 (DIGIT NINE)
  
 
-	- And 318 more.
+	- 316 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
@@ -4190,6 +4243,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI SemiCondensed [code: render-own-name]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -4201,7 +4258,7 @@ But instead we have got:
 
 	- uni0E26 + uni0E45 
 
-	- And uni0E24 + uni0E45 [code: lacks-kern-info]
+	- uni0E24 + uni0E45 [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -4222,19 +4279,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
 	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
 
 	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
 
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
 	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
 
-	- And Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
+	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
@@ -4261,7 +4314,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0E44 (U+0E44): X=148.0,Y=715.0 (should be at cap-height 714?) 
 
-	* And 11 more.
+	* 11 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
@@ -4289,13 +4342,13 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* uni0E0E (U+0E0E) contains a short segment B<<31.0,66.0>-<37.0,64.0>-<44.5,62.0>> 
 
-	* And 47 more.
+	* 47 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
-</div></details><br></div></details><details><summary><b>[13] NotoSansThaiUI-SemiCondensedBlack.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[14] NotoSansThaiUI-SemiCondensedBlack.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
-* 🔥 **FAIL** Style name used in "fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBlack.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+* 🔥 **FAIL** Expected "NotoSansThaiUISemiCondensed-Black.ttf. Got NotoSansThaiUI-SemiCondensedBlack.ttf. [code: bad-filename]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
@@ -4331,7 +4384,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 	- 0x0039 (DIGIT NINE)
  
 
-	- And 318 more.
+	- 316 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
@@ -4352,6 +4405,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI SemiCondensed Black [code: render-own-name]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -4363,7 +4420,7 @@ But instead we have got:
 
 	- uni0E26 + uni0E45 
 
-	- And uni0E24 + uni0E45 [code: lacks-kern-info]
+	- uni0E24 + uni0E45 [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -4384,19 +4441,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
 	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
 
 	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
 
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
 	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
 
-	- And Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
+	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
@@ -4421,7 +4474,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0E51 (U+0E51): X=131.0,Y=-1.0 (should be at baseline 0?) 
 
-	* And uni0E58 (U+0E58): X=286.5,Y=2.0 (should be at baseline 0?) [code: found-misalignments]
+	* uni0E58 (U+0E58): X=286.5,Y=2.0 (should be at baseline 0?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
@@ -4447,13 +4500,13 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0E06 (U+0E06) contains a short segment B<<129.5,371.5>-<122.0,370.0>-<114.0,370.0>> 
 
-	* And 84 more.
+	* 84 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
-</div></details><br></div></details><details><summary><b>[13] NotoSansThaiUI-SemiCondensedBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[14] NotoSansThaiUI-SemiCondensedBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
-* 🔥 **FAIL** Style name used in "fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedBold.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+* 🔥 **FAIL** Expected "NotoSansThaiUISemiCondensed-Bold.ttf. Got NotoSansThaiUI-SemiCondensedBold.ttf. [code: bad-filename]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
@@ -4489,7 +4542,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 	- 0x0039 (DIGIT NINE)
  
 
-	- And 318 more.
+	- 316 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
@@ -4510,6 +4563,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI SemiCondensed [code: render-own-name]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -4521,7 +4578,7 @@ But instead we have got:
 
 	- uni0E26 + uni0E45 
 
-	- And uni0E24 + uni0E45 [code: lacks-kern-info]
+	- uni0E24 + uni0E45 [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -4542,19 +4599,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
 	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
 
 	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
 
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
 	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
 
-	- And Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
+	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
@@ -4583,7 +4636,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0E4E (U+0E4E): X=-20.0,Y=716.0 (should be at cap-height 714?) 
 
-	* And uni0E4E (U+0E4E): X=-79.5,Y=713.0 (should be at cap-height 714?) [code: found-misalignments]
+	* uni0E4E (U+0E4E): X=-79.5,Y=713.0 (should be at cap-height 714?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
@@ -4609,13 +4662,13 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0E0B (U+0E0B) contains a short segment L<<309.0,408.0>--<312.0,408.0>> 
 
-	* And 56 more.
+	* 56 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
-</div></details><br></div></details><details><summary><b>[13] NotoSansThaiUI-SemiCondensedExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[14] NotoSansThaiUI-SemiCondensedExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
-* 🔥 **FAIL** Style name used in "fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraBold.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+* 🔥 **FAIL** Expected "NotoSansThaiUISemiCondensed-ExtraBold.ttf. Got NotoSansThaiUI-SemiCondensedExtraBold.ttf. [code: bad-filename]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
@@ -4651,7 +4704,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 	- 0x0039 (DIGIT NINE)
  
 
-	- And 318 more.
+	- 316 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
@@ -4672,6 +4725,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI SemiCondensed ExtraBold [code: render-own-name]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -4683,7 +4740,7 @@ But instead we have got:
 
 	- uni0E26 + uni0E45 
 
-	- And uni0E24 + uni0E45 [code: lacks-kern-info]
+	- uni0E24 + uni0E45 [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -4704,19 +4761,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
 	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
 
 	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
 
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
 	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
 
-	- And Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
+	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
@@ -4743,7 +4796,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0E35 (U+0E35): X=-403.0,Y=716.0 (should be at cap-height 714?) 
 
-	* And 14 more.
+	* 14 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
@@ -4771,13 +4824,13 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* uni0E0A (U+0E0A) contains a short segment L<<302.0,408.0>--<308.0,408.0>> 
 
-	* And 70 more.
+	* 70 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
-</div></details><br></div></details><details><summary><b>[14] NotoSansThaiUI-SemiCondensedExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[15] NotoSansThaiUI-SemiCondensedExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
-* 🔥 **FAIL** Style name used in "fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedExtraLight.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+* 🔥 **FAIL** Expected "NotoSansThaiUISemiCondensed-ExtraLight.ttf. Got NotoSansThaiUI-SemiCondensedExtraLight.ttf. [code: bad-filename]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
@@ -4813,7 +4866,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 	- 0x0039 (DIGIT NINE)
  
 
-	- And 318 more.
+	- 316 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
@@ -4834,6 +4887,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI SemiCondensed ExtraLight [code: render-own-name]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -4845,7 +4902,7 @@ But instead we have got:
 
 	- uni0E26 + uni0E45 
 
-	- And uni0E24 + uni0E45 [code: lacks-kern-info]
+	- uni0E24 + uni0E45 [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -4866,19 +4923,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
 	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
 
 	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
 
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
 	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
 
-	- And Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
+	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
@@ -4905,7 +4958,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0E2A (U+0E2A): X=267.0,Y=1.0 (should be at baseline 0?) 
 
-	* And 20 more.
+	* 20 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
@@ -4933,7 +4986,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* uni0E0C (U+0E0C) contains a short segment B<<200.5,29.0>-<213.0,32.0>-<222.0,35.0>> 
 
-	* And 48 more.
+	* 48 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
@@ -4942,10 +4995,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
 	* uni0E4A (U+0E4A): L<<-138.0,636.0>--<-138.0,636.0>> -> L<<-138.0,636.0>--<-56.0,636.0>> [code: found-colinear-vectors]
-</div></details><br></div></details><details><summary><b>[13] NotoSansThaiUI-SemiCondensedLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[14] NotoSansThaiUI-SemiCondensedLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
-* 🔥 **FAIL** Style name used in "fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedLight.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+* 🔥 **FAIL** Expected "NotoSansThaiUISemiCondensed-Light.ttf. Got NotoSansThaiUI-SemiCondensedLight.ttf. [code: bad-filename]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
@@ -4981,7 +5034,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 	- 0x0039 (DIGIT NINE)
  
 
-	- And 318 more.
+	- 316 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
@@ -5002,6 +5055,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI SemiCondensed Light [code: render-own-name]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -5013,7 +5070,7 @@ But instead we have got:
 
 	- uni0E26 + uni0E45 
 
-	- And uni0E24 + uni0E45 [code: lacks-kern-info]
+	- uni0E24 + uni0E45 [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -5034,19 +5091,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
 	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
 
 	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
 
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
 	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
 
-	- And Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
+	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
@@ -5073,7 +5126,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0E31 (U+0E31): X=-231.0,Y=716.0 (should be at cap-height 714?) 
 
-	* And 7 more.
+	* 7 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
@@ -5101,13 +5154,13 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* uni0E0C (U+0E0C) contains a short segment B<<207.0,41.5>-<218.0,44.0>-<226.0,47.0>> 
 
-	* And 47 more.
+	* 47 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
-</div></details><br></div></details><details><summary><b>[13] NotoSansThaiUI-SemiCondensedMedium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[14] NotoSansThaiUI-SemiCondensedMedium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
-* 🔥 **FAIL** Style name used in "fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedMedium.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+* 🔥 **FAIL** Expected "NotoSansThaiUISemiCondensed-Medium.ttf. Got NotoSansThaiUI-SemiCondensedMedium.ttf. [code: bad-filename]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
@@ -5143,7 +5196,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 	- 0x0039 (DIGIT NINE)
  
 
-	- And 318 more.
+	- 316 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
@@ -5164,6 +5217,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI SemiCondensed Medium [code: render-own-name]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -5175,7 +5232,7 @@ But instead we have got:
 
 	- uni0E26 + uni0E45 
 
-	- And uni0E24 + uni0E45 [code: lacks-kern-info]
+	- uni0E24 + uni0E45 [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -5196,19 +5253,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
 	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
 
 	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
 
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
 	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
 
-	- And Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
+	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
@@ -5235,7 +5288,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0E53 (U+0E53): X=261.0,Y=2.0 (should be at baseline 0?) 
 
-	* And 6 more.
+	* 6 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
@@ -5263,13 +5316,13 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* uni0E0E (U+0E0E) contains a short segment L<<92.0,-194.0>--<92.0,-177.0>> 
 
-	* And 49 more.
+	* 49 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
-</div></details><br></div></details><details><summary><b>[13] NotoSansThaiUI-SemiCondensedSemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[14] NotoSansThaiUI-SemiCondensedSemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
-* 🔥 **FAIL** Style name used in "fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedSemiBold.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+* 🔥 **FAIL** Expected "NotoSansThaiUISemiCondensed-SemiBold.ttf. Got NotoSansThaiUI-SemiCondensedSemiBold.ttf. [code: bad-filename]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
@@ -5305,7 +5358,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 	- 0x0039 (DIGIT NINE)
  
 
-	- And 318 more.
+	- 316 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
@@ -5326,6 +5379,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI SemiCondensed SemiBold [code: render-own-name]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -5337,7 +5394,7 @@ But instead we have got:
 
 	- uni0E26 + uni0E45 
 
-	- And uni0E24 + uni0E45 [code: lacks-kern-info]
+	- uni0E24 + uni0E45 [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -5358,19 +5415,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
 	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
 
 	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
 
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
 	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
 
-	- And Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
+	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
@@ -5391,7 +5444,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0E57 (U+0E57): X=268.0,Y=2.0 (should be at baseline 0?) 
 
-	* And uni0E59 (U+0E59): X=268.0,Y=2.0 (should be at baseline 0?) [code: found-misalignments]
+	* uni0E59 (U+0E59): X=268.0,Y=2.0 (should be at baseline 0?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
@@ -5417,13 +5470,13 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0E0E (U+0E0E) contains a short segment L<<89.0,-197.0>--<89.0,-181.0>> 
 
-	* And 43 more.
+	* 43 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
-</div></details><br></div></details><details><summary><b>[13] NotoSansThaiUI-SemiCondensedThin.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[14] NotoSansThaiUI-SemiCondensedThin.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
-* 🔥 **FAIL** Style name used in "fonts/NotoSansThaiUI/googlefonts/ttf/NotoSansThaiUI-SemiCondensedThin.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+* 🔥 **FAIL** Expected "NotoSansThaiUISemiCondensed-Thin.ttf. Got NotoSansThaiUI-SemiCondensedThin.ttf. [code: bad-filename]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
@@ -5459,7 +5512,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 	- 0x0039 (DIGIT NINE)
  
 
-	- And 318 more.
+	- 316 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
@@ -5480,6 +5533,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI SemiCondensed Thin [code: render-own-name]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -5491,7 +5548,7 @@ But instead we have got:
 
 	- uni0E26 + uni0E45 
 
-	- And uni0E24 + uni0E45 [code: lacks-kern-info]
+	- uni0E24 + uni0E45 [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -5512,19 +5569,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
 	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
 
 	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
 
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
 	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
 
-	- And Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
+	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
@@ -5551,7 +5604,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0E20 (U+0E20): X=26.0,Y=2.0 (should be at baseline 0?) 
 
-	* And 23 more.
+	* 23 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
@@ -5579,10 +5632,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* uni0E0C (U+0E0C) contains a short segment L<<68.0,363.0>--<68.0,381.0>> 
 
-	* And 75 more.
+	* 75 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
-</div></details><br></div></details><details><summary><b>[12] NotoSansThaiUI-Thin.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[13] NotoSansThaiUI-Thin.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -5617,7 +5670,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 	- 0x0039 (DIGIT NINE)
  
 
-	- And 318 more.
+	- 316 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
@@ -5638,6 +5691,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI Thin [code: render-own-name]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -5649,7 +5706,7 @@ But instead we have got:
 
 	- uni0E26 + uni0E45 
 
-	- And uni0E24 + uni0E45 [code: lacks-kern-info]
+	- uni0E24 + uni0E45 [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -5670,19 +5727,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
 	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
 
 	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
 
 	- Glyph name: uni0E10	Contours detected: 2	Expected: 1 or 5
 
-	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
 	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
 
-	- And Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
+	- Glyph name: uni0E55	Contours detected: 2	Expected: 1 or 3
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
@@ -5709,7 +5762,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0E20 (U+0E20): X=30.0,Y=2.0 (should be at baseline 0?) 
 
-	* And 24 more.
+	* 24 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
@@ -5737,10 +5790,26 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* uni0E0C (U+0E0C) contains a short segment L<<77.0,363.0>--<77.0,381.0>> 
 
-	* And 76 more.
+	* 76 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
-</div></details><br></div></details><details><summary><b>[10] NotoSansThaiUI[wdth,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[14] NotoSansThaiUI[wdth,wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
+
+
+* 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
+</div></details><details><summary>💔 <b>ERROR:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
+
+
+* 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
+</div></details><details><summary>💔 <b>ERROR:</b> Check a font's STAT table contains compulsory Axis Values. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/STAT">com.google.fonts/check/STAT</a>)</summary><div>
+
+
+* 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
+</div></details><details><summary>💔 <b>ERROR:</b> Check variable font instances (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fvar_instances">com.google.fonts/check/fvar_instances</a>)</summary><div>
+
+
+* 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
+</div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -5775,7 +5844,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 	- 0x0039 (DIGIT NINE)
  
 
-	- And 318 more.
+	- 316 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
@@ -5796,10 +5865,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Thai UI [code: render-own-name]
-</div></details><details><summary>🔥 <b>FAIL:</b> Validates that when an instance record is included for the default instance, its subfamilyNameID value is set to either 2 or 17, and its postScriptNameID value is set to 6. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/fvar.html#com.adobe.fonts/check/varfont/valid_default_instance_nameids">com.adobe.fonts/check/varfont/valid_default_instance_nameids</a>)</summary><div>
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
-* 🔥 **FAIL** 'Regular' instance has the same coordinates as the default instance; its subfamilyNameID should be either 2 or 17, instead of 334. [code: invalid-default-instance-subfamily-nameid:334]
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -5811,7 +5880,7 @@ But instead we have got:
 
 	- uni0E26 + uni0E45 
 
-	- And uni0E24 + uni0E45 [code: lacks-kern-info]
+	- uni0E24 + uni0E45 [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -5841,16 +5910,17 @@ But instead we have got:
 
 	* uni0E42 (U+0E42): X=146.0,Y=712.0 (should be at cap-height 714?) 
 
-	* And 14 more.
+	* 14 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><br></div></details>
+
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 215 | 257 | 4386 | 247 | 3050 | 0 |
-| 0% | 3% | 3% | 54% | 3% | 37% | 0% |
+| 4 | 253 | 257 | 4482 | 247 | 3247 | 0 |
+| 0% | 3% | 3% | 53% | 3% | 38% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
