@@ -59,6 +59,15 @@ sub ru-thai lakkhangyao-thai by ru_lakkhangyao-thai;
 
 } liga;
 
+feature ss01 {
+  featureNames {
+        name "Tailless tho than / yo ying";
+        name 1 "Tailless tho than / yo ying";
+  };
+  sub thoThan-thai by thoThan-thai.less;
+  sub yoYing-thai by yoYing-thai.less;
+} ss01;
+
 table GDEF {
   # automatic
   GlyphClassDef

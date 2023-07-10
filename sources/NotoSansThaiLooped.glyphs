@@ -137,6 +137,11 @@ name = calt;
 {
 code = "script thai;\012language MLY ;\012sub ngoNgu-thai underscore by ngoNgu_macronbelowcomb-thai;\012sub yoYing-thai underscore by yoYing_macronbelowcomb-thai;\012sub noNu-thai underscore by noNu_macronbelowcomb-thai;\012sub moMa-thai underscore by moMa_macronbelowcomb-thai;\012sub ngoNgu-thai macronbelowcomb by ngoNgu_macronbelowcomb-thai;\012sub yoYing-thai macronbelowcomb by yoYing_macronbelowcomb-thai;\012sub noNu-thai macronbelowcomb by noNu_macronbelowcomb-thai;\012sub moMa-thai macronbelowcomb by moMa_macronbelowcomb-thai;\012\012language MFA ;\012sub ngoNgu-thai underscore by ngoNgu_macronbelowcomb-thai;\012sub yoYing-thai underscore by yoYing_macronbelowcomb-thai;\012sub noNu-thai underscore by noNu_macronbelowcomb-thai;\012sub moMa-thai underscore by moMa_macronbelowcomb-thai;\012sub ngoNgu-thai macronbelowcomb by ngoNgu_macronbelowcomb-thai;\012sub yoYing-thai macronbelowcomb by yoYing_macronbelowcomb-thai;\012sub noNu-thai macronbelowcomb by noNu_macronbelowcomb-thai;\012sub moMa-thai macronbelowcomb by moMa_macronbelowcomb-thai;\012\012language PAL ;\012sub [yoYing-thai thoThan-thai] by [yoYing-thai.less thoThan-thai.less];\012\012language SAN ;\012sub [yoYing-thai thoThan-thai] by [yoYing-thai.less thoThan-thai.less];";
 name = locl;
+},
+{
+code = "  sub thoThan-thai by thoThan-thai.less;\012  sub yoYing-thai by yoYing-thai.less;\012";
+name = ss01;
+notes = "Name: Tailless tho than / yo ying";
 }
 );
 fontMaster = (
