@@ -1,19 +1,7 @@
 {
-.appVersion = "1286";
+.appVersion = "3205";
 copyright = "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/thai)";
 customParameters = (
-{
-name = description;
-value = "Designed by Monotype design team.";
-},
-{
-name = trademark;
-value = "Noto is a trademark of Google Inc.";
-},
-{
-name = vendorID;
-value = GOOG;
-},
 {
 name = glyphOrder;
 value = (
@@ -27,14 +15,6 @@ space
 name = fsType;
 value = (
 );
-},
-{
-name = licenseURL;
-value = "https://scripts.sil.org/OFL";
-},
-{
-name = versionString;
-value = "Version 2.001";
 },
 {
 name = "Has WWS Names";
@@ -53,12 +33,45 @@ value = (
 );
 },
 {
+name = "Use Typo Metrics";
+value = 1;
+},
+{
+name = description;
+value = "Designed by Monotype design team.";
+},
+{
+name = trademark;
+value = "Noto is a trademark of Google Inc.";
+},
+{
+name = vendorID;
+value = GOOG;
+},
+{
+name = licenseURL;
+value = "https://scripts.sil.org/OFL";
+},
+{
+name = versionString;
+value = "Version 2.001";
+},
+{
 name = license;
 value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
 },
 {
-name = "Use Typo Metrics";
-value = 1;
+name = Axes;
+value = (
+{
+Name = Weight;
+Tag = wght;
+},
+{
+Name = Width;
+Tag = wdth;
+}
+);
 }
 );
 date = "2016-06-24 13:18:50 +0000";
@@ -80,7 +93,7 @@ code = "feature ccmp;\012";
 name = aalt;
 },
 {
-code = "lookup thai_decomb {\012	script thai;\012	sub saraAm-thai by nikhahit-thai saraAa-thai;\012} thai_decomb;\012\012lookup thai_comb {\012    script thai;\012sub maiEk-thai nikhahit-thai by nikhahit_maiEk-thai;\012sub maiTho-thai nikhahit-thai by nikhahit_maiTho-thai;\012sub maiTri-thai nikhahit-thai by nikhahit_maiTri-thai;\012sub maiChattawa-thai nikhahit-thai by nikhahit_maiChattawa-thai;\012\012\012} thai_comb;\012\012lookup thai_comb1 {\012	script thai;\012sub [yoYing-thai thoThan-thai doChada-thai toPatak-thai ru-thai lu-thai]' [saraU-thai saraUu-thai phinthu-thai] by [yoYing-thai.less thoThan-thai.less doChada-thai.short toPatak-thai.short ru-thai.short lu-thai.short];\012sub [doChada-thai.short toPatak-thai.short ru-thai.short lu-thai.short] [phinthu-thai saraU-thai saraUu-thai]' by [phinthu-thai.small saraU-thai.small saraUu-thai.small];\012sub [nikhahit-thai nikhahit-thai.narrow maiHanaKat-thai maitaikhu-thai maiEk-thai maiTho-thai maiTri-thai maiChattawa-thai thanthakhat-thai yamakkan-thai saraI-thai saraIi-thai saraUe-thai saraUee-thai maiHanaKat-thai.narrow maitaikhu-thai.narrow saraI-thai.narrow saraIi-thai.narrow saraUe-thai.narrow saraUee-thai.narrow] [maiEk-thai maiTho-thai maiTri-thai maiChattawa-thai thanthakhat-thai]' by [maiEk-thai.small maiTho-thai.small maiTri-thai.small maiChattawa-thai.small thanthakhat-thai.small];\012sub loChula-thai' [nikhahit-thai maiChattawa-thai maiEk-thai maiHanaKat-thai thanthakhat-thai maiTho-thai maiTri-thai maitaikhu-thai yamakkan-thai saraI-thai saraIi-thai saraUe-thai saraUee-thai] by loChula-thai.short;\012sub [poPla-thai foFa-thai foFan-thai] [maiHanaKat-thai thanthakhat-thai nikhahit-thai maiEk-thai maiTho-thai maiTri-thai maiChattawa-thai maitaikhu-thai saraI-thai saraIi-thai saraUe-thai saraUee-thai]' by [maiHanaKat-thai.narrow thanthakhat-thai.narrow nikhahit-thai.narrow maiEk-thai.narrow maiTho-thai.narrow maiTri-thai.narrow maiChattawa-thai.narrow maitaikhu-thai.narrow saraI-thai.narrow saraIi-thai.narrow saraUe-thai.narrow saraUee-thai.narrow];\012sub [poPla-thai foFa-thai foFan-thai] [nikhahit_maiEk-thai nikhahit_maiTho-thai nikhahit_maiTri-thai nikhahit_maiChattawa-thai]' by [nikhahit_maiEk-thai.narrow nikhahit_maiTho-thai.narrow nikhahit_maiTri-thai.narrow nikhahit_maiChattawa-thai.narrow];\012sub [maiEk-thai.narrow maiTho-thai.narrow maiTri-thai.narrow maiChattawa-thai.narrow thanthakhat-thai.narrow] [maiEk-thai maiTho-thai maiTri-thai maiChattawa-thai thanthakhat-thai]' by [maiEk-thai.small maiTho-thai.small maiTri-thai.small maiChattawa-thai.small thanthakhat-thai.small];\012sub [poPla-thai foFa-thai foFan-thai] [saraU-thai saraUu-thai phinthu-thai] [maiEk-thai maiTho-thai maiTri-thai maiChattawa-thai thanthakhat-thai]' by [maiEk-thai.narrow maiTho-thai.narrow maiTri-thai.narrow maiChattawa-thai.narrow thanthakhat-thai.narrow];\012sub [maiHanaKat-thai.narrow maitaikhu-thai.narrow saraI-thai.narrow saraIi-thai.narrow saraUe-thai.narrow saraUee-thai.narrow] [maiHanaKat-thai maitaikhu-thai saraI-thai saraIi-thai saraUe-thai saraUee-thai]' by [maiHanaKat-thai.narrow maitaikhu-thai.narrow saraI-thai.narrow saraIi-thai.narrow saraUe-thai.narrow saraUee-thai.narrow];\012sub [choChoe-thai thoPhuthao-thai noNen-thai] macronbelowcomb' by macronbelowcomb.alt;\012\012} thai_comb1;";
+code = "lookup thai_decomb {\012	script thai;\012	sub saraAm-thai by nikhahit-thai saraAa-thai;\012} thai_decomb;\012\012# Disabled - see #3\012#lookup thai_comb {\012#    script thai;\012#sub maiEk-thai nikhahit-thai by nikhahit_maiEk-thai;\012#sub maiTho-thai nikhahit-thai by nikhahit_maiTho-thai;\012#sub maiTri-thai nikhahit-thai by nikhahit_maiTri-thai;\012#sub maiChattawa-thai nikhahit-thai by nikhahit_maiChattawa-thai;\012#\012#\012#} thai_comb;\012\012lookup thai_comb1 {\012	script thai;\012sub [yoYing-thai thoThan-thai doChada-thai toPatak-thai ru-thai lu-thai]' [saraU-thai saraUu-thai phinthu-thai] by [yoYing-thai.less thoThan-thai.less doChada-thai.short toPatak-thai.short ru-thai.short lu-thai.short];\012sub [doChada-thai.short toPatak-thai.short ru-thai.short lu-thai.short] [phinthu-thai saraU-thai saraUu-thai]' by [phinthu-thai.small saraU-thai.small saraUu-thai.small];\012sub [nikhahit-thai nikhahit-thai.narrow maiHanaKat-thai maitaikhu-thai maiEk-thai maiTho-thai maiTri-thai maiChattawa-thai thanthakhat-thai yamakkan-thai saraI-thai saraIi-thai saraUe-thai saraUee-thai maiHanaKat-thai.narrow maitaikhu-thai.narrow saraI-thai.narrow saraIi-thai.narrow saraUe-thai.narrow saraUee-thai.narrow] [maiEk-thai maiTho-thai maiTri-thai maiChattawa-thai thanthakhat-thai]' by [maiEk-thai.small maiTho-thai.small maiTri-thai.small maiChattawa-thai.small thanthakhat-thai.small];\012sub loChula-thai' [nikhahit-thai maiChattawa-thai maiEk-thai maiHanaKat-thai thanthakhat-thai maiTho-thai maiTri-thai maitaikhu-thai yamakkan-thai saraI-thai saraIi-thai saraUe-thai saraUee-thai] by loChula-thai.short;\012sub [poPla-thai foFa-thai foFan-thai] [maiHanaKat-thai thanthakhat-thai nikhahit-thai maiEk-thai maiTho-thai maiTri-thai maiChattawa-thai maitaikhu-thai saraI-thai saraIi-thai saraUe-thai saraUee-thai]' by [maiHanaKat-thai.narrow thanthakhat-thai.narrow nikhahit-thai.narrow maiEk-thai.narrow maiTho-thai.narrow maiTri-thai.narrow maiChattawa-thai.narrow maitaikhu-thai.narrow saraI-thai.narrow saraIi-thai.narrow saraUe-thai.narrow saraUee-thai.narrow];\012sub [poPla-thai foFa-thai foFan-thai] [nikhahit_maiEk-thai nikhahit_maiTho-thai nikhahit_maiTri-thai nikhahit_maiChattawa-thai]' by [nikhahit_maiEk-thai.narrow nikhahit_maiTho-thai.narrow nikhahit_maiTri-thai.narrow nikhahit_maiChattawa-thai.narrow];\012sub [maiEk-thai.narrow maiTho-thai.narrow maiTri-thai.narrow maiChattawa-thai.narrow thanthakhat-thai.narrow] [maiEk-thai maiTho-thai maiTri-thai maiChattawa-thai thanthakhat-thai]' by [maiEk-thai.small maiTho-thai.small maiTri-thai.small maiChattawa-thai.small thanthakhat-thai.small];\012sub [poPla-thai foFa-thai foFan-thai] [saraU-thai saraUu-thai phinthu-thai] [maiEk-thai maiTho-thai maiTri-thai maiChattawa-thai thanthakhat-thai]' by [maiEk-thai.narrow maiTho-thai.narrow maiTri-thai.narrow maiChattawa-thai.narrow thanthakhat-thai.narrow];\012sub [maiHanaKat-thai.narrow maitaikhu-thai.narrow saraI-thai.narrow saraIi-thai.narrow saraUe-thai.narrow saraUee-thai.narrow] [maiHanaKat-thai maitaikhu-thai saraI-thai saraIi-thai saraUe-thai saraUee-thai]' by [maiHanaKat-thai.narrow maitaikhu-thai.narrow saraI-thai.narrow saraIi-thai.narrow saraUe-thai.narrow saraUee-thai.narrow];\012sub [choChoe-thai thoPhuthao-thai noNen-thai] macronbelowcomb' by macronbelowcomb.alt;\012\012} thai_comb1;\012";
 name = ccmp;
 },
 {
@@ -425,6 +438,7 @@ showMeasurement = 1;
 position = "{413, -200}";
 },
 {
+position = "{0, 0}";
 },
 {
 angle = 90;
@@ -84633,10 +84647,6 @@ instances = (
 {
 customParameters = (
 {
-name = weightClass;
-value = 100;
-},
-{
 name = panose;
 value = (
 2,
@@ -84701,10 +84711,6 @@ weightClass = Thin;
 },
 {
 customParameters = (
-{
-name = weightClass;
-value = 200;
-},
 {
 name = panose;
 value = (
@@ -84772,10 +84778,6 @@ weightClass = ExtraLight;
 {
 customParameters = (
 {
-name = weightClass;
-value = 300;
-},
-{
 name = panose;
 value = (
 2,
@@ -84842,10 +84844,6 @@ weightClass = Light;
 {
 customParameters = (
 {
-name = weightClass;
-value = 400;
-},
-{
 name = panose;
 value = (
 2,
@@ -84905,10 +84903,6 @@ name = Regular;
 },
 {
 customParameters = (
-{
-name = weightClass;
-value = 500;
-},
 {
 name = panose;
 value = (
@@ -84975,10 +84969,6 @@ weightClass = Medium;
 },
 {
 customParameters = (
-{
-name = weightClass;
-value = 600;
-},
 {
 name = panose;
 value = (
@@ -85047,10 +85037,6 @@ weightClass = SemiBold;
 {
 customParameters = (
 {
-name = weightClass;
-value = 700;
-},
-{
 name = panose;
 value = (
 2,
@@ -85113,10 +85099,6 @@ weightClass = Bold;
 },
 {
 customParameters = (
-{
-name = weightClass;
-value = 800;
-},
 {
 name = panose;
 value = (
@@ -85184,10 +85166,6 @@ weightClass = ExtraBold;
 {
 customParameters = (
 {
-name = weightClass;
-value = 900;
-},
-{
 name = panose;
 value = (
 2,
@@ -85252,10 +85230,6 @@ weightClass = Black;
 },
 {
 customParameters = (
-{
-name = weightClass;
-value = 100;
-},
 {
 name = panose;
 value = (
@@ -85325,10 +85299,6 @@ widthClass = Condensed;
 {
 customParameters = (
 {
-name = weightClass;
-value = 200;
-},
-{
 name = panose;
 value = (
 2,
@@ -85393,15 +85363,11 @@ instanceInterpolations = {
 "CAA0A3A7-F9A4-46B2-91A1-CB381E1B2EFA" = 0.06364;
 };
 name = "Condensed ExtraLight";
-weightClass = "Extra Light";
+weightClass = ExtraLight;
 widthClass = Condensed;
 },
 {
 customParameters = (
-{
-name = weightClass;
-value = 300;
-},
 {
 name = panose;
 value = (
@@ -85473,10 +85439,6 @@ widthClass = Condensed;
 {
 customParameters = (
 {
-name = weightClass;
-value = 400;
-},
-{
 name = panose;
 value = (
 2,
@@ -85543,10 +85505,6 @@ widthClass = Condensed;
 },
 {
 customParameters = (
-{
-name = weightClass;
-value = 500;
-},
 {
 name = panose;
 value = (
@@ -85618,10 +85576,6 @@ widthClass = Condensed;
 {
 customParameters = (
 {
-name = weightClass;
-value = 600;
-},
-{
 name = panose;
 value = (
 2,
@@ -85691,10 +85645,6 @@ widthClass = Condensed;
 },
 {
 customParameters = (
-{
-name = weightClass;
-value = 700;
-},
 {
 name = panose;
 value = (
@@ -85766,10 +85716,6 @@ widthClass = Condensed;
 {
 customParameters = (
 {
-name = weightClass;
-value = 800;
-},
-{
 name = panose;
 value = (
 2,
@@ -85840,10 +85786,6 @@ widthClass = Condensed;
 {
 customParameters = (
 {
-name = weightClass;
-value = 900;
-},
-{
 name = panose;
 value = (
 2,
@@ -85911,10 +85853,6 @@ widthClass = Condensed;
 },
 {
 customParameters = (
-{
-name = weightClass;
-value = 100;
-},
 {
 name = panose;
 value = (
@@ -85984,10 +85922,6 @@ widthClass = SemiCondensed;
 {
 customParameters = (
 {
-name = weightClass;
-value = 200;
-},
-{
 name = panose;
 value = (
 2,
@@ -86052,15 +85986,11 @@ instanceInterpolations = {
 "CAA0A3A7-F9A4-46B2-91A1-CB381E1B2EFA" = 0.13434;
 };
 name = "SemiCondensed ExtraLight";
-weightClass = "Extra Light";
+weightClass = ExtraLight;
 widthClass = SemiCondensed;
 },
 {
 customParameters = (
-{
-name = weightClass;
-value = 300;
-},
 {
 name = panose;
 value = (
@@ -86132,10 +86062,6 @@ widthClass = SemiCondensed;
 {
 customParameters = (
 {
-name = weightClass;
-value = 400;
-},
-{
 name = panose;
 value = (
 2,
@@ -86202,10 +86128,6 @@ widthClass = SemiCondensed;
 },
 {
 customParameters = (
-{
-name = weightClass;
-value = 500;
-},
 {
 name = panose;
 value = (
@@ -86277,10 +86199,6 @@ widthClass = SemiCondensed;
 {
 customParameters = (
 {
-name = weightClass;
-value = 600;
-},
-{
 name = panose;
 value = (
 2,
@@ -86350,10 +86268,6 @@ widthClass = SemiCondensed;
 },
 {
 customParameters = (
-{
-name = weightClass;
-value = 700;
-},
 {
 name = panose;
 value = (
@@ -86425,10 +86339,6 @@ widthClass = SemiCondensed;
 {
 customParameters = (
 {
-name = weightClass;
-value = 800;
-},
-{
 name = panose;
 value = (
 2,
@@ -86499,10 +86409,6 @@ widthClass = SemiCondensed;
 {
 customParameters = (
 {
-name = weightClass;
-value = 900;
-},
-{
 name = panose;
 value = (
 2,
@@ -86571,10 +86477,6 @@ widthClass = SemiCondensed;
 {
 customParameters = (
 {
-name = weightClass;
-value = 100;
-},
-{
 name = panose;
 value = (
 2,
@@ -86642,10 +86544,6 @@ widthClass = "Extra Condensed";
 {
 customParameters = (
 {
-name = weightClass;
-value = 200;
-},
-{
 name = panose;
 value = (
 2,
@@ -86708,15 +86606,11 @@ instanceInterpolations = {
 "8AE4ADC8-9A9B-483B-9DC3-8C129A33EC0D" = 0.78788;
 };
 name = "ExtraCondensed ExtraLight";
-weightClass = "Extra Light";
+weightClass = ExtraLight;
 widthClass = "Extra Condensed";
 },
 {
 customParameters = (
-{
-name = weightClass;
-value = 300;
-},
 {
 name = panose;
 value = (
@@ -86786,10 +86680,6 @@ widthClass = "Extra Condensed";
 {
 customParameters = (
 {
-name = weightClass;
-value = 400;
-},
-{
 name = panose;
 value = (
 2,
@@ -86855,10 +86745,6 @@ widthClass = "Extra Condensed";
 },
 {
 customParameters = (
-{
-name = weightClass;
-value = 500;
-},
 {
 name = panose;
 value = (
@@ -86928,10 +86814,6 @@ widthClass = "Extra Condensed";
 {
 customParameters = (
 {
-name = weightClass;
-value = 600;
-},
-{
 name = panose;
 value = (
 2,
@@ -86999,10 +86881,6 @@ widthClass = "Extra Condensed";
 },
 {
 customParameters = (
-{
-name = weightClass;
-value = 700;
-},
 {
 name = panose;
 value = (
@@ -87073,10 +86951,6 @@ widthClass = "Extra Condensed";
 {
 customParameters = (
 {
-name = weightClass;
-value = 800;
-},
-{
 name = panose;
 value = (
 2,
@@ -87144,10 +87018,6 @@ widthClass = "Extra Condensed";
 },
 {
 customParameters = (
-{
-name = weightClass;
-value = 900;
-},
 {
 name = panose;
 value = (
