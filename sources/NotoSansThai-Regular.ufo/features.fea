@@ -3,6 +3,19 @@
 languagesystem DFLT dflt;
 languagesystem thai dflt;
 
+# Prefix: swaps
+lookup to_macron {
+sub [saraU-thai saraUu-thai] by macronbelowcomb;
+} to_macron;
+
+lookup to_sarau {
+sub macronbelowcomb by saraU-thai;
+} to_sarau;
+
+lookup to_sarauu {
+sub macronbelowcomb by saraUu-thai;
+} to_sarauu;
+
 @abovemarks = [maiHanaKat-thai maiHanaKat-thai.narrow maiEk-thai maiEk-thai.small maiEk-thai.narrow maiTho-thai maiTho-thai.small maiTho-thai.narrow maiTri-thai maiTri-thai.small maiTri-thai.narrow maiChattawa-thai maiChattawa-thai.small thanthakhat-thai thanthakhat-thai.small thanthakhat-thai.narrow maitaikhu-thai maitaikhu-thai.narrow yamakkan-thai saraI-thai saraI-thai.narrow saraIi-thai saraIi-thai.narrow saraUe-thai saraUe-thai.narrow saraUee-thai saraUee-thai.narrow nikhahit-thai nikhahit_maiEk-thai nikhahit_maiTho-thai nikhahit_maiTri-thai nikhahit_maiChattawa-thai maiChattawa-thai.narrow nikhahit-thai.narrow nikhahit_maiEk-thai.narrow nikhahit_maiTho-thai.narrow nikhahit_maiTri-thai.narrow nikhahit_maiChattawa-thai.narrow ];
 
 feature aalt {
@@ -16,6 +29,11 @@ lookup thai_decomb {
 	script thai;
 	sub saraAm-thai by nikhahit-thai saraAa-thai;
 } thai_decomb;
+
+lookup swap_macron_belowmark {
+  sub saraU-thai' lookup to_macron macronbelowcomb' lookup to_sarau;
+  sub saraUu-thai' lookup to_macron macronbelowcomb' lookup to_sarauu;
+} swap_macron_belowmark;
 
 # Disabled - see #3
 # lookup thai_comb {
@@ -76,3 +94,15 @@ table GDEF {
     [macronbelowcomb macronbelowcomb.alt maiChattawa-thai maiChattawa-thai.narrow maiChattawa-thai.small maiEk-thai maiEk-thai.narrow maiEk-thai.small maiHanaKat-thai maiHanaKat-thai.narrow maiTho-thai maiTho-thai.narrow maiTho-thai.small maiTri-thai maiTri-thai.narrow maiTri-thai.small maitaikhu-thai maitaikhu-thai.narrow nikhahit-thai nikhahit-thai.narrow nikhahit_maiChattawa-thai nikhahit_maiChattawa-thai.narrow nikhahit_maiEk-thai nikhahit_maiEk-thai.narrow nikhahit_maiTho-thai nikhahit_maiTho-thai.narrow nikhahit_maiTri-thai nikhahit_maiTri-thai.narrow phinthu-thai phinthu-thai.small saraI-thai saraI-thai.narrow saraIi-thai saraIi-thai.narrow saraU-thai saraU-thai.small saraUe-thai saraUe-thai.narrow saraUee-thai saraUee-thai.narrow saraUu-thai saraUu-thai.small thanthakhat-thai thanthakhat-thai.narrow thanthakhat-thai.small tildecomb yamakkan-thai], # Mark
     ;
 } GDEF;
+
+feature mark {
+# Automatic Code Start
+
+} mark;
+
+feature dist {
+pos macronbelowcomb [saraU-thai saraUu-thai]'  <0 -150 0 0>;
+
+# Automatic Code Start
+
+} dist;
