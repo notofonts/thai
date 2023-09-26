@@ -87939,7 +87939,7 @@ value = "https://scripts.sil.org/OFL";
 },
 {
 key = versionString;
-value = "Version 2.001";
+value = "Version 2.002";
 },
 {
 key = licenses;
@@ -88030,5 +88030,5 @@ thaiVStem = 82;
 };
 };
 versionMajor = 2;
-versionMinor = 1;
+versionMinor = 2;
 }
