@@ -1,25 +1,41 @@
-## Fontbakery report
+## FontBakery report
 
-Fontbakery version: 0.8.13
+fontbakery version: 0.9.2
 
-<details><summary><b>[2] Family checks</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking all files are in the same directory. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/single_directory">com.google.fonts/check/family/single_directory</a>)</summary><div>
-
-
-* 🔥 **FAIL** Not all fonts passed in the command line are in the same directory. This may lead to bad results as the tool will interpret all font files as belonging to a single font family. The detected directories are: ['fonts/NotoSerifThai/googlefonts/ttf', 'fonts/NotoSerifThai/googlefonts/variable-ttf'] [code: single-directory]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check that OS/2.fsSelection bold & italic settings are unique for each NameID1 (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.adobe.fonts/check/family/bold_italic_unique_for_nameid1">com.adobe.fonts/check/family/bold_italic_unique_for_nameid1</a>)</summary><div>
-
-
-* 🔥 **FAIL** Family 'Noto Serif Thai' has 2 fonts (should be no more than 1) with the same OS/2.fsSelection bold & italic settings: Bold=False, Italic=False [code: unique-fsselection]
-</div></details><br></div></details><details><summary><b>[13] NotoSerifThai-Black.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+<details><summary><b>[14] NotoSerifThai-Black.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
-* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
+* ⚠ **WARN** The following codepoints supported by the font are not covered by
+    any subsets defined in the font's metadata file, and will never
+    be served. You can solve this by either manually adding additional
+    subset declarations to METADATA.pb, or by editing the glyphset
+    definitions.
 
-The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̦̒ į̧̀ į̧́ [code: soft-dotted]
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh
+ * U+02C9 MODIFIER LETTER MACRON: not included in any glyphset definition
+ * U+02D7 MODIFIER LETTER MINUS SIGN: not included in any glyphset definition
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
+ * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic
+ * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, tifinagh, old-permic, coptic, malayalam, math, canadian-aboriginal, syriac
+ * U+030A COMBINING RING ABOVE: try adding syriac
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
+ * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
+ * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
+ * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
+ * U+0327 COMBINING CEDILLA: not included in any glyphset definition
+ * U+0328 COMBINING OGONEK: not included in any glyphset definition
+ * U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, tifinagh, caucasian-albanian, gothic, syriac
+ * U+2010 HYPHEN: try adding one of: kaithi, sundanese, kharoshthi, sora-sompeng, yi, coptic, cham, syloti-nagri, lisu, kayah-li
+
+Or you can add the above codepoints to one of the subsets supported by the font: `latin`, `latin-ext`, `thai` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
@@ -39,7 +55,7 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 * ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
 
-	- uni0E24 + uni0E45 
+	- uni0E24 + uni0E45
 
 	- uni0E26 + uni0E45 [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -48,7 +64,7 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 * ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
  FONT_FAMILY_NAME = 'Noto Serif Thai Black' / SUBFAMILY_NAME = 'Regular'
 
-Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
+Please take a look at the conversation at https://github.com/fonttools/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -58,13 +74,13 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- nikhahit_maiChattawathai
+	- uni0E4D0E48
 
-	- nikhahit_maiEkthai
+	- uni0E4D0E49
 
-	- nikhahit_maiThothai 
+	- uni0E4D0E4A
 
-	- nikhahit_maiTrithai
+	- uni0E4D0E4B
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -91,11 +107,23 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E52	Contours detected: 3	Expected: 1 or 2
 
-	- Glyph name: Uogonek	Contours detected: 2	Expected: 1 
+	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
-	- 8 more.
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
-Use -F or --full-lists to disable shortening of long lists.
+	- Glyph name: uni0E0A	Contours detected: 3	Expected: 1 or 2
+
+	- Glyph name: uni0E0B	Contours detected: 3	Expected: 1 or 2
+
+	- Glyph name: uni0E29	Contours detected: 4	Expected: 1 or 3
+
+	- Glyph name: uni0E2E	Contours detected: 2	Expected: 1 or 3
+
+	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
+
+	- Glyph name: uni0E52	Contours detected: 3	Expected: 1 or 2
+
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
 
@@ -129,11 +157,51 @@ minus
 
 	* s (U+0073): X=376.5,Y=535.5 (should be at x-height 536?)
 
-	* t (U+0074): X=93.0,Y=535.5 (should be at x-height 536?) 
+	* t (U+0074): X=93.0,Y=535.5 (should be at x-height 536?)
 
-	* 24 more.
+	* t (U+0074): X=367.0,Y=1.5 (should be at baseline 0?)
 
-Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
+	* sterling (U+00A3): X=329.5,Y=-2.0 (should be at baseline 0?)
+
+	* sterling (U+00A3): X=469.0,Y=2.0 (should be at baseline 0?)
+
+	* thorn (U+00FE): X=281.0,Y=-1.0 (should be at baseline 0?)
+
+	* dcaron (U+010F): X=666.5,Y=712.5 (should be at cap-height 714?)
+
+	* lcaron (U+013E): X=376.5,Y=712.5 (should be at cap-height 714?)
+
+	* tcaron (U+0165): X=371.0,Y=1.5 (should be at baseline 0?)
+
+	* tcaron (U+0165): X=378.5,Y=712.5 (should be at cap-height 714?)
+
+	* uni021B (U+021B): X=367.0,Y=1.5 (should be at baseline 0?)
+
+	* uni0312 (U+0312): X=98.0,Y=713.0 (should be at cap-height 714?)
+
+	* uni0E07 (U+0E07): X=409.0,Y=0.5 (should be at baseline 0?)
+
+	* uni0E33 (U+0E33): X=-395.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E33 (U+0E33): X=-60.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E33 (U+0E33): X=-181.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E33 (U+0E33): X=-274.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E4D (U+0E4D): X=-345.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E4D (U+0E4D): X=-10.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E4D (U+0E4D): X=-131.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E4D (U+0E4D): X=-224.0,Y=716.0 (should be at cap-height 714?)
+
+	* quoteleft (U+2018): X=246.0,Y=713.0 (should be at cap-height 714?)
+
+	* quotedblleft (U+201C): X=462.0,Y=713.0 (should be at cap-height 714?)
+
+	* quotedblleft (U+201C): X=246.0,Y=713.0 (should be at cap-height 714?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
@@ -153,7 +221,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* ycircumflex (U+0177): B<<336.0,187.0>-<342.0,160.0>-<343.0,142.0>>/B<<343.0,142.0>-<346.0,164.0>-<349.5,180.0>> = 10.944996138289511
 
-	* ydieresis (U+00FF): B<<336.0,187.0>-<342.0,160.0>-<343.0,142.0>>/B<<343.0,142.0>-<346.0,164.0>-<349.5,180.0>> = 10.944996138289511 
+	* ydieresis (U+00FF): B<<336.0,187.0>-<342.0,160.0>-<343.0,142.0>>/B<<343.0,142.0>-<346.0,164.0>-<349.5,180.0>> = 10.944996138289511
 
 	* ygrave (U+1EF3): B<<336.0,187.0>-<342.0,160.0>-<343.0,142.0>>/B<<343.0,142.0>-<346.0,164.0>-<349.5,180.0>> = 10.944996138289511 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
@@ -162,16 +230,50 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
 	* sterling (U+00A3): L<<454.0,335.0>--<295.0,336.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[13] NotoSerifThai-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+
+
+* ⚠ **WARN** The dot of soft dotted characters used in orthographies _must_ disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
+
+The dot of soft dotted characters _should_ disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̦̒ į̧̀ į̧́
+
+Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers), Navajo (Latn, 166,319 speakers). 
+
+Your font does *not* cover the following languages that require the soft-dotted feature: Dan (Latn, 1,099,244 speakers), Ejagham (Latn, 120,000 speakers), Avokaya (Latn, 100,000 speakers), Dutch (Latn, 31,709,104 speakers), Kom (Latn, 360,685 speakers), Belarusian (Cyrl, 10,064,517 speakers), Nateni (Latn, 100,000 speakers), Ma’di (Latn, 584,000 speakers), Aghem (Latn, 38,843 speakers), Ebira (Latn, 2,200,000 speakers), Lugbara (Latn, 2,200,000 speakers), Koonzime (Latn, 40,000 speakers), Basaa (Latn, 332,940 speakers), Igbo (Latn, 27,823,640 speakers), Ukrainian (Cyrl, 29,273,587 speakers). [code: soft-dotted]
+</div></details><br></div></details><details><summary><b>[14] NotoSerifThai-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
-* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
+* ⚠ **WARN** The following codepoints supported by the font are not covered by
+    any subsets defined in the font's metadata file, and will never
+    be served. You can solve this by either manually adding additional
+    subset declarations to METADATA.pb, or by editing the glyphset
+    definitions.
 
-The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̦̒ į̧̀ į̧́ [code: soft-dotted]
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh
+ * U+02C9 MODIFIER LETTER MACRON: not included in any glyphset definition
+ * U+02D7 MODIFIER LETTER MINUS SIGN: not included in any glyphset definition
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
+ * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic
+ * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, tifinagh, old-permic, coptic, malayalam, math, canadian-aboriginal, syriac
+ * U+030A COMBINING RING ABOVE: try adding syriac
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
+ * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
+ * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
+ * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
+ * U+0327 COMBINING CEDILLA: not included in any glyphset definition
+ * U+0328 COMBINING OGONEK: not included in any glyphset definition
+ * U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, tifinagh, caucasian-albanian, gothic, syriac
+ * U+2010 HYPHEN: try adding one of: kaithi, sundanese, kharoshthi, sora-sompeng, yi, coptic, cham, syloti-nagri, lisu, kayah-li
+
+Or you can add the above codepoints to one of the subsets supported by the font: `latin`, `latin-ext`, `thai` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
@@ -189,7 +291,7 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 * ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
 
-	- uni0E24 + uni0E45 
+	- uni0E24 + uni0E45
 
 	- uni0E26 + uni0E45 [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -201,13 +303,13 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- nikhahit_maiChattawathai
+	- uni0E4D0E48
 
-	- nikhahit_maiEkthai
+	- uni0E4D0E49
 
-	- nikhahit_maiThothai 
+	- uni0E4D0E4A
 
-	- nikhahit_maiTrithai
+	- uni0E4D0E4B
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -236,7 +338,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E2E	Contours detected: 2	Expected: 1 or 3
 
-	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
+	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
@@ -272,11 +374,55 @@ minus
 
 	* aacute (U+00E1): X=265.0,Y=-1.5 (should be at baseline 0?)
 
-	* acircumflex (U+00E2): X=265.0,Y=-1.5 (should be at baseline 0?) 
+	* acircumflex (U+00E2): X=265.0,Y=-1.5 (should be at baseline 0?)
 
-	* 25 more.
+	* atilde (U+00E3): X=265.0,Y=-1.5 (should be at baseline 0?)
 
-Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
+	* adieresis (U+00E4): X=265.0,Y=-1.5 (should be at baseline 0?)
+
+	* aring (U+00E5): X=265.0,Y=-1.5 (should be at baseline 0?)
+
+	* amacron (U+0101): X=265.0,Y=-1.5 (should be at baseline 0?)
+
+	* abreve (U+0103): X=265.0,Y=-1.5 (should be at baseline 0?)
+
+	* aogonek (U+0105): X=265.0,Y=-1.5 (should be at baseline 0?)
+
+	* tcaron (U+0165): X=332.5,Y=-1.0 (should be at baseline 0?)
+
+	* uni021B (U+021B): X=332.5,Y=-1.0 (should be at baseline 0?)
+
+	* uni0E07 (U+0E07): X=382.0,Y=1.5 (should be at baseline 0?)
+
+	* uni0E2C (U+0E2C): X=692.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E33 (U+0E33): X=-350.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E33 (U+0E33): X=-71.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E33 (U+0E33): X=-160.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E33 (U+0E33): X=-263.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E47 (U+0E47): X=-396.0,Y=712.5 (should be at cap-height 714?)
+
+	* uni0E4B (U+0E4B): X=-344.0,Y=715.0 (should be at cap-height 714?)
+
+	* uni0E4B (U+0E4B): X=-354.0,Y=715.0 (should be at cap-height 714?)
+
+	* uni0E4B (U+0E4B): X=-76.0,Y=715.0 (should be at cap-height 714?)
+
+	* uni0E4B (U+0E4B): X=-86.0,Y=715.0 (should be at cap-height 714?)
+
+	* uni0E4D (U+0E4D): X=-300.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E4D (U+0E4D): X=-21.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E4D (U+0E4D): X=-110.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E4D (U+0E4D): X=-213.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E51 (U+0E51): X=367.0,Y=-2.0 (should be at baseline 0?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -284,7 +430,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* uni0E4B (U+0E4B): L<<-176.0,788.0>--<-86.0,797.0>> -> L<<-86.0,797.0>--<-76.0,797.0>>
 
-	* uni0E4B (U+0E4B): L<<-354.0,797.0>--<-344.0,797.0>> -> L<<-344.0,797.0>--<-255.0,789.0>> 
+	* uni0E4B (U+0E4B): L<<-354.0,797.0>--<-344.0,797.0>> -> L<<-344.0,797.0>--<-255.0,789.0>>
 
 	* uni0E4B (U+0E4B): L<<-76.0,715.0>--<-86.0,715.0>> -> L<<-86.0,715.0>--<-176.0,724.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -298,7 +444,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* ycircumflex (U+0177): B<<321.0,162.0>-<327.0,138.0>-<329.0,118.0>>/B<<329.0,118.0>-<331.0,139.0>-<339.5,165.0>> = 11.150925168505127
 
-	* ydieresis (U+00FF): B<<321.0,162.0>-<327.0,138.0>-<329.0,118.0>>/B<<329.0,118.0>-<331.0,139.0>-<339.5,165.0>> = 11.150925168505127 
+	* ydieresis (U+00FF): B<<321.0,162.0>-<327.0,138.0>-<329.0,118.0>>/B<<329.0,118.0>-<331.0,139.0>-<339.5,165.0>> = 11.150925168505127
 
 	* ygrave (U+1EF3): B<<321.0,162.0>-<327.0,138.0>-<329.0,118.0>>/B<<329.0,118.0>-<331.0,139.0>-<339.5,165.0>> = 11.150925168505127 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
@@ -308,19 +454,53 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* h (U+0068): L<<101.0,122.0>--<100.0,646.0>>
 
-	* h (U+0068): L<<252.0,309.0>--<253.0,118.0>> 
+	* h (U+0068): L<<252.0,309.0>--<253.0,118.0>>
 
 	* sterling (U+00A3): L<<428.0,346.0>--<270.0,347.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[13] NotoSerifThai-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+
+
+* ⚠ **WARN** The dot of soft dotted characters used in orthographies _must_ disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
+
+The dot of soft dotted characters _should_ disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̦̒ į̧̀ į̧́
+
+Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers), Navajo (Latn, 166,319 speakers). 
+
+Your font does *not* cover the following languages that require the soft-dotted feature: Dan (Latn, 1,099,244 speakers), Ejagham (Latn, 120,000 speakers), Avokaya (Latn, 100,000 speakers), Dutch (Latn, 31,709,104 speakers), Kom (Latn, 360,685 speakers), Belarusian (Cyrl, 10,064,517 speakers), Nateni (Latn, 100,000 speakers), Ma’di (Latn, 584,000 speakers), Aghem (Latn, 38,843 speakers), Ebira (Latn, 2,200,000 speakers), Lugbara (Latn, 2,200,000 speakers), Koonzime (Latn, 40,000 speakers), Basaa (Latn, 332,940 speakers), Igbo (Latn, 27,823,640 speakers), Ukrainian (Cyrl, 29,273,587 speakers). [code: soft-dotted]
+</div></details><br></div></details><details><summary><b>[14] NotoSerifThai-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
-* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
+* ⚠ **WARN** The following codepoints supported by the font are not covered by
+    any subsets defined in the font's metadata file, and will never
+    be served. You can solve this by either manually adding additional
+    subset declarations to METADATA.pb, or by editing the glyphset
+    definitions.
 
-The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̦̒ į̧̀ į̧́ [code: soft-dotted]
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh
+ * U+02C9 MODIFIER LETTER MACRON: not included in any glyphset definition
+ * U+02D7 MODIFIER LETTER MINUS SIGN: not included in any glyphset definition
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
+ * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic
+ * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, tifinagh, old-permic, coptic, malayalam, math, canadian-aboriginal, syriac
+ * U+030A COMBINING RING ABOVE: try adding syriac
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
+ * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
+ * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
+ * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
+ * U+0327 COMBINING CEDILLA: not included in any glyphset definition
+ * U+0328 COMBINING OGONEK: not included in any glyphset definition
+ * U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, tifinagh, caucasian-albanian, gothic, syriac
+ * U+2010 HYPHEN: try adding one of: kaithi, sundanese, kharoshthi, sora-sompeng, yi, coptic, cham, syloti-nagri, lisu, kayah-li
+
+Or you can add the above codepoints to one of the subsets supported by the font: `latin`, `latin-ext`, `thai` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
@@ -338,7 +518,7 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 * ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
 
-	- uni0E24 + uni0E45 
+	- uni0E24 + uni0E45
 
 	- uni0E26 + uni0E45 [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -347,7 +527,7 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 * ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
  FONT_FAMILY_NAME = 'Noto Serif Thai ExtraBold' / SUBFAMILY_NAME = 'Regular'
 
-Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
+Please take a look at the conversation at https://github.com/fonttools/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -357,13 +537,13 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- nikhahit_maiChattawathai
+	- uni0E4D0E48
 
-	- nikhahit_maiEkthai
+	- uni0E4D0E49
 
-	- nikhahit_maiThothai 
+	- uni0E4D0E4A
 
-	- nikhahit_maiTrithai
+	- uni0E4D0E4B
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -390,11 +570,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni0E0B	Contours detected: 3	Expected: 1 or 2 
+	- Glyph name: uni0E0B	Contours detected: 3	Expected: 1 or 2
 
-	- 4 more.
+	- Glyph name: uni0E29	Contours detected: 4	Expected: 1 or 3
 
-Use -F or --full-lists to disable shortening of long lists.
+	- Glyph name: uni0E2E	Contours detected: 2	Expected: 1 or 3
+
+	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
+
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
 
@@ -428,11 +612,77 @@ minus
 
 	* f (U+0066): X=157.5,Y=715.0 (should be at cap-height 714?)
 
-	* p (U+0070): X=265.0,Y=-1.5 (should be at baseline 0?) 
+	* p (U+0070): X=265.0,Y=-1.5 (should be at baseline 0?)
 
-	* 36 more.
+	* s (U+0073): X=367.0,Y=535.0 (should be at x-height 536?)
 
-Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
+	* t (U+0074): X=86.5,Y=534.0 (should be at x-height 536?)
+
+	* t (U+0074): X=351.0,Y=0.5 (should be at baseline 0?)
+
+	* y (U+0079): X=353.0,Y=2.0 (should be at baseline 0?)
+
+	* germandbls (U+00DF): X=373.0,Y=712.0 (should be at cap-height 714?)
+
+	* atilde (U+00E3): X=394.0,Y=713.0 (should be at cap-height 714?)
+
+	* ntilde (U+00F1): X=411.0,Y=713.0 (should be at cap-height 714?)
+
+	* otilde (U+00F5): X=395.0,Y=713.0 (should be at cap-height 714?)
+
+	* yacute (U+00FD): X=353.0,Y=2.0 (should be at baseline 0?)
+
+	* ydieresis (U+00FF): X=353.0,Y=2.0 (should be at baseline 0?)
+
+	* dcaron (U+010F): X=651.5,Y=712.0 (should be at cap-height 714?)
+
+	* lcaron (U+013E): X=358.5,Y=712.0 (should be at cap-height 714?)
+
+	* tcaron (U+0165): X=353.0,Y=0.5 (should be at baseline 0?)
+
+	* tcaron (U+0165): X=359.5,Y=712.0 (should be at cap-height 714?)
+
+	* ycircumflex (U+0177): X=353.0,Y=2.0 (should be at baseline 0?)
+
+	* uni021B (U+021B): X=351.0,Y=0.5 (should be at baseline 0?)
+
+	* tilde (U+02DC): X=330.0,Y=713.0 (should be at cap-height 714?)
+
+	* tildecomb (U+0303): X=-274.0,Y=713.0 (should be at cap-height 714?)
+
+	* uni0312 (U+0312): X=95.0,Y=713.0 (should be at cap-height 714?)
+
+	* uni0E07 (U+0E07): X=396.5,Y=0.5 (should be at baseline 0?)
+
+	* uni0E2C (U+0E2C): X=708.0,Y=713.0 (should be at cap-height 714?)
+
+	* uni0E33 (U+0E33): X=-375.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E33 (U+0E33): X=-65.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E33 (U+0E33): X=-171.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E33 (U+0E33): X=-269.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E47 (U+0E47): X=-302.0,Y=713.0 (should be at cap-height 714?)
+
+	* uni0E4D (U+0E4D): X=-325.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E4D (U+0E4D): X=-15.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E4D (U+0E4D): X=-121.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E4D (U+0E4D): X=-219.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E56 (U+0E56): X=190.0,Y=-1.5 (should be at baseline 0?)
+
+	* ygrave (U+1EF3): X=353.0,Y=2.0 (should be at baseline 0?)
+
+	* quoteleft (U+2018): X=241.0,Y=713.0 (should be at cap-height 714?)
+
+	* quotedblleft (U+201C): X=454.0,Y=713.0 (should be at cap-height 714?)
+
+	* quotedblleft (U+201C): X=241.0,Y=713.0 (should be at cap-height 714?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
@@ -448,7 +698,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* ycircumflex (U+0177): B<<329.0,175.5>-<335.0,150.0>-<337.0,131.0>>/B<<337.0,131.0>-<339.0,153.0>-<345.0,173.0>> = 11.203434865229296
 
-	* ydieresis (U+00FF): B<<329.0,175.5>-<335.0,150.0>-<337.0,131.0>>/B<<337.0,131.0>-<339.0,153.0>-<345.0,173.0>> = 11.203434865229296 
+	* ydieresis (U+00FF): B<<329.0,175.5>-<335.0,150.0>-<337.0,131.0>>/B<<337.0,131.0>-<339.0,153.0>-<345.0,173.0>> = 11.203434865229296
 
 	* ygrave (U+1EF3): B<<329.0,175.5>-<335.0,150.0>-<337.0,131.0>>/B<<337.0,131.0>-<339.0,153.0>-<345.0,173.0>> = 11.203434865229296 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
@@ -457,16 +707,50 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
 	* sterling (U+00A3): L<<442.0,340.0>--<284.0,341.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[12] NotoSerifThai-ExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+
+
+* ⚠ **WARN** The dot of soft dotted characters used in orthographies _must_ disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
+
+The dot of soft dotted characters _should_ disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̦̒ į̧̀ į̧́
+
+Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers), Navajo (Latn, 166,319 speakers). 
+
+Your font does *not* cover the following languages that require the soft-dotted feature: Dan (Latn, 1,099,244 speakers), Ejagham (Latn, 120,000 speakers), Avokaya (Latn, 100,000 speakers), Dutch (Latn, 31,709,104 speakers), Kom (Latn, 360,685 speakers), Belarusian (Cyrl, 10,064,517 speakers), Nateni (Latn, 100,000 speakers), Ma’di (Latn, 584,000 speakers), Aghem (Latn, 38,843 speakers), Ebira (Latn, 2,200,000 speakers), Lugbara (Latn, 2,200,000 speakers), Koonzime (Latn, 40,000 speakers), Basaa (Latn, 332,940 speakers), Igbo (Latn, 27,823,640 speakers), Ukrainian (Cyrl, 29,273,587 speakers). [code: soft-dotted]
+</div></details><br></div></details><details><summary><b>[13] NotoSerifThai-ExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
-* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
+* ⚠ **WARN** The following codepoints supported by the font are not covered by
+    any subsets defined in the font's metadata file, and will never
+    be served. You can solve this by either manually adding additional
+    subset declarations to METADATA.pb, or by editing the glyphset
+    definitions.
 
-The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̦̒ į̧̀ į̧́ [code: soft-dotted]
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh
+ * U+02C9 MODIFIER LETTER MACRON: not included in any glyphset definition
+ * U+02D7 MODIFIER LETTER MINUS SIGN: not included in any glyphset definition
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
+ * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic
+ * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, tifinagh, old-permic, coptic, malayalam, math, canadian-aboriginal, syriac
+ * U+030A COMBINING RING ABOVE: try adding syriac
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
+ * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
+ * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
+ * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
+ * U+0327 COMBINING CEDILLA: not included in any glyphset definition
+ * U+0328 COMBINING OGONEK: not included in any glyphset definition
+ * U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, tifinagh, caucasian-albanian, gothic, syriac
+ * U+2010 HYPHEN: try adding one of: kaithi, sundanese, kharoshthi, sora-sompeng, yi, coptic, cham, syloti-nagri, lisu, kayah-li
+
+Or you can add the above codepoints to one of the subsets supported by the font: `latin`, `latin-ext`, `thai` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -476,7 +760,7 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 * ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
 
-	- uni0E24 + uni0E45 
+	- uni0E24 + uni0E45
 
 	- uni0E26 + uni0E45 [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -485,7 +769,7 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 * ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
  FONT_FAMILY_NAME = 'Noto Serif Thai ExtraLight' / SUBFAMILY_NAME = 'Regular'
 
-Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
+Please take a look at the conversation at https://github.com/fonttools/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -495,13 +779,13 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- nikhahit_maiChattawathai
+	- uni0E4D0E48
 
-	- nikhahit_maiEkthai
+	- uni0E4D0E49
 
-	- nikhahit_maiThothai 
+	- uni0E4D0E4A
 
-	- nikhahit_maiTrithai
+	- uni0E4D0E4B
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -526,7 +810,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E2E	Contours detected: 2	Expected: 1 or 3
 
-	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
+	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
@@ -562,11 +846,53 @@ minus
 
 	* Gbreve (U+011E): X=486.5,Y=-1.0 (should be at baseline 0?)
 
-	* Gdotaccent (U+0120): X=486.5,Y=-1.0 (should be at baseline 0?) 
+	* Gdotaccent (U+0120): X=486.5,Y=-1.0 (should be at baseline 0?)
 
-	* 23 more.
+	* uni0122 (U+0122): X=486.5,Y=-1.0 (should be at baseline 0?)
 
-Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
+	* Eng (U+014A): X=569.0,Y=1.0 (should be at baseline 0?)
+
+	* Wcircumflex (U+0174): X=496.0,Y=713.0 (should be at cap-height 714?)
+
+	* Wcircumflex (U+0174): X=533.0,Y=713.0 (should be at cap-height 714?)
+
+	* uni0E33 (U+0E33): X=-291.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E33 (U+0E33): X=-94.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E33 (U+0E33): X=-127.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E33 (U+0E33): X=-258.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E35 (U+0E35): X=-135.0,Y=712.0 (should be at cap-height 714?)
+
+	* uni0E49 (U+0E49): X=-328.0,Y=712.0 (should be at cap-height 714?)
+
+	* uni0E49 (U+0E49): X=-86.5,Y=713.5 (should be at cap-height 714?)
+
+	* uni0E4A (U+0E4A): X=-141.0,Y=713.0 (should be at cap-height 714?)
+
+	* uni0E4D (U+0E4D): X=-254.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E4D (U+0E4D): X=-58.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E4D (U+0E4D): X=-91.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E4D (U+0E4D): X=-222.0,Y=716.0 (should be at cap-height 714?)
+
+	* Wgrave (U+1E80): X=496.0,Y=713.0 (should be at cap-height 714?)
+
+	* Wgrave (U+1E80): X=533.0,Y=713.0 (should be at cap-height 714?)
+
+	* Wacute (U+1E82): X=496.0,Y=713.0 (should be at cap-height 714?)
+
+	* Wacute (U+1E82): X=533.0,Y=713.0 (should be at cap-height 714?)
+
+	* Wdieresis (U+1E84): X=496.0,Y=713.0 (should be at cap-height 714?)
+
+	* Wdieresis (U+1E84): X=533.0,Y=713.0 (should be at cap-height 714?)
+
+	* Euro (U+20AC): X=417.0,Y=1.5 (should be at baseline 0?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -584,7 +910,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* uni0E4B (U+0E4B): L<<-227.0,768.0>--<-235.0,865.0>> -> L<<-235.0,865.0>--<-235.0,875.0>>
 
-	* uni0E4B (U+0E4B): L<<-235.0,636.0>--<-235.0,646.0>> -> L<<-235.0,646.0>--<-227.0,744.0>> 
+	* uni0E4B (U+0E4B): L<<-235.0,636.0>--<-235.0,646.0>> -> L<<-235.0,646.0>--<-227.0,744.0>>
 
 	* uni0E4B (U+0E4B): L<<-330.0,777.0>--<-320.0,777.0>> -> L<<-320.0,777.0>--<-227.0,768.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -593,16 +919,50 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
 	* eth (U+00F0): B<<356.5,474.5>-<399.0,456.0>-<423.0,417.0>>/B<<423.0,417.0>-<401.0,487.0>-<370.5,540.5>> = 14.160313822966648 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[11] NotoSerifThai-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+
+
+* ⚠ **WARN** The dot of soft dotted characters used in orthographies _must_ disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
+
+The dot of soft dotted characters _should_ disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̦̒ į̧̀ į̧́
+
+Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers), Navajo (Latn, 166,319 speakers). 
+
+Your font does *not* cover the following languages that require the soft-dotted feature: Dan (Latn, 1,099,244 speakers), Ejagham (Latn, 120,000 speakers), Avokaya (Latn, 100,000 speakers), Dutch (Latn, 31,709,104 speakers), Kom (Latn, 360,685 speakers), Belarusian (Cyrl, 10,064,517 speakers), Nateni (Latn, 100,000 speakers), Ma’di (Latn, 584,000 speakers), Aghem (Latn, 38,843 speakers), Ebira (Latn, 2,200,000 speakers), Lugbara (Latn, 2,200,000 speakers), Koonzime (Latn, 40,000 speakers), Basaa (Latn, 332,940 speakers), Igbo (Latn, 27,823,640 speakers), Ukrainian (Cyrl, 29,273,587 speakers). [code: soft-dotted]
+</div></details><br></div></details><details><summary><b>[12] NotoSerifThai-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
-* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
+* ⚠ **WARN** The following codepoints supported by the font are not covered by
+    any subsets defined in the font's metadata file, and will never
+    be served. You can solve this by either manually adding additional
+    subset declarations to METADATA.pb, or by editing the glyphset
+    definitions.
 
-The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̦̒ į̧̀ į̧́ [code: soft-dotted]
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh
+ * U+02C9 MODIFIER LETTER MACRON: not included in any glyphset definition
+ * U+02D7 MODIFIER LETTER MINUS SIGN: not included in any glyphset definition
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
+ * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic
+ * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, tifinagh, old-permic, coptic, malayalam, math, canadian-aboriginal, syriac
+ * U+030A COMBINING RING ABOVE: try adding syriac
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
+ * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
+ * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
+ * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
+ * U+0327 COMBINING CEDILLA: not included in any glyphset definition
+ * U+0328 COMBINING OGONEK: not included in any glyphset definition
+ * U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, tifinagh, caucasian-albanian, gothic, syriac
+ * U+2010 HYPHEN: try adding one of: kaithi, sundanese, kharoshthi, sora-sompeng, yi, coptic, cham, syloti-nagri, lisu, kayah-li
+
+Or you can add the above codepoints to one of the subsets supported by the font: `latin`, `latin-ext`, `thai` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -612,7 +972,7 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 * ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
 
-	- uni0E24 + uni0E45 
+	- uni0E24 + uni0E45
 
 	- uni0E26 + uni0E45 [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -621,7 +981,7 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 * ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
  FONT_FAMILY_NAME = 'Noto Serif Thai Light' / SUBFAMILY_NAME = 'Regular'
 
-Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
+Please take a look at the conversation at https://github.com/fonttools/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -631,13 +991,13 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- nikhahit_maiChattawathai
+	- uni0E4D0E48
 
-	- nikhahit_maiEkthai
+	- uni0E4D0E49
 
-	- nikhahit_maiThothai 
+	- uni0E4D0E4A
 
-	- nikhahit_maiTrithai
+	- uni0E4D0E4B
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -662,7 +1022,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E2E	Contours detected: 2	Expected: 1 or 3
 
-	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
+	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
@@ -698,11 +1058,135 @@ minus
 
 	* sterling (U+00A3): X=79.0,Y=-1.0 (should be at baseline 0?)
 
-	* sterling (U+00A3): X=460.5,Y=1.0 (should be at baseline 0?) 
+	* sterling (U+00A3): X=460.5,Y=1.0 (should be at baseline 0?)
 
-	* 64 more.
+	* paragraph (U+00B6): X=496.0,Y=715.5 (should be at cap-height 714?)
 
-Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
+	* Oslash (U+00D8): X=446.5,Y=714.5 (should be at cap-height 714?)
+
+	* atilde (U+00E3): X=398.0,Y=712.0 (should be at cap-height 714?)
+
+	* atilde (U+00E3): X=432.0,Y=712.0 (should be at cap-height 714?)
+
+	* eth (U+00F0): X=440.0,Y=715.0 (should be at cap-height 714?)
+
+	* ntilde (U+00F1): X=455.0,Y=712.0 (should be at cap-height 714?)
+
+	* ntilde (U+00F1): X=489.0,Y=712.0 (should be at cap-height 714?)
+
+	* otilde (U+00F5): X=408.0,Y=712.0 (should be at cap-height 714?)
+
+	* otilde (U+00F5): X=442.0,Y=712.0 (should be at cap-height 714?)
+
+	* yacute (U+00FD): X=269.0,Y=-1.0 (should be at baseline 0?)
+
+	* ydieresis (U+00FF): X=269.0,Y=-1.0 (should be at baseline 0?)
+
+	* ccaron (U+010D): X=222.5,Y=713.5 (should be at cap-height 714?)
+
+	* ccaron (U+010D): X=318.0,Y=713.5 (should be at cap-height 714?)
+
+	* dcroat (U+0111): X=402.5,Y=716.0 (should be at cap-height 714?)
+
+	* ecaron (U+011B): X=219.5,Y=713.5 (should be at cap-height 714?)
+
+	* ecaron (U+011B): X=315.0,Y=713.5 (should be at cap-height 714?)
+
+	* lslash (U+0142): X=98.0,Y=715.5 (should be at cap-height 714?)
+
+	* ncaron (U+0148): X=279.5,Y=713.5 (should be at cap-height 714?)
+
+	* ncaron (U+0148): X=375.0,Y=713.5 (should be at cap-height 714?)
+
+	* rcaron (U+0159): X=176.5,Y=713.5 (should be at cap-height 714?)
+
+	* rcaron (U+0159): X=272.0,Y=713.5 (should be at cap-height 714?)
+
+	* scaron (U+0161): X=173.5,Y=713.5 (should be at cap-height 714?)
+
+	* scaron (U+0161): X=269.0,Y=713.5 (should be at cap-height 714?)
+
+	* tcaron (U+0165): X=297.0,Y=1.0 (should be at baseline 0?)
+
+	* ycircumflex (U+0177): X=269.0,Y=-1.0 (should be at baseline 0?)
+
+	* zcaron (U+017E): X=212.5,Y=713.5 (should be at cap-height 714?)
+
+	* zcaron (U+017E): X=308.0,Y=713.5 (should be at cap-height 714?)
+
+	* uni021B (U+021B): X=297.0,Y=1.0 (should be at baseline 0?)
+
+	* caron (U+02C7): X=122.5,Y=713.5 (should be at cap-height 714?)
+
+	* caron (U+02C7): X=218.0,Y=713.5 (should be at cap-height 714?)
+
+	* tilde (U+02DC): X=339.0,Y=712.0 (should be at cap-height 714?)
+
+	* tilde (U+02DC): X=373.0,Y=712.0 (should be at cap-height 714?)
+
+	* tildecomb (U+0303): X=-225.0,Y=712.0 (should be at cap-height 714?)
+
+	* tildecomb (U+0303): X=-191.0,Y=712.0 (should be at cap-height 714?)
+
+	* uni030C (U+030C): X=-327.5,Y=713.5 (should be at cap-height 714?)
+
+	* uni030C (U+030C): X=-232.0,Y=713.5 (should be at cap-height 714?)
+
+	* uni0312 (U+0312): X=56.0,Y=715.0 (should be at cap-height 714?)
+
+	* uni0E19 (U+0E19): X=150.0,Y=-2.0 (should be at baseline 0?)
+
+	* uni0E19 (U+0E19): X=207.0,Y=-2.0 (should be at baseline 0?)
+
+	* uni0E33 (U+0E33): X=-295.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E33 (U+0E33): X=-90.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E33 (U+0E33): X=-131.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E33 (U+0E33): X=-254.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E40 (U+0E40): X=199.0,Y=-2.0 (should be at baseline 0?)
+
+	* uni0E40 (U+0E40): X=199.0,Y=-2.0 (should be at baseline 0?)
+
+	* uni0E41 (U+0E41): X=202.0,Y=-2.0 (should be at baseline 0?)
+
+	* uni0E41 (U+0E41): X=202.0,Y=-2.0 (should be at baseline 0?)
+
+	* uni0E41 (U+0E41): X=513.0,Y=-2.0 (should be at baseline 0?)
+
+	* uni0E41 (U+0E41): X=513.0,Y=-2.0 (should be at baseline 0?)
+
+	* uni0E43 (U+0E43): X=129.0,Y=712.0 (should be at cap-height 714?)
+
+	* uni0E44 (U+0E44): X=146.0,Y=715.0 (should be at cap-height 714?)
+
+	* uni0E49 (U+0E49): X=-328.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E49 (U+0E49): X=-80.5,Y=712.5 (should be at cap-height 714?)
+
+	* uni0E4A (U+0E4A): X=-145.5,Y=715.0 (should be at cap-height 714?)
+
+	* uni0E4D (U+0E4D): X=-257.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E4D (U+0E4D): X=-53.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E4D (U+0E4D): X=-93.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E4D (U+0E4D): X=-216.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E57 (U+0E57): X=496.0,Y=-2.0 (should be at baseline 0?)
+
+	* uni0E57 (U+0E57): X=459.0,Y=-2.0 (should be at baseline 0?)
+
+	* ygrave (U+1EF3): X=269.0,Y=-1.0 (should be at baseline 0?)
+
+	* quoteleft (U+2018): X=198.0,Y=715.0 (should be at cap-height 714?)
+
+	* quotedblleft (U+201C): X=377.0,Y=715.0 (should be at cap-height 714?)
+
+	* quotedblleft (U+201C): X=198.0,Y=715.0 (should be at cap-height 714?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -724,19 +1208,53 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* uni0E4B (U+0E4B): L<<-241.0,636.0>--<-241.0,646.0>> -> L<<-241.0,646.0>--<-232.0,738.0>>
 
-	* uni0E4B (U+0E4B): L<<-331.0,782.0>--<-321.0,782.0>> -> L<<-321.0,782.0>--<-232.0,774.0>> 
+	* uni0E4B (U+0E4B): L<<-331.0,782.0>--<-321.0,782.0>> -> L<<-321.0,782.0>--<-232.0,774.0>>
 
 	* uni0E4B (U+0E4B): L<<-98.0,730.0>--<-108.0,730.0>> -> L<<-108.0,730.0>--<-194.0,738.0>> [code: found-colinear-vectors]
-</div></details><br></div></details><details><summary><b>[13] NotoSerifThai-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+
+
+* ⚠ **WARN** The dot of soft dotted characters used in orthographies _must_ disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
+
+The dot of soft dotted characters _should_ disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̦̒ į̧̀ į̧́
+
+Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers), Navajo (Latn, 166,319 speakers). 
+
+Your font does *not* cover the following languages that require the soft-dotted feature: Dan (Latn, 1,099,244 speakers), Ejagham (Latn, 120,000 speakers), Avokaya (Latn, 100,000 speakers), Dutch (Latn, 31,709,104 speakers), Kom (Latn, 360,685 speakers), Belarusian (Cyrl, 10,064,517 speakers), Nateni (Latn, 100,000 speakers), Ma’di (Latn, 584,000 speakers), Aghem (Latn, 38,843 speakers), Ebira (Latn, 2,200,000 speakers), Lugbara (Latn, 2,200,000 speakers), Koonzime (Latn, 40,000 speakers), Basaa (Latn, 332,940 speakers), Igbo (Latn, 27,823,640 speakers), Ukrainian (Cyrl, 29,273,587 speakers). [code: soft-dotted]
+</div></details><br></div></details><details><summary><b>[14] NotoSerifThai-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
-* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
+* ⚠ **WARN** The following codepoints supported by the font are not covered by
+    any subsets defined in the font's metadata file, and will never
+    be served. You can solve this by either manually adding additional
+    subset declarations to METADATA.pb, or by editing the glyphset
+    definitions.
 
-The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̦̒ į̧̀ į̧́ [code: soft-dotted]
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh
+ * U+02C9 MODIFIER LETTER MACRON: not included in any glyphset definition
+ * U+02D7 MODIFIER LETTER MINUS SIGN: not included in any glyphset definition
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
+ * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic
+ * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, tifinagh, old-permic, coptic, malayalam, math, canadian-aboriginal, syriac
+ * U+030A COMBINING RING ABOVE: try adding syriac
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
+ * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
+ * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
+ * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
+ * U+0327 COMBINING CEDILLA: not included in any glyphset definition
+ * U+0328 COMBINING OGONEK: not included in any glyphset definition
+ * U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, tifinagh, caucasian-albanian, gothic, syriac
+ * U+2010 HYPHEN: try adding one of: kaithi, sundanese, kharoshthi, sora-sompeng, yi, coptic, cham, syloti-nagri, lisu, kayah-li
+
+Or you can add the above codepoints to one of the subsets supported by the font: `latin`, `latin-ext`, `thai` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
@@ -751,7 +1269,7 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 * ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
 
-	- uni0E24 + uni0E45 
+	- uni0E24 + uni0E45
 
 	- uni0E26 + uni0E45 [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -760,7 +1278,7 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 * ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
  FONT_FAMILY_NAME = 'Noto Serif Thai Medium' / SUBFAMILY_NAME = 'Regular'
 
-Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
+Please take a look at the conversation at https://github.com/fonttools/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -770,13 +1288,13 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- nikhahit_maiChattawathai
+	- uni0E4D0E48
 
-	- nikhahit_maiEkthai
+	- uni0E4D0E49
 
-	- nikhahit_maiThothai 
+	- uni0E4D0E4A
 
-	- nikhahit_maiTrithai
+	- uni0E4D0E4B
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -801,7 +1319,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E2E	Contours detected: 2	Expected: 1 or 3
 
-	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
+	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
@@ -837,11 +1355,173 @@ minus
 
 	* a (U+0061): X=183.5,Y=537.0 (should be at x-height 536?)
 
-	* a (U+0061): X=271.0,Y=1.5 (should be at baseline 0?) 
+	* a (U+0061): X=271.0,Y=1.5 (should be at baseline 0?)
 
-	* 83 more.
+	* b (U+0062): X=25.0,Y=715.0 (should be at cap-height 714?)
 
-Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
+	* b (U+0062): X=18.0,Y=715.0 (should be at cap-height 714?)
+
+	* b (U+0062): X=215.0,Y=537.5 (should be at x-height 536?)
+
+	* c (U+0063): X=371.0,Y=535.0 (should be at x-height 536?)
+
+	* d (U+0064): X=326.0,Y=715.0 (should be at cap-height 714?)
+
+	* d (U+0064): X=318.0,Y=715.0 (should be at cap-height 714?)
+
+	* g (U+0067): X=324.5,Y=537.0 (should be at x-height 536?)
+
+	* g (U+0067): X=316.0,Y=-1.0 (should be at baseline 0?)
+
+	* g (U+0067): X=213.0,Y=-1.0 (should be at baseline 0?)
+
+	* h (U+0068): X=27.0,Y=715.0 (should be at cap-height 714?)
+
+	* h (U+0068): X=18.0,Y=715.0 (should be at cap-height 714?)
+
+	* k (U+006B): X=27.0,Y=715.0 (should be at cap-height 714?)
+
+	* k (U+006B): X=18.0,Y=715.0 (should be at cap-height 714?)
+
+	* l (U+006C): X=27.0,Y=715.0 (should be at cap-height 714?)
+
+	* l (U+006C): X=14.0,Y=715.0 (should be at cap-height 714?)
+
+	* q (U+0071): X=408.5,Y=-2.0 (should be at baseline 0?)
+
+	* y (U+0079): X=259.0,Y=2.0 (should be at baseline 0?)
+
+	* sterling (U+00A3): X=78.0,Y=2.0 (should be at baseline 0?)
+
+	* paragraph (U+00B6): X=579.0,Y=715.0 (should be at cap-height 714?)
+
+	* paragraph (U+00B6): X=566.0,Y=715.0 (should be at cap-height 714?)
+
+	* Aring (U+00C5): X=465.0,Y=713.0 (should be at cap-height 714?)
+
+	* Oslash (U+00D8): X=459.5,Y=716.0 (should be at cap-height 714?)
+
+	* agrave (U+00E0): X=271.0,Y=1.5 (should be at baseline 0?)
+
+	* aacute (U+00E1): X=271.0,Y=1.5 (should be at baseline 0?)
+
+	* acircumflex (U+00E2): X=271.0,Y=1.5 (should be at baseline 0?)
+
+	* atilde (U+00E3): X=271.0,Y=1.5 (should be at baseline 0?)
+
+	* adieresis (U+00E4): X=271.0,Y=1.5 (should be at baseline 0?)
+
+	* aring (U+00E5): X=271.0,Y=1.5 (should be at baseline 0?)
+
+	* yacute (U+00FD): X=259.0,Y=2.0 (should be at baseline 0?)
+
+	* thorn (U+00FE): X=27.0,Y=715.0 (should be at cap-height 714?)
+
+	* thorn (U+00FE): X=19.0,Y=715.0 (should be at cap-height 714?)
+
+	* ydieresis (U+00FF): X=259.0,Y=2.0 (should be at baseline 0?)
+
+	* amacron (U+0101): X=271.0,Y=1.5 (should be at baseline 0?)
+
+	* abreve (U+0103): X=271.0,Y=1.5 (should be at baseline 0?)
+
+	* aogonek (U+0105): X=271.0,Y=1.5 (should be at baseline 0?)
+
+	* dcaron (U+010F): X=326.0,Y=715.0 (should be at cap-height 714?)
+
+	* dcaron (U+010F): X=318.0,Y=715.0 (should be at cap-height 714?)
+
+	* dcroat (U+0111): X=326.0,Y=715.0 (should be at cap-height 714?)
+
+	* dcroat (U+0111): X=318.0,Y=715.0 (should be at cap-height 714?)
+
+	* Gbreve (U+011E): X=527.5,Y=2.0 (should be at baseline 0?)
+
+	* gbreve (U+011F): X=316.0,Y=-1.0 (should be at baseline 0?)
+
+	* gbreve (U+011F): X=213.0,Y=-1.0 (should be at baseline 0?)
+
+	* Gdotaccent (U+0120): X=527.5,Y=2.0 (should be at baseline 0?)
+
+	* gdotaccent (U+0121): X=316.0,Y=-1.0 (should be at baseline 0?)
+
+	* gdotaccent (U+0121): X=213.0,Y=-1.0 (should be at baseline 0?)
+
+	* uni0122 (U+0122): X=527.5,Y=2.0 (should be at baseline 0?)
+
+	* uni0123 (U+0123): X=316.0,Y=-1.0 (should be at baseline 0?)
+
+	* uni0123 (U+0123): X=213.0,Y=-1.0 (should be at baseline 0?)
+
+	* hbar (U+0127): X=27.0,Y=715.0 (should be at cap-height 714?)
+
+	* hbar (U+0127): X=18.0,Y=715.0 (should be at cap-height 714?)
+
+	* uni0137 (U+0137): X=27.0,Y=715.0 (should be at cap-height 714?)
+
+	* uni0137 (U+0137): X=18.0,Y=715.0 (should be at cap-height 714?)
+
+	* lacute (U+013A): X=27.0,Y=715.0 (should be at cap-height 714?)
+
+	* lacute (U+013A): X=14.0,Y=715.0 (should be at cap-height 714?)
+
+	* uni013C (U+013C): X=27.0,Y=715.0 (should be at cap-height 714?)
+
+	* uni013C (U+013C): X=14.0,Y=715.0 (should be at cap-height 714?)
+
+	* lcaron (U+013E): X=27.0,Y=715.0 (should be at cap-height 714?)
+
+	* lcaron (U+013E): X=14.0,Y=715.0 (should be at cap-height 714?)
+
+	* lslash (U+0142): X=38.0,Y=715.0 (should be at cap-height 714?)
+
+	* lslash (U+0142): X=25.0,Y=715.0 (should be at cap-height 714?)
+
+	* ycircumflex (U+0177): X=259.0,Y=2.0 (should be at baseline 0?)
+
+	* uni0312 (U+0312): X=84.0,Y=715.0 (should be at cap-height 714?)
+
+	* uni0E1B (U+0E1B): X=454.0,Y=712.0 (should be at cap-height 714?)
+
+	* uni0E1D (U+0E1D): X=475.0,Y=712.0 (should be at cap-height 714?)
+
+	* uni0E1F (U+0E1F): X=542.0,Y=712.0 (should be at cap-height 714?)
+
+	* uni0E33 (U+0E33): X=-314.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E33 (U+0E33): X=-81.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E33 (U+0E33): X=-143.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E33 (U+0E33): X=-253.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E40 (U+0E40): X=210.0,Y=-2.0 (should be at baseline 0?)
+
+	* uni0E40 (U+0E40): X=210.0,Y=-2.0 (should be at baseline 0?)
+
+	* uni0E41 (U+0E41): X=210.0,Y=-2.0 (should be at baseline 0?)
+
+	* uni0E41 (U+0E41): X=210.0,Y=-2.0 (should be at baseline 0?)
+
+	* uni0E41 (U+0E41): X=524.0,Y=-2.0 (should be at baseline 0?)
+
+	* uni0E41 (U+0E41): X=524.0,Y=-2.0 (should be at baseline 0?)
+
+	* uni0E4D (U+0E4D): X=-271.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E4D (U+0E4D): X=-38.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E4D (U+0E4D): X=-100.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E4D (U+0E4D): X=-210.0,Y=716.0 (should be at cap-height 714?)
+
+	* ygrave (U+1EF3): X=259.0,Y=2.0 (should be at baseline 0?)
+
+	* quoteleft (U+2018): X=224.0,Y=715.0 (should be at cap-height 714?)
+
+	* quotedblleft (U+201C): X=427.0,Y=715.0 (should be at cap-height 714?)
+
+	* quotedblleft (U+201C): X=224.0,Y=715.0 (should be at cap-height 714?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -849,7 +1529,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* uni0E4B (U+0E4B): L<<-184.0,783.0>--<-100.0,791.0>> -> L<<-100.0,791.0>--<-90.0,791.0>>
 
-	* uni0E4B (U+0E4B): L<<-338.0,791.0>--<-328.0,791.0>> -> L<<-328.0,791.0>--<-244.0,784.0>> 
+	* uni0E4B (U+0E4B): L<<-338.0,791.0>--<-328.0,791.0>> -> L<<-328.0,791.0>--<-244.0,784.0>>
 
 	* uni0E4B (U+0E4B): L<<-90.0,721.0>--<-100.0,721.0>> -> L<<-100.0,721.0>--<-184.0,729.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
@@ -858,16 +1538,50 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
 	* sterling (U+00A3): L<<408.0,339.0>--<251.0,340.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[11] NotoSerifThai-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+
+
+* ⚠ **WARN** The dot of soft dotted characters used in orthographies _must_ disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
+
+The dot of soft dotted characters _should_ disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̦̒ į̧̀ į̧́
+
+Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers), Navajo (Latn, 166,319 speakers). 
+
+Your font does *not* cover the following languages that require the soft-dotted feature: Dan (Latn, 1,099,244 speakers), Ejagham (Latn, 120,000 speakers), Avokaya (Latn, 100,000 speakers), Dutch (Latn, 31,709,104 speakers), Kom (Latn, 360,685 speakers), Belarusian (Cyrl, 10,064,517 speakers), Nateni (Latn, 100,000 speakers), Ma’di (Latn, 584,000 speakers), Aghem (Latn, 38,843 speakers), Ebira (Latn, 2,200,000 speakers), Lugbara (Latn, 2,200,000 speakers), Koonzime (Latn, 40,000 speakers), Basaa (Latn, 332,940 speakers), Igbo (Latn, 27,823,640 speakers), Ukrainian (Cyrl, 29,273,587 speakers). [code: soft-dotted]
+</div></details><br></div></details><details><summary><b>[12] NotoSerifThai-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
-* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
+* ⚠ **WARN** The following codepoints supported by the font are not covered by
+    any subsets defined in the font's metadata file, and will never
+    be served. You can solve this by either manually adding additional
+    subset declarations to METADATA.pb, or by editing the glyphset
+    definitions.
 
-The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̦̒ į̧̀ į̧́ [code: soft-dotted]
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh
+ * U+02C9 MODIFIER LETTER MACRON: not included in any glyphset definition
+ * U+02D7 MODIFIER LETTER MINUS SIGN: not included in any glyphset definition
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
+ * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic
+ * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, tifinagh, old-permic, coptic, malayalam, math, canadian-aboriginal, syriac
+ * U+030A COMBINING RING ABOVE: try adding syriac
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
+ * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
+ * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
+ * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
+ * U+0327 COMBINING CEDILLA: not included in any glyphset definition
+ * U+0328 COMBINING OGONEK: not included in any glyphset definition
+ * U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, tifinagh, caucasian-albanian, gothic, syriac
+ * U+2010 HYPHEN: try adding one of: kaithi, sundanese, kharoshthi, sora-sompeng, yi, coptic, cham, syloti-nagri, lisu, kayah-li
+
+Or you can add the above codepoints to one of the subsets supported by the font: `latin`, `latin-ext`, `thai` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
@@ -882,7 +1596,7 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 * ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
 
-	- uni0E24 + uni0E45 
+	- uni0E24 + uni0E45
 
 	- uni0E26 + uni0E45 [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -894,13 +1608,13 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- nikhahit_maiChattawathai
+	- uni0E4D0E48
 
-	- nikhahit_maiEkthai
+	- uni0E4D0E49
 
-	- nikhahit_maiThothai 
+	- uni0E4D0E4A
 
-	- nikhahit_maiTrithai
+	- uni0E4D0E4B
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -925,7 +1639,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E2E	Contours detected: 2	Expected: 1 or 3
 
-	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
+	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
@@ -961,11 +1675,67 @@ minus
 
 	* c (U+0063): X=360.0,Y=535.0 (should be at x-height 536?)
 
-	* g (U+0067): X=161.0,Y=-0.5 (should be at baseline 0?) 
+	* g (U+0067): X=161.0,Y=-0.5 (should be at baseline 0?)
 
-	* 30 more.
+	* q (U+0071): X=412.5,Y=0.5 (should be at baseline 0?)
 
-Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
+	* sterling (U+00A3): X=77.0,Y=1.0 (should be at baseline 0?)
+
+	* section (U+00A7): X=101.0,Y=2.0 (should be at baseline 0?)
+
+	* Oslash (U+00D8): X=454.5,Y=715.5 (should be at cap-height 714?)
+
+	* Gbreve (U+011E): X=519.0,Y=1.5 (should be at baseline 0?)
+
+	* gbreve (U+011F): X=161.0,Y=-0.5 (should be at baseline 0?)
+
+	* Gdotaccent (U+0120): X=519.0,Y=1.5 (should be at baseline 0?)
+
+	* gdotaccent (U+0121): X=161.0,Y=-0.5 (should be at baseline 0?)
+
+	* uni0122 (U+0122): X=519.0,Y=1.5 (should be at baseline 0?)
+
+	* uni0123 (U+0123): X=161.0,Y=-0.5 (should be at baseline 0?)
+
+	* uni0312 (U+0312): X=82.0,Y=715.0 (should be at cap-height 714?)
+
+	* uni0E0A (U+0E0A): X=218.0,Y=0.5 (should be at baseline 0?)
+
+	* uni0E33 (U+0E33): X=-300.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E33 (U+0E33): X=-85.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E33 (U+0E33): X=-136.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E33 (U+0E33): X=-249.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E35 (U+0E35): X=-153.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E43 (U+0E43): X=126.0,Y=712.0 (should be at cap-height 714?)
+
+	* uni0E44 (U+0E44): X=138.0,Y=712.0 (should be at cap-height 714?)
+
+	* uni0E49 (U+0E49): X=-151.0,Y=715.0 (should be at cap-height 714?)
+
+	* uni0E4D (U+0E4D): X=-260.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E4D (U+0E4D): X=-45.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E4D (U+0E4D): X=-96.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E4D (U+0E4D): X=-209.0,Y=716.0 (should be at cap-height 714?)
+
+	* quoteleft (U+2018): X=220.0,Y=715.0 (should be at cap-height 714?)
+
+	* quotesinglbase (U+201A): X=114.0,Y=1.0 (should be at baseline 0?)
+
+	* quotedblleft (U+201C): X=420.0,Y=715.0 (should be at cap-height 714?)
+
+	* quotedblleft (U+201C): X=220.0,Y=715.0 (should be at cap-height 714?)
+
+	* quotedblbase (U+201E): X=314.0,Y=1.0 (should be at baseline 0?)
+
+	* quotedblbase (U+201E): X=114.0,Y=1.0 (should be at baseline 0?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -981,19 +1751,53 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* uni0E4B (U+0E4B): L<<-248.0,636.0>--<-248.0,646.0>> -> L<<-248.0,646.0>--<-240.0,730.0>>
 
-	* uni0E4B (U+0E4B): L<<-332.0,789.0>--<-322.0,789.0>> -> L<<-322.0,789.0>--<-240.0,782.0>> 
+	* uni0E4B (U+0E4B): L<<-332.0,789.0>--<-322.0,789.0>> -> L<<-322.0,789.0>--<-240.0,782.0>>
 
 	* uni0E4B (U+0E4B): L<<-95.0,723.0>--<-105.0,723.0>> -> L<<-105.0,723.0>--<-187.0,731.0>> [code: found-colinear-vectors]
-</div></details><br></div></details><details><summary><b>[13] NotoSerifThai-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+
+
+* ⚠ **WARN** The dot of soft dotted characters used in orthographies _must_ disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
+
+The dot of soft dotted characters _should_ disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̦̒ į̧̀ į̧́
+
+Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers), Navajo (Latn, 166,319 speakers). 
+
+Your font does *not* cover the following languages that require the soft-dotted feature: Dan (Latn, 1,099,244 speakers), Ejagham (Latn, 120,000 speakers), Avokaya (Latn, 100,000 speakers), Dutch (Latn, 31,709,104 speakers), Kom (Latn, 360,685 speakers), Belarusian (Cyrl, 10,064,517 speakers), Nateni (Latn, 100,000 speakers), Ma’di (Latn, 584,000 speakers), Aghem (Latn, 38,843 speakers), Ebira (Latn, 2,200,000 speakers), Lugbara (Latn, 2,200,000 speakers), Koonzime (Latn, 40,000 speakers), Basaa (Latn, 332,940 speakers), Igbo (Latn, 27,823,640 speakers), Ukrainian (Cyrl, 29,273,587 speakers). [code: soft-dotted]
+</div></details><br></div></details><details><summary><b>[14] NotoSerifThai-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
-* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
+* ⚠ **WARN** The following codepoints supported by the font are not covered by
+    any subsets defined in the font's metadata file, and will never
+    be served. You can solve this by either manually adding additional
+    subset declarations to METADATA.pb, or by editing the glyphset
+    definitions.
 
-The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̦̒ į̧̀ į̧́ [code: soft-dotted]
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh
+ * U+02C9 MODIFIER LETTER MACRON: not included in any glyphset definition
+ * U+02D7 MODIFIER LETTER MINUS SIGN: not included in any glyphset definition
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
+ * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic
+ * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, tifinagh, old-permic, coptic, malayalam, math, canadian-aboriginal, syriac
+ * U+030A COMBINING RING ABOVE: try adding syriac
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
+ * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
+ * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
+ * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
+ * U+0327 COMBINING CEDILLA: not included in any glyphset definition
+ * U+0328 COMBINING OGONEK: not included in any glyphset definition
+ * U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, tifinagh, caucasian-albanian, gothic, syriac
+ * U+2010 HYPHEN: try adding one of: kaithi, sundanese, kharoshthi, sora-sompeng, yi, coptic, cham, syloti-nagri, lisu, kayah-li
+
+Or you can add the above codepoints to one of the subsets supported by the font: `latin`, `latin-ext`, `thai` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
@@ -1009,7 +1813,7 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 * ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
 
-	- uni0E24 + uni0E45 
+	- uni0E24 + uni0E45
 
 	- uni0E26 + uni0E45 [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -1018,7 +1822,7 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 * ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
  FONT_FAMILY_NAME = 'Noto Serif Thai SemiBold' / SUBFAMILY_NAME = 'Regular'
 
-Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
+Please take a look at the conversation at https://github.com/fonttools/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -1028,13 +1832,13 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- nikhahit_maiChattawathai
+	- uni0E4D0E48
 
-	- nikhahit_maiEkthai
+	- uni0E4D0E49
 
-	- nikhahit_maiThothai 
+	- uni0E4D0E4A
 
-	- nikhahit_maiTrithai
+	- uni0E4D0E4B
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -1059,7 +1863,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E2E	Contours detected: 2	Expected: 1 or 3
 
-	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
+	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
@@ -1095,11 +1899,53 @@ minus
 
 	* germandbls (U+00DF): X=352.0,Y=716.0 (should be at cap-height 714?)
 
-	* atilde (U+00E3): X=135.5,Y=712.0 (should be at cap-height 714?) 
+	* atilde (U+00E3): X=135.5,Y=712.0 (should be at cap-height 714?)
 
-	* 23 more.
+	* ntilde (U+00F1): X=170.5,Y=712.0 (should be at cap-height 714?)
 
-Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
+	* otilde (U+00F5): X=139.5,Y=712.0 (should be at cap-height 714?)
+
+	* yacute (U+00FD): X=254.0,Y=-2.0 (should be at baseline 0?)
+
+	* yacute (U+00FD): X=343.0,Y=-2.0 (should be at baseline 0?)
+
+	* ydieresis (U+00FF): X=254.0,Y=-2.0 (should be at baseline 0?)
+
+	* ydieresis (U+00FF): X=343.0,Y=-2.0 (should be at baseline 0?)
+
+	* ycircumflex (U+0177): X=254.0,Y=-2.0 (should be at baseline 0?)
+
+	* ycircumflex (U+0177): X=343.0,Y=-2.0 (should be at baseline 0?)
+
+	* tilde (U+02DC): X=73.5,Y=712.0 (should be at cap-height 714?)
+
+	* tildecomb (U+0303): X=-514.5,Y=712.0 (should be at cap-height 714?)
+
+	* uni0E33 (U+0E33): X=-331.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E33 (U+0E33): X=-76.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E33 (U+0E33): X=-151.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E33 (U+0E33): X=-258.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E4D (U+0E4D): X=-285.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E4D (U+0E4D): X=-30.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E4D (U+0E4D): X=-105.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E4D (U+0E4D): X=-211.0,Y=716.0 (should be at cap-height 714?)
+
+	* ygrave (U+1EF3): X=254.0,Y=-2.0 (should be at baseline 0?)
+
+	* ygrave (U+1EF3): X=343.0,Y=-2.0 (should be at baseline 0?)
+
+	* quotesinglbase (U+201A): X=119.0,Y=-1.0 (should be at baseline 0?)
+
+	* quotedblbase (U+201E): X=324.5,Y=-1.0 (should be at baseline 0?)
+
+	* quotedblbase (U+201E): X=119.0,Y=-1.0 (should be at baseline 0?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -1107,7 +1953,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* uni0E4B (U+0E4B): L<<-180.0,786.0>--<-93.0,794.0>> -> L<<-93.0,794.0>--<-83.0,794.0>>
 
-	* uni0E4B (U+0E4B): L<<-346.0,794.0>--<-336.0,794.0>> -> L<<-336.0,794.0>--<-249.0,786.0>> 
+	* uni0E4B (U+0E4B): L<<-346.0,794.0>--<-336.0,794.0>> -> L<<-336.0,794.0>--<-249.0,786.0>>
 
 	* uni0E4B (U+0E4B): L<<-83.0,718.0>--<-93.0,718.0>> -> L<<-93.0,718.0>--<-180.0,726.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
@@ -1115,19 +1961,53 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
-	* h (U+0068): L<<104.0,119.0>--<103.0,648.0>> 
+	* h (U+0068): L<<104.0,119.0>--<103.0,648.0>>
 
 	* h (U+0068): L<<233.0,313.0>--<234.0,115.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[12] NotoSerifThai-Thin.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+
+
+* ⚠ **WARN** The dot of soft dotted characters used in orthographies _must_ disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
+
+The dot of soft dotted characters _should_ disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̦̒ į̧̀ į̧́
+
+Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers), Navajo (Latn, 166,319 speakers). 
+
+Your font does *not* cover the following languages that require the soft-dotted feature: Dan (Latn, 1,099,244 speakers), Ejagham (Latn, 120,000 speakers), Avokaya (Latn, 100,000 speakers), Dutch (Latn, 31,709,104 speakers), Kom (Latn, 360,685 speakers), Belarusian (Cyrl, 10,064,517 speakers), Nateni (Latn, 100,000 speakers), Ma’di (Latn, 584,000 speakers), Aghem (Latn, 38,843 speakers), Ebira (Latn, 2,200,000 speakers), Lugbara (Latn, 2,200,000 speakers), Koonzime (Latn, 40,000 speakers), Basaa (Latn, 332,940 speakers), Igbo (Latn, 27,823,640 speakers), Ukrainian (Cyrl, 29,273,587 speakers). [code: soft-dotted]
+</div></details><br></div></details><details><summary><b>[13] NotoSerifThai-Thin.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
-* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
+* ⚠ **WARN** The following codepoints supported by the font are not covered by
+    any subsets defined in the font's metadata file, and will never
+    be served. You can solve this by either manually adding additional
+    subset declarations to METADATA.pb, or by editing the glyphset
+    definitions.
 
-The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̦̒ į̧̀ į̧́ [code: soft-dotted]
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh
+ * U+02C9 MODIFIER LETTER MACRON: not included in any glyphset definition
+ * U+02D7 MODIFIER LETTER MINUS SIGN: not included in any glyphset definition
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
+ * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic
+ * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, tifinagh, old-permic, coptic, malayalam, math, canadian-aboriginal, syriac
+ * U+030A COMBINING RING ABOVE: try adding syriac
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
+ * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
+ * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
+ * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
+ * U+0327 COMBINING CEDILLA: not included in any glyphset definition
+ * U+0328 COMBINING OGONEK: not included in any glyphset definition
+ * U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, tifinagh, caucasian-albanian, gothic, syriac
+ * U+2010 HYPHEN: try adding one of: kaithi, sundanese, kharoshthi, sora-sompeng, yi, coptic, cham, syloti-nagri, lisu, kayah-li
+
+Or you can add the above codepoints to one of the subsets supported by the font: `latin`, `latin-ext`, `thai` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -1137,7 +2017,7 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 * ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
 
-	- uni0E24 + uni0E45 
+	- uni0E24 + uni0E45
 
 	- uni0E26 + uni0E45 [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -1149,13 +2029,13 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- nikhahit_maiChattawathai
+	- uni0E4D0E48
 
-	- nikhahit_maiEkthai
+	- uni0E4D0E49
 
-	- nikhahit_maiThothai 
+	- uni0E4D0E4A
 
-	- nikhahit_maiTrithai
+	- uni0E4D0E4B
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -1180,7 +2060,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E2E	Contours detected: 2	Expected: 1 or 3
 
-	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4 
+	- Glyph name: uni0E4F	Contours detected: 3	Expected: 4
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
@@ -1216,11 +2096,79 @@ minus
 
 	* k (U+006B): X=114.0,Y=715.5 (should be at cap-height 714?)
 
-	* l (U+006C): X=110.0,Y=715.5 (should be at cap-height 714?) 
+	* l (U+006C): X=110.0,Y=715.5 (should be at cap-height 714?)
 
-	* 36 more.
+	* t (U+0074): X=53.5,Y=536.5 (should be at x-height 536?)
 
-Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
+	* sterling (U+00A3): X=362.5,Y=-1.5 (should be at baseline 0?)
+
+	* sterling (U+00A3): X=464.5,Y=-0.5 (should be at baseline 0?)
+
+	* Ccedilla (U+00C7): X=407.0,Y=1.5 (should be at baseline 0?)
+
+	* Oslash (U+00D8): X=437.5,Y=713.5 (should be at cap-height 714?)
+
+	* thorn (U+00FE): X=117.5,Y=716.0 (should be at cap-height 714?)
+
+	* Cacute (U+0106): X=407.0,Y=1.5 (should be at baseline 0?)
+
+	* Cdotaccent (U+010A): X=407.0,Y=1.5 (should be at baseline 0?)
+
+	* Ccaron (U+010C): X=407.0,Y=1.5 (should be at baseline 0?)
+
+	* dcaron (U+010F): X=428.0,Y=715.5 (should be at cap-height 714?)
+
+	* dcroat (U+0111): X=427.5,Y=715.5 (should be at cap-height 714?)
+
+	* Gbreve (U+011E): X=477.5,Y=-1.5 (should be at baseline 0?)
+
+	* Gdotaccent (U+0120): X=477.5,Y=-1.5 (should be at baseline 0?)
+
+	* uni0122 (U+0122): X=477.5,Y=-1.5 (should be at baseline 0?)
+
+	* hbar (U+0127): X=113.5,Y=715.5 (should be at cap-height 714?)
+
+	* uni0137 (U+0137): X=114.0,Y=715.5 (should be at cap-height 714?)
+
+	* lacute (U+013A): X=110.0,Y=715.5 (should be at cap-height 714?)
+
+	* uni013C (U+013C): X=110.0,Y=715.5 (should be at cap-height 714?)
+
+	* lcaron (U+013E): X=110.0,Y=715.5 (should be at cap-height 714?)
+
+	* Eng (U+014A): X=566.0,Y=1.0 (should be at baseline 0?)
+
+	* uni0E33 (U+0E33): X=-288.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E33 (U+0E33): X=-97.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E33 (U+0E33): X=-125.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E33 (U+0E33): X=-260.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E36 (U+0E36): X=-87.0,Y=715.0 (should be at cap-height 714?)
+
+	* uni0E36 (U+0E36): X=-114.0,Y=715.0 (should be at cap-height 714?)
+
+	* uni0E36 (U+0E36): X=-221.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E42 (U+0E42): X=139.0,Y=713.0 (should be at cap-height 714?)
+
+	* uni0E49 (U+0E49): X=-302.0,Y=714.5 (should be at cap-height 714?)
+
+	* uni0E49 (U+0E49): X=-91.0,Y=714.5 (should be at cap-height 714?)
+
+	* uni0E4A (U+0E4A): X=-274.0,Y=712.0 (should be at cap-height 714?)
+
+	* uni0E4D (U+0E4D): X=-253.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E4D (U+0E4D): X=-62.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E4D (U+0E4D): X=-90.0,Y=716.0 (should be at cap-height 714?)
+
+	* uni0E4D (U+0E4D): X=-225.0,Y=716.0 (should be at cap-height 714?)
+
+	* Euro (U+20AC): X=406.0,Y=0.5 (should be at baseline 0?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -1240,7 +2188,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* uni0E4B (U+0E4B): L<<-223.0,765.0>--<-232.0,865.0>> -> L<<-232.0,865.0>--<-232.0,875.0>>
 
-	* uni0E4B (U+0E4B): L<<-232.0,636.0>--<-232.0,646.0>> -> L<<-232.0,646.0>--<-223.0,747.0>> 
+	* uni0E4B (U+0E4B): L<<-232.0,636.0>--<-232.0,646.0>> -> L<<-232.0,646.0>--<-223.0,747.0>>
 
 	* uni0E4B (U+0E4B): L<<-329.0,774.0>--<-319.0,774.0>> -> L<<-319.0,774.0>--<-223.0,765.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -1248,7 +2196,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
-	* eth (U+00F0): B<<385.5,450.5>-<412.0,431.0>-<428.0,400.0>>/B<<428.0,400.0>-<403.0,480.0>-<371.5,537.5>> = 9.945547575071476 
+	* eth (U+00F0): B<<385.5,450.5>-<412.0,431.0>-<428.0,400.0>>/B<<428.0,400.0>-<403.0,480.0>-<371.5,537.5>> = 9.945547575071476
 
 	* sterling (U+00A3): B<<192.0,89.0>-<173.0,58.0>-<145.0,40.0>>/L<<145.0,40.0>--<149.0,42.0>> = 6.170175095029526 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
@@ -1260,109 +2208,27 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* exclam (U+0021): L<<149.0,714.0>--<148.0,167.0>>
 
-	* exclamdown (U+00A1): L<<123.0,-177.0>--<124.0,370.0>> 
+	* exclamdown (U+00A1): L<<123.0,-177.0>--<124.0,370.0>>
 
 	* exclamdown (U+00A1): L<<149.0,370.0>--<152.0,-177.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[12] NotoSerifThai[wdth,wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
-* 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
-</div></details><details><summary>💔 <b>ERROR:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
+* ⚠ **WARN** The dot of soft dotted characters used in orthographies _must_ disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
 
+The dot of soft dotted characters _should_ disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̦̒ į̧̀ į̧́
 
-* 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
-</div></details><details><summary>💔 <b>ERROR:</b> Check a font's STAT table contains compulsory Axis Values. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/STAT">com.google.fonts/check/STAT</a>)</summary><div>
+Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers), Navajo (Latn, 166,319 speakers). 
 
-
-* 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
-</div></details><details><summary>💔 <b>ERROR:</b> Check variable font instances (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fvar_instances">com.google.fonts/check/fvar_instances</a>)</summary><div>
-
-
-* 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
-</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
-
-
-* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
-
-
-* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
-
-The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̦̒ į̧̀ į̧́ [code: soft-dotted]
-</div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
-
-
-* ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
-
-	- uni0E24 + uni0E45 
-
-	- uni0E26 + uni0E45 [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
-
-
-* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-
-	- nikhahit_maiChattawathai
-
-	- nikhahit_maiEkthai
-
-	- nikhahit_maiThothai 
-
-	- nikhahit_maiTrithai
- [code: unreachable-glyphs]
-</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
-
-
-* ⚠ **WARN** The most common width is 559 among a set of 6 math glyphs.
-The following math glyphs have a different width, though:
-
-Width = 310:
-minus
- [code: width-outliers]
-</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
-
-	* parenleft (U+0028): X=314.0,Y=715.0 (should be at cap-height 714?)
-
-	* parenright (U+0029): X=32.0,Y=715.0 (should be at cap-height 714?)
-
-	* comma (U+002C): X=114.0,Y=1.0 (should be at baseline 0?)
-
-	* three (U+0033): X=334.5,Y=1.0 (should be at baseline 0?)
-
-	* five (U+0035): X=328.0,Y=0.5 (should be at baseline 0?)
-
-	* nine (U+0039): X=139.0,Y=2.0 (should be at baseline 0?)
-
-	* semicolon (U+003B): X=132.0,Y=1.0 (should be at baseline 0?)
-
-	* question (U+003F): X=137.0,Y=715.5 (should be at cap-height 714?)
-
-	* C (U+0043): X=457.5,Y=0.5 (should be at baseline 0?)
-
-	* G (U+0047): X=519.0,Y=1.5 (should be at baseline 0?) 
-
-	* 69 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
+Your font does *not* cover the following languages that require the soft-dotted feature: Dan (Latn, 1,099,244 speakers), Ejagham (Latn, 120,000 speakers), Avokaya (Latn, 100,000 speakers), Dutch (Latn, 31,709,104 speakers), Kom (Latn, 360,685 speakers), Belarusian (Cyrl, 10,064,517 speakers), Nateni (Latn, 100,000 speakers), Ma’di (Latn, 584,000 speakers), Aghem (Latn, 38,843 speakers), Ebira (Latn, 2,200,000 speakers), Lugbara (Latn, 2,200,000 speakers), Koonzime (Latn, 40,000 speakers), Basaa (Latn, 332,940 speakers), Igbo (Latn, 27,823,640 speakers), Ukrainian (Cyrl, 29,273,587 speakers). [code: soft-dotted]
 </div></details><br></div></details>
 
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 4 | 22 | 99 | 1131 | 62 | 989 | 0 |
-| 0% | 1% | 4% | 49% | 3% | 43% | 0% |
+| 0 | 9 | 111 | 1046 | 55 | 884 | 0 |
+| 0% | 0% | 5% | 50% | 3% | 42% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**

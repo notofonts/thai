@@ -141,6 +141,14 @@
 
 	  
 	    @font-face{
+    src: url(old-NotoSansThaiLooped-ExtraBold.ttf);
+    font-family: "old Noto Sans Thai Looped";
+    font-weight: 800;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
     src: url(old-NotoSansThaiLooped-Black.ttf);
     font-family: "old Noto Sans Thai Looped";
     font-weight: 900;
@@ -157,14 +165,6 @@
 }
 	  
 	    @font-face{
-    src: url(old-NotoSansThaiLooped-ExtraBold.ttf);
-    font-family: "old Noto Sans Thai Looped";
-    font-weight: 800;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
     src: url(old-NotoSansThaiLooped-ExtraLight.ttf);
     font-family: "old Noto Sans Thai Looped";
     font-weight: 200;
@@ -175,16 +175,8 @@
 
 	  
 	    @font-face{
-    src: url(new-NotoSansThaiLooped-SemiCondensedBlack.ttf);
-    font-family: "new Noto Sans Thai Looped SemiCondensed";
-    font-weight: 900;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSansThaiLooped-SemiCondensedExtraLight.ttf);
-    font-family: "new Noto Sans Thai Looped SemiCondensed";
+    src: url(new-NotoSansThaiLooped-CondensedExtraLight.ttf);
+    font-family: "new Noto Sans Thai Looped Condensed";
     font-weight: 200;
     
     font-style: normal;
@@ -194,6 +186,14 @@
     src: url(new-NotoSansThaiLooped-Bold.ttf);
     font-family: "new Noto Sans Thai Looped";
     font-weight: 700;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSansThaiLooped-ExtraCondensedBlack.ttf);
+    font-family: "new Noto Sans Thai Looped ExtraCondensed";
+    font-weight: 900;
     
     font-style: normal;
 }
@@ -245,7 +245,7 @@
 
 	  
 	    .new-Black{
-    font-family: "new Noto Sans Thai Looped SemiCondensed", "Adobe NotDef";
+    font-family: "new Noto Sans Thai Looped ExtraCondensed", "Adobe NotDef";
     font-weight: 900;
     
     font-style: normal;
@@ -269,7 +269,7 @@
 }
 	  
 	    .new-ExtraLight{
-    font-family: "new Noto Sans Thai Looped SemiCondensed", "Adobe NotDef";
+    font-family: "new Noto Sans Thai Looped Condensed", "Adobe NotDef";
     font-weight: 200;
     
     font-style: normal;
@@ -279,6 +279,14 @@
 
 	  
 	
+
+	   #ot-panel {
+		max-height: 400px;
+		overflow-y: scroll;
+		background: white;
+		padding: 10px;
+		display: none;
+	   }
     </style>
 </head>
 <body>
@@ -286,6 +294,9 @@
 		
 			<div class="nav-item" id="font-toggle">old</div>
 		
+			<div class="nav-item" id="ot-button">OT features</div>
+			<div id="ot-panel">
+			</div>
 		
 	</div>
     <div id="content">
@@ -297,7 +308,7 @@
     
       <div class="box">
         <div class="box-title">old-Black 7pt</div>
-        <div class="box-text old-Black" style="font-size: 7pt">
+        <div contenteditable=true spellcheck="false" class="box-text old-Black" style="font-size: 7pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -306,7 +317,7 @@
     
       <div class="box">
         <div class="box-title">old-Black 10pt</div>
-        <div class="box-text old-Black" style="font-size: 10pt">
+        <div contenteditable=true spellcheck="false" class="box-text old-Black" style="font-size: 10pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -315,7 +326,7 @@
     
       <div class="box">
         <div class="box-title">old-Black 11pt</div>
-        <div class="box-text old-Black" style="font-size: 11pt">
+        <div contenteditable=true spellcheck="false" class="box-text old-Black" style="font-size: 11pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -324,7 +335,7 @@
     
       <div class="box">
         <div class="box-title">old-Black 12pt</div>
-        <div class="box-text old-Black" style="font-size: 12pt">
+        <div contenteditable=true spellcheck="false" class="box-text old-Black" style="font-size: 12pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -333,7 +344,7 @@
     
       <div class="box">
         <div class="box-title">old-Black 14pt</div>
-        <div class="box-text old-Black" style="font-size: 14pt">
+        <div contenteditable=true spellcheck="false" class="box-text old-Black" style="font-size: 14pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -342,7 +353,7 @@
     
       <div class="box">
         <div class="box-title">old-Black 16pt</div>
-        <div class="box-text old-Black" style="font-size: 16pt">
+        <div contenteditable=true spellcheck="false" class="box-text old-Black" style="font-size: 16pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -351,7 +362,7 @@
     
       <div class="box">
         <div class="box-title">old-Black 18pt</div>
-        <div class="box-text old-Black" style="font-size: 18pt">
+        <div contenteditable=true spellcheck="false" class="box-text old-Black" style="font-size: 18pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -360,7 +371,7 @@
     
       <div class="box">
         <div class="box-title">old-Black 21pt</div>
-        <div class="box-text old-Black" style="font-size: 21pt">
+        <div contenteditable=true spellcheck="false" class="box-text old-Black" style="font-size: 21pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -369,7 +380,7 @@
     
       <div class="box">
         <div class="box-title">old-Black 27pt</div>
-        <div class="box-text old-Black" style="font-size: 27pt">
+        <div contenteditable=true spellcheck="false" class="box-text old-Black" style="font-size: 27pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -378,7 +389,7 @@
     
       <div class="box">
         <div class="box-title">old-Black 32pt</div>
-        <div class="box-text old-Black" style="font-size: 32pt">
+        <div contenteditable=true spellcheck="false" class="box-text old-Black" style="font-size: 32pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -389,7 +400,7 @@
     
       <div class="box">
         <div class="box-title">old-Bold 7pt</div>
-        <div class="box-text old-Bold" style="font-size: 7pt">
+        <div contenteditable=true spellcheck="false" class="box-text old-Bold" style="font-size: 7pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -398,7 +409,7 @@
     
       <div class="box">
         <div class="box-title">old-Bold 10pt</div>
-        <div class="box-text old-Bold" style="font-size: 10pt">
+        <div contenteditable=true spellcheck="false" class="box-text old-Bold" style="font-size: 10pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -407,7 +418,7 @@
     
       <div class="box">
         <div class="box-title">old-Bold 11pt</div>
-        <div class="box-text old-Bold" style="font-size: 11pt">
+        <div contenteditable=true spellcheck="false" class="box-text old-Bold" style="font-size: 11pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -416,7 +427,7 @@
     
       <div class="box">
         <div class="box-title">old-Bold 12pt</div>
-        <div class="box-text old-Bold" style="font-size: 12pt">
+        <div contenteditable=true spellcheck="false" class="box-text old-Bold" style="font-size: 12pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -425,7 +436,7 @@
     
       <div class="box">
         <div class="box-title">old-Bold 14pt</div>
-        <div class="box-text old-Bold" style="font-size: 14pt">
+        <div contenteditable=true spellcheck="false" class="box-text old-Bold" style="font-size: 14pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -434,7 +445,7 @@
     
       <div class="box">
         <div class="box-title">old-Bold 16pt</div>
-        <div class="box-text old-Bold" style="font-size: 16pt">
+        <div contenteditable=true spellcheck="false" class="box-text old-Bold" style="font-size: 16pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -443,7 +454,7 @@
     
       <div class="box">
         <div class="box-title">old-Bold 18pt</div>
-        <div class="box-text old-Bold" style="font-size: 18pt">
+        <div contenteditable=true spellcheck="false" class="box-text old-Bold" style="font-size: 18pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -452,7 +463,7 @@
     
       <div class="box">
         <div class="box-title">old-Bold 21pt</div>
-        <div class="box-text old-Bold" style="font-size: 21pt">
+        <div contenteditable=true spellcheck="false" class="box-text old-Bold" style="font-size: 21pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -461,7 +472,7 @@
     
       <div class="box">
         <div class="box-title">old-Bold 27pt</div>
-        <div class="box-text old-Bold" style="font-size: 27pt">
+        <div contenteditable=true spellcheck="false" class="box-text old-Bold" style="font-size: 27pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -470,7 +481,7 @@
     
       <div class="box">
         <div class="box-title">old-Bold 32pt</div>
-        <div class="box-text old-Bold" style="font-size: 32pt">
+        <div contenteditable=true spellcheck="false" class="box-text old-Bold" style="font-size: 32pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -481,7 +492,7 @@
     
       <div class="box">
         <div class="box-title">old-ExtraBold 7pt</div>
-        <div class="box-text old-ExtraBold" style="font-size: 7pt">
+        <div contenteditable=true spellcheck="false" class="box-text old-ExtraBold" style="font-size: 7pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -490,7 +501,7 @@
     
       <div class="box">
         <div class="box-title">old-ExtraBold 10pt</div>
-        <div class="box-text old-ExtraBold" style="font-size: 10pt">
+        <div contenteditable=true spellcheck="false" class="box-text old-ExtraBold" style="font-size: 10pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -499,7 +510,7 @@
     
       <div class="box">
         <div class="box-title">old-ExtraBold 11pt</div>
-        <div class="box-text old-ExtraBold" style="font-size: 11pt">
+        <div contenteditable=true spellcheck="false" class="box-text old-ExtraBold" style="font-size: 11pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -508,7 +519,7 @@
     
       <div class="box">
         <div class="box-title">old-ExtraBold 12pt</div>
-        <div class="box-text old-ExtraBold" style="font-size: 12pt">
+        <div contenteditable=true spellcheck="false" class="box-text old-ExtraBold" style="font-size: 12pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -517,7 +528,7 @@
     
       <div class="box">
         <div class="box-title">old-ExtraBold 14pt</div>
-        <div class="box-text old-ExtraBold" style="font-size: 14pt">
+        <div contenteditable=true spellcheck="false" class="box-text old-ExtraBold" style="font-size: 14pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -526,7 +537,7 @@
     
       <div class="box">
         <div class="box-title">old-ExtraBold 16pt</div>
-        <div class="box-text old-ExtraBold" style="font-size: 16pt">
+        <div contenteditable=true spellcheck="false" class="box-text old-ExtraBold" style="font-size: 16pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -535,7 +546,7 @@
     
       <div class="box">
         <div class="box-title">old-ExtraBold 18pt</div>
-        <div class="box-text old-ExtraBold" style="font-size: 18pt">
+        <div contenteditable=true spellcheck="false" class="box-text old-ExtraBold" style="font-size: 18pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -544,7 +555,7 @@
     
       <div class="box">
         <div class="box-title">old-ExtraBold 21pt</div>
-        <div class="box-text old-ExtraBold" style="font-size: 21pt">
+        <div contenteditable=true spellcheck="false" class="box-text old-ExtraBold" style="font-size: 21pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -553,7 +564,7 @@
     
       <div class="box">
         <div class="box-title">old-ExtraBold 27pt</div>
-        <div class="box-text old-ExtraBold" style="font-size: 27pt">
+        <div contenteditable=true spellcheck="false" class="box-text old-ExtraBold" style="font-size: 27pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -562,7 +573,7 @@
     
       <div class="box">
         <div class="box-title">old-ExtraBold 32pt</div>
-        <div class="box-text old-ExtraBold" style="font-size: 32pt">
+        <div contenteditable=true spellcheck="false" class="box-text old-ExtraBold" style="font-size: 32pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -573,7 +584,7 @@
     
       <div class="box">
         <div class="box-title">old-ExtraLight 7pt</div>
-        <div class="box-text old-ExtraLight" style="font-size: 7pt">
+        <div contenteditable=true spellcheck="false" class="box-text old-ExtraLight" style="font-size: 7pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -582,7 +593,7 @@
     
       <div class="box">
         <div class="box-title">old-ExtraLight 10pt</div>
-        <div class="box-text old-ExtraLight" style="font-size: 10pt">
+        <div contenteditable=true spellcheck="false" class="box-text old-ExtraLight" style="font-size: 10pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -591,7 +602,7 @@
     
       <div class="box">
         <div class="box-title">old-ExtraLight 11pt</div>
-        <div class="box-text old-ExtraLight" style="font-size: 11pt">
+        <div contenteditable=true spellcheck="false" class="box-text old-ExtraLight" style="font-size: 11pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -600,7 +611,7 @@
     
       <div class="box">
         <div class="box-title">old-ExtraLight 12pt</div>
-        <div class="box-text old-ExtraLight" style="font-size: 12pt">
+        <div contenteditable=true spellcheck="false" class="box-text old-ExtraLight" style="font-size: 12pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -609,7 +620,7 @@
     
       <div class="box">
         <div class="box-title">old-ExtraLight 14pt</div>
-        <div class="box-text old-ExtraLight" style="font-size: 14pt">
+        <div contenteditable=true spellcheck="false" class="box-text old-ExtraLight" style="font-size: 14pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -618,7 +629,7 @@
     
       <div class="box">
         <div class="box-title">old-ExtraLight 16pt</div>
-        <div class="box-text old-ExtraLight" style="font-size: 16pt">
+        <div contenteditable=true spellcheck="false" class="box-text old-ExtraLight" style="font-size: 16pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -627,7 +638,7 @@
     
       <div class="box">
         <div class="box-title">old-ExtraLight 18pt</div>
-        <div class="box-text old-ExtraLight" style="font-size: 18pt">
+        <div contenteditable=true spellcheck="false" class="box-text old-ExtraLight" style="font-size: 18pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -636,7 +647,7 @@
     
       <div class="box">
         <div class="box-title">old-ExtraLight 21pt</div>
-        <div class="box-text old-ExtraLight" style="font-size: 21pt">
+        <div contenteditable=true spellcheck="false" class="box-text old-ExtraLight" style="font-size: 21pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -645,7 +656,7 @@
     
       <div class="box">
         <div class="box-title">old-ExtraLight 27pt</div>
-        <div class="box-text old-ExtraLight" style="font-size: 27pt">
+        <div contenteditable=true spellcheck="false" class="box-text old-ExtraLight" style="font-size: 27pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -654,7 +665,7 @@
     
       <div class="box">
         <div class="box-title">old-ExtraLight 32pt</div>
-        <div class="box-text old-ExtraLight" style="font-size: 32pt">
+        <div contenteditable=true spellcheck="false" class="box-text old-ExtraLight" style="font-size: 32pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -698,6 +709,81 @@
 		fontToggle.addEventListener("click", switchFonts);
 	}
 
+// apply optional ot feats
+
+function buildFeatureList() {
+	var features = [
+		'aalt', 'c2sc', 'calt', 'case', 'cpsp', 'dlig', 'dnom',
+		'fina', 'frac', 'init', 'kern', 'liga', 'lnum', 'numr', 'onum',
+		'ordn', 'pnum', 'salt', 'sinf', 'smcp', 'sups',
+		'swsh', 'titl', 'tnum', 'zero', 'ss01', 'ss02',
+		'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08',
+		'ss09', 'ss10', 'ss11', 'ss12', 'ss13', 'ss14',
+		'ss15', 'ss16', 'ss17', 'ss18', 'ss19', 'ss20'
+	]
+	
+	var otPanel = document.getElementById("ot-panel")
+	for (i=0; i<features.length; i++) {
+		var feat = features[i]
+		
+		var row = document.createElement("div");
+
+		var item = document.createElement("input");
+		item.type = "checkbox"
+		item.value = feat
+		item.classList.add("ot-checkbox")
+		var label = document.createElement("label")
+		label.textContent = feat
+
+		row.appendChild(item)
+		row.appendChild(label)
+
+		otPanel.appendChild(row)
+	}
+}
+
+buildFeatureList()
+
+
+function enableFeatures() {
+	var checkboxes = document.getElementsByClassName("ot-checkbox")
+	var res = []
+	var disableKerning = false
+	for (i=0; i<checkboxes.length; i++) {
+		if (checkboxes[i].checked === true) {
+			var checkbox = checkboxes[i]
+			res.push('"' + checkbox.value + '"')
+
+			if (checkbox.value === "kern") {
+				disableKerning = true
+			}
+		}
+	}	
+
+	var boxText = document.getElementsByClassName("box-text")
+	var otString = res.join(", ")
+	for (j=0; j<boxText.length; j++) {
+		boxText[j].style.fontFeatureSettings = otString
+		if (disableKerning === true) {
+			boxText[j].style.fontKerning = "none"
+		}
+	}
+}
+
+var otButton = document.getElementById("ot-button")
+otButton.addEventListener("click", function() {
+    otPanel = document.getElementById("ot-panel")
+    if (otPanel.style.display !== "block") {
+        otPanel.style.display = "block"
+    } else {
+        otPanel.style.display = "none"
+    }
+})
+var checkboxes = document.getElementsByClassName("ot-checkbox")
+for (i=0; i<checkboxes.length; i++) {
+	cb = checkboxes[i]
+	cb.addEventListener("click", enableFeatures)
+}	
     
 	
 
