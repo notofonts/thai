@@ -78985,7 +78985,7 @@ key = copyrights;
 values = (
 {
 language = dflt;
-value = "Copyright 2022 The Noto Project Authors";
+value = "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/thai)";
 }
 );
 },
@@ -79061,7 +79061,7 @@ value = GOOG;
 },
 {
 key = versionString;
-value = "Version 1.001";
+value = "Version 2.000";
 }
 );
 stems = (
@@ -79136,6 +79136,6 @@ thaiVStem = "186";
 };
 };
 };
-versionMajor = 1;
-versionMinor = 1;
+versionMajor = 2;
+versionMinor = 0;
 }
