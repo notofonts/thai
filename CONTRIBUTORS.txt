@@ -8,3 +8,6 @@
 #
 # Names should be added to this file as:
 # Name <email address>
+
+# 2.000 redraw of Noto Sans Thai Looped
+Cadson Demak staff <anuthin@cadsondemak.com>
