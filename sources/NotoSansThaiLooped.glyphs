@@ -1,8 +1,9 @@
 {
-.appVersion = "3205";
+.appVersion = "3310";
 .formatVersion = 3;
 DisplayStrings = (
-"'"
+"'",
+""
 );
 axes = (
 {
@@ -323,7 +324,7 @@ axesValues = (
 customParameters = (
 {
 name = typoAscender;
-value = 1192;
+value = 1250;
 },
 {
 name = typoDescender;
@@ -335,7 +336,7 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1192;
+value = 1250;
 },
 {
 name = winDescent;
@@ -343,7 +344,7 @@ value = 490;
 },
 {
 name = hheaAscender;
-value = 1192;
+value = 1250;
 },
 {
 name = hheaDescender;
@@ -391,7 +392,6 @@ pos = -240;
 pos = 550;
 },
 {
-over = -8;
 }
 );
 name = Light;
@@ -414,7 +414,7 @@ axesValues = (
 customParameters = (
 {
 name = typoAscender;
-value = 1192;
+value = 1250;
 },
 {
 name = typoDescender;
@@ -426,7 +426,7 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1192;
+value = 1250;
 },
 {
 name = winDescent;
@@ -434,7 +434,7 @@ value = 490;
 },
 {
 name = hheaAscender;
-value = 1192;
+value = 1250;
 },
 {
 name = hheaDescender;
@@ -481,7 +481,6 @@ pos = -240;
 pos = 555;
 },
 {
-over = -11;
 }
 );
 name = Regular;
@@ -501,7 +500,7 @@ axesValues = (
 customParameters = (
 {
 name = typoAscender;
-value = 1192;
+value = 1250;
 },
 {
 name = typoDescender;
@@ -513,7 +512,7 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1192;
+value = 1250;
 },
 {
 name = winDescent;
@@ -521,7 +520,7 @@ value = 490;
 },
 {
 name = hheaAscender;
-value = 1192;
+value = 1250;
 },
 {
 name = hheaDescender;
@@ -569,7 +568,6 @@ pos = -240;
 pos = 563;
 },
 {
-over = -15;
 }
 );
 name = Bold;
@@ -592,7 +590,7 @@ axesValues = (
 customParameters = (
 {
 name = typoAscender;
-value = 1192;
+value = 1250;
 },
 {
 name = typoDescender;
@@ -660,7 +658,6 @@ pos = -240;
 pos = 550;
 },
 {
-over = -8;
 }
 );
 name = "Light Condensed";
@@ -683,7 +680,7 @@ axesValues = (
 customParameters = (
 {
 name = typoAscender;
-value = 1192;
+value = 1250;
 },
 {
 name = typoDescender;
@@ -695,7 +692,7 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1192;
+value = 1250;
 },
 {
 name = winDescent;
@@ -703,7 +700,7 @@ value = 490;
 },
 {
 name = hheaAscender;
-value = 1192;
+value = 1250;
 },
 {
 name = hheaDescender;
@@ -751,7 +748,6 @@ pos = -240;
 pos = 555;
 },
 {
-over = -11;
 }
 );
 name = Condensed;
@@ -771,7 +767,7 @@ axesValues = (
 customParameters = (
 {
 name = typoAscender;
-value = 1192;
+value = 1250;
 },
 {
 name = typoDescender;
@@ -783,7 +779,7 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1192;
+value = 1250;
 },
 {
 name = winDescent;
@@ -791,7 +787,7 @@ value = 490;
 },
 {
 name = hheaAscender;
-value = 1192;
+value = 1250;
 },
 {
 name = hheaDescender;
@@ -839,7 +835,6 @@ pos = -240;
 pos = 563;
 },
 {
-over = -15;
 }
 );
 name = "Bold Condensed";
@@ -73895,13 +73890,21 @@ instanceInterpolations = {
 name = Thin;
 properties = (
 {
-key = styleMapFamilyNames;
+key = compatibleFullNames;
 values = (
 {
 language = dflt;
 value = "Noto Sans Thai Looped Thin";
 }
 );
+},
+{
+key = postscriptFontName;
+value = "NotoSansThaiLooped-Thin";
+},
+{
+key = postscriptFullName;
+value = "Noto Sans Thai Looped Thin";
 },
 {
 key = preferredFamilyNames;
@@ -73922,15 +73925,7 @@ value = Thin;
 );
 },
 {
-key = postscriptFontName;
-value = "NotoSansThaiLooped-Thin";
-},
-{
-key = postscriptFullName;
-value = "Noto Sans Thai Looped Thin";
-},
-{
-key = compatibleFullNames;
+key = styleMapFamilyNames;
 values = (
 {
 language = dflt;
@@ -74016,18 +74011,26 @@ value = (
 );
 instanceInterpolations = {
 "90A34054-68E4-499D-AE50-276C7B026D8B" = 0.79688;
-"9148514D-BEB8-4275-B264-8F51401A425F" = 0.20312;
+"9148514D-BEB8-4275-B264-8F51401A425F" = 0.20313;
 };
 name = ExtraLight;
 properties = (
 {
-key = styleMapFamilyNames;
+key = compatibleFullNames;
 values = (
 {
 language = dflt;
 value = "Noto Sans Thai Looped ExtraLight";
 }
 );
+},
+{
+key = postscriptFontName;
+value = "NotoSansThaiLooped-ExtraLight";
+},
+{
+key = postscriptFullName;
+value = "Noto Sans Thai Looped ExtraLight";
 },
 {
 key = preferredFamilyNames;
@@ -74048,15 +74051,7 @@ value = ExtraLight;
 );
 },
 {
-key = postscriptFontName;
-value = "NotoSansThaiLooped-ExtraLight";
-},
-{
-key = postscriptFullName;
-value = "Noto Sans Thai Looped ExtraLight";
-},
-{
-key = compatibleFullNames;
+key = styleMapFamilyNames;
 values = (
 {
 language = dflt;
@@ -74147,13 +74142,21 @@ instanceInterpolations = {
 name = Light;
 properties = (
 {
-key = styleMapFamilyNames;
+key = compatibleFullNames;
 values = (
 {
 language = dflt;
 value = "Noto Sans Thai Looped Light";
 }
 );
+},
+{
+key = postscriptFontName;
+value = "NotoSansThaiLooped-Light";
+},
+{
+key = postscriptFullName;
+value = "Noto Sans Thai Looped Light";
 },
 {
 key = preferredFamilyNames;
@@ -74174,15 +74177,7 @@ value = Light;
 );
 },
 {
-key = postscriptFontName;
-value = "NotoSansThaiLooped-Light";
-},
-{
-key = postscriptFullName;
-value = "Noto Sans Thai Looped Light";
-},
-{
-key = compatibleFullNames;
+key = styleMapFamilyNames;
 values = (
 {
 language = dflt;
@@ -74276,13 +74271,12 @@ instanceInterpolations = {
 name = Regular;
 properties = (
 {
-key = styleMapFamilyNames;
-values = (
+key = postscriptFontName;
+value = "NotoSansThaiLooped-Regular";
+},
 {
-language = dflt;
-value = "Noto Sans Thai Looped";
-}
-);
+key = postscriptFullName;
+value = "Noto Sans Thai Looped Regular";
 },
 {
 key = preferredFamilyNames;
@@ -74303,12 +74297,13 @@ value = Regular;
 );
 },
 {
-key = postscriptFontName;
-value = "NotoSansThaiLooped-Regular";
-},
+key = styleMapFamilyNames;
+values = (
 {
-key = postscriptFullName;
-value = "Noto Sans Thai Looped Regular";
+language = dflt;
+value = "Noto Sans Thai Looped";
+}
+);
 }
 );
 },
@@ -74392,13 +74387,21 @@ instanceInterpolations = {
 name = Medium;
 properties = (
 {
-key = styleMapFamilyNames;
+key = compatibleFullNames;
 values = (
 {
 language = dflt;
 value = "Noto Sans Thai Looped Medium";
 }
 );
+},
+{
+key = postscriptFontName;
+value = "NotoSansThaiLooped-Medium";
+},
+{
+key = postscriptFullName;
+value = "Noto Sans Thai Looped Medium";
 },
 {
 key = preferredFamilyNames;
@@ -74419,15 +74422,7 @@ value = Medium;
 );
 },
 {
-key = postscriptFontName;
-value = "NotoSansThaiLooped-Medium";
-},
-{
-key = postscriptFullName;
-value = "Noto Sans Thai Looped Medium";
-},
-{
-key = compatibleFullNames;
+key = styleMapFamilyNames;
 values = (
 {
 language = dflt;
@@ -74518,13 +74513,21 @@ instanceInterpolations = {
 name = SemiBold;
 properties = (
 {
-key = styleMapFamilyNames;
+key = compatibleFullNames;
 values = (
 {
 language = dflt;
 value = "Noto Sans Thai Looped SemiBold";
 }
 );
+},
+{
+key = postscriptFontName;
+value = "NotoSansThaiLooped-SemiBold";
+},
+{
+key = postscriptFullName;
+value = "Noto Sans Thai Looped SemiBold";
 },
 {
 key = preferredFamilyNames;
@@ -74545,15 +74548,7 @@ value = SemiBold;
 );
 },
 {
-key = postscriptFontName;
-value = "NotoSansThaiLooped-SemiBold";
-},
-{
-key = postscriptFullName;
-value = "Noto Sans Thai Looped SemiBold";
-},
-{
-key = compatibleFullNames;
+key = styleMapFamilyNames;
 values = (
 {
 language = dflt;
@@ -74646,13 +74641,21 @@ linkStyle = Regular;
 name = Bold;
 properties = (
 {
-key = styleMapFamilyNames;
+key = compatibleFullNames;
 values = (
 {
 language = dflt;
-value = "Noto Sans Thai Looped";
+value = "Noto Sans Thai Looped Bold";
 }
 );
+},
+{
+key = postscriptFontName;
+value = "NotoSansThaiLooped-Bold";
+},
+{
+key = postscriptFullName;
+value = "Noto Sans Thai Looped Bold";
 },
 {
 key = preferredFamilyNames;
@@ -74673,19 +74676,11 @@ value = Bold;
 );
 },
 {
-key = postscriptFontName;
-value = "NotoSansThaiLooped-Bold";
-},
-{
-key = postscriptFullName;
-value = "Noto Sans Thai Looped Bold";
-},
-{
-key = compatibleFullNames;
+key = styleMapFamilyNames;
 values = (
 {
 language = dflt;
-value = "Noto Sans Thai Looped Bold";
+value = "Noto Sans Thai Looped";
 }
 );
 }
@@ -74772,13 +74767,21 @@ instanceInterpolations = {
 name = ExtraBold;
 properties = (
 {
-key = styleMapFamilyNames;
+key = compatibleFullNames;
 values = (
 {
 language = dflt;
 value = "Noto Sans Thai Looped ExtraBold";
 }
 );
+},
+{
+key = postscriptFontName;
+value = "NotoSansThaiLooped-ExtraBold";
+},
+{
+key = postscriptFullName;
+value = "Noto Sans Thai Looped ExtraBold";
 },
 {
 key = preferredFamilyNames;
@@ -74799,15 +74802,7 @@ value = Extrabold;
 );
 },
 {
-key = postscriptFontName;
-value = "NotoSansThaiLooped-ExtraBold";
-},
-{
-key = postscriptFullName;
-value = "Noto Sans Thai Looped ExtraBold";
-},
-{
-key = compatibleFullNames;
+key = styleMapFamilyNames;
 values = (
 {
 language = dflt;
@@ -74897,13 +74892,21 @@ instanceInterpolations = {
 name = Black;
 properties = (
 {
-key = styleMapFamilyNames;
+key = compatibleFullNames;
 values = (
 {
 language = dflt;
 value = "Noto Sans Thai Looped Black";
 }
 );
+},
+{
+key = postscriptFontName;
+value = "NotoSansThaiLooped-Black";
+},
+{
+key = postscriptFullName;
+value = "Noto Sans Thai Looped Black";
 },
 {
 key = preferredFamilyNames;
@@ -74924,15 +74927,7 @@ value = Black;
 );
 },
 {
-key = postscriptFontName;
-value = "NotoSansThaiLooped-Black";
-},
-{
-key = postscriptFullName;
-value = "Noto Sans Thai Looped Black";
-},
-{
-key = compatibleFullNames;
+key = styleMapFamilyNames;
 values = (
 {
 language = dflt;
@@ -75023,13 +75018,21 @@ instanceInterpolations = {
 name = "SemiCondensed Thin";
 properties = (
 {
-key = styleMapFamilyNames;
+key = compatibleFullNames;
 values = (
 {
 language = dflt;
 value = "Noto Sans Thai Looped SemiCondensed Thin";
 }
 );
+},
+{
+key = postscriptFontName;
+value = "NotoSansThaiLoopedSemiCondensed-Thin";
+},
+{
+key = postscriptFullName;
+value = "Noto Sans Thai Looped SemiCondensed Thin";
 },
 {
 key = preferredFamilyNames;
@@ -75050,15 +75053,7 @@ value = Thin;
 );
 },
 {
-key = postscriptFontName;
-value = "NotoSansThaiLoopedSemiCondensed-Thin";
-},
-{
-key = postscriptFullName;
-value = "Noto Sans Thai Looped SemiCondensed Thin";
-},
-{
-key = compatibleFullNames;
+key = styleMapFamilyNames;
 values = (
 {
 language = dflt;
@@ -75152,13 +75147,21 @@ instanceInterpolations = {
 name = "SemiCondensed ExtraLight";
 properties = (
 {
-key = styleMapFamilyNames;
+key = compatibleFullNames;
 values = (
 {
 language = dflt;
 value = "Noto Sans Thai Looped SemiCondensed ExtraLight";
 }
 );
+},
+{
+key = postscriptFontName;
+value = "NotoSansThaiLoopedSemiCondensed-ExtraLight";
+},
+{
+key = postscriptFullName;
+value = "Noto Sans Thai Looped SemiCondensed ExtraLight";
 },
 {
 key = preferredFamilyNames;
@@ -75179,15 +75182,7 @@ value = ExtraLight;
 );
 },
 {
-key = postscriptFontName;
-value = "NotoSansThaiLoopedSemiCondensed-ExtraLight";
-},
-{
-key = postscriptFullName;
-value = "Noto Sans Thai Looped SemiCondensed ExtraLight";
-},
-{
-key = compatibleFullNames;
+key = styleMapFamilyNames;
 values = (
 {
 language = dflt;
@@ -75281,13 +75276,21 @@ instanceInterpolations = {
 name = "SemiCondensed Light";
 properties = (
 {
-key = styleMapFamilyNames;
+key = compatibleFullNames;
 values = (
 {
 language = dflt;
 value = "Noto Sans Thai Looped SemiCondensed Light";
 }
 );
+},
+{
+key = postscriptFontName;
+value = "NotoSansThaiLoopedSemiCondensed-Light";
+},
+{
+key = postscriptFullName;
+value = "Noto Sans Thai Looped SemiCondensed Light";
 },
 {
 key = preferredFamilyNames;
@@ -75308,15 +75311,7 @@ value = Light;
 );
 },
 {
-key = postscriptFontName;
-value = "NotoSansThaiLoopedSemiCondensed-Light";
-},
-{
-key = postscriptFullName;
-value = "Noto Sans Thai Looped SemiCondensed Light";
-},
-{
-key = compatibleFullNames;
+key = styleMapFamilyNames;
 values = (
 {
 language = dflt;
@@ -75412,13 +75407,12 @@ instanceInterpolations = {
 name = SemiCondensed;
 properties = (
 {
-key = styleMapFamilyNames;
-values = (
+key = postscriptFontName;
+value = "NotoSansThaiLoopedSemiCondensed-Regular";
+},
 {
-language = dflt;
-value = "Noto Sans Thai Looped SemiCondensed";
-}
-);
+key = postscriptFullName;
+value = "Noto Sans Thai Looped SemiCondensed Regular";
 },
 {
 key = preferredFamilyNames;
@@ -75439,12 +75433,13 @@ value = Regular;
 );
 },
 {
-key = postscriptFontName;
-value = "NotoSansThaiLoopedSemiCondensed-Regular";
-},
+key = styleMapFamilyNames;
+values = (
 {
-key = postscriptFullName;
-value = "Noto Sans Thai Looped SemiCondensed Regular";
+language = dflt;
+value = "Noto Sans Thai Looped SemiCondensed";
+}
+);
 }
 );
 widthClass = 4;
@@ -75531,13 +75526,21 @@ instanceInterpolations = {
 name = "SemiCondensed Medium";
 properties = (
 {
-key = styleMapFamilyNames;
+key = compatibleFullNames;
 values = (
 {
 language = dflt;
 value = "Noto Sans Thai Looped SemiCondensed Medium";
 }
 );
+},
+{
+key = postscriptFontName;
+value = "NotoSansThaiLoopedSemiCondensed-Medium";
+},
+{
+key = postscriptFullName;
+value = "Noto Sans Thai Looped SemiCondensed Medium";
 },
 {
 key = preferredFamilyNames;
@@ -75558,15 +75561,7 @@ value = Medium;
 );
 },
 {
-key = postscriptFontName;
-value = "NotoSansThaiLoopedSemiCondensed-Medium";
-},
-{
-key = postscriptFullName;
-value = "Noto Sans Thai Looped SemiCondensed Medium";
-},
-{
-key = compatibleFullNames;
+key = styleMapFamilyNames;
 values = (
 {
 language = dflt;
@@ -75660,13 +75655,21 @@ instanceInterpolations = {
 name = "SemiCondensed SemiBold";
 properties = (
 {
-key = styleMapFamilyNames;
+key = compatibleFullNames;
 values = (
 {
 language = dflt;
 value = "Noto Sans Thai Looped SemiCondensed SemiBold";
 }
 );
+},
+{
+key = postscriptFontName;
+value = "NotoSansThaiLoopedSemiCondensed-SemiBold";
+},
+{
+key = postscriptFullName;
+value = "Noto Sans Thai Looped SemiCondensed SemiBold";
 },
 {
 key = preferredFamilyNames;
@@ -75687,15 +75690,7 @@ value = SemiBold;
 );
 },
 {
-key = postscriptFontName;
-value = "NotoSansThaiLoopedSemiCondensed-SemiBold";
-},
-{
-key = postscriptFullName;
-value = "Noto Sans Thai Looped SemiCondensed SemiBold";
-},
-{
-key = compatibleFullNames;
+key = styleMapFamilyNames;
 values = (
 {
 language = dflt;
@@ -75791,13 +75786,21 @@ linkStyle = SemiCondensed;
 name = "SemiCondensed Bold";
 properties = (
 {
-key = styleMapFamilyNames;
+key = compatibleFullNames;
 values = (
 {
 language = dflt;
-value = "Noto Sans Thai Looped SemiCondensed";
+value = "Noto Sans Thai Looped SemiCondensed Bold";
 }
 );
+},
+{
+key = postscriptFontName;
+value = "NotoSansThaiLoopedSemiCondensed-Bold";
+},
+{
+key = postscriptFullName;
+value = "Noto Sans Thai Looped SemiCondensed Bold";
 },
 {
 key = preferredFamilyNames;
@@ -75818,19 +75821,11 @@ value = Bold;
 );
 },
 {
-key = postscriptFontName;
-value = "NotoSansThaiLoopedSemiCondensed-Bold";
-},
-{
-key = postscriptFullName;
-value = "Noto Sans Thai Looped SemiCondensed Bold";
-},
-{
-key = compatibleFullNames;
+key = styleMapFamilyNames;
 values = (
 {
 language = dflt;
-value = "Noto Sans Thai Looped SemiCondensed Bold";
+value = "Noto Sans Thai Looped SemiCondensed";
 }
 );
 }
@@ -75920,13 +75915,21 @@ instanceInterpolations = {
 name = "SemiCondensed ExtraBold";
 properties = (
 {
-key = styleMapFamilyNames;
+key = compatibleFullNames;
 values = (
 {
 language = dflt;
 value = "Noto Sans Thai Looped SemiCondensed ExtraBold";
 }
 );
+},
+{
+key = postscriptFontName;
+value = "NotoSansThaiLoopedSemiCondensed-ExtraBold";
+},
+{
+key = postscriptFullName;
+value = "Noto Sans Thai Looped SemiCondensed ExtraBold";
 },
 {
 key = preferredFamilyNames;
@@ -75947,15 +75950,7 @@ value = ExtraBold;
 );
 },
 {
-key = postscriptFontName;
-value = "NotoSansThaiLoopedSemiCondensed-ExtraBold";
-},
-{
-key = postscriptFullName;
-value = "Noto Sans Thai Looped SemiCondensed ExtraBold";
-},
-{
-key = compatibleFullNames;
+key = styleMapFamilyNames;
 values = (
 {
 language = dflt;
@@ -76047,13 +76042,21 @@ instanceInterpolations = {
 name = "SemiCondensed Black";
 properties = (
 {
-key = styleMapFamilyNames;
+key = compatibleFullNames;
 values = (
 {
 language = dflt;
 value = "Noto Sans Thai Looped SemiCondensed Black";
 }
 );
+},
+{
+key = postscriptFontName;
+value = "NotoSansThaiLoopedSemiCondensed-Black";
+},
+{
+key = postscriptFullName;
+value = "Noto Sans Thai Looped SemiCondensed Black";
 },
 {
 key = preferredFamilyNames;
@@ -76074,15 +76077,7 @@ value = Black;
 );
 },
 {
-key = postscriptFontName;
-value = "NotoSansThaiLoopedSemiCondensed-Black";
-},
-{
-key = postscriptFullName;
-value = "Noto Sans Thai Looped SemiCondensed Black";
-},
-{
-key = compatibleFullNames;
+key = styleMapFamilyNames;
 values = (
 {
 language = dflt;
@@ -76174,13 +76169,21 @@ instanceInterpolations = {
 name = "Condensed Thin";
 properties = (
 {
-key = styleMapFamilyNames;
+key = compatibleFullNames;
 values = (
 {
 language = dflt;
 value = "Noto Sans Thai Looped Condensed Thin";
 }
 );
+},
+{
+key = postscriptFontName;
+value = "NotoSansThaiLoopedCondensed-Thin";
+},
+{
+key = postscriptFullName;
+value = "Noto Sans Thai Looped Condensed Thin";
 },
 {
 key = preferredFamilyNames;
@@ -76201,15 +76204,7 @@ value = Thin;
 );
 },
 {
-key = postscriptFontName;
-value = "NotoSansThaiLoopedCondensed-Thin";
-},
-{
-key = postscriptFullName;
-value = "Noto Sans Thai Looped Condensed Thin";
-},
-{
-key = compatibleFullNames;
+key = styleMapFamilyNames;
 values = (
 {
 language = dflt;
@@ -76303,13 +76298,21 @@ instanceInterpolations = {
 name = "Condensed ExtraLight";
 properties = (
 {
-key = styleMapFamilyNames;
+key = compatibleFullNames;
 values = (
 {
 language = dflt;
 value = "Noto Sans Thai Looped Condensed ExtraLight";
 }
 );
+},
+{
+key = postscriptFontName;
+value = "NotoSansThaiLoopedCondensed-ExtraLight";
+},
+{
+key = postscriptFullName;
+value = "Noto Sans Thai Looped Condensed ExtraLight";
 },
 {
 key = preferredFamilyNames;
@@ -76330,15 +76333,7 @@ value = ExtraLight;
 );
 },
 {
-key = postscriptFontName;
-value = "NotoSansThaiLoopedCondensed-ExtraLight";
-},
-{
-key = postscriptFullName;
-value = "Noto Sans Thai Looped Condensed ExtraLight";
-},
-{
-key = compatibleFullNames;
+key = styleMapFamilyNames;
 values = (
 {
 language = dflt;
@@ -76432,13 +76427,21 @@ instanceInterpolations = {
 name = "Condensed Light";
 properties = (
 {
-key = styleMapFamilyNames;
+key = compatibleFullNames;
 values = (
 {
 language = dflt;
 value = "Noto Sans Thai Looped Condensed Light";
 }
 );
+},
+{
+key = postscriptFontName;
+value = "NotoSansThaiLoopedCondensed-Light";
+},
+{
+key = postscriptFullName;
+value = "Noto Sans Thai Looped Condensed Light";
 },
 {
 key = preferredFamilyNames;
@@ -76459,15 +76462,7 @@ value = Light;
 );
 },
 {
-key = postscriptFontName;
-value = "NotoSansThaiLoopedCondensed-Light";
-},
-{
-key = postscriptFullName;
-value = "Noto Sans Thai Looped Condensed Light";
-},
-{
-key = compatibleFullNames;
+key = styleMapFamilyNames;
 values = (
 {
 language = dflt;
@@ -76563,13 +76558,12 @@ instanceInterpolations = {
 name = Condensed;
 properties = (
 {
-key = styleMapFamilyNames;
-values = (
+key = postscriptFontName;
+value = "NotoSansThaiLoopedCondensed-Regular";
+},
 {
-language = dflt;
-value = "Noto Sans Thai Looped Condensed";
-}
-);
+key = postscriptFullName;
+value = "Noto Sans Thai Looped Condensed Regular";
 },
 {
 key = preferredFamilyNames;
@@ -76590,12 +76584,13 @@ value = Regular;
 );
 },
 {
-key = postscriptFontName;
-value = "NotoSansThaiLoopedCondensed-Regular";
-},
+key = styleMapFamilyNames;
+values = (
 {
-key = postscriptFullName;
-value = "Noto Sans Thai Looped Condensed Regular";
+language = dflt;
+value = "Noto Sans Thai Looped Condensed";
+}
+);
 }
 );
 widthClass = 3;
@@ -76682,13 +76677,21 @@ instanceInterpolations = {
 name = "Condensed Medium";
 properties = (
 {
-key = styleMapFamilyNames;
+key = compatibleFullNames;
 values = (
 {
 language = dflt;
 value = "Noto Sans Thai Looped Condensed Medium";
 }
 );
+},
+{
+key = postscriptFontName;
+value = "NotoSansThaiLoopedCondensed-Medium";
+},
+{
+key = postscriptFullName;
+value = "Noto Sans Thai Looped Condensed Medium";
 },
 {
 key = preferredFamilyNames;
@@ -76709,15 +76712,7 @@ value = Medium;
 );
 },
 {
-key = postscriptFontName;
-value = "NotoSansThaiLoopedCondensed-Medium";
-},
-{
-key = postscriptFullName;
-value = "Noto Sans Thai Looped Condensed Medium";
-},
-{
-key = compatibleFullNames;
+key = styleMapFamilyNames;
 values = (
 {
 language = dflt;
@@ -76811,13 +76806,21 @@ instanceInterpolations = {
 name = "Condensed SemiBold";
 properties = (
 {
-key = styleMapFamilyNames;
+key = compatibleFullNames;
 values = (
 {
 language = dflt;
 value = "Noto Sans Thai Looped Condensed SemiBold";
 }
 );
+},
+{
+key = postscriptFontName;
+value = "NotoSansThaiLoopedCondensed-SemiBold";
+},
+{
+key = postscriptFullName;
+value = "Noto Sans Thai Looped Condensed SemiBold";
 },
 {
 key = preferredFamilyNames;
@@ -76838,15 +76841,7 @@ value = SemiBold;
 );
 },
 {
-key = postscriptFontName;
-value = "NotoSansThaiLoopedCondensed-SemiBold";
-},
-{
-key = postscriptFullName;
-value = "Noto Sans Thai Looped Condensed SemiBold";
-},
-{
-key = compatibleFullNames;
+key = styleMapFamilyNames;
 values = (
 {
 language = dflt;
@@ -76942,13 +76937,21 @@ linkStyle = Condensed;
 name = "Condensed Bold";
 properties = (
 {
-key = styleMapFamilyNames;
+key = compatibleFullNames;
 values = (
 {
 language = dflt;
-value = "Noto Sans Thai Looped Condensed";
+value = "Noto Sans Thai Looped Condensed Bold";
 }
 );
+},
+{
+key = postscriptFontName;
+value = "NotoSansThaiLoopedCondensed-Bold";
+},
+{
+key = postscriptFullName;
+value = "Noto Sans Thai Looped Condensed Bold";
 },
 {
 key = preferredFamilyNames;
@@ -76969,19 +76972,11 @@ value = Bold;
 );
 },
 {
-key = postscriptFontName;
-value = "NotoSansThaiLoopedCondensed-Bold";
-},
-{
-key = postscriptFullName;
-value = "Noto Sans Thai Looped Condensed Bold";
-},
-{
-key = compatibleFullNames;
+key = styleMapFamilyNames;
 values = (
 {
 language = dflt;
-value = "Noto Sans Thai Looped Condensed Bold";
+value = "Noto Sans Thai Looped Condensed";
 }
 );
 }
@@ -77071,13 +77066,21 @@ instanceInterpolations = {
 name = "Condensed ExtraBold";
 properties = (
 {
-key = styleMapFamilyNames;
+key = compatibleFullNames;
 values = (
 {
 language = dflt;
 value = "Noto Sans Thai Looped Condensed ExtraBold";
 }
 );
+},
+{
+key = postscriptFontName;
+value = "NotoSansThaiLoopedCondensed-ExtraBold";
+},
+{
+key = postscriptFullName;
+value = "Noto Sans Thai Looped Condensed ExtraBold";
 },
 {
 key = preferredFamilyNames;
@@ -77098,15 +77101,7 @@ value = ExtraBold;
 );
 },
 {
-key = postscriptFontName;
-value = "NotoSansThaiLoopedCondensed-ExtraBold";
-},
-{
-key = postscriptFullName;
-value = "Noto Sans Thai Looped Condensed ExtraBold";
-},
-{
-key = compatibleFullNames;
+key = styleMapFamilyNames;
 values = (
 {
 language = dflt;
@@ -77198,13 +77193,21 @@ instanceInterpolations = {
 name = "Condensed Black";
 properties = (
 {
-key = styleMapFamilyNames;
+key = compatibleFullNames;
 values = (
 {
 language = dflt;
 value = "Noto Sans Thai Looped Condensed Black";
 }
 );
+},
+{
+key = postscriptFontName;
+value = "NotoSansThaiLoopedCondensed-Black";
+},
+{
+key = postscriptFullName;
+value = "Noto Sans Thai Looped Condensed Black";
 },
 {
 key = preferredFamilyNames;
@@ -77225,15 +77228,7 @@ value = Black;
 );
 },
 {
-key = postscriptFontName;
-value = "NotoSansThaiLoopedCondensed-Black";
-},
-{
-key = postscriptFullName;
-value = "Noto Sans Thai Looped Condensed Black";
-},
-{
-key = compatibleFullNames;
+key = styleMapFamilyNames;
 values = (
 {
 language = dflt;
@@ -77324,13 +77319,21 @@ instanceInterpolations = {
 name = "ExtraCondensed Thin";
 properties = (
 {
-key = styleMapFamilyNames;
+key = compatibleFullNames;
 values = (
 {
 language = dflt;
 value = "Noto Sans Thai Looped ExtraCondensed Thin";
 }
 );
+},
+{
+key = postscriptFontName;
+value = "NotoSansThaiLoopedExtraCondensed-Thin";
+},
+{
+key = postscriptFullName;
+value = "Noto Sans Thai Looped ExtraCondensed Thin";
 },
 {
 key = preferredFamilyNames;
@@ -77351,15 +77354,7 @@ value = Thin;
 );
 },
 {
-key = postscriptFontName;
-value = "NotoSansThaiLoopedExtraCondensed-Thin";
-},
-{
-key = postscriptFullName;
-value = "Noto Sans Thai Looped ExtraCondensed Thin";
-},
-{
-key = compatibleFullNames;
+key = styleMapFamilyNames;
 values = (
 {
 language = dflt;
@@ -77446,18 +77441,26 @@ value = (
 );
 instanceInterpolations = {
 "54E3FB14-E6D2-4DF3-BA4A-5621168F9335" = 0.79688;
-"94F80E8F-7C96-497F-B870-569C37B7A2A5" = 0.20312;
+"94F80E8F-7C96-497F-B870-569C37B7A2A5" = 0.20313;
 };
 name = "ExtraCondensed ExtraLight";
 properties = (
 {
-key = styleMapFamilyNames;
+key = compatibleFullNames;
 values = (
 {
 language = dflt;
 value = "Noto Sans Thai Looped ExtraCondensed ExtraLight";
 }
 );
+},
+{
+key = postscriptFontName;
+value = "NotoSansThaiLoopedExtraCondensed-ExtraLight";
+},
+{
+key = postscriptFullName;
+value = "Noto Sans Thai Looped ExtraCondensed ExtraLight";
 },
 {
 key = preferredFamilyNames;
@@ -77478,15 +77481,7 @@ value = ExtraLight;
 );
 },
 {
-key = postscriptFontName;
-value = "NotoSansThaiLoopedExtraCondensed-ExtraLight";
-},
-{
-key = postscriptFullName;
-value = "Noto Sans Thai Looped ExtraCondensed ExtraLight";
-},
-{
-key = compatibleFullNames;
+key = styleMapFamilyNames;
 values = (
 {
 language = dflt;
@@ -77578,13 +77573,21 @@ instanceInterpolations = {
 name = "ExtraCondensed Light";
 properties = (
 {
-key = styleMapFamilyNames;
+key = compatibleFullNames;
 values = (
 {
 language = dflt;
 value = "Noto Sans Thai Looped ExtraCondensed Light";
 }
 );
+},
+{
+key = postscriptFontName;
+value = "NotoSansThaiLoopedExtraCondensed-Light";
+},
+{
+key = postscriptFullName;
+value = "Noto Sans Thai Looped ExtraCondensed Light";
 },
 {
 key = preferredFamilyNames;
@@ -77605,15 +77608,7 @@ value = Light;
 );
 },
 {
-key = postscriptFontName;
-value = "NotoSansThaiLoopedExtraCondensed-Light";
-},
-{
-key = postscriptFullName;
-value = "Noto Sans Thai Looped ExtraCondensed Light";
-},
-{
-key = compatibleFullNames;
+key = styleMapFamilyNames;
 values = (
 {
 language = dflt;
@@ -77708,13 +77703,12 @@ instanceInterpolations = {
 name = ExtraCondensed;
 properties = (
 {
-key = styleMapFamilyNames;
-values = (
+key = postscriptFontName;
+value = "NotoSansThaiLoopedExtraCondensed-Regular";
+},
 {
-language = dflt;
-value = "Noto Sans Thai Looped ExtraCondensed";
-}
-);
+key = postscriptFullName;
+value = "Noto Sans Thai Looped ExtraCondensed Regular";
 },
 {
 key = preferredFamilyNames;
@@ -77735,12 +77729,13 @@ value = Regular;
 );
 },
 {
-key = postscriptFontName;
-value = "NotoSansThaiLoopedExtraCondensed-Regular";
-},
+key = styleMapFamilyNames;
+values = (
 {
-key = postscriptFullName;
-value = "Noto Sans Thai Looped ExtraCondensed Regular";
+language = dflt;
+value = "Noto Sans Thai Looped ExtraCondensed";
+}
+);
 }
 );
 widthClass = 2;
@@ -77825,13 +77820,21 @@ instanceInterpolations = {
 name = "ExtraCondensed Medium";
 properties = (
 {
-key = styleMapFamilyNames;
+key = compatibleFullNames;
 values = (
 {
 language = dflt;
 value = "Noto Sans Thai Looped ExtraCondensed Medium";
 }
 );
+},
+{
+key = postscriptFontName;
+value = "NotoSansThaiLoopedExtraCondensed-Medium";
+},
+{
+key = postscriptFullName;
+value = "Noto Sans Thai Looped ExtraCondensed Medium";
 },
 {
 key = preferredFamilyNames;
@@ -77852,15 +77855,7 @@ value = Medium;
 );
 },
 {
-key = postscriptFontName;
-value = "NotoSansThaiLoopedExtraCondensed-Medium";
-},
-{
-key = postscriptFullName;
-value = "Noto Sans Thai Looped ExtraCondensed Medium";
-},
-{
-key = compatibleFullNames;
+key = styleMapFamilyNames;
 values = (
 {
 language = dflt;
@@ -77952,13 +77947,21 @@ instanceInterpolations = {
 name = "ExtraCondensed SemiBold";
 properties = (
 {
-key = styleMapFamilyNames;
+key = compatibleFullNames;
 values = (
 {
 language = dflt;
 value = "Noto Sans Thai Looped ExtraCondensed SemiBold";
 }
 );
+},
+{
+key = postscriptFontName;
+value = "NotoSansThaiLoopedExtraCondensed-SemiBold";
+},
+{
+key = postscriptFullName;
+value = "Noto Sans Thai Looped ExtraCondensed SemiBold";
 },
 {
 key = preferredFamilyNames;
@@ -77979,15 +77982,7 @@ value = SemiBold;
 );
 },
 {
-key = postscriptFontName;
-value = "NotoSansThaiLoopedExtraCondensed-SemiBold";
-},
-{
-key = postscriptFullName;
-value = "Noto Sans Thai Looped ExtraCondensed SemiBold";
-},
-{
-key = compatibleFullNames;
+key = styleMapFamilyNames;
 values = (
 {
 language = dflt;
@@ -78081,13 +78076,21 @@ linkStyle = ExtraCondensed;
 name = "ExtraCondensed Bold";
 properties = (
 {
-key = styleMapFamilyNames;
+key = compatibleFullNames;
 values = (
 {
 language = dflt;
-value = "Noto Sans Thai Looped ExtraCondensed";
+value = "Noto Sans Thai Looped ExtraCondensed Bold";
 }
 );
+},
+{
+key = postscriptFontName;
+value = "NotoSansThaiLoopedExtraCondensed-Bold";
+},
+{
+key = postscriptFullName;
+value = "Noto Sans Thai Looped ExtraCondensed Bold";
 },
 {
 key = preferredFamilyNames;
@@ -78108,19 +78111,11 @@ value = Bold;
 );
 },
 {
-key = postscriptFontName;
-value = "NotoSansThaiLoopedExtraCondensed-Bold";
-},
-{
-key = postscriptFullName;
-value = "Noto Sans Thai Looped ExtraCondensed Bold";
-},
-{
-key = compatibleFullNames;
+key = styleMapFamilyNames;
 values = (
 {
 language = dflt;
-value = "Noto Sans Thai Looped ExtraCondensed Bold";
+value = "Noto Sans Thai Looped ExtraCondensed";
 }
 );
 }
@@ -78208,13 +78203,21 @@ instanceInterpolations = {
 name = "ExtraCondensed ExtraBold";
 properties = (
 {
-key = styleMapFamilyNames;
+key = compatibleFullNames;
 values = (
 {
 language = dflt;
 value = "Noto Sans Thai Looped ExtraCondensed ExtraBold";
 }
 );
+},
+{
+key = postscriptFontName;
+value = "NotoSansThaiLoopedExtraCondensed-ExtraBold";
+},
+{
+key = postscriptFullName;
+value = "Noto Sans Thai Looped ExtraCondensed ExtraBold";
 },
 {
 key = preferredFamilyNames;
@@ -78235,15 +78238,7 @@ value = ExtraBold;
 );
 },
 {
-key = postscriptFontName;
-value = "NotoSansThaiLoopedExtraCondensed-ExtraBold";
-},
-{
-key = postscriptFullName;
-value = "Noto Sans Thai Looped ExtraCondensed ExtraBold";
-},
-{
-key = compatibleFullNames;
+key = styleMapFamilyNames;
 values = (
 {
 language = dflt;
@@ -78334,13 +78329,21 @@ instanceInterpolations = {
 name = "ExtraCondensed Black";
 properties = (
 {
-key = styleMapFamilyNames;
+key = compatibleFullNames;
 values = (
 {
 language = dflt;
 value = "Noto Sans Thai Looped ExtraCondensed Black";
 }
 );
+},
+{
+key = postscriptFontName;
+value = "NotoSansThaiLoopedExtraCondensed-Black";
+},
+{
+key = postscriptFullName;
+value = "Noto Sans Thai Looped ExtraCondensed Black";
 },
 {
 key = preferredFamilyNames;
@@ -78361,15 +78364,7 @@ value = Black;
 );
 },
 {
-key = postscriptFontName;
-value = "NotoSansThaiLoopedExtraCondensed-Black";
-},
-{
-key = postscriptFullName;
-value = "Noto Sans Thai Looped ExtraCondensed Black";
-},
-{
-key = compatibleFullNames;
+key = styleMapFamilyNames;
 values = (
 {
 language = dflt;
@@ -78995,6 +78990,15 @@ value = "Copyright 2022 The Noto Project Authors";
 );
 },
 {
+key = descriptions;
+values = (
+{
+language = dflt;
+value = "Design by Cadson Demak Co.,Ltd.";
+}
+);
+},
+{
 key = designers;
 values = (
 {
@@ -79006,19 +79010,6 @@ value = "Cadson Demak Team";
 {
 key = designerURL;
 value = "https://www.cadsondemak.com/";
-},
-{
-key = manufacturers;
-values = (
-{
-language = dflt;
-value = "Cadson Demak Co., Ltd.";
-}
-);
-},
-{
-key = manufacturerURL;
-value = "http://www.google.com/get/noto";
 },
 {
 key = licenses;
@@ -79034,21 +79025,17 @@ key = licenseURL;
 value = "http://scripts.sil.org/OFL";
 },
 {
-key = vendorID;
-value = GOOG;
-},
-{
-key = trademarks;
+key = manufacturers;
 values = (
 {
 language = dflt;
-value = "Noto is a trademark of Google LLC.";
+value = "Cadson Demak Co., Ltd.";
 }
 );
 },
 {
-key = versionString;
-value = "Version 1.001";
+key = manufacturerURL;
+value = "http://www.google.com/get/noto";
 },
 {
 key = sampleTexts;
@@ -79060,13 +79047,21 @@ value = "กขคงจฉบพอ";
 );
 },
 {
-key = descriptions;
+key = trademarks;
 values = (
 {
 language = dflt;
-value = "Design by Cadson Demak Co.,Ltd.";
+value = "Noto is a trademark of Google LLC.";
 }
 );
+},
+{
+key = vendorID;
+value = GOOG;
+},
+{
+key = versionString;
+value = "Version 1.001";
 }
 );
 stems = (
