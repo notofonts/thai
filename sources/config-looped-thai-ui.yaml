@@ -1,6 +1,0 @@
-buildVariable: false
-familyName: Noto Sans Thai Looped UI
-googleFonts: true
-recipeProvider: noto
-sources:
-- NotoSansThaiLoopedUI.glyphs
